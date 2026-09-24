@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1480" height="940" viewBox="0 0 1480 940" role="img" aria-labelledby="title desc">
+  <title id="title">NIRA responsive homepage composition study</title>
+  <desc id="desc">Four schematic homepage frames compare mobile portrait, tablet portrait, tablet landscape, and desktop. All retain the eight-section story order; portrait layouts stack content while landscape layouts use selected splits and grids.</desc>
+  <rect width="1480" height="940" fill="#fcf9f0"/>
+  <rect width="1480" height="106" fill="#063522"/>
+  <text x="54" y="53" fill="#fcf9f0" font-family="Playfair Display, Georgia, serif" font-size="35">One story, four compositions</text>
+  <text x="55" y="84" fill="#fcf9f0" font-family="Inter, Arial, sans-serif" font-size="14">Schematic design study · content order stays constant · frames are scaled for comparison</text>
+
+  <g font-family="Inter, Arial, sans-serif" fill="#1c1c17" font-size="15" font-weight="600">
+    <text x="55" y="150">Mobile portrait · 320px</text>
+    <text x="405" y="150">Tablet portrait · 768–1024px</text>
+    <text x="755" y="150">Tablet landscape · 1024–1365px</text>
+    <text x="1105" y="150">Desktop · 1366px+</text>
+  </g>
+
+  <g stroke="#7a5645" stroke-opacity="0.5" stroke-width="1.5" fill="none">
+    <rect x="54" y="172" width="320" height="670" rx="12"/>
+    <rect x="404" y="172" width="320" height="670" rx="12"/>
+    <rect x="754" y="172" width="320" height="670" rx="12"/>
+    <rect x="1104" y="172" width="320" height="670" rx="12"/>
+  </g>
+
+  <!-- Mobile portrait: each chapter stacks. -->
+  <rect x="55" y="173" width="318" height="46" rx="11" fill="#063522"/>
+  <text x="73" y="202" fill="#fcf9f0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600">NIRA</text>
+  <text x="339" y="202" text-anchor="end" fill="#fcf9f0" font-family="Inter, Arial, sans-serif" font-size="13">Menu</text>
+  <rect x="70" y="230" width="288" height="92" rx="6" fill="#063522" fill-opacity="0.08"/>
+  <text x="84" y="257" fill="#063522" font-family="Playfair Display, Georgia, serif" font-size="21">01 Hero</text>
+  <rect x="84" y="268" width="260" height="12" rx="3" fill="#063522" fill-opacity="0.22"/>
+  <rect x="84" y="287" width="260" height="23" rx="3" fill="#7a5645" fill-opacity="0.22"/>
+  <rect x="70" y="333" width="288" height="56" rx="6" fill="#7a5645" fill-opacity="0.11"/>
+  <text x="84" y="366" fill="#1c1c17" font-family="Inter, Arial, sans-serif" font-size="15">02 Story · text then image</text>
+  <rect x="70" y="400" width="288" height="64" rx="6" fill="#063522" fill-opacity="0.08"/>
+  <text x="84" y="425" fill="#1c1c17" font-family="Inter, Arial, sans-serif" font-size="15">03 Coconut possibilities</text>
+  <text x="84" y="448" fill="#7a5645" font-family="Inter, Arial, sans-serif" font-size="12">Vertical material paths</text>
+  <rect x="70" y="475" width="288" height="55" rx="6" fill="#7a5645" fill-opacity="0.11"/>
+  <text x="84" y="508" fill="#1c1c17" font-family="Inter, Arial, sans-serif" font-size="15">04 Process · stacked steps</text>
+  <rect x="70" y="541" width="288" height="72" rx="6" fill="#063522" fill-opacity="0.08"/>
+  <text x="84" y="571" fill="#1c1c17" font-family="Inter, Arial, sans-serif" font-size="15">05 Products</text>
+  <text x="84" y="592" fill="#7a5645" font-family="Inter, Arial, sans-serif" font-size="12">One card in reading flow</text>
+  <rect x="70" y="624" width="288" height="53" rx="6" fill="#7a5645" fill-opacity="0.11"/>
+  <text x="84" y="656" fill="#1c1c17" font-family="Inter, Arial, sans-serif" font-size="15">06 Impact · evidence</text>
+  <rect x="70" y="688" width="288" height="64" rx="6" fill="#063522" fill-opacity="0.08"/>
+  <text x="84" y="713" fill="#1c1c17" font-family="Inter, Arial, sans-serif" font-size="15">07 Community story</text>
+  <text x="84" y="736" fill="#7a5645" font-family="Inter, Arial, sans-serif" font-size="12">Text then portrait</text>
+  <rect x="70" y="763" width="288" height="62" rx="6" fill="#482510"/>
+  <text x="84" y="800" fill="#fcf9f0" font-family="Inter, Arial, sans-serif" font-size="15">08 Invitation to act</text>
+
+  <!-- Tablet portrait: same order and one-column philosophy, with more air. -->
+  <rect x="405" y="173" width="318" height="46" rx="11" fill="#063522"/>
+  <text x="423" y="202" fill="#fcf9f0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600">NIRA</text>
+  <text x="689" y="202" text-anchor="end" fill="#fcf9f0" font-family="Inter, Arial, sans-serif" font-size="13">Menu</text>
+  <rect x="420" y="230" width="288" height="92" rx="6" fill="#063522" fill-opacity="0.08"/>
+  <text x="434" y="257" fill="#063522" font-family="Playfair Display, Georgia, serif" font-size="21">01 Hero</text>
+  <rect x="434" y="268" width="260" height="12" rx="3" fill="#063522" fill-opacity="0.22"/>
+  <rect x="434" y="287" width="260" height="23" rx="3" fill="#7a5645" fill-opacity="0.22"/>
+  <rect x="420" y="333" width="288" height="56" rx="6" fill="#7a5645" fill-opacity="0.11"/>
+  <text x="434" y="366" fill="#1c1c17" font-family="Inter, Arial, sans-serif" font-size="15">02 Story · generous spacing</text>
+  <rect x="420" y="400" width="288" height="64" rx="6" fill="#063522" fill-opacity="0.08"/>
+  <text x="434" y="425" fill="#1c1c17" font-family="Inter, Arial, sans-serif" font-size="15">03 Coconut possibilities</text>
+  <text x="434" y="448" fill="#7a5645" font-family="Inter, Arial, sans-serif" font-size="12">Wider vertical paths</text>
+  <rect x="420" y="475" width="288" height="55" rx="6" fill="#7a5645" fill-opacity="0.11"/>
+  <text x="434" y="508" fill="#1c1c17" font-family="Inter, Arial, sans-serif" font-size="15">04 Process · stacked steps</text>
+  <rect x="420" y="541" width="288" height="72" rx="6" fill="#063522" fill-opacity="0.08"/>
+  <text x="434" y="571" fill="#1c1c17" font-family="Inter, Arial, sans-serif" font-size="15">05 Products</text>
+  <text x="434" y="592" fill="#7a5645" font-family="Inter, Arial, sans-serif" font-size="12">Large product image</text>
+  <rect x="420" y="624" width="288" height="53" rx="6" fill="#7a5645" fill-opacity="0.11"/>
+  <text x="434" y="656" fill="#1c1c17" font-family="Inter, Arial, sans-serif" font-size="15">06 Impact · evidence</text>
+  <rect x="420" y="688" width="288" height="64" rx="6" fill="#063522" fill-opacity="0.08"/>
+  <text x="434" y="713" fill="#1c1c17" font-family="Inter, Arial, sans-serif" font-size="15">07 Community story</text>
+  <text x="434" y="736" fill="#7a5645" font-family="Inter, Arial, sans-serif" font-size="12">Full-width documentary image</text>
+  <rect x="420" y="763" width="288" height="62" rx="6" fill="#482510"/>
+  <text x="434" y="800" fill="#fcf9f0" font-family="Inter, Arial, sans-serif" font-size="15">08 Invitation to act</text>
+
+  <!-- Tablet landscape: selected splits and grids. -->
+  <rect x="755" y="173" width="318" height="46" rx="11" fill="#063522"/>
+  <text x="773" y="202" fill="#fcf9f0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600">NIRA</text>
+  <text x="1039" y="202" text-anchor="end" fill="#fcf9f0" font-family="Inter, Arial, sans-serif" font-size="13">Menu if needed</text>
+  <rect x="770" y="230" width="288" height="92" rx="6" fill="#063522" fill-opacity="0.08"/>
+  <text x="782" y="257" fill="#063522" font-family="Playfair Display, Georgia, serif" font-size="19">01 Hero</text>
+  <rect x="782" y="267" width="122" height="42" rx="3" fill="#063522" fill-opacity="0.19"/>
+  <rect x="913" y="244" width="132" height="65" rx="3" fill="#7a5645" fill-opacity="0.22"/>
+  <rect x="770" y="333" width="288" height="56" rx="6" fill="#7a5645" fill-opacity="0.11"/>
+  <text x="782" y="353" fill="#1c1c17" font-family="Inter, Arial, sans-serif" font-size="14">02 Story</text>
+  <rect x="782" y="362" width="120" height="16" rx="2" fill="#7a5645" fill-opacity="0.24"/>
+  <rect x="913" y="347" width="132" height="31" rx="2" fill="#063522" fill-opacity="0.16"/>
+  <rect x="770" y="400" width="288" height="64" rx="6" fill="#063522" fill-opacity="0.08"/>
+  <text x="782" y="425" fill="#1c1c17" font-family="Inter, Arial, sans-serif" font-size="14">03 Coconut possibilities</text>
+  <g fill="#7a5645" fill-opacity="0.25"><rect x="782" y="436" width="78" height="18" rx="3"/><rect x="870" y="436" width="78" height="18" rx="3"/><rect x="958" y="436" width="87" height="18" rx="3"/></g>
+  <rect x="770" y="475" width="288" height="55" rx="6" fill="#7a5645" fill-opacity="0.11"/>
+  <text x="782" y="498" fill="#1c1c17" font-family="Inter, Arial, sans-serif" font-size="14">04 Process</text>
+  <g fill="#063522" fill-opacity="0.20"><rect x="782" y="506" width="60" height="13" rx="2"/><rect x="850" y="506" width="60" height="13" rx="2"/><rect x="918" y="506" width="60" height="13" rx="2"/><rect x="986" y="506" width="59" height="13" rx="2"/></g>
+  <rect x="770" y="541" width="288" height="72" rx="6" fill="#063522" fill-opacity="0.08"/>
+  <text x="782" y="562" fill="#1c1c17" font-family="Inter, Arial, sans-serif" font-size="14">05 Products</text>
+  <g fill="#7a5645" fill-opacity="0.23"><rect x="782" y="571" width="60" height="31" rx="3"/><rect x="850" y="571" width="60" height="31" rx="3"/><rect x="918" y="571" width="60" height="31" rx="3"/><rect x="986" y="571" width="59" height="31" rx="3"/></g>
+  <rect x="770" y="624" width="288" height="53" rx="6" fill="#7a5645" fill-opacity="0.11"/>
+  <text x="782" y="656" fill="#1c1c17" font-family="Inter, Arial, sans-serif" font-size="15">06 Impact · evidence + meaning</text>
+  <rect x="770" y="688" width="288" height="64" rx="6" fill="#063522" fill-opacity="0.08"/>
+  <text x="782" y="713" fill="#1c1c17" font-family="Inter, Arial, sans-serif" font-size="14">07 Community story</text>
+  <rect x="782" y="721" width="122" height="22" rx="2" fill="#063522" fill-opacity="0.18"/>
+  <rect x="913" y="700" width="132" height="43" rx="2" fill="#7a5645" fill-opacity="0.23"/>
+  <rect x="770" y="763" width="288" height="62" rx="6" fill="#482510"/>
+  <text x="782" y="800" fill="#fcf9f0" font-family="Inter, Arial, sans-serif" font-size="15">08 Invitation to act</text>
+
+  <!-- Desktop: same editorial structure at maximum container width. -->
+  <rect x="1105" y="173" width="318" height="46" rx="11" fill="#063522"/>
+  <text x="1123" y="202" fill="#fcf9f0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600">NIRA</text>
+  <text x="1389" y="202" text-anchor="end" fill="#fcf9f0" font-family="Inter, Arial, sans-serif" font-size="13">Full navigation</text>
+  <rect x="1120" y="230" width="288" height="92" rx="6" fill="#063522" fill-opacity="0.08"/>
+  <text x="1132" y="257" fill="#063522" font-family="Playfair Display, Georgia, serif" font-size="19">01 Hero</text>
+  <rect x="1132" y="267" width="122" height="42" rx="3" fill="#063522" fill-opacity="0.19"/>
+  <rect x="1263" y="244" width="132" height="65" rx="3" fill="#7a5645" fill-opacity="0.22"/>
+  <rect x="1120" y="333" width="288" height="56" rx="6" fill="#7a5645" fill-opacity="0.11"/>
+  <text x="1132" y="353" fill="#1c1c17" font-family="Inter, Arial, sans-serif" font-size="14">02 Story</text>
+  <rect x="1132" y="362" width="120" height="16" rx="2" fill="#7a5645" fill-opacity="0.24"/>
+  <rect x="1263" y="347" width="132" height="31" rx="2" fill="#063522" fill-opacity="0.16"/>
+  <rect x="1120" y="400" width="288" height="64" rx="6" fill="#063522" fill-opacity="0.08"/>
+  <text x="1132" y="425" fill="#1c1c17" font-family="Inter, Arial, sans-serif" font-size="14">03 Coconut possibilities</text>
+  <g fill="#7a5645" fill-opacity="0.25"><rect x="1132" y="436" width="78" height="18" rx="3"/><rect x="1220" y="436" width="78" height="18" rx="3"/><rect x="1308" y="436" width="87" height="18" rx="3"/></g>
+  <rect x="1120" y="475" width="288" height="55" rx="6" fill="#7a5645" fill-opacity="0.11"/>
+  <text x="1132" y="498" fill="#1c1c17" font-family="Inter, Arial, sans-serif" font-size="14">04 Process</text>
+  <g fill="#063522" fill-opacity="0.20"><rect x="1132" y="506" width="60" height="13" rx="2"/><rect x="1200" y="506" width="60" height="13" rx="2"/><rect x="1268" y="506" width="60" height="13" rx="2"/><rect x="1336" y="506" width="59" height="13" rx="2"/></g>
+  <rect x="1120" y="541" width="288" height="72" rx="6" fill="#063522" fill-opacity="0.08"/>
+  <text x="1132" y="562" fill="#1c1c17" font-family="Inter, Arial, sans-serif" font-size="14">05 Products</text>
+  <g fill="#7a5645" fill-opacity="0.23"><rect x="1132" y="571" width="60" height="31" rx="3"/><rect x="1200" y="571" width="60" height="31" rx="3"/><rect x="1268" y="571" width="60" height="31" rx="3"/><rect x="1336" y="571" width="59" height="31" rx="3"/></g>
+  <rect x="1120" y="624" width="288" height="53" rx="6" fill="#7a5645" fill-opacity="0.11"/>
+  <text x="1132" y="656" fill="#1c1c17" font-family="Inter, Arial, sans-serif" font-size="15">06 Impact · evidence + meaning</text>
+  <rect x="1120" y="688" width="288" height="64" rx="6" fill="#063522" fill-opacity="0.08"/>
+  <text x="1132" y="713" fill="#1c1c17" font-family="Inter, Arial, sans-serif" font-size="14">07 Community story</text>
+  <rect x="1132" y="721" width="122" height="22" rx="2" fill="#063522" fill-opacity="0.18"/>
+  <rect x="1263" y="700" width="132" height="43" rx="2" fill="#7a5645" fill-opacity="0.23"/>
+  <rect x="1120" y="763" width="288" height="62" rx="6" fill="#482510"/>
+  <text x="1132" y="800" fill="#fcf9f0" font-family="Inter, Arial, sans-serif" font-size="15">08 Invitation to act</text>
+
+  <text x="55" y="892" fill="#7a5645" font-family="Inter, Arial, sans-serif" font-size="14">Composition study only. The final layouts require approved copy, photography, and real-size accessibility review.</text>
+</svg>

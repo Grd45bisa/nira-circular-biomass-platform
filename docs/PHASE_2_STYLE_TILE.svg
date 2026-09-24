@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+  <title id="title">NIRA Phase 2 design system style tile</title>
+  <desc id="desc">A visual specimen of NIRA's forest, coconut, wood, cream, and ink palette; editorial type; buttons; and restrained product card. The image area is labeled for approved photography.</desc>
+  <rect width="1440" height="900" fill="#fcf9f0"/>
+  <rect width="1440" height="92" fill="#063522"/>
+  <text x="72" y="62" fill="#fcf9f0" font-family="Playfair Display, Georgia, serif" font-size="42" font-weight="600">NIRA</text>
+  <text x="300" y="54" fill="#fcf9f0" font-family="Inter, Arial, sans-serif" font-size="15">Nature Into Renewable Assets</text>
+  <text x="1148" y="54" fill="#fcf9f0" font-family="Inter, Arial, sans-serif" font-size="14" letter-spacing="1.8">DESIGN SYSTEM</text>
+
+  <text x="72" y="157" fill="#7a5645" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="2.4">NATURAL · PREMIUM · CIRCULAR</text>
+  <text x="72" y="252" fill="#063522" font-family="Playfair Display, Georgia, serif" font-size="76" font-weight="500">Value Beyond</text>
+  <text x="72" y="336" fill="#063522" font-family="Playfair Display, Georgia, serif" font-size="76" font-weight="500">Waste.</text>
+  <text x="74" y="382" fill="#1c1c17" font-family="Inter, Arial, sans-serif" font-size="19">Nature has value. Transformation creates impact.</text>
+
+  <text x="72" y="460" fill="#1c1c17" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="600" letter-spacing="1.5">CORE PALETTE</text>
+  <rect x="72" y="484" width="126" height="74" rx="8" fill="#063522"/>
+  <rect x="209" y="484" width="126" height="74" rx="8" fill="#7a5645"/>
+  <rect x="346" y="484" width="126" height="74" rx="8" fill="#482510"/>
+  <rect x="483" y="484" width="126" height="74" rx="8" fill="#fcf9f0" stroke="#7a5645" stroke-opacity="0.5"/>
+  <rect x="620" y="484" width="126" height="74" rx="8" fill="#1c1c17"/>
+  <g fill="#1c1c17" font-family="Inter, Arial, sans-serif" font-size="13">
+    <text x="72" y="582">Forest</text><text x="72" y="603">#063522</text>
+    <text x="209" y="582">Coconut</text><text x="209" y="603">#7a5645</text>
+    <text x="346" y="582">Wood</text><text x="346" y="603">#482510</text>
+    <text x="483" y="582">Cream</text><text x="483" y="603">#fcf9f0</text>
+    <text x="620" y="582">Ink</text><text x="620" y="603">#1c1c17</text>
+  </g>
+
+  <text x="72" y="673" fill="#1c1c17" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="600" letter-spacing="1.5">ACTIONS</text>
+  <rect x="72" y="697" width="214" height="52" rx="24" fill="#063522"/>
+  <text x="179" y="729" text-anchor="middle" fill="#fcf9f0" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="600">Explore NIRA</text>
+  <rect x="302" y="697" width="214" height="52" rx="24" fill="#fcf9f0" stroke="#063522" stroke-width="1.5"/>
+  <text x="409" y="729" text-anchor="middle" fill="#063522" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="600">Become Partner</text>
+  <text x="72" y="789" fill="#7a5645" font-family="Inter, Arial, sans-serif" font-size="14">Editorial typography · generous space · evidence-led components</text>
+
+  <rect x="850" y="144" width="514" height="645" rx="16" fill="#fcf9f0" stroke="#7a5645" stroke-opacity="0.42" stroke-width="1.5"/>
+  <rect x="874" y="168" width="466" height="282" rx="12" fill="#063522" fill-opacity="0.06" stroke="#063522" stroke-opacity="0.23" stroke-dasharray="6 6"/>
+  <text x="1107" y="307" text-anchor="middle" fill="#063522" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="600" letter-spacing="1">APPROVED PRODUCT PHOTOGRAPH</text>
+  <text x="878" y="496" fill="#7a5645" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="2">NIRA GROW</text>
+  <text x="878" y="551" fill="#1c1c17" font-family="Playfair Display, Georgia, serif" font-size="42">Cocopeat Block</text>
+  <text x="878" y="592" fill="#1c1c17" font-family="Inter, Arial, sans-serif" font-size="17">Material: coconut residue</text>
+  <text x="878" y="627" fill="#1c1c17" font-family="Inter, Arial, sans-serif" font-size="17">Growing media made from a renewed resource.</text>
+  <path d="M878 666 H1338" stroke="#7a5645" stroke-opacity="0.35"/>
+  <text x="878" y="709" fill="#063522" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="600">Explore the product</text>
+  <path d="M878 718 H1034" stroke="#063522" stroke-width="1.5"/>
+  <text x="878" y="757" fill="#7a5645" font-family="Inter, Arial, sans-serif" font-size="13">Specimen content · verify claims before publication</text>
+
+  <rect x="0" y="824" width="1440" height="76" fill="#482510"/>
+  <text x="72" y="871" fill="#fcf9f0" font-family="Playfair Display, Georgia, serif" font-size="27">Nature → Transformation → Community → Impact</text>
+  <text x="1364" y="870" text-anchor="end" fill="#fcf9f0" font-family="Inter, Arial, sans-serif" font-size="13">NIRA · PHASE 2</text>
+</svg>

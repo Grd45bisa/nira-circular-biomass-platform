@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NIRA Website
 
-## Getting Started
+The public NIRA website tells the story of coconut materials moving from overlooked resources to useful product directions and community opportunity. Built with Next.js App Router, strict TypeScript, and Tailwind CSS.
 
-First, run the development server:
+## Run locally
 
-```bash
+```sh
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Quality commands
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```sh
+npm run lint
+npm run typecheck
+npm run format:check
+npm run build
+```
 
-## Learn More
+Use `npm run format` to apply Prettier formatting.
 
-To learn more about Next.js, take a look at the following resources:
+## Pages
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Home, About, Transformation, Products, Impact, Journal (with three editorial articles), and Partnership. The image credits page records the sources and nature of representative imagery.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Launch configuration
 
-## Deploy on Vercel
+Set `SITE_URL` to the final HTTPS origin at build time. The site uses it for canonical URLs, Open Graph images, `robots.txt`, and the sitemap. Without it, pages remain `noindex` and crawlers are disallowed so a preview build is not indexed under a temporary host.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The project source does not yet include a direct NIRA contact address, approved NIRA product photography, community profiles, or verified impact figures. The Partnership page therefore prepares a copyable inquiry without sending data. Complete these inputs before public launch.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Structure
+
+| Path                                                                | Purpose                                                           |
+| ------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| `app/`                                                              | Public routes, metadata, global styles, sitemap, and robots rules |
+| `components/layout/`                                                | Navigation, footer, and container                                 |
+| `components/sections/`                                              | Story, process, hero, and collaboration sections                  |
+| `components/products/`, `components/impact/`, `components/journal/` | Reusable content cards                                            |
+| `lib/content.ts`                                                    | Typed product and journal content                                 |
+| `public/images/`                                                    | Optimized editorial art and representative material images        |
+| `docs/`                                                             | Phase reports and design direction                                |
+
+Design tokens and responsive direction come from [the Phase 2 design system](docs/PHASE_2_DESIGN_SYSTEM.md). The Phase 4 handoff is in [the completion report](docs/PHASE_4_COMPLETION_REPORT.md).
