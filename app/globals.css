@@ -351,6 +351,9 @@ body {
   .nira-main-hero {
     background-color: var(--color-cream);
     color: var(--color-ink);
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .nira-main-hero-bg {

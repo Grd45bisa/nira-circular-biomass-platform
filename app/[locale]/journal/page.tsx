@@ -1,35 +1,49 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
 import { ArrowUpRight, Clock } from "lucide-react";
+import { getTranslations } from "next-intl/server";
 
 import { ArticleCard } from "@/components/journal/article-card";
 import { Container } from "@/components/layout/container";
 import { PageHero } from "@/components/sections/page-hero";
 import { PartnershipCTA } from "@/components/sections/partnership-cta";
 import { EmptyState } from "@/components/ui/empty-state";
+import { Link } from "@/i18n/navigation";
 import { getArticles } from "@/lib/supabase/queries";
 
-export const metadata: Metadata = {
-  title: "Journal · Field Notes & Circular Essays",
-  alternates: { canonical: "/journal" },
-  description:
-    "Read NIRA's editorial publications: deep explorations on coconut bio-composites, agroforestry livelihoods, and circular design philosophy.",
-  keywords: [
-    "NIRA journal",
-    "coconut sustainability",
-    "circular essays",
-    "community craftsmanship",
-  ],
-  openGraph: {
-    title: "NIRA Journal · Stories from Material to Meaning",
-    description:
-      "Stories, technical field notes, and community perspectives from the coconut belt.",
-    images: ["/images/coir-fiber.jpg"],
-  },
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "journalPage" });
+  return {
+    title: { absolute: t("metaTitle") },
+    description: t("metaDescription"),
+    alternates: {
+      canonical: locale === "id" ? "/jurnal" : "/en/journal",
+      languages: {
+        "id-ID": "/jurnal",
+        en: "/en/journal",
+        "x-default": "/jurnal",
+      },
+    },
+    openGraph: {
+      title: t("ogTitle"),
+      description: t("ogDescription"),
+      images: ["/images/coir-fiber.jpg"],
+    },
+  };
+}
 
-export default async function JournalPage() {
+export default async function JournalPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "journalPage" });
   const articles = await getArticles();
   const featuredArticle = articles[0];
   const restArticles = articles.slice(1);
@@ -37,11 +51,11 @@ export default async function JournalPage() {
   return (
     <>
       <PageHero
-        eyebrow="Editorial Dispatches"
-        title="Notes from a changing material story."
-        description="Essays, technical insights, and community perspectives investigating how overlooked natural resources can reshape design, agriculture, and human livelihoods."
+        eyebrow={t("hero.eyebrow")}
+        title={t("hero.title")}
+        description={t("hero.description")}
         image="/images/coir-fiber.jpg"
-        imageAlt="Close up of artisan hands carefully handling and separating long golden-brown coconut coir fibers"
+        imageAlt={t("hero.imageAlt")}
       />
 
       <section className="nira-section bg-cream">
@@ -50,7 +64,7 @@ export default async function JournalPage() {
           {featuredArticle ? (
             <div className="mb-16">
               <div className="mb-4 inline-flex items-center gap-2 text-xs font-bold tracking-widest text-coconut uppercase">
-                <span>Featured Dispatch</span>
+                <span>{t("featuredLabel")}</span>
               </div>
               <div className="group grid gap-8 overflow-hidden rounded-card border border-coconut/15 bg-sand/30 shadow-natural transition-all duration-300 hover:shadow-elevated lg:grid-cols-12 lg:items-center">
                 <div className="relative aspect-[16/10] overflow-hidden lg:col-span-7">
@@ -75,12 +89,15 @@ export default async function JournalPage() {
                   <div>
                     <div className="flex items-center gap-2 text-xs text-coconut">
                       <Clock size={13} />
-                      <span>5 min read · Editorial</span>
+                      <span>{t("readTime")}</span>
                     </div>
 
                     <h2 className="font-display mt-3 text-2xl md:text-3xl text-forest font-medium">
                       <Link
-                        href={`/journal/${featuredArticle.slug}`}
+                        href={{
+                          pathname: "/journal/[slug]",
+                          params: { slug: featuredArticle.slug },
+                        }}
                         className="hover:underline"
                       >
                         {featuredArticle.title}
@@ -94,10 +111,13 @@ export default async function JournalPage() {
 
                   <div className="mt-8 pt-4 border-t border-coconut/15">
                     <Link
-                      href={`/journal/${featuredArticle.slug}`}
+                      href={{
+                        pathname: "/journal/[slug]",
+                        params: { slug: featuredArticle.slug },
+                      }}
                       className="inline-flex items-center gap-2 text-sm font-semibold text-forest group-hover:text-forest-hover"
                     >
-                      <span>Read Complete Dispatch</span>
+                      <span>{t("readMore")}</span>
                       <ArrowUpRight size={16} />
                     </Link>
                   </div>
@@ -108,20 +128,19 @@ export default async function JournalPage() {
 
           <div className="flex flex-wrap items-end justify-between gap-6 border-t border-coconut/15 pt-12">
             <div>
-              <p className="eyebrow text-coconut">All Dispatches</p>
+              <p className="eyebrow text-coconut">{t("allDispatches")}</p>
               <h2 className="type-section-title mt-2 text-forest text-2xl md:text-3xl">
-                Field notes on circularity & craft.
+                {t("allTitle")}
               </h2>
             </div>
             <p className="text-xs text-coconut max-w-sm">
-              Documenting the evolution of our regenerative supply chains and
-              village workshop insights.
+              {t("allDescription")}
             </p>
           </div>
 
           {articles.length === 0 ? (
             <div className="mt-12">
-              <EmptyState message="Journal articles will be available soon." />
+              <EmptyState message={t("empty")} />
             </div>
           ) : (
             <div className="mt-10 grid gap-6 md:grid-cols-2 xl:grid-cols-3">

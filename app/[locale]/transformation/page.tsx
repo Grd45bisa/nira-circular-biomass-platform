@@ -1,44 +1,72 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
+import { getTranslations } from "next-intl/server";
 
 import { Container } from "@/components/layout/container";
 import { JourneySteps } from "@/components/sections/journey-steps";
 import { PageHero } from "@/components/sections/page-hero";
 import { PartnershipCTA } from "@/components/sections/partnership-cta";
 import { StorySection } from "@/components/sections/story-section";
-import { ButtonLink } from "@/components/ui/button";
 import { EyebrowBadge } from "@/components/ui/eyebrow-badge";
+import { Link } from "@/i18n/navigation";
 
-export const metadata: Metadata = {
-  title: "Transformation · Biological Architecture to Renewable Assets",
-  alternates: { canonical: "/transformation" },
-  description:
-    "Follow the NIRA transformation methodology: mechanical decortication, cellular pith purification, and low-emission pyrolysis turn discarded coconut biomass into regenerative products.",
-  keywords: [
-    "coconut transformation",
-    "cocofiber extraction",
-    "cocopeat processing",
-    "coconut shell pyrolysis",
-    "circular bio-materials",
-  ],
-  openGraph: {
-    title: "Transformation at NIRA · Value Beyond Waste",
-    description:
-      "From whole coconut to engineered bio-materials to regenerative products.",
-    images: ["/images/coconut-husks.jpg"],
-  },
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "transformation" });
+  return {
+    title: { absolute: t("metaTitle") },
+    description: t("metaDescription"),
+    alternates: {
+      canonical: locale === "id" ? "/proses" : "/en/transformation",
+      languages: {
+        "id-ID": "/proses",
+        en: "/en/transformation",
+        "x-default": "/proses",
+      },
+    },
+    openGraph: {
+      title: t("ogTitle"),
+      description: t("ogDescription"),
+      images: ["/images/coconut-husks.jpg"],
+    },
+  };
+}
 
-export default function TransformationPage() {
+export default async function TransformationPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "transformation" });
+
+  const materialItems = [
+    {
+      key: "husk",
+      href: "/products#living" as any,
+    },
+    {
+      key: "pith",
+      href: "/products#grow" as any,
+    },
+    {
+      key: "shell",
+      href: "/products#energy" as any,
+    },
+  ];
+
   return (
     <>
       <PageHero
-        eyebrow="Transformation Methodology"
-        title="From raw coconut to endless possibility."
-        description="There is no single second life for a coconut. Every anatomical layer — husk, pith, and shell — follows a calibrated, chemical-free route from post-harvest biomass to regenerative assets."
+        eyebrow={t("hero.eyebrow")}
+        title={t("hero.title")}
+        description={t("hero.description")}
         image="/images/coconut-husks.jpg"
-        imageAlt="Naturally harvested coconut husks drying on woven bamboo mats"
+        imageAlt={t("hero.imageAlt")}
       />
 
       {/* Material Map Grid */}
@@ -46,77 +74,47 @@ export default function TransformationPage() {
         <Container>
           <div className="max-w-2xl">
             <p className="eyebrow text-coconut">
-              01 / The Circular Material Map
+              {t("materialMap.eyebrow")}
             </p>
             <h2 className="type-section-title mt-4 text-forest">
-              One origin. Distinct futures.
+              {t("materialMap.title")}
             </h2>
             <p className="type-lead mt-3 text-ink-muted">
-              Rather than blending biomass into indistinguishable pulp, NIRA
-              preserves the unique mechanical and cellular qualities inherent to
-              each layer.
+              {t("materialMap.lead")}
             </p>
           </div>
 
-          <div className="mt-12 grid gap-6 md:grid-cols-3">
-            {[
-              {
-                part: "Outer Husk",
-                material: "Natural Coir Fiber",
-                badge: "Structural Tensile Lignin",
-                process:
-                  "Mechanical decortication and sun-curing isolate high-tensile, rot-resistant fibers without synthetic adhesives.",
-                form: "NIRA Living (Breathable Pots & Bio-Textiles)",
-                href: "/products#living",
-              },
-              {
-                part: "Inner Pith Residue",
-                material: "Organic Cocopeat",
-                badge: "Cellular Sponge Matrix",
-                process:
-                  "Rainwater desalinating, particle grading, and microbiological resting yield an aerated moisture-retentive substrate.",
-                form: "NIRA Grow (Peat-Free Seedling Medium)",
-                href: "/products#grow",
-              },
-              {
-                part: "Hard Endocarp Shell",
-                material: "Bio-Carbon & Polished Shell",
-                badge: "High-Calorific Endocarp",
-                process:
-                  "Controlled pyrolysis carbonization generates clean briquettes; precision hand-sanding crafts timeless tabletop homeware.",
-                form: "NIRA Energy & NIRA Craft",
-                href: "/products#energy",
-              },
-            ].map((item) => (
+          <div className="mt-8 grid gap-4 sm:mt-10 sm:gap-6 md:grid-cols-3 lg:mt-12">
+            {materialItems.map(({ key, href }) => (
               <div
-                key={item.part}
-                className="group flex flex-col justify-between rounded-card border border-coconut/15 bg-sand/30 p-7 shadow-xs transition-all duration-300 hover:border-coconut/35 hover:shadow-elevated hover:bg-sand/50"
+                key={key}
+                className="group flex flex-col justify-between rounded-card border border-coconut/15 bg-sand/30 p-5 sm:p-6 lg:p-7 shadow-xs transition-all duration-300 hover:border-coconut/35 hover:shadow-elevated hover:bg-sand/50"
               >
                 <div>
-                  <div className="flex items-center justify-between">
+                  <div className="flex items-center justify-between gap-2">
                     <span className="text-xs font-bold tracking-widest text-coconut uppercase">
-                      {item.part}
+                      {t(`materialMap.items.${key}.part` as any)}
                     </span>
-                    <span className="rounded-full bg-cream px-2.5 py-0.5 text-[0.6875rem] font-semibold text-forest">
-                      {item.badge}
+                    <span className="rounded-full bg-cream px-2.5 py-0.5 text-[0.6875rem] font-semibold text-forest shadow-2xs">
+                      {t(`materialMap.items.${key}.badge` as any)}
                     </span>
                   </div>
 
-                  <h3 className="font-display mt-5 text-2xl text-forest font-medium">
-                    {item.material}
+                  <h3 className="font-display mt-4 sm:mt-5 text-xl lg:text-2xl text-forest font-medium">
+                    {t(`materialMap.items.${key}.material` as any)}
                   </h3>
 
-                  <p className="type-body text-ink-muted mt-3 text-sm leading-relaxed">
-                    {item.process}
+                  <p className="type-body text-ink-muted mt-2.5 sm:mt-3 text-xs sm:text-sm leading-relaxed">
+                    {t(`materialMap.items.${key}.process` as any)}
                   </p>
                 </div>
 
-                <div className="mt-8 border-t border-coconut/15 pt-4">
+                <div className="mt-6 sm:mt-8 border-t border-coconut/15 pt-3.5 sm:pt-4">
                   <Link
-                    href={item.href}
+                    href={href}
                     className="inline-flex items-center gap-1.5 text-xs font-semibold text-forest group-hover:text-forest-hover"
                   >
-                    <span>{item.form}</span>
+                    <span>{t(`materialMap.items.${key}.form` as any)}</span>
                     <ArrowUpRight
                       size={14}
                       className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
@@ -131,15 +129,12 @@ export default function TransformationPage() {
 
       {/* Story Section: Hands in the Fiber */}
       <StorySection
-        eyebrow="02 / Tactile Craftsmanship"
-        title="Fiber begins with human touch."
-        paragraphs={[
-          "The outer husk of the coconut is nature's shock absorber. Filled with natural lignin, it repels excess moisture, resists bacterial decay, and maintains breathability under extreme tropical climate shifts.",
-          "When artisan hands separate and weave these golden strands, they transform rough agricultural remnants into vessels that breathe with living plants. When the plant outgrows the pot, both can be transplanted directly into the ground without plastic waste or transplant trauma.",
-        ]}
+        eyebrow={t("craft.eyebrow")}
+        title={t("craft.title")}
+        paragraphs={[t("craft.p1"), t("craft.p2")]}
         image="/images/coir-fiber.jpg"
-        imageAlt="Close-up of artisan hands carefully handling and separating long golden-brown coconut coir fibers"
-        imageNote="Artisan handling raw coconut coir fibers in an open-air workshop."
+        imageAlt={t("craft.imageAlt")}
+        imageNote={t("craft.imageNote")}
         reverse
       />
 
@@ -150,18 +145,17 @@ export default function TransformationPage() {
       >
         <Container className="relative z-10">
           <div className="max-w-2xl">
-            <EyebrowBadge className="mb-3">03 / End-to-End System</EyebrowBadge>
+            <EyebrowBadge className="mb-3">{t("system.eyebrow")}</EyebrowBadge>
             <h2 className="type-section-title text-cream">
-              Collect. Process. Create. Empower.
+              {t("system.title")}
             </h2>
             <p className="type-lead mt-4 text-cream/80 leading-relaxed">
-              Every step in our cycle is transparently rooted in fair trade,
-              zero-chemical refining, and localized community ownership.
+              {t("system.lead")}
             </p>
           </div>
 
           <div className="mt-12">
-            <JourneySteps />
+            <JourneySteps localized />
           </div>
         </Container>
       </section>
@@ -170,22 +164,25 @@ export default function TransformationPage() {
       <section className="nira-section bg-sand/50">
         <Container className="nira-cta-columns grid gap-8 lg:items-end">
           <div>
-            <p className="eyebrow text-coconut">04 / The Result</p>
+            <p className="eyebrow text-coconut">{t("result.eyebrow")}</p>
             <h2 className="type-section-title mt-4 text-forest">
-              Experience the finished forms.
+              {t("result.title")}
             </h2>
             <p className="type-lead mt-4 max-w-xl text-ink-muted">
-              Living, Grow, Energy, and Craft show how high aesthetic standards
-              and deep ecological responsibility elevate everyday living.
+              {t("result.lead")}
             </p>
           </div>
-          <ButtonLink href="/products" className="w-fit shadow-xs">
-            Explore All Product Families <ArrowUpRight size={18} />
-          </ButtonLink>
+          <Link
+            href="/products"
+            className="inline-flex min-h-12 items-center justify-center gap-2 rounded-pill bg-forest px-5 text-center text-sm sm:text-base font-semibold text-cream shadow-xs transition-colors duration-200 hover:bg-forest-hover active:bg-forest-active w-fit"
+          >
+            <span>{t("result.action")}</span>
+            <ArrowUpRight size={18} />
+          </Link>
         </Container>
       </section>
 
-      <PartnershipCTA />
+      <PartnershipCTA localized />
     </>
   );
 }

@@ -6,6 +6,8 @@ type ImpactBase = {
   label: string;
   description: string;
   iconName?: "leaf" | "users" | "coins";
+  pillarLabel?: string;
+  evidenceLabel?: string;
   className?: string;
 };
 
@@ -27,10 +29,10 @@ export function ImpactCard(props: ImpactCardProps) {
   const getIcon = () => {
     const l = props.label.toLowerCase();
     const iconClass = "h-4 w-4 sm:h-4.5 sm:w-4.5 md:h-5 md:w-5 text-forest";
-    if (props.iconName === "leaf" || l.includes("environment")) {
+    if (props.iconName === "leaf" || l.includes("environment") || l.includes("lingkungan")) {
       return <Leaf className={iconClass} />;
     }
-    if (props.iconName === "users" || l.includes("social")) {
+    if (props.iconName === "users" || l.includes("social") || l.includes("sosial")) {
       return <Users className={iconClass} />;
     }
     return <Coins className={iconClass} />;
@@ -49,7 +51,7 @@ export function ImpactCard(props: ImpactCardProps) {
             {getIcon()}
           </div>
           <span className="rounded-full bg-sand/60 px-2 py-0.5 sm:px-2.5 sm:py-1 md:px-3 md:py-1 text-[0.625rem] sm:text-[0.6875rem] font-semibold tracking-wider text-coconut uppercase">
-            Pillar
+            {props.pillarLabel ?? "Pillar"}
           </span>
         </div>
 
@@ -76,7 +78,7 @@ export function ImpactCard(props: ImpactCardProps) {
       {props.kind === "metric" && (props.period || props.source) ? (
         <div className="mt-4 sm:mt-5 md:mt-6 border-t border-coconut/15 pt-2.5 sm:pt-3 md:pt-3.5 text-[0.6875rem] sm:text-xs text-coconut">
           {props.period ? <span>{props.period} · </span> : null}
-          {props.source ? <span>Evidence: {props.source}</span> : null}
+          {props.source ? <span>{props.evidenceLabel ? `${props.evidenceLabel}: ` : "Evidence: "}{props.source}</span> : null}
         </div>
       ) : null}
     </Card>

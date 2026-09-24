@@ -52,7 +52,11 @@ export default async function LocaleLayout({children, params}: Props) {
   const t = await getTranslations({locale, namespace: 'common'});
 
   return (
-    <html lang={locale} className={`${inter.variable} ${playfair.variable}`}>
+    <html
+      lang={locale}
+      className={`${inter.variable} ${playfair.variable}`}
+      data-scroll-behavior="smooth"
+    >
       <body className="flex min-h-screen flex-col">
         <NextIntlClientProvider locale={locale} messages={messages}>
           <a href="#main-content" className="sr-only fixed top-3 left-3 z-50 rounded-field bg-cream px-4 py-2 text-forest focus:not-sr-only">

@@ -1,5 +1,24 @@
 {
   "common": {"language": "Language", "skip": "Skip to content", "part": "Part", "outcome": "Outcome", "primaryApplication": "Primary Application", "keyAttributes": "Key Material Attributes", "ecologicalGain": "Ecological Impact Gain", "exploreDerived": "Explore products derived from {part}", "assetPending": "Asset in production", "pillar": "Pillar", "year": "Year", "evidence": "Evidence"},
+  "journalPage": {
+    "metaTitle": "Journal · Field Notes & Circular Essays",
+    "metaDescription": "Read NIRA's editorial publications: deep explorations on coconut bio-composites, agroforestry livelihoods, and circular design philosophy.",
+    "ogTitle": "NIRA Journal · Stories from Material to Meaning",
+    "ogDescription": "Stories, technical field notes, and community perspectives from the coconut belt.",
+    "hero": {
+      "eyebrow": "Editorial Dispatches",
+      "title": "Notes from a changing material story.",
+      "description": "Essays, technical insights, and community perspectives investigating how overlooked natural resources can reshape design, agriculture, and human livelihoods.",
+      "imageAlt": "Close up of artisan hands carefully handling and separating long golden-brown coconut coir fibers"
+    },
+    "featuredLabel": "Featured Dispatch",
+    "readTime": "5 min read · Editorial",
+    "readMore": "Read Complete Dispatch",
+    "allDispatches": "All Dispatches",
+    "allTitle": "Field notes on circularity & craft.",
+    "allDescription": "Documenting the evolution of our regenerative supply chains and village workshop insights.",
+    "empty": "Journal articles will be available soon."
+  },
   "nav": {"home": "Home", "about": "About NIRA", "transformation": "Transformation", "products": "Products", "impact": "Impact", "journal": "Journal", "partnership": "Partnership"},
   "header": {"homeLabel": "NIRA home — Value Beyond Waste", "primaryNav": "Primary navigation", "mobileNav": "Mobile navigation", "openMenu": "Open menu", "closeMenu": "Close menu", "menu": "Menu", "navigationHeading": "Navigation", "partner": "Partner", "partnerLong": "Partner With Us", "startCollaboration": "Start a Collaboration", "drawerNote": "Every part of nature holds value. NIRA helps reveal it."},
   "footer": {"tagline": "Every part of nature holds value. NIRA helps reveal it.", "brandDescription": "Regenerative coconut biomass", "badgeOne": "100% upcycled biomass", "badgeTwo": "Zero synthetic plastics", "badgeThree": "Village-rooted economy", "explore": "Explore Platform", "families": "Product Families", "collaboration": "Collaboration", "collaborationShort": "We partner with brands, growers, and material innovators.", "collaborationLong": "We partner with brands, growers, horticulturists, and material scientists committed to circular principles.", "inquire": "Inquire Collaboration", "credits": "Image documentation & credits", "ethos": "Ethos & Philosophy", "copyright": "Designed intentionally.", "coirPots": "Coir Pots", "cocopeat": "Cocopeat Medium", "biocharcoal": "Bio-Charcoal", "homeware": "Polished Homeware"},
@@ -25,5 +44,324 @@
     "impact": {"eyebrow": "05 / Grounded Purpose", "title": "Impact across three dimensions.", "link": "Our verified impact methodology", "description": "NIRA measures success through regenerative loops, fair household stability, and measurable ecological renewal.", "source": "NIRA Village Audits"},
     "community": {"caption": "Pak Wayan Sudarma, Lead Artisan Coordinator in Banyuwangi, East Java.", "eyebrow": "06 / People at the center", "title": "Change is made by hands.", "quote": "At NIRA, the coconut husks and shells we once burned or discarded now provide new income while helping keep our soil and sea clean.", "role": "Artisan Lead & Harvester", "location": "East Java, Indonesia", "collective": "Village Collective", "description": "From gathering raw husks to precision coir decortication and hand-finishing bowls, NIRA centers the ecological knowledge of coastal agricultural communities. Every vessel sold supports family incomes.", "link": "Read the community dispatch", "imageAlt": "Pak Wayan smiling in a sunlit coconut craft workshop"},
     "cta": {"eyebrow": "Open Ecosystem", "title": "What could we reveal together?", "description": "Whether you are a horticultural brand seeking peat-free circular substrates, an architectural studio exploring bio-composites, or a sustainability advocate, we welcome thoughtful collaborations that keep nature and community at the center.", "tagOne": "Retail & Homeware Distribution", "tagTwo": "Commercial Nursery Substrates", "tagThree": "Bio-Composite R&D", "action": "Start a Conversation"}
+  },
+  "about": {
+    "metaTitle": "About NIRA · Philosophy, Vision & Circular Values",
+    "metaDescription": "Discover the NIRA ethos: unlocking value in overlooked coconut materials with communities, craft, and regenerative design at the core.",
+    "hero": {
+      "eyebrow": "Our Ethos & Origin",
+      "title": "Every part holds a deeper possibility.",
+      "description": "Nature Into Renewable Assets (NIRA) was founded on an essential observation: modern industrial systems discard the majority of agricultural biomass as valueless waste. We believe regenerative design begins by revealing the inherent brilliance of what nature already provides.",
+      "imageAlt": "Editorial still life of whole coconut, split shell, raw coir fibers, and fresh green sprout"
+    },
+    "philosophy": {
+      "eyebrow": "01 / Our Philosophy",
+      "title": "Value begins with reverence and attention.",
+      "p1": "A rough coconut husk is not trash. A hard dense shell is not a disposal problem. When observed with reverence, every constituent layer possesses distinct biological advantages — from natural antimicrobial lignin fibers to water-retentive spongy pith and high-density organic carbon.",
+      "p2": "That same attention must extend to the people who steward these trees. Materials gain true meaning only through the generational knowledge, fair compensation, and craftsmanship of the farming communities who nurture them.",
+      "imageAlt": "Artisan hands carefully separating golden coconut coir fibers in open-air workshop",
+      "imageNote": "Artisan handling raw coconut fibers in East Java, Indonesia."
+    },
+    "vision": {
+      "eyebrow": "Our Vision",
+      "title": "A future that honors the whole of nature.",
+      "description": "We envision a restorative circular economy where 100% of harvested coconut biomass circulates through living systems, completely displacing petroleum-based single-use plastics, while generating decentralized, resilient prosperity for tropical farming households."
+    },
+    "mission": {
+      "eyebrow": "Our Mission",
+      "title": "Make regenerative alternatives tangible.",
+      "description": "To engineer and scale high-utility bio-material applications from coconut husk, pith, and shell — delivering uncompromised aesthetic and functional excellence through ethical village partnerships and radical supply chain transparency."
+    },
+    "values": {
+      "eyebrow": "02 / What Guides Us",
+      "title": "Four principles, one constant direction.",
+      "lead": "These tenets shape our research, our artisan relationships, and our product design standards.",
+      "badge": "Guiding Principle",
+      "v1": {
+        "name": "Respect for Nature",
+        "text": "Treating nature not as raw commodity to extract, but as an evolved biological system to understand, honor, and restore."
+      },
+      "v2": {
+        "name": "Care in Craft",
+        "text": "Rejecting synthetic shortcuts. We employ physical mechanical separation, rainwater curing, and organic plant-based binders."
+      },
+      "v3": {
+        "name": "People at the Center",
+        "text": "Centering agricultural communities as dignified co-creators and primary beneficiaries of every commercial product line."
+      },
+      "v4": {
+        "name": "Evidence & Transparency",
+        "text": "No greenwashing. We communicate verified metrics when confirmed and clearly state where ongoing field research continues."
+      }
+    }
+  },
+  "transformation": {
+    "metaTitle": "Transformation · Biological Architecture to Renewable Assets",
+    "metaDescription": "Follow the NIRA transformation methodology: mechanical decortication, cellular pith purification, and low-emission pyrolysis turn discarded coconut biomass into regenerative products.",
+    "ogTitle": "Transformation at NIRA · Value Beyond Waste",
+    "ogDescription": "From whole coconut to engineered bio-materials to regenerative products.",
+    "hero": {
+      "eyebrow": "Transformation Methodology",
+      "title": "From raw coconut to endless possibility.",
+      "description": "There is no single second life for a coconut. Every anatomical layer — husk, pith, and shell — follows a calibrated, chemical-free route from post-harvest biomass to regenerative assets.",
+      "imageAlt": "Naturally harvested coconut husks drying on woven bamboo mats"
+    },
+    "materialMap": {
+      "eyebrow": "01 / The Circular Material Map",
+      "title": "One origin. Distinct futures.",
+      "lead": "Rather than blending biomass into indistinguishable pulp, NIRA preserves the unique mechanical and cellular qualities inherent to each layer.",
+      "items": {
+        "husk": {
+          "part": "Outer Husk",
+          "material": "Natural Coir Fiber",
+          "badge": "Structural Tensile Lignin",
+          "process": "Mechanical decortication and sun-curing isolate high-tensile, rot-resistant fibers without synthetic adhesives.",
+          "form": "NIRA Living (Breathable Pots & Bio-Textiles)"
+        },
+        "pith": {
+          "part": "Inner Pith Residue",
+          "material": "Organic Cocopeat",
+          "badge": "Cellular Sponge Matrix",
+          "process": "Rainwater desalinating, particle grading, and microbiological resting yield an aerated moisture-retentive substrate.",
+          "form": "NIRA Grow (Peat-Free Seedling Medium)"
+        },
+        "shell": {
+          "part": "Hard Endocarp Shell",
+          "material": "Bio-Carbon & Polished Shell",
+          "badge": "High-Calorific Endocarp",
+          "process": "Controlled pyrolysis carbonization generates clean briquettes; precision hand-sanding crafts timeless tabletop homeware.",
+          "form": "NIRA Energy & NIRA Craft"
+        }
+      }
+    },
+    "craft": {
+      "eyebrow": "02 / Tactile Craftsmanship",
+      "title": "Fiber begins with human touch.",
+      "p1": "The outer husk of the coconut is nature's shock absorber. Filled with natural lignin, it repels excess moisture, resists bacterial decay, and maintains breathability under extreme tropical climate shifts.",
+      "p2": "When artisan hands separate and weave these golden strands, they transform rough agricultural remnants into vessels that breathe with living plants. When the plant outgrows the pot, both can be transplanted directly into the ground without plastic waste or transplant trauma.",
+      "imageAlt": "Close-up of artisan hands carefully handling and separating long golden-brown coconut coir fibers",
+      "imageNote": "Artisan handling raw coconut coir fibers in an open-air workshop."
+    },
+    "system": {
+      "eyebrow": "03 / End-to-End System",
+      "title": "Collect. Process. Create. Empower.",
+      "lead": "Every step in our cycle is transparently rooted in fair trade, zero-chemical refining, and localized community ownership."
+    },
+    "result": {
+      "eyebrow": "04 / The Result",
+      "title": "Experience the finished forms.",
+      "lead": "Living, Grow, Energy, and Craft show how high aesthetic standards and deep ecological responsibility elevate everyday living.",
+      "action": "Explore All Product Families"
+    }
+  },
+  "productsPage": {
+    "metaTitle": "Products · Regenerative Biomass Families",
+    "metaDescription": "Explore NIRA Living (coir pots), NIRA Grow (cocopeat medium), NIRA Energy (bio-briquettes), and NIRA Craft (heirloom homeware). 100% natural, plastic-free coconut materials.",
+    "ogTitle": "NIRA Products · Value Beyond Waste",
+    "ogDescription": "Four circular material paths, four regenerative product directions.",
+    "hero": {
+      "eyebrow": "Regenerative Product Families",
+      "title": "Made from what nature leaves us.",
+      "description": "NIRA Living, Grow, Energy, and Craft represent four deliberate ways to reveal deep functional value beyond the first culinary use of a coconut.",
+      "imageAlt": "Artisan handcrafted coconut shell bowls and spoon on natural linen"
+    },
+    "quickJump": "Product Lines:",
+    "standards": {
+      "title": "Regenerative Standards:",
+      "text": "Every NIRA product family is engineered without petroleum-based polymers, synthetic adhesives, or synthetic colorants. Sourced directly through verified agricultural cooperatives.",
+      "badge": "100% Bio-Circular"
+    },
+    "derivedFrom": "0{index} · Derived from {source}",
+    "materialSource": "Material Source",
+    "refiningProcess": "Refining Process",
+    "sustainabilityValue": "Sustainability Value",
+    "ctaSample": "Request Specifications / Samples",
+    "viewLifecycle": "View process lifecycle →",
+    "empty": "Product information will be available soon.",
+    "items": {
+      "living": {
+        "name": "NIRA Living",
+        "description": "A natural, breathable plant vessel crafted from pressed coconut coir fiber that nurtures plant roots and returns gracefully to the earth.",
+        "materialSource": "Coconut husk fiber",
+        "process": "Raw husk fibers are carefully extracted, sun-cured, and formed into durable, 100% biodegradable vessels with organic plant-based binders.",
+        "sustainabilityValue": "Eliminates single-use plastic nursery pots while providing superior root aeration and water retention.",
+        "imageAlt": "Handcrafted natural coconut coir plant pots on artisan wooden table",
+        "imageNote": "Handcrafted from 100% natural coconut husk coir."
+      },
+      "grow": {
+        "name": "NIRA Grow",
+        "description": "High-grade organic cocopeat growing medium that transforms fine coconut residue into nutrient-holding soil conditioner.",
+        "materialSource": "Coconut residue",
+        "process": "Fine fibrous husk residue is washed, pH-balanced, and aerated to create the ideal moisture-retentive growing medium for seedlings and gardens.",
+        "sustainabilityValue": "A renewable alternative to peat moss that protects fragile peat bogs and retains up to 8x its weight in water.",
+        "imageAlt": "Organic cocopeat seedling medium with fresh botanical sprouts",
+        "imageNote": "Triple-washed, low-EC organic growing medium."
+      },
+      "energy": {
+        "name": "NIRA Energy",
+        "description": "Smokeless, high-calorific coconut shell charcoal briquettes providing clean, long-lasting heat from discarded shells.",
+        "materialSource": "Coconut shell",
+        "process": "Aged coconut shells are pyrolyzed in low-emission kilns, finely milled, and compressed into dense geometric briquettes.",
+        "sustainabilityValue": "Zero deforestation fuel that burns 3x longer than wood charcoal with minimal ash and clean, odorless combustion.",
+        "imageAlt": "Geometric coconut shell charcoal briquettes beside raw polished shell",
+        "imageNote": "100% natural coconut shell carbonization."
+      },
+      "craft": {
+        "name": "NIRA Craft",
+        "description": "Heirloom functional homeware shaped from selected dense shells and polished with organic virgin coconut oil.",
+        "materialSource": "Dense coconut shell",
+        "process": "Hard endocarp shells are hand-shaped, progressively sanded to satin smoothness, and seasoned exclusively with cold-pressed virgin coconut oil.",
+        "sustainabilityValue": "Durable, non-toxic alternatives to synthetic kitchenware supporting traditional artisan communities.",
+        "imageAlt": "Artisan handcrafted coconut shell bowls and spoon on natural linen",
+        "imageNote": "Hand-polished with pure virgin coconut oil."
+      }
+    }
+  },
+  "impactPage": {
+    "metaTitle": "Impact · Meaning Beyond the Material",
+    "metaDescription": "Explore the environmental, social, and economic outcomes NIRA cultivates through circular coconut material innovation and transparent community governance.",
+    "ogTitle": "NIRA Impact · Three Pillars of Regenerative Value",
+    "ogDescription": "Material integrity, community prosperity, and radical transparency.",
+    "hero": {
+      "eyebrow": "Grounded Accountability",
+      "title": "Meaning far beyond the material.",
+      "description": "A beautiful functional vessel is only one facet of regenerative design. NIRA's foundational ambition ties responsible material utilization directly to biodiversity preservation, soil health, and dignified household prosperity.",
+      "imageAlt": "Editorial still life showing coconut material and emerging green sprout"
+    },
+    "pillars": {
+      "eyebrow": "01 / Three Dimensions of Renewal",
+      "title": "What true circularity looks like.",
+      "lead": "We reject single-metric sustainability claims in favor of balanced ecological, human, and local economic progress.",
+      "environmental": {
+        "label": "Environmental",
+        "narrative": "100% biological diversion of coconut husk and shell biomass away from open-air burning, while safeguarding critical peat bogs from destructive mining."
+      },
+      "social": {
+        "label": "Social",
+        "narrative": "Centering collection, grading, and crafting within coastal agricultural villages, ensuring dignified, safe, and generational artisan participation."
+      },
+      "economic": {
+        "label": "Economic",
+        "narrative": "Unlocking new local economic streams from what was previously considered zero-value agricultural waste, lifting seasonal household revenues."
+      },
+      "verifiedField": "Field Verified",
+      "yearPrefix": "Year",
+      "source": "NIRA Village Audits"
+    },
+    "evidence": {
+      "badge": "Evidence Standard",
+      "title": "Show the work. Verify the numbers.",
+      "lead": "We hold ourselves to a strict anti-greenwashing standard. NIRA publishes numerical metrics only when backed by auditable collection records, consensual community partnerships, and standardized third-party material lifecycle analyses.",
+      "points": {
+        "one": {
+          "title": "Material Weight & Biomass Diversion",
+          "text": "Documented tonnage of raw husks and shells diverted from roadside dump sites and agricultural burning pits, verified at village collection stations."
+        },
+        "two": {
+          "title": "Household Sovereignty & Fair Compensation",
+          "text": "Number of participating farming households receiving living-wage premiums above standard raw copra market volatility."
+        },
+        "three": {
+          "title": "Lifecycle Carbon & Peatland Preservation",
+          "text": "Comparative greenhouse gas mitigation calculated by replacing mined sphagnum peat and fossil-derived nursery plastics with renewable coir."
+        }
+      }
+    },
+    "goals": {
+      "eyebrow": "03 / Global Goals · Local Grounding",
+      "title": "Where the NIRA model connects.",
+      "lead": "NIRA directly aligns with the United Nations Sustainable Development Goals. This represents an alignment of operational philosophy and ethical intent.",
+      "sdg8": {
+        "tag": "UN SDG 8",
+        "title": "Decent Work & Economic Growth",
+        "text": "Promoting sustained, inclusive economic growth and productive, dignified employment for rural coconut farming families and women artisans.",
+        "link": "View UN Goal Specification ↗"
+      },
+      "sdg12": {
+        "tag": "UN SDG 12",
+        "title": "Responsible Consumption & Production",
+        "text": "Substantially reducing agricultural waste generation through biological recycling, zero-chemical material separation, and closed-loop regenerative production.",
+        "link": "View UN Goal Specification ↗"
+      }
+    }
+  },
+  "partnershipPage": {
+    "metaTitle": "Partnership · Co-Creating Regenerative Value",
+    "metaDescription": "Explore strategic collaborations with NIRA: bulk circular raw materials, product co-design, horticultural substrate distribution, and community agroforestry.",
+    "ogTitle": "Partner with NIRA · Co-Creating Circular Futures",
+    "ogDescription": "Connect material knowledge, design craft, and community sovereignty.",
+    "hero": {
+      "eyebrow": "Open Collaboration",
+      "title": "Create new possibilities together.",
+      "description": "The most transformative ecological breakthroughs happen when circular material science, industrial design, and grassroots agricultural cooperatives converge. We invite mission-aligned partners to build alongside us.",
+      "cta": "Draft an Inquiry"
+    },
+    "tracks": {
+      "eyebrow": "01 / Collaboration Pathways",
+      "title": "Distinct roles. Shared ecological intent.",
+      "lead": "Whether you are an established brand replacing virgin plastics, a horticultural grower seeking consistent cocopeat, or an institution advancing bio-composites.",
+      "sourcing": {
+        "title": "Material Sourcing & Supply",
+        "badge": "Wholesale & Bulk",
+        "text": "Secure verified, triple-washed organic cocopeat growing media and graded coir fiber direct from fair-trade village processing centers."
+      },
+      "codev": {
+        "title": "Product Co-Development",
+        "badge": "Design & Manufacturing",
+        "text": "Collaborate on bespoke natural plant vessels, bio-composite homeware, or tailored bio-charcoal formulations engineered for your market."
+      },
+      "community": {
+        "title": "Community & Agroforestry",
+        "badge": "Cooperative Alliances",
+        "text": "Expand decentralized post-harvest collection infrastructure across coastal coconut belt communities, championing living wages and skills training."
+      }
+    },
+    "process": {
+      "eyebrow": "02 / Engagement Architecture",
+      "title": "How we partner together.",
+      "lead": "We operate through disciplined transparency, rapid iterative prototyping, and steadfast respect for community governance.",
+      "steps": {
+        "one": { "title": "Listen & Diagnose", "text": "Deeply understand your material requirements, mechanical constraints, and target sustainability outcomes." },
+        "two": { "title": "Formulate & Prototype", "text": "Calibrate coconut fiber density, particle sizing, or molding specifications in our regional workshop hubs." },
+        "three": { "title": "Pilot & Validate", "text": "Conduct rigorous real-world degradation, water retention, or thermal tests with verified documentation." },
+        "four": { "title": "Scale & Steward", "text": "Establish transparent supply contracts backed by direct farmer cooperative payments and traceability." }
+      }
+    },
+    "inquiry": {
+      "eyebrow": "Direct Touchpoint",
+      "title": "Bring an idea to the table.",
+      "lead": "Use our interactive brief generator to structure your project intent, target material family, and estimated timeline.",
+      "bullets": {
+        "email": { "title": "Direct Email:", "text": "Open your default email client pre-populated with your complete specifications." },
+        "brief": { "title": "Structured Brief:", "text": "Subject and body are auto-formatted for a clean, ready-to-send email." },
+        "privacy": { "title": "Zero Telemetry:", "text": "Input fields execute client-side; no third-party tracking scripts." }
+      }
+    }
+  },
+  "inquiryBuilder": {
+    "badge": "Inquiry Generator",
+    "title": "Draft Your Collaboration Brief",
+    "nameLabel": "Your Name *",
+    "orgLabel": "Organization",
+    "optional": "(optional)",
+    "trackLabel": "Collaboration Track *",
+    "briefLabel": "Project Brief *",
+    "briefPlaceholder": "Share your timeline, volume, or research goals...",
+    "submit": "Open Email Draft",
+    "emailSubjectPrefix": "NIRA Inquiry:",
+    "emailHeader": "NIRA Partnership Inquiry",
+    "emailFrom": "From:",
+    "emailOrg": "Organization:",
+    "emailFocus": "Focus Area:",
+    "emailOverview": "Project Overview & Goals:",
+    "emailFooter": "Submitted via NIRA Platform",
+    "track": {
+      "sourceRaw": "Raw Material Supply (Husk / Pith / Shell)",
+      "living": "NIRA Living: Coir Pots & Distribution",
+      "grow": "NIRA Grow: Cocopeat Bulk Supply",
+      "energy": "NIRA Energy: Bio-Briquettes Supply",
+      "codev": "Custom Co-Development & Bio-Composites",
+      "agroforestry": "Community Agroforestry Partnership"
+    }
   }
 }

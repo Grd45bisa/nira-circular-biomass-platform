@@ -216,7 +216,7 @@ export function MaterialExplorer() {
 
           <div className="mt-8 pt-4 border-t border-coconut/15">
             <Link
-              href={activeMaterial.href}
+              href={activeMaterial.href as any}
               className="inline-flex items-center gap-2 text-sm font-semibold text-forest hover:text-forest-hover group"
             >
               <span>{common('exploreDerived', {part: activeMaterial.part})}</span>

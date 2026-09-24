@@ -1,8 +1,9 @@
 "use client";
 
-import { Menu, X, ArrowUpRight } from "lucide-react";
+import { Menu, X, ArrowUpRight, Globe } from "lucide-react";
 import {useTranslations} from 'next-intl';
 import {Link, usePathname} from '@/i18n/navigation';
+import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 
 import { Container } from "@/components/layout/container";
@@ -20,6 +21,7 @@ export function SiteHeader() {
   const pathname = usePathname();
   const t = useTranslations('header');
   const nav = useTranslations('nav');
+  const common = useTranslations('common');
   const [menuOpen, setMenuOpen] = useState(false);
   const triggerRef = useRef<HTMLButtonElement>(null);
 
@@ -69,23 +71,15 @@ export function SiteHeader() {
             aria-label={t('homeLabel')}
             onClick={() => setMenuOpen(false)}
           >
-            <div className="flex h-9 w-9 sm:h-10 sm:w-10 items-center justify-center rounded-full border border-cream/20 bg-cream/10 text-cream backdrop-blur-xs transition-transform duration-300 group-hover:scale-105 shadow-xs">
-              <svg
-                width="18"
-                height="18"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="text-amber-200"
-                aria-hidden="true"
-              >
-                <path d="M12 2a10 10 0 1 0 10 10H12V2z" />
-                <path d="M12 12 2.1 12a10 10 0 0 0 17 5.9" />
-                <circle cx="12" cy="12" r="2" fill="currentColor" />
-              </svg>
+            <div className="relative flex h-9 w-9 sm:h-10 sm:w-10 items-center justify-center rounded-full overflow-hidden border border-cream/25 shadow-xs shrink-0 transition-transform duration-300 group-hover:scale-105">
+              <Image
+                src="/images/nira-logo-mark.webp"
+                alt="NIRA logo mark"
+                width={40}
+                height={40}
+                className="h-full w-full object-cover"
+                priority
+              />
             </div>
             <div className="flex flex-col">
               <span className="font-display text-2xl font-medium tracking-[0.04em] text-white leading-none">
@@ -198,23 +192,14 @@ export function SiteHeader() {
               className="flex items-center gap-2.5"
               onClick={() => setMenuOpen(false)}
             >
-              <div className="flex h-9 w-9 items-center justify-center rounded-full bg-forest text-cream shadow-xs">
-                <svg
-                  width="18"
-                  height="18"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="text-amber-accent"
-                  aria-hidden="true"
-                >
-                  <path d="M12 2a10 10 0 1 0 10 10H12V2z" />
-                  <path d="M12 12 2.1 12a10 10 0 0 0 17 5.9" />
-                  <circle cx="12" cy="12" r="2" fill="currentColor" />
-                </svg>
+              <div className="relative flex h-9 w-9 items-center justify-center rounded-full overflow-hidden border border-forest/20 shadow-xs shrink-0">
+                <Image
+                  src="/images/nira-logo-mark.webp"
+                  alt="NIRA logo mark"
+                  width={36}
+                  height={36}
+                  className="h-full w-full object-cover"
+                />
               </div>
               <div className="flex flex-col">
                 <span className="font-display text-xl font-bold tracking-[0.03em] text-forest leading-none">
@@ -273,8 +258,16 @@ export function SiteHeader() {
         </div>
 
         {/* Bottom CTA Area */}
-        <div className="mt-8 pt-5 border-t border-coconut/15">
-          <div className="mb-4 flex justify-center"><LanguageSwitcher light /></div>
+        <div className="mt-8 pt-5 border-t border-coconut/15 space-y-3">
+          <div className="flex items-center justify-between rounded-xl bg-sand/50 border border-coconut/15 px-3.5 py-2">
+            <div className="flex items-center gap-2">
+              <Globe size={14} className="text-coconut shrink-0" />
+              <span className="text-[0.6875rem] font-bold tracking-[0.14em] uppercase text-coconut">
+                {common('language')}
+              </span>
+            </div>
+            <LanguageSwitcher light />
+          </div>
           <Link
             href="/partnership"
             className="flex min-h-12 w-full items-center justify-center gap-2 rounded-pill bg-forest hover:bg-forest-light text-cream font-semibold py-3.5 px-6 shadow-md transition-all active:scale-98 text-sm"
@@ -283,7 +276,7 @@ export function SiteHeader() {
             <span>{t('startCollaboration')}</span>
             <ArrowUpRight size={16} />
           </Link>
-          <p className="text-[0.6875rem] text-ink-muted/80 text-center mt-2.5 leading-relaxed">
+          <p className="text-[0.6875rem] text-ink-muted/80 text-center leading-relaxed pt-0.5">
             {t('drawerNote')}
           </p>
         </div>

@@ -28,7 +28,7 @@ export function HeroSection({
 }: HeroSectionProps) {
   return (
     <section
-      className="nira-main-hero relative flex min-h-[100dvh] flex-col justify-center overflow-hidden bg-forest-active py-6 text-cream sm:py-8"
+      className="nira-main-hero relative flex min-h-[100dvh] flex-col justify-start pt-9 pb-12 sm:pt-14 sm:pb-14 md:pt-20 md:pb-16 overflow-hidden bg-forest-active text-cream"
       data-surface="dark"
     >
       {/* Full-bleed image on mobile and portrait tablets */}

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { ArrowUpRight, ShieldCheck } from "lucide-react";
+import { getTranslations } from "next-intl/server";
 
 import { Container } from "@/components/layout/container";
 import { ImpactCard } from "@/components/impact/impact-card";
@@ -9,35 +10,31 @@ import { EyebrowBadge } from "@/components/ui/eyebrow-badge";
 import { getImpactMetrics } from "@/lib/supabase/queries";
 import type { ImpactCategory, ImpactMetric } from "@/types/impact";
 
-export const metadata: Metadata = {
-  title: "Impact · Meaning Beyond the Material",
-  alternates: { canonical: "/impact" },
-  description:
-    "Explore the environmental, social, and economic outcomes NIRA cultivates through circular coconut material innovation and transparent community governance.",
-  keywords: [
-    "NIRA impact",
-    "circular bio-economy",
-    "UN SDG 8",
-    "UN SDG 12",
-    "community livelihoods",
-    "peatland conservation",
-  ],
-  openGraph: {
-    title: "NIRA Impact · Three Pillars of Regenerative Value",
-    description:
-      "Material integrity, community prosperity, and radical transparency.",
-    images: ["/images/nira-still-life.webp"],
-  },
-};
-
-const narrativeFallback: Record<ImpactCategory, string> = {
-  Environmental:
-    "100% biological diversion of coconut husk and shell biomass away from open-air burning, while safeguarding critical peat bogs from destructive mining.",
-  Social:
-    "Centering collection, grading, and crafting within coastal agricultural villages, ensuring dignified, safe, and generational artisan participation.",
-  Economic:
-    "Unlocking new local economic streams from what was previously considered zero-value agricultural waste, lifting seasonal household revenues.",
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "impactPage" });
+  return {
+    title: { absolute: t("metaTitle") },
+    description: t("metaDescription"),
+    alternates: {
+      canonical: locale === "id" ? "/dampak" : "/en/impact",
+      languages: {
+        "id-ID": "/dampak",
+        en: "/en/impact",
+        "x-default": "/dampak",
+      },
+    },
+    openGraph: {
+      title: t("ogTitle"),
+      description: t("ogDescription"),
+      images: ["/images/nira-still-life.webp"],
+    },
+  };
+}
 
 function latestMetricFor(
   metrics: ImpactMetric[],
@@ -46,39 +43,65 @@ function latestMetricFor(
   return metrics.find((metric) => metric.category === category);
 }
 
-export default async function ImpactPage() {
+export default async function ImpactPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "impactPage" });
+  const common = await getTranslations({ locale, namespace: "common" });
   const metrics = await getImpactMetrics();
   const categories: ImpactCategory[] = ["Environmental", "Social", "Economic"];
+
+  const categoryMeta: Record<
+    ImpactCategory,
+    { label: string; narrative: string; iconName: "leaf" | "users" | "coins" }
+  > = {
+    Environmental: {
+      label: t("pillars.environmental.label"),
+      narrative: t("pillars.environmental.narrative"),
+      iconName: "leaf",
+    },
+    Social: {
+      label: t("pillars.social.label"),
+      narrative: t("pillars.social.narrative"),
+      iconName: "users",
+    },
+    Economic: {
+      label: t("pillars.economic.label"),
+      narrative: t("pillars.economic.narrative"),
+      iconName: "coins",
+    },
+  };
 
   return (
     <>
       <PageHero
-        eyebrow="Grounded Accountability"
-        title="Meaning far beyond the material."
-        description="A beautiful functional vessel is only one facet of regenerative design. NIRA's foundational ambition ties responsible material utilization directly to biodiversity preservation, soil health, and dignified household prosperity."
+        eyebrow={t("hero.eyebrow")}
+        title={t("hero.title")}
+        description={t("hero.description")}
         image="/images/nira-still-life.webp"
-        imageAlt="Editorial still life showing coconut material and emerging green sprout"
+        imageAlt={t("hero.imageAlt")}
       />
 
       {/* Three Pillars Section */}
       <section className="nira-section bg-cream">
         <Container>
           <div className="max-w-2xl">
-            <p className="eyebrow text-coconut">
-              01 / Three Dimensions of Renewal
-            </p>
+            <p className="eyebrow text-coconut">{t("pillars.eyebrow")}</p>
             <h2 className="type-section-title mt-3 text-forest">
-              What true circularity looks like.
+              {t("pillars.title")}
             </h2>
             <p className="type-lead mt-3 text-ink-muted">
-              We reject single-metric sustainability claims in favor of balanced
-              ecological, human, and local economic progress.
+              {t("pillars.lead")}
             </p>
           </div>
 
           <div className="mt-8 sm:mt-10 md:mt-12 grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3 md:gap-6">
             {categories.map((category, index) => {
               const metric = latestMetricFor(metrics, category);
+              const meta = categoryMeta[category];
               return metric && metric.value !== null ? (
                 <ImpactCard
                   key={category}
@@ -86,14 +109,19 @@ export default async function ImpactPage() {
                     index === 2 ? "col-span-2 md:col-span-1" : undefined
                   }
                   kind="metric"
-                  label={category}
+                  label={meta.label}
+                  iconName={meta.iconName}
+                  pillarLabel={common("pillar")}
+                  evidenceLabel={common("evidence")}
                   description={metric.description}
                   value={metric.value.toLocaleString()}
                   unit={metric.unit ?? ""}
                   period={
-                    metric.year ? `Year ${metric.year}` : "Field Verified"
+                    metric.year
+                      ? `${t("pillars.yearPrefix")} ${metric.year}`
+                      : t("pillars.verifiedField")
                   }
-                  source="NIRA Village Audits"
+                  source={t("pillars.source")}
                 />
               ) : (
                 <ImpactCard
@@ -102,8 +130,10 @@ export default async function ImpactPage() {
                     index === 2 ? "col-span-2 md:col-span-1" : undefined
                   }
                   kind="narrative"
-                  label={category}
-                  description={narrativeFallback[category]}
+                  label={meta.label}
+                  iconName={meta.iconName}
+                  pillarLabel={common("pillar")}
+                  description={meta.narrative}
                 />
               );
             })}
@@ -117,16 +147,13 @@ export default async function ImpactPage() {
           <div>
             <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-coconut/20 bg-cream/70 px-3.5 py-1 text-xs font-semibold tracking-[0.14em] text-coconut uppercase">
               <ShieldCheck size={14} className="text-forest" />
-              <span>Evidence Standard</span>
+              <span>{t("evidence.badge")}</span>
             </div>
             <h2 className="type-section-title text-forest">
-              Show the work. Verify the numbers.
+              {t("evidence.title")}
             </h2>
             <p className="type-lead mt-5 text-ink-muted leading-relaxed">
-              We hold ourselves to a strict anti-greenwashing standard. NIRA
-              publishes numerical metrics only when backed by auditable
-              collection records, consensual community partnerships, and
-              standardized third-party material lifecycle analyses.
+              {t("evidence.lead")}
             </p>
           </div>
 
@@ -137,13 +164,11 @@ export default async function ImpactPage() {
                   1
                 </span>
                 <h3 className="font-semibold text-forest">
-                  Material Weight & Biomass Diversion
+                  {t("evidence.points.one.title")}
                 </h3>
               </div>
-              <p className="type-body text-ink-muted mt-2 text-sm">
-                Documented tonnage of raw husks and shells diverted from
-                roadside dump sites and agricultural burning pits, verified at
-                village collection stations.
+              <p className="type-body text-ink-muted mt-2 text-sm leading-relaxed">
+                {t("evidence.points.one.text")}
               </p>
             </div>
 
@@ -153,12 +178,11 @@ export default async function ImpactPage() {
                   2
                 </span>
                 <h3 className="font-semibold text-forest">
-                  Household Sovereignty & Fair Compensation
+                  {t("evidence.points.two.title")}
                 </h3>
               </div>
-              <p className="type-body text-ink-muted mt-2 text-sm">
-                Number of participating farming households receiving living-wage
-                premiums above standard raw copra market volatility.
+              <p className="type-body text-ink-muted mt-2 text-sm leading-relaxed">
+                {t("evidence.points.two.text")}
               </p>
             </div>
 
@@ -168,13 +192,11 @@ export default async function ImpactPage() {
                   3
                 </span>
                 <h3 className="font-semibold text-forest">
-                  Lifecycle Carbon & Peatland Preservation
+                  {t("evidence.points.three.title")}
                 </h3>
               </div>
-              <p className="type-body text-ink-muted mt-2 text-sm">
-                Comparative greenhouse gas mitigation calculated by replacing
-                mined sphagnum peat and fossil-derived nursery plastics with
-                renewable coir.
+              <p className="type-body text-ink-muted mt-2 text-sm leading-relaxed">
+                {t("evidence.points.three.text")}
               </p>
             </div>
           </div>
@@ -189,15 +211,13 @@ export default async function ImpactPage() {
         <Container className="relative z-10">
           <div className="max-w-2xl">
             <EyebrowBadge className="mb-3">
-              03 / Global Goals · Local Grounding
+              {t("goals.eyebrow")}
             </EyebrowBadge>
             <h2 className="type-section-title text-cream">
-              Where the NIRA model connects.
+              {t("goals.title")}
             </h2>
             <p className="type-lead mt-4 text-cream/80 leading-relaxed">
-              NIRA directly aligns with the United Nations Sustainable
-              Development Goals. This represents an alignment of operational
-              philosophy and ethical intent.
+              {t("goals.lead")}
             </p>
           </div>
 
@@ -211,7 +231,7 @@ export default async function ImpactPage() {
               <div>
                 <div className="flex items-center justify-between">
                   <span className="text-xs font-bold tracking-widest text-amber-accent uppercase">
-                    UN SDG 8
+                    {t("goals.sdg8.tag")}
                   </span>
                   <ArrowUpRight
                     size={18}
@@ -219,16 +239,14 @@ export default async function ImpactPage() {
                   />
                 </div>
                 <h3 className="font-display mt-4 text-2xl md:text-3xl text-cream font-medium">
-                  Decent Work & Economic Growth
+                  {t("goals.sdg8.title")}
                 </h3>
                 <p className="mt-3 text-sm text-cream/75 leading-relaxed">
-                  Promoting sustained, inclusive economic growth and productive,
-                  dignified employment for rural coconut farming families and
-                  women artisans.
+                  {t("goals.sdg8.text")}
                 </p>
               </div>
               <div className="mt-6 border-t border-cream/10 pt-4 text-xs font-medium text-amber-accent">
-                View UN Goal Specification ↗
+                {t("goals.sdg8.link")}
               </div>
             </a>
 
@@ -241,7 +259,7 @@ export default async function ImpactPage() {
               <div>
                 <div className="flex items-center justify-between">
                   <span className="text-xs font-bold tracking-widest text-amber-accent uppercase">
-                    UN SDG 12
+                    {t("goals.sdg12.tag")}
                   </span>
                   <ArrowUpRight
                     size={18}
@@ -249,23 +267,21 @@ export default async function ImpactPage() {
                   />
                 </div>
                 <h3 className="font-display mt-4 text-2xl md:text-3xl text-cream font-medium">
-                  Responsible Consumption & Production
+                  {t("goals.sdg12.title")}
                 </h3>
                 <p className="mt-3 text-sm text-cream/75 leading-relaxed">
-                  Substantially reducing agricultural waste generation through
-                  biological recycling, zero-chemical material separation, and
-                  closed-loop regenerative production.
+                  {t("goals.sdg12.text")}
                 </p>
               </div>
               <div className="mt-6 border-t border-cream/10 pt-4 text-xs font-medium text-amber-accent">
-                View UN Goal Specification ↗
+                {t("goals.sdg12.link")}
               </div>
             </a>
           </div>
         </Container>
       </section>
 
-      <PartnershipCTA />
+      <PartnershipCTA localized />
     </>
   );
 }

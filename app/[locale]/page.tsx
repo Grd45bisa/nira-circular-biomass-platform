@@ -335,7 +335,10 @@ export default async function HomePage() {
 
               <div className="mt-5 sm:mt-6 xl:mt-8">
                 <Link
-                  href="/journal/hands-in-the-journey"
+                  href={{
+                    pathname: "/journal/[slug]",
+                    params: { slug: "hands-in-the-journey" },
+                  }}
                   className="group inline-flex items-center gap-1.5 text-sm font-semibold text-forest hover:text-forest-hover"
                 >
                   <span className="border-b border-forest/30 pb-0.5 group-hover:border-forest">

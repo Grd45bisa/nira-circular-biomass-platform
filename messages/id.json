@@ -1,5 +1,24 @@
 {
   "common": {"language": "Bahasa", "skip": "Lewati ke konten utama", "part": "Bagian", "outcome": "Hasil", "primaryApplication": "Pemanfaatan utama", "keyAttributes": "Keunggulan bahan", "ecologicalGain": "Manfaat ekologis", "exploreDerived": "Lihat produk dari {part}", "assetPending": "Foto produk segera hadir", "pillar": "Pilar", "year": "Tahun", "evidence": "Sumber"},
+  "journalPage": {
+    "metaTitle": "Jurnal · Catatan Lapangan & Esai Sirkular",
+    "metaDescription": "Baca publikasi editorial NIRA: eksplorasi mendalam tentang biokomposit kelapa, penghidupan agroforestri, dan filosofi desain sirkular.",
+    "ogTitle": "Jurnal NIRA · Dari Material ke Makna",
+    "ogDescription": "Cerita, catatan lapangan teknis, dan perspektif komunitas dari kawasan penghasil kelapa.",
+    "hero": {
+      "eyebrow": "Dispatches Editorial",
+      "title": "Catatan dari kisah material yang terus berubah.",
+      "description": "Esai, wawasan teknis, dan perspektif komunitas yang menyelidiki bagaimana sumber daya alam yang terabaikan dapat membentuk ulang desain, pertanian, dan kehidupan manusia.",
+      "imageAlt": "Foto dekat tangan pengrajin yang dengan cermat memisahkan serat-serat sabut kelapa keemasan yang panjang"
+    },
+    "featuredLabel": "Dispatch Utama",
+    "readTime": "5 menit baca · Editorial",
+    "readMore": "Baca Selengkapnya",
+    "allDispatches": "Semua Dispatch",
+    "allTitle": "Catatan lapangan tentang sirkularitas & kerajinan.",
+    "allDescription": "Mendokumentasikan evolusi rantai pasok regeneratif kami dan wawasan dari bengkel desa.",
+    "empty": "Artikel jurnal akan segera tersedia."
+  },
   "nav": {"home": "Beranda", "about": "Tentang NIRA", "transformation": "Transformasi", "products": "Produk", "impact": "Dampak", "journal": "Jurnal", "partnership": "Kemitraan"},
   "header": {"homeLabel": "Beranda NIRA — Nilai di Balik Sisa", "primaryNav": "Navigasi utama", "mobileNav": "Navigasi seluler", "openMenu": "Buka menu", "closeMenu": "Tutup menu", "menu": "Menu", "navigationHeading": "Menu navigasi", "partner": "Kolaborasi", "partnerLong": "Ajak Kolaborasi", "startCollaboration": "Mulai Kolaborasi", "drawerNote": "Setiap bagian alam memiliki nilai. NIRA membantu mengungkapnya."},
   "footer": {"tagline": "Setiap bagian alam memiliki nilai. NIRA membantu mengungkapnya.", "brandDescription": "Biomassa kelapa regeneratif", "badgeOne": "100% biomassa dimanfaatkan kembali", "badgeTwo": "Tanpa plastik sintetis", "badgeThree": "Berakar pada ekonomi desa", "explore": "Jelajahi NIRA", "families": "Keluarga produk", "collaboration": "Kolaborasi", "collaborationShort": "Bersama merek, pembudidaya, dan inovator bahan, kami membuka nilai baru dari kelapa.", "collaborationLong": "Kami bekerja bersama merek, pembudidaya, pelaku hortikultura, dan peneliti material yang berkomitmen pada prinsip sirkular.", "inquire": "Ajak Kolaborasi", "credits": "Dokumentasi dan kredit foto", "ethos": "Nilai dan filosofi", "copyright": "Dirancang dengan penuh kesadaran.", "coirPots": "Pot serat kelapa", "cocopeat": "Media cocopeat", "biocharcoal": "Briket arang hayati", "homeware": "Perlengkapan rumah"},
@@ -25,5 +44,324 @@
     "impact": {"eyebrow": "05 / Tujuan yang terukur", "title": "Dampak dalam tiga dimensi.", "link": "Lihat metode pengukuran dampak", "description": "NIRA mengukur keberhasilan melalui siklus bahan yang lebih panjang, penghidupan keluarga yang lebih stabil, dan pemulihan lingkungan yang dapat diamati.", "source": "Audit desa NIRA"},
     "community": {"caption": "Pak Wayan Sudarma, koordinator utama pengrajin di Banyuwangi, Jawa Timur.", "eyebrow": "06 / Manusia di pusat perubahan", "title": "Perubahan lahir dari tangan manusia.", "quote": "Di NIRA, sabut dan batok kelapa yang dulu kami bakar atau buang kini menjadi sumber penghasilan baru, sekaligus membantu menjaga tanah dan laut kami tetap bersih.", "role": "Koordinator pengrajin dan pengumpulan bahan", "location": "Jawa Timur, Indonesia", "collective": "Kelompok pengrajin desa", "description": "Dari pengumpulan sabut hingga pembuatan pot dan sentuhan akhir pada karya batok, NIRA menghargai pengetahuan ekologis masyarakat pesisir. Setiap produk yang terjual ikut mendukung penghasilan keluarga.", "link": "Baca kisah komunitas", "imageAlt": "Pak Wayan tersenyum di bengkel kerajinan kelapa yang diterangi matahari"},
     "cta": {"eyebrow": "Ekosistem terbuka", "title": "Mari tumbuhkan kemungkinan baru.", "description": "Bagi merek hortikultura, studio arsitektur, maupun pegiat keberlanjutan, NIRA membuka kolaborasi untuk mengembangkan bahan dan produk sirkular yang berpihak pada alam serta komunitas.", "tagOne": "Distribusi produk rumah tangga", "tagTwo": "Media tanam untuk pembibitan", "tagThree": "Riset biokomposit", "action": "Mulai Percakapan"}
+  },
+  "about": {
+    "metaTitle": "Tentang NIRA | Filosofi, Visi, dan Nilai Sirkularitas",
+    "metaDescription": "Kenali etos NIRA: membuka nilai tersembunyi dari biomassa kelapa Indonesia bersama komunitas petani, keterampilan tangan, dan prinsip desain regeneratif.",
+    "hero": {
+      "eyebrow": "Etos & Asal Mula",
+      "title": "Setiap bagian menyimpan kemungkinan yang lebih dalam.",
+      "description": "Nature Into Renewable Assets (NIRA) berakar pada pengamatan mendasar: sistem industri modern sering kali membuang sebagian besar biomassa pertanian sebagai limbah tanpa nilai. Kami meyakini bahwa desain regeneratif bermula dari kesadaran untuk merawat dan mengungkap potensi alami yang telah disediakan bumi.",
+      "imageAlt": "Komposisi kelapa utuh, batok kelapa terbelah, serat sabut alami, dan tunas hijau segar"
+    },
+    "philosophy": {
+      "eyebrow": "01 / Filosofi Kami",
+      "title": "Nilai bermula dari rasa hormat dan perhatian.",
+      "p1": "Sabut kelapa yang kasar bukanlah sampah. Batok keras yang padat bukanlah persoalan pembuangan. Jika dipandang dengan rasa hormat, setiap lapisannya menyimpan keunggulan hayati yang nyata — mulai dari serat kaya lignin yang tahan lapuk, serbuk sabut berpori yang menyerap air, hingga karbon organik berkepadatan tinggi.",
+      "p2": "Perhatian yang sama kami berikan kepada mereka yang merawat pohon-pohon ini. Bahan baku hanya menemukan makna sejatinya melalui pengetahuan antargenerasi, penghargaan yang adil, serta keterampilan tangan komunitas petani yang memeliharanya.",
+      "imageAlt": "Tangan pengrajin sedang memisahkan serat sabut kelapa keemasan di bengkel kerja terbuka",
+      "imageNote": "Pengrajin mengolah serat kelapa alami di Jawa Timur, Indonesia."
+    },
+    "vision": {
+      "eyebrow": "Visi Kami",
+      "title": "Masa depan yang menghargai keutuhan alam.",
+      "description": "Kami mencita-citakan ekonomi sirkular yang memulihkan, di mana 100% biomassa kelapa hasil panen berputar kembali ke dalam siklus kehidupan, menggantikan penggunaan plastik sintetis sekali pakai, seraya menghadirkan kemandirian ekonomi yang tangguh bagi keluarga petani di kawasan tropis."
+    },
+    "mission": {
+      "eyebrow": "Misi Kami",
+      "title": "Mewujudkan alternatif regeneratif yang nyata dan berdaya guna.",
+      "description": "Mengembangkan dan memperluas pemanfaatan biomaterial bernilai tinggi dari sabut, serbuk kelapa, dan batok — menghadirkan keunggulan estetika serta fungsi terbaik melalui kemitraan desa yang beretika dan keterbukaan rantai pasok yang jujur."
+    },
+    "values": {
+      "eyebrow": "02 / Landasan Kerja",
+      "title": "Empat prinsip, satu arah yang teguh.",
+      "lead": "Nilai-nilai ini memandu penelitian kami, hubungan dengan para pengrajin, serta standar rancangan setiap produk yang kami lahirkan.",
+      "badge": "Prinsip Panduan",
+      "v1": {
+        "name": "Menghormati Alam",
+        "text": "Memperlakukan alam bukan sebagai komoditas untuk dieksploitasi semata, melainkan sebagai ekosistem hayati yang perlu dipahami, dihormati, dan dipulihkan."
+      },
+      "v2": {
+        "name": "Kecermatan Pengolahan",
+        "text": "Menolak jalan pintas bahan kimia berbahaya. Kami mengutamakan pemisahan mekanis, pembilasan dengan air hujan alami, dan perekat berbasis nabati ramah lingkungan."
+      },
+      "v3": {
+        "name": "Manusia di Pusat Perhatian",
+        "text": "Menempatkan komunitas tani sebagai mitra setara yang bermartabat serta penerima manfaat utama dari setiap lini produk yang berkembang."
+      },
+      "v4": {
+        "name": "Bukti Nyata & Keterbukaan",
+        "text": "Menjauhi klaim keberlanjutan yang semu. Kami menyajikan data terverifikasi dan menyatakan secara jujur proses riset yang masih terus berjalan."
+      }
+    }
+  },
+  "transformation": {
+    "metaTitle": "Transformasi | Dari Biomassa Kelapa Menjadi Produk Sirkular",
+    "metaDescription": "Kenali metodologi transformasi NIRA: pemisahan serat mekanis, pemurnian cocopeat, dan pirolisis rendah emisi mengubah biomassa kelapa menjadi produk bernilai tinggi.",
+    "ogTitle": "Transformasi di NIRA · Nilai di Balik Sisa",
+    "ogDescription": "Dari kelapa utuh menjadi material alami hingga produk bernilai guna tinggi yang berpihak pada bumi dan manusia.",
+    "hero": {
+      "eyebrow": "Metodologi Transformasi",
+      "title": "Dari kelapa mentah menjadi kemungkinan tanpa batas.",
+      "description": "Tidak ada satu daur hidup tunggal bagi sebutir kelapa. Setiap lapisan anatomisnya — sabut, serbuk, dan batok — melalui alur terukur tanpa bahan kimia, dari biomassa pascapanen menjadi aset regeneratif.",
+      "imageAlt": "Sabut kelapa hasil panen alami sedang dijemur di atas anyaman bambu"
+    },
+    "materialMap": {
+      "eyebrow": "01 / Peta Bahan Sirkular",
+      "title": "Satu asal mula. Beragam masa depan.",
+      "lead": "Alih-alih melumatkan biomassa menjadi bubur yang seragam, NIRA mempertahankan keunggulan mekanis dan seluler khas dari setiap lapisan kelapa.",
+      "items": {
+        "husk": {
+          "part": "Sabut Luar",
+          "material": "Serat Sabut Kelapa Alami",
+          "badge": "Lignin Berdaya Tarik Kuat",
+          "process": "Pemisahan mekanis dan penjemuran alami menghasilkan serat berkekuatan tinggi dan tahan lapuk tanpa perekat sintetis.",
+          "form": "NIRA Living (Pot Berpori & Tekstil Hayati)"
+        },
+        "pith": {
+          "part": "Sisa Serbuk Sabut",
+          "material": "Cocopeat Organik",
+          "badge": "Matriks Spons Seluler",
+          "process": "Pencucian air hujan, penyaringan partikel, dan masa istirahat mikrobiologis menghasilkan media tanam berpori yang mengikat kelembapan.",
+          "form": "NIRA Grow (Media Pembibitan Bebas Gambut)"
+        },
+        "shell": {
+          "part": "Batok Keras (Endokarp)",
+          "material": "Karbon Hayati & Batok Poles",
+          "badge": "Endokarp Berkalori Tinggi",
+          "process": "Karbonisasi pirolisis terkontrol menghasilkan briket bersih; pengampelasan tangan menghasilkan perlengkapan rumah yang tahan lama.",
+          "form": "NIRA Energy & NIRA Craft"
+        }
+      }
+    },
+    "craft": {
+      "eyebrow": "02 / Sentuhan Keterampilan Tangan",
+      "title": "Serat bermula dari sentuhan tangan manusia.",
+      "p1": "Sabut luar kelapa adalah peredam alami bumi. Kaya akan lignin alami, sabut menahan kelembapan berlebih, tahan terhadap pembusukan bakteri, dan tetap menjaga sirkulasi udara di tengah perubahan iklim tropis yang ekstrem.",
+      "p2": "Ketika tangan pengrajin memisahkan dan merangkai serat-serat keemasan ini, sisa hasil panen yang kasar menjelma menjadi wadah yang bernapas bersama tanaman. Saat tanaman bertambah besar, pot dapat ditanam langsung ke dalam tanah tanpa sampah plastik atau stres pindah tanam.",
+      "imageAlt": "Tangan pengrajin memilah dan merapikan serat sabut kelapa panjang berwarna cokelat keemasan",
+      "imageNote": "Pengrajin mengolah serat sabut kelapa mentah di bengkel kerja terbuka."
+    },
+    "system": {
+      "eyebrow": "03 / Sistem Menyeluruh",
+      "title": "Kumpulkan. Olah. Wujudkan. Berdayakan.",
+      "lead": "Setiap langkah dalam siklus kami berakar pada perdagangan adil, pengolahan tanpa bahan kimia, dan kepemilikan komunitas setempat."
+    },
+    "result": {
+      "eyebrow": "04 / Hasil Nyata",
+      "title": "Jelajahi wujud jadinya.",
+      "lead": "Living, Grow, Energy, dan Craft membuktikan bagaimana standar estetika tinggi dan tanggung jawab ekologis menyatu dalam keseharian.",
+      "action": "Jelajahi Seluruh Koleksi Produk"
+    }
+  },
+  "productsPage": {
+    "metaTitle": "Produk | Ragam Pemanfaatan Biomassa Kelapa Sirkular",
+    "metaDescription": "Jelajahi produk NIRA: NIRA Living (pot sabut), NIRA Grow (media cocopeat), NIRA Energy (briket arang), dan NIRA Craft (kerajinan rumah tangga). 100% alami dan bebas plastik.",
+    "ogTitle": "Produk NIRA · Nilai di Balik Sisa",
+    "ogDescription": "Empat alur bahan sirkular, empat arah produk regeneratif.",
+    "hero": {
+      "eyebrow": "Ragam Produk Regeneratif",
+      "title": "Lahir dari apa yang alam titipkan.",
+      "description": "NIRA Living, Grow, Energy, dan Craft hadir sebagai empat wujud nyata dalam mengungkap nilai guna baru di balik setiap bagian kelapa setelah konsumsi pangan.",
+      "imageAlt": "Mangkuk dan sendok batok kelapa buatan pengrajin di atas kain linen alami"
+    },
+    "quickJump": "Lini Produk:",
+    "standards": {
+      "title": "Standar Regeneratif:",
+      "text": "Setiap lini produk NIRA diolah tanpa polimer berbahan minyak bumi, tanpa perekat sintetis, dan tanpa pewarna kimia. Seluruh bahan baku diperoleh langsung melalui koperasi petani mitra.",
+      "badge": "100% Bio-Sirkular"
+    },
+    "derivedFrom": "0{index} · Diolah dari {source}",
+    "materialSource": "Sumber Bahan",
+    "refiningProcess": "Proses Pengolahan",
+    "sustainabilityValue": "Nilai Keberlanjutan",
+    "ctaSample": "Ajukan Spesifikasi & Sampel",
+    "viewLifecycle": "Lihat alur proses pengolahan →",
+    "empty": "Informasi produk akan segera hadir.",
+    "items": {
+      "living": {
+        "name": "NIRA Living",
+        "description": "Wadah tanaman berpori alami dari serat sabut kelapa yang mendukung pertumbuhan akar sehat dan terurai sempurna kembali ke tanah.",
+        "materialSource": "Serat sabut kelapa",
+        "process": "Serat sabut dipisahkan secara mekanis, dijemur alami, dan dicetak menjadi wadah berpori yang kuat dengan perekat nabati ramah lingkungan.",
+        "sustainabilityValue": "Menggantikan pot plastik sekali pakai, memberi sirkulasi udara optimal bagi akar, dan menjaga kelembapan.",
+        "imageAlt": "Pot tanaman dari serat sabut kelapa alami di atas meja kayu",
+        "imageNote": "Dibuat dengan tangan dari 100% serat sabut kelapa alami."
+      },
+      "grow": {
+        "name": "NIRA Grow",
+        "description": "Media tanam cocopeat organik berkualitas tinggi yang mengolah serbuk sabut kelapa menjadi penyubur tanah kaya simpanan air.",
+        "materialSource": "Serbuk sabut kelapa",
+        "process": "Serbuk sabut dicuci air hujan, disesuaikan tingkat keasamannya (pH seimbang), dan disaring untuk menciptakan media semai berpori.",
+        "sustainabilityValue": "Alternatif ramah lingkungan pengganti gambut alam, melindungi ekosistem lahan basah, dan menyerap air hingga 8x bobot keringnya.",
+        "imageAlt": "Media semai cocopeat organik dengan tunas tanaman segar",
+        "imageNote": "Telah dicuci tiga kali, media tanam organik dengan EC rendah."
+      },
+      "energy": {
+        "name": "NIRA Energy",
+        "description": "Briket arang batok kelapa berkalori tinggi dan minim asap, menghasilkan panas bersih dan tahan lama dari batok sisa panen.",
+        "materialSource": "Batok kelapa keras",
+        "process": "Batok kelapa tua dipirolisis dalam tungku emisi rendah, digiling halus, dan dipadatkan menjadi briket geometris berkualitas.",
+        "sustainabilityValue": "Bahan bakar tanpa deforestasi yang menyala hingga 3x lebih lama dari arang kayu biasa, dengan abu minim dan pembakaran tanpa bau.",
+        "imageAlt": "Briket arang batok kelapa geometris di samping batok kelapa yang dipoles",
+        "imageNote": "100% karbonisasi batok kelapa alami."
+      },
+      "craft": {
+        "name": "NIRA Craft",
+        "description": "Perlengkapan rumah tangga buatan tangan dari batok kelapa pilihan, dipoles alami dengan minyak kelapa murni tanpa pernis sintetis.",
+        "materialSource": "Batok kelapa pilihan",
+        "process": "Batok kelapa diamplas secara bertahap hingga halus, dibentuk oleh pengrajin lokal, dan diakhiri dengan polesan minyak kelapa alami.",
+        "sustainabilityValue": "Karya tahan lama yang menggantikan wadah plastik sekali pakai dan memberi nilai tambah ekonomi langsung bagi pengrajin desa.",
+        "imageAlt": "Mangkuk dan sendok batok kelapa buatan pengrajin di atas kain linen alami",
+        "imageNote": "Dipoles dengan tangan menggunakan minyak kelapa murni."
+      }
+    }
+  },
+  "impactPage": {
+    "metaTitle": "Dampak | Nilai yang Melampaui Produk",
+    "metaDescription": "Telusuri dampak lingkungan, sosial, dan ekonomi yang dibangun NIRA melalui inovasi biomassa sirkular dan kemitraan komunitas yang transparan.",
+    "ogTitle": "Dampak di NIRA · Tiga Pilar Nilai Regeneratif",
+    "ogDescription": "Integritas bahan, kesejahteraan komunitas, dan keterbukaan tanpa kompromi.",
+    "hero": {
+      "eyebrow": "Akuntabilitas yang Berpijak",
+      "title": "Makna yang melampaui produk semata.",
+      "description": "Karya fungsional yang indah hanyalah salah satu sisi dari desain regeneratif. Komitmen dasar NIRA menghubungkan pemanfaatan bahan yang bijak langsung dengan pelestarian alam, kesehatan tanah, dan kesejahteraan keluarga petani.",
+      "imageAlt": "Komposisi kelapa dan tunas hijau yang sedang bertumbuh"
+    },
+    "pillars": {
+      "eyebrow": "01 / Tiga Dimensi Pemulihan",
+      "title": "Wujud nyata sirkularitas yang bermakna.",
+      "lead": "Kami menolak klaim keberlanjutan yang sempit, dan memilih kemajuan seimbang antara kelestarian lingkungan, martabat manusia, dan ketahanan ekonomi desa.",
+      "environmental": {
+        "label": "Lingkungan",
+        "narrative": "100% pemanfaatan hayati sabut dan batok kelapa dari pembakaran terbuka di tepi jalan, sekaligus melindungi lahan gambut alami dari eksploitasi."
+      },
+      "social": {
+        "label": "Sosial",
+        "narrative": "Menjadikan pengumpulan, pemilahan, dan pembuatan karya berakar di desa pesisir, memastikan keterlibatan pengrajin yang aman, adil, dan berkelanjutan."
+      },
+      "economic": {
+        "label": "Ekonomi",
+        "narrative": "Membuka aliran pendapatan baru dari bahan yang sebelumnya dianggap limbah tak bernilai, meningkatkan ketahanan ekonomi keluarga petani."
+      },
+      "verifiedField": "Terverifikasi Lapangan",
+      "yearPrefix": "Tahun",
+      "source": "Audit Desa NIRA"
+    },
+    "evidence": {
+      "badge": "Standar Pembuktian",
+      "title": "Tunjukkan kerja nyata. Verifikasi data.",
+      "lead": "Kami memegang teguh komitmen anti-greenwashing. NIRA hanya mempublikasikan data terukur yang didukung catatan pengumpulan terverifikasi, kemitraan desa yang transparan, dan analisis siklus hidup bahan.",
+      "points": {
+        "one": {
+          "title": "Bobot Bahan & Pengalihan Biomassa",
+          "text": "Pencatatan tonase sabut dan batok kelapa yang diselamatkan dari timbunan sampah tepi jalan dan pembakaran lahan, terdata di pos pengumpulan desa."
+        },
+        "two": {
+          "title": "Kemandirian Petani & Kompensasi yang Adil",
+          "text": "Jumlah keluarga petani mitra yang menerima premi harga yang layak dan stabil di atas fluktuasi pasar komoditas mentah."
+        },
+        "three": {
+          "title": "Siklus Karbon & Perlindungan Lahan Gambut",
+          "text": "Pengurangan emisi gas rumah kaca yang terukur melalui penggantian gambut alam dan plastik pembibitan berbahan fosil dengan sabut kelapa terbarukan."
+        }
+      }
+    },
+    "goals": {
+      "eyebrow": "03 / Sasaran Global · Berakar Lokal",
+      "title": "Keterhubungan model kerja NIRA.",
+      "lead": "NIRA selaras dengan Tujuan Pembangunan Berkelanjutan (SDGs) PBB, mencerminkan kesatuan antara filosofi operasional dan komitmen etis jangka panjang.",
+      "sdg8": {
+        "tag": "UN SDG 8",
+        "title": "Pekerjaan Layak & Pertumbuhan Ekonomi",
+        "text": "Mendorong pertumbuhan ekonomi yang berkelanjutan dan inklusif, serta menyediakan lapangan kerja yang bermartabat bagi keluarga petani kelapa dan pengrajin perempuan di pedesaan.",
+        "link": "Lihat rincian tujuan PBB ↗"
+      },
+      "sdg12": {
+        "tag": "UN SDG 12",
+        "title": "Konsumsi & Produksi yang Bertanggung Jawab",
+        "text": "Mengurangi limbah pertanian secara substansial melalui daur ulang biologis, pemisahan bahan tanpa zat kimia, dan sistem produksi regeneratif tertutup.",
+        "link": "Lihat rincian tujuan PBB ↗"
+      }
+    }
+  },
+  "partnershipPage": {
+    "metaTitle": "Kemitraan · Menciptakan Nilai Regeneratif Bersama",
+    "metaDescription": "Jajaki kolaborasi strategis dengan NIRA: bahan baku sirkular skala besar, ko-desain produk, distribusi substrat hortikultura, dan agroforestri komunitas.",
+    "ogTitle": "Bermitra dengan NIRA · Membangun Masa Depan Sirkular",
+    "ogDescription": "Menghubungkan pengetahuan material, keahlian desain, dan kedaulatan komunitas.",
+    "hero": {
+      "eyebrow": "Kolaborasi Terbuka",
+      "title": "Ciptakan kemungkinan baru bersama.",
+      "description": "Terobosan ekologis paling transformatif terjadi ketika ilmu material sirkular, desain industri, dan koperasi pertanian akar rumput bertemu. Kami mengundang mitra yang visinya selaras untuk membangun bersama.",
+      "cta": "Kirim Pertanyaan"
+    },
+    "tracks": {
+      "eyebrow": "01 / Jalur Kolaborasi",
+      "title": "Peran yang berbeda. Niat ekologis yang sama.",
+      "lead": "Baik Anda merek besar yang mengganti plastik, pembudidaya hortikultura yang membutuhkan cocopeat konsisten, maupun institusi yang mengembangkan biokomposit.",
+      "sourcing": {
+        "title": "Pengadaan & Pasokan Material",
+        "badge": "Grosir & Massal",
+        "text": "Dapatkan cocopeat organik triple-washed terverifikasi dan serat kelapa bermutu langsung dari pusat pengolahan desa fairtrade."
+      },
+      "codev": {
+        "title": "Ko-Pengembangan Produk",
+        "badge": "Desain & Manufaktur",
+        "text": "Berkolaborasi membuat pot tanaman alami, peralatan rumah biokomposit, atau formulasi bio-arang yang disesuaikan untuk pasar Anda."
+      },
+      "community": {
+        "title": "Komunitas & Agroforestri",
+        "badge": "Aliansi Koperasi",
+        "text": "Memperluas infrastruktur pengumpulan pascapanen terdesentralisasi di komunitas pesisir penghasil kelapa, menjunjung upah layak dan pelatihan keterampilan."
+      }
+    },
+    "process": {
+      "eyebrow": "02 / Arsitektur Keterlibatan",
+      "title": "Cara kami bermitra bersama.",
+      "lead": "Kami beroperasi melalui transparansi yang disiplin, prototyping iteratif yang cepat, dan rasa hormat yang teguh terhadap tata kelola komunitas.",
+      "steps": {
+        "one": { "title": "Dengarkan & Diagnosa", "text": "Memahami secara mendalam kebutuhan material, batasan mekanis, dan target keberlanjutan Anda." },
+        "two": { "title": "Formulasikan & Prototipe", "text": "Kalibrasi kepadatan serat kelapa, ukuran partikel, atau spesifikasi cetak di hub bengkel regional kami." },
+        "three": { "title": "Pilot & Validasi", "text": "Lakukan pengujian degradasi, retensi air, atau termal di dunia nyata dengan dokumentasi terverifikasi." },
+        "four": { "title": "Skala & Kelola", "text": "Tetapkan kontrak pasokan transparan yang didukung pembayaran langsung ke koperasi petani dan keterlacakan penuh." }
+      }
+    },
+    "inquiry": {
+      "eyebrow": "Titik Kontak Langsung",
+      "title": "Bawa gagasan ke meja diskusi.",
+      "lead": "Gunakan generator brief interaktif kami untuk menyusun niat proyek, keluarga material target, dan estimasi waktu Anda.",
+      "bullets": {
+        "email": { "title": "Email Langsung:", "text": "Buka klien email default Anda yang sudah terisi lengkap dengan spesifikasi Anda." },
+        "brief": { "title": "Brief Terstruktur:", "text": "Subjek dan isi email diformat otomatis, siap untuk dikirim." },
+        "privacy": { "title": "Tanpa Telemetri:", "text": "Form dijalankan di sisi klien, tanpa skrip pelacakan pihak ketiga." }
+      }
+    }
+  },
+  "inquiryBuilder": {
+    "badge": "Generator Pertanyaan",
+    "title": "Susun Brief Kolaborasi Anda",
+    "nameLabel": "Nama Anda *",
+    "orgLabel": "Organisasi",
+    "optional": "(opsional)",
+    "trackLabel": "Jalur Kolaborasi *",
+    "briefLabel": "Brief Proyek *",
+    "briefPlaceholder": "Ceritakan timeline, volume, atau tujuan riset Anda...",
+    "submit": "Buka Draft Email",
+    "emailSubjectPrefix": "Pertanyaan NIRA:",
+    "emailHeader": "Pertanyaan Kemitraan NIRA",
+    "emailFrom": "Dari:",
+    "emailOrg": "Organisasi:",
+    "emailFocus": "Area Fokus:",
+    "emailOverview": "Gambaran Proyek & Tujuan:",
+    "emailFooter": "Dikirim melalui Platform NIRA",
+    "track": {
+      "sourceRaw": "Pasokan Material Mentah (Sabut / Serbuk / Batok)",
+      "living": "NIRA Living: Pot Kelapa & Distribusi",
+      "grow": "NIRA Grow: Pasokan Cocopeat Massal",
+      "energy": "NIRA Energy: Pasokan Bio-Briket",
+      "codev": "Ko-Pengembangan Kustom & Biokomposit",
+      "agroforestry": "Kemitraan Agroforestri Komunitas"
+    }
   }
 }

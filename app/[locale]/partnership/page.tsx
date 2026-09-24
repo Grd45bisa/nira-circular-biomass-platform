@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { ArrowDown, Handshake, Network, Sprout } from "lucide-react";
+import { getTranslations } from "next-intl/server";
 
 import { Container } from "@/components/layout/container";
 import { InquiryBuilder } from "@/components/partnership/inquiry-builder";
@@ -7,38 +8,111 @@ import { PageHero } from "@/components/sections/page-hero";
 import { ButtonLink } from "@/components/ui/button";
 import { EyebrowBadge } from "@/components/ui/eyebrow-badge";
 
-export const metadata: Metadata = {
-  title: "Partnership · Co-Creating Regenerative Value",
-  alternates: { canonical: "/partnership" },
-  description:
-    "Explore strategic collaborations with NIRA: bulk circular raw materials, product co-design, horticultural substrate distribution, and community agroforestry.",
-  keywords: [
-    "NIRA partnership",
-    "coconut collaboration",
-    "circular bio-materials",
-    "agroforestry",
-  ],
-  openGraph: {
-    title: "Partner with NIRA · Co-Creating Circular Futures",
-    description:
-      "Connect material knowledge, design craft, and community sovereignty.",
-    images: ["/images/nira-still-life.webp"],
-  },
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "partnershipPage" });
+  return {
+    title: { absolute: t("metaTitle") },
+    description: t("metaDescription"),
+    alternates: {
+      canonical: locale === "id" ? "/kemitraan" : "/en/partnership",
+      languages: {
+        "id-ID": "/kemitraan",
+        en: "/en/partnership",
+        "x-default": "/kemitraan",
+      },
+    },
+    openGraph: {
+      title: t("ogTitle"),
+      description: t("ogDescription"),
+      images: ["/images/nira-still-life.webp"],
+    },
+  };
+}
 
-export default function PartnershipPage() {
+export default async function PartnershipPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "partnershipPage" });
+
+  const tracks = [
+    {
+      icon: Sprout,
+      title: t("tracks.sourcing.title"),
+      badge: t("tracks.sourcing.badge"),
+      text: t("tracks.sourcing.text"),
+    },
+    {
+      icon: Handshake,
+      title: t("tracks.codev.title"),
+      badge: t("tracks.codev.badge"),
+      text: t("tracks.codev.text"),
+    },
+    {
+      icon: Network,
+      title: t("tracks.community.title"),
+      badge: t("tracks.community.badge"),
+      text: t("tracks.community.text"),
+    },
+  ];
+
+  const steps = [
+    {
+      number: "01",
+      title: t("process.steps.one.title"),
+      text: t("process.steps.one.text"),
+    },
+    {
+      number: "02",
+      title: t("process.steps.two.title"),
+      text: t("process.steps.two.text"),
+    },
+    {
+      number: "03",
+      title: t("process.steps.three.title"),
+      text: t("process.steps.three.text"),
+    },
+    {
+      number: "04",
+      title: t("process.steps.four.title"),
+      text: t("process.steps.four.text"),
+    },
+  ];
+
+  const bullets = [
+    {
+      title: t("inquiry.bullets.email.title"),
+      text: t("inquiry.bullets.email.text"),
+    },
+    {
+      title: t("inquiry.bullets.brief.title"),
+      text: t("inquiry.bullets.brief.text"),
+    },
+    {
+      title: t("inquiry.bullets.privacy.title"),
+      text: t("inquiry.bullets.privacy.text"),
+    },
+  ];
+
   return (
     <>
       <PageHero
-        eyebrow="Open Collaboration"
-        title="Create new possibilities together."
-        description="The most transformative ecological breakthroughs happen when circular material science, industrial design, and grassroots agricultural cooperatives converge. We invite mission-aligned partners to build alongside us."
+        eyebrow={t("hero.eyebrow")}
+        title={t("hero.title")}
+        description={t("hero.description")}
       >
         <ButtonLink
           href="#inquiry"
           className="bg-cream text-forest hover:bg-sand transition-all shadow-sm inline-flex items-center gap-2"
         >
-          <span>Draft an Inquiry</span>
+          <span>{t("hero.cta")}</span>
           <ArrowDown size={16} />
         </ButtonLink>
       </PageHero>
@@ -47,38 +121,17 @@ export default function PartnershipPage() {
       <section className="nira-section bg-cream">
         <Container>
           <div className="max-w-2xl">
-            <p className="eyebrow text-coconut">01 / Collaboration Pathways</p>
+            <p className="eyebrow text-coconut">{t("tracks.eyebrow")}</p>
             <h2 className="type-section-title mt-3 text-forest">
-              Distinct roles. Shared ecological intent.
+              {t("tracks.title")}
             </h2>
             <p className="type-lead mt-3 text-ink-muted">
-              Whether you are an established brand replacing virgin plastics, a
-              horticultural grower seeking consistent cocopeat, or an
-              institution advancing bio-composites.
+              {t("tracks.lead")}
             </p>
           </div>
 
           <div className="mt-12 grid gap-6 md:grid-cols-3">
-            {[
-              {
-                icon: Sprout,
-                title: "Material Sourcing & Supply",
-                badge: "Wholesale & Bulk",
-                text: "Secure verified, triple-washed organic cocopeat growing media and graded coir fiber direct from fair-trade village processing centers.",
-              },
-              {
-                icon: Handshake,
-                title: "Product Co-Development",
-                badge: "Design & Manufacturing",
-                text: "Collaborate on bespoke natural plant vessels, bio-composite homeware, or tailored bio-charcoal formulations engineered for your market.",
-              },
-              {
-                icon: Network,
-                title: "Community & Agroforestry",
-                badge: "Cooperative Alliances",
-                text: "Expand decentralized post-harvest collection infrastructure across coastal coconut belt communities, championing living wages and skills training.",
-              },
-            ].map((item, index) => {
+            {tracks.map((item, index) => {
               const Icon = item.icon;
               return (
                 <div
@@ -124,40 +177,18 @@ export default function PartnershipPage() {
         <Container className="relative z-10">
           <div className="max-w-2xl">
             <EyebrowBadge className="mb-3">
-              02 / Engagement Architecture
+              {t("process.eyebrow")}
             </EyebrowBadge>
             <h2 className="type-section-title text-cream">
-              How we partner together.
+              {t("process.title")}
             </h2>
             <p className="type-lead mt-4 text-cream/80 leading-relaxed">
-              We operate through disciplined transparency, rapid iterative
-              prototyping, and steadfast respect for community governance.
+              {t("process.lead")}
             </p>
           </div>
 
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {[
-              {
-                number: "01",
-                title: "Listen & Diagnose",
-                text: "Deeply understand your material requirements, mechanical constraints, and target sustainability outcomes.",
-              },
-              {
-                number: "02",
-                title: "Formulate & Prototype",
-                text: "Calibrate coconut fiber density, particle sizing, or molding specifications in our regional workshop hubs.",
-              },
-              {
-                number: "03",
-                title: "Pilot & Validate",
-                text: "Conduct rigorous real-world degradation, water retention, or thermal tests with verified documentation.",
-              },
-              {
-                number: "04",
-                title: "Scale & Steward",
-                text: "Establish transparent supply contracts backed by direct farmer cooperative payments and traceability.",
-              },
-            ].map((step) => (
+            {steps.map((step) => (
               <div
                 key={step.number}
                 className="rounded-card border border-cream/15 bg-forest-light/60 p-6 md:p-8 backdrop-blur-xs transition-colors hover:bg-forest-light"
@@ -182,49 +213,32 @@ export default function PartnershipPage() {
         <Container className="grid gap-12 lg:grid-cols-12 lg:items-start">
           <div className="lg:col-span-5">
             <EyebrowBadge tone="light" className="mb-4 bg-cream/70">
-              Direct Touchpoint
+              {t("inquiry.eyebrow")}
             </EyebrowBadge>
 
             <h2 className="type-section-title text-forest">
-              Bring an idea to the table.
+              {t("inquiry.title")}
             </h2>
 
             <p className="type-lead text-ink-muted mt-5 leading-relaxed">
-              Use our interactive brief generator to structure your project
-              intent, target material family, and estimated timeline.
+              {t("inquiry.lead")}
             </p>
 
             <div className="mt-8 rounded-card border border-coconut/15 bg-cream/80 p-6 space-y-4 text-xs text-ink-muted">
-              <div className="flex items-start gap-2.5">
-                <span className="font-bold text-forest mt-0.5">✦</span>
-                <p>
-                  <strong className="text-forest font-semibold">
-                    Direct Email:
-                  </strong>{" "}
-                  Open your default email client pre-populated with your
-                  complete specifications.
-                </p>
-              </div>
-              <div className="flex items-start gap-2.5">
-                <span className="font-bold text-forest mt-0.5">✦</span>
-                <p>
-                  <strong className="text-forest font-semibold">
-                    One-Click Copy:
-                  </strong>{" "}
-                  Copy clean formatted brief text to share via WhatsApp, Slack,
-                  or proposal decks.
-                </p>
-              </div>
-              <div className="flex items-start gap-2.5">
-                <span className="font-bold text-forest mt-0.5">✦</span>
-                <p>
-                  <strong className="text-forest font-semibold">
-                    Zero Telemetry:
-                  </strong>{" "}
-                  Input fields execute client-side; no third-party tracking
-                  scripts.
-                </p>
-              </div>
+              {bullets.map((bullet) => (
+                <div
+                  key={bullet.title}
+                  className="flex items-start gap-2.5"
+                >
+                  <span className="font-bold text-forest mt-0.5">✦</span>
+                  <p>
+                    <strong className="text-forest font-semibold">
+                      {bullet.title}
+                    </strong>{" "}
+                    {bullet.text}
+                  </p>
+                </div>
+              ))}
             </div>
           </div>
 
