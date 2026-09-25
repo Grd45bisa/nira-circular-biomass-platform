@@ -177,7 +177,7 @@ export default async function ProductsPage({
                     })}
                   </EyebrowBadge>
 
-                  <h2 className="type-section-title mt-2 text-forest">
+                  <h2 className="type-section-title mt-2 text-forest text-balance">
                     {name}
                   </h2>
 

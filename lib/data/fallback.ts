@@ -7,179 +7,179 @@ import type { Partner } from "@/types/partner";
 export const FALLBACK_PRODUCTS: Product[] = [
   {
     id: "prod-living",
-    name: "NIRA Living",
+    name: "PANDA COCOfiber",
     slug: "living",
     category: "Living",
     description:
-      "A natural, breathable plant vessel crafted from pressed coconut coir fiber that nurtures plant roots and returns gracefully to the earth.",
-    materialSource: "Coconut husk fiber",
+      "Serat sabut kelapa panjang keemasan dengan kekuatan tarik tinggi dan kaya lignin alami untuk industri manufaktur, matras, jok otomotif, dan geotekstil.",
+    materialSource: "Sabut kelapa tua pilihan",
     process:
-      "Raw husk fibers are carefully extracted, sun-cured, and formed into durable, 100% biodegradable vessels with organic plant-based binders.",
+      "Sabut kelapa diurai secara mekanis dengan decorticator listrik, dijemur alami di kubah berventilasi, dan dipadatkan dengan press hidrolik tanpa bahan kimia sintetis.",
     sustainabilityValue:
-      "Eliminates single-use plastic nursery pots while providing superior root aeration and water retention.",
+      "Material terbarukan pengganti busa sintetis dan polimer plastik, tahan pelapukan biologis, dan dapat terurai secara hayati.",
     imageUrl: "/images/coir-pot.jpg",
     imageAlt:
-      "Handcrafted natural coconut coir plant pots on artisan wooden table",
-    imageNote: "Handcrafted from 100% natural coconut husk coir.",
+      "Serat sabut kelapa berkualitas tinggi PANDA COCOfiber dalam bal padat",
+    imageNote: "Serat panjang keemasan dengan kadar kotoran < 3% dan kadar air < 15%.",
   },
   {
     id: "prod-grow",
-    name: "NIRA Grow",
+    name: "PANDA COCOpeat",
     slug: "grow",
     category: "Grow",
     description:
-      "High-grade organic cocopeat growing medium that transforms fine coconut residue into nutrient-holding soil conditioner.",
-    materialSource: "Coconut residue",
+      "Media tanam organik berpori terverifikasi Low-EC dengan retensi air hingga 8x bobot kering, pilihan utama pembibitan komersial dan pertanian hidroponik.",
+    materialSource: "Serbuk seluler sabut kelapa",
     process:
-      "Fine fibrous husk residue is washed, pH-balanced, and aerated to create the ideal moisture-retentive growing medium for seedlings and gardens.",
+      "Serbuk sabut dicuci desalinasi air hujan, disaring dengan ayakan rotary berpori seragam, dan dikeringkan higienis dengan pH netral stabil (5,8–6,5).",
     sustainabilityValue:
-      "A renewable alternative to peat moss that protects fragile peat bogs and retains up to 8x its weight in water.",
+      "Alternatif terbarukan pengganti gambut alam (peat moss), menghemat penggunaan air irigasi hingga 50%, dan mendukung aerasi akar yang sehat.",
     imageUrl: "/images/cocopeat-tray.jpg",
-    imageAlt: "Organic cocopeat seedling medium with fresh botanical sprouts",
-    imageNote: "Triple-washed, low-EC organic growing medium.",
+    imageAlt: "Media tanam organik cocopeat PANDA COCOpeat dengan tunas tanaman segar",
+    imageNote: "Telah melalui pencucian desalinasi, Electrical Conductivity (EC) rendah terverifikasi.",
   },
   {
     id: "prod-energy",
-    name: "NIRA Energy",
+    name: "PANDA COCO Bio-Briket",
     slug: "energy",
     category: "Energy",
     description:
-      "Smokeless, high-calorific coconut shell charcoal briquettes providing clean, long-lasting heat from discarded shells.",
-    materialSource: "Coconut shell",
+      "Briket arang tempurung kelapa berkalori tinggi (~7.200 kkal/kg) dengan pembakaran bersih, minim asap, dan waktu bakar hingga 3x arang kayu biasa.",
+    materialSource: "Tempurung kelapa tua padat",
     process:
-      "Aged coconut shells are pyrolyzed in low-emission kilns, finely milled, and compressed into dense geometric briquettes.",
+      "Tempurung kelapa dikarbonisasi melalui pirolisis terkontrol rendah emisi, digiling halus, dan dipadatkan menjadi briket heksagonal berkerapatan tinggi.",
     sustainabilityValue:
-      "Zero deforestation fuel that burns 3x longer than wood charcoal with minimal ash and clean, odorless combustion.",
+      "Bahan bakar energi bersih 100% tanpa deforestasi, kadar abu minim (<3%), tidak berbau, dan aman untuk kuliner maupun pemanas industri.",
     imageUrl: "/images/energy-concept.webp",
     imageAlt:
-      "Geometric coconut shell charcoal briquettes beside raw polished shell",
-    imageNote: "100% natural coconut shell carbonization.",
+      "Briket arang tempurung kelapa geometris PANDA COCO Bio-Briket",
+    imageNote: "Nilai kalor tinggi 7.200 kkal/kg dengan pembakaran bersih tanpa bau.",
   },
   {
     id: "prod-craft",
-    name: "NIRA Craft",
+    name: "PANDA COCO Green Panel",
     slug: "craft",
     category: "Craft",
     description:
-      "Artisan lifestyle vessels and functional homeware that honor the natural contour and organic grain of polished coconut shells.",
-    materialSource: "Coconut shell",
+      "Inovasi panel akustik dan partisi interior ramah lingkungan dari serat sabut terkompresi dengan perekat nabati aman tanpa racun formalin.",
+    materialSource: "Serat sabut kelapa terkompresi",
     process:
-      "Mature coconut shells are hand-selected, carved, sanded smooth, and sealed with food-grade virgin coconut oil.",
+      "Serat sabut disortir terkalibrasi, diformulasikan dengan perekat getah nabati alami, dan dicetak melalui pengepresan hidrolik bersuhu terukur.",
     sustainabilityValue:
-      "Reclaims durable shell biomass into timeless heirloom homeware, preventing open-air burning.",
+      "Material arsitektur sirkular pengganti partisi gipsum dan kayu lapis sintetis, peredam suara alami bersertifikasi emisi nol VOC.",
     imageUrl: "/images/craft-concept.webp",
     imageAlt:
-      "Artisan handcrafted polished coconut shell bowls on organic linen",
-    imageNote: "Hand-finished by village artisans with virgin coconut oil.",
+      "Panel akustik interior alami PANDA COCO Green Panel dengan tekstur serat elegan",
+    imageNote: "Bebas racun formalin, memiliki koefisien serap suara akustik alami tinggi.",
   },
 ];
 
 export const FALLBACK_MATERIALS: Material[] = [
   {
     id: "mat-husk",
-    name: "Coconut Husk",
+    name: "Serat Sabut Kelapa",
     slug: "coconut-husk",
     description:
-      "The fibrous outer layer that cushions and protects the coconut fruit, rich in high-tensile lignin fibers.",
-    sourcePart: "Outer Husk",
+      "Lapisan luar kelapa berserat kuat yang kaya akan lignin alami berkekuatan tarik tinggi untuk aplikasi industri manufaktur.",
+    sourcePart: "Sabut Serat Luar",
     transformationProcess:
-      "Fibers are decorticated, sun-dried, sorted by grade, and pressed into resilient nursery pots and erosion-control textiles.",
-    outputProduct: "NIRA Living & Bio-Textiles",
+      "Diurai dengan decorticator listrik 30 kg/jam, dijemur berventilasi, dan dipadatkan menjadi bal industri berstandar ekspor.",
+    outputProduct: "PANDA COCOfiber & Geotekstil",
     imageUrl: "/images/coconut-husks.jpg",
     imageAlt:
-      "Naturally harvested coconut husks drying under tropical sunlight",
+      "Sabut kelapa berkualitas tinggi dijemur rapi di Agro-Hub Keboncau",
   },
   {
     id: "mat-fiber",
-    name: "Coconut Peat Residue",
+    name: "Cocopeat Organik",
     slug: "coconut-peat",
     description:
-      "The spongy cellular dust held between the fibers of the coconut husk, possessing extraordinary water-retention capabilities.",
-    sourcePart: "Inner Husk Pith",
+      "Serbuk spons seluler di sela serat sabut kelapa yang memiliki daya simpan air superior hingga 8x bobot keringnya.",
+    sourcePart: "Serbuk Sabut Pith",
     transformationProcess:
-      "Desalinated with natural rainwater, aged for microbiological stability, and screened for optimal particle distribution.",
-    outputProduct: "NIRA Grow Soil Medium",
+      "Didesalinasi dengan air hujan alami, diayak menggunakan rotary sifter, dan diaerasi untuk kestabilan pH netral.",
+    outputProduct: "PANDA COCOpeat Substrat Semai",
     imageUrl: "/images/cocopeat-tray.jpg",
-    imageAlt: "Fine organic cocopeat growing medium with tender sprouts",
+    imageAlt: "Cocopeat organik berpori terverifikasi Low-EC untuk pembibitan",
   },
   {
     id: "mat-shell",
-    name: "Coconut Shell",
+    name: "Tempurung Kelapa (Endokarp)",
     slug: "coconut-shell",
     description:
-      "The rigid, dense endocarp protecting the coconut meat and water, containing high calorific carbon density.",
-    sourcePart: "Hard Endocarp Shell",
+      "Lapisan keras pelindung daging kelapa dengan kerapatan karbon padat dan potensi energi termal tinggi.",
+    sourcePart: "Tempurung Keras",
     transformationProcess:
-      "Selected shells are hand-polished for craft homeware or carbonized in controlled kilns for smokeless briquettes.",
-    outputProduct: "NIRA Energy & NIRA Craft",
+      "Dikarbonisasi melalui pirolisis bersih rendah emisi menjadi briket arang berkalori tinggi 7.200 kkal/kg.",
+    outputProduct: "PANDA COCO Bio-Briket Energi Bersih",
     imageUrl: "/images/craft-concept.webp",
-    imageAlt: "Polished coconut shell homeware and carbon briquettes",
+    imageAlt: "Tempurung kelapa tua dan briket arang karbon hayati padat",
   },
 ];
 
 export const FALLBACK_COMMUNITY_STORIES: CommunityStory[] = [
   {
-    id: "story-wayan",
-    name: "Pak Wayan Sudarma",
-    location: "Banyuwangi, East Java",
-    role: "Lead Artisan & Processing Coordinator",
+    id: "story-siti",
+    name: "Ibu Siti Rohmah",
+    location: "Kampung Keboncau, Pandeglang, Banten",
+    role: "Koordinator Mutu & Produksi (OPTIMALKAN IBU)",
     story:
-      "For decades, we saw coconut husks piled along the roadsides or burned into smoky skies. With NIRA, what was once seen as worthless waste now provides steady income for dozens of families across our village while keeping our soil clean and honored.",
+      "Melalui PANDA COCO dan efisiensi mesin listrik, kami membuktikan bahwa perempuan desa mampu mengoperasikan lini produksi industri presisi, menjaga standar mutu ekspor, dan menjadi pilar ketahanan ekonomi keluarga tanpa harus meninggalkan anak dan rumah.",
     impactDescription:
-      "Coordinates 35+ local harvesters and women artisans in sustainable coir separation and weaving.",
+      "Mengkoordinasikan 100 operator perempuan dalam penguraian serat, pemurnian cocopeat, dan pencetakan PANDA COCO Green Panel.",
     imageUrl: "/images/community-artisan.jpg",
-    imageAlt: "Pak Wayan smiling in a sunlit coconut craft workshop",
+    imageAlt: "Ibu Siti Rohmah di fasilitas produksi PANDA COCO Keboncau",
   },
 ];
 
 export const FALLBACK_ARTICLES: Article[] = [
   {
     id: "art-beyond-the-shell",
-    title: "Beyond the Shell: The Anatomy of Forgotten Abundance",
+    title: "Membuka Kapital di Balik Sabut: Potensi Hilirisasi 23.900 Ton Kelapa Pandeglang",
     slug: "beyond-the-shell",
     excerpt:
-      "A coconut is far more than its water and white meat. Why the rough husk, fine pith, and hard shell hold the keys to regenerative materials.",
-    content: `A coconut is more than the single part we eat or drink. Around the world, millions of tons of coconut husks and shells are discarded every year as agricultural refuse. 
+      "Kelapa Pandeglang jauh melampaui air dan daging buahnya. Mengapa sabut berkadar lignin tinggi dan serbuk berpori menjadi kunci material sirkular masa depan.",
+    content: `Kabupaten Pandeglang menyimpan potensi perkebunan kelapa lebih dari 23.900 ton per tahun yang tersebar di 35 kecamatan. Selama beberapa dekade, sabut kelapa yang mencapai 35% bobot buah kerap ditumpuk atau dibakar terbuka di tepi jalan.
 
-The first philosophical shift is in how we look at what remains. When materials are separated and prepared with reverence and care, each constituent part follows an elevated path instead of ending its life cycle in a burn pit.
+PANDA COCO membalik paradigma tersebut: sabut dan tempurung kelapa adalah aset rekayasa hayati bernilai ekonomi tinggi. Melalui pemisahan mekanis bersih bertenaga listrik PLN, sabut diurai menjadi serat cocofiber berkekuatan tarik tinggi dan serbuk cocopeat penyimpan air 8x.
 
-For NIRA, that view is the starting point: understand the innate biological architecture of the coconut, choose an ecologically sound application, and ensure local farming communities are direct beneficiaries of the value created.`,
+Pendekatan ini tidak hanya menghentikan emisi pembakaran limbah terbuka, tetapi juga menghadirkan nilai tambah nyata bagi 60 petani mitra dan 100 perempuan pelaku industri hijau di Kampung Keboncau.`,
     thumbnailUrl: "/images/nira-still-life.webp",
     thumbnailAlt:
-      "Editorial still life of coconut shell, fiber, and green sprout",
-    category: "Philosophy & Circularity",
+      "Anatomi biomassa kelapa terpadu di Agro-Hub PANDA COCO Keboncau",
+    category: "Sains Material & Ekonomi Sirkular",
     publishedAt: "2026-09-18T08:00:00.000Z",
   },
   {
     id: "art-hands-in-the-journey",
-    title: "Change is Made by Hands: Centering Community in Circular Design",
+    title: "OPTIMALKAN IBU: Transformasi Perempuan Desa Menjadi Operator Industri Hijau",
     slug: "hands-in-the-journey",
     excerpt:
-      "Circular material systems cannot exist without human dignity. Why authentic sustainability must champion local artisans and fair livelihoods.",
-    content: `A raw material does not transform itself. Decorticating husk, grading fiber, hand-polishing shells, and curing cocopeat all require generational knowledge, care, and human dedication.
+      "Kedaulatan sirkular tidak dapat terwujud tanpa martabat dan keahlian manusia. Mengapa PANDA COCO menempatkan kepemimpinan perempuan di pusat operasional.",
+    content: `Mesin pengolah sabut tidak berjalan dengan sendirinya. Pengoperasian decorticator listrik, penyaringan ayakan rotary, pengawasan kadar air, hingga pencetakan Green Panel membutuhkan ketelitian dan disiplin mutu tinggi.
 
-NIRA's model places community sovereignty alongside circular product development. Rather than extracting resources for remote factories, processing centers are rooted within the coconut groves where farmers live and work.
+Melalui program OPTIMALKAN IBU (Optimalisasi Perempuan Berdaya melalui Industri Kelapa Hijau), sebanyak 100 perempuan di Kampung Keboncau dilatih menjadi operator mesin presisi dan kurator mutu bahan.
 
-This guarantees fair local value retention, dignified working environments, and a transparent supply chain where every vessel has a known provenance and a human story behind it.`,
+Bukan sekadar pekerjaan sampingan, inisiatif ini memberikan penghasilan mandiri, sertifikasi keahlian teknis, dan jam kerja fleksibel yang menghargai keharmonisan rumah tangga.`,
     thumbnailUrl: "/images/coir-fiber.jpg",
-    thumbnailAlt: "Artisan hands separating golden coconut coir fibers",
-    category: "Community & People",
+    thumbnailAlt: "Operator perempuan memeriksa serat sabut emas di fasilitas pengolahan Keboncau",
+    category: "Pemberdayaan Inklusif & Komunitas",
     publishedAt: "2026-09-12T10:00:00.000Z",
   },
   {
     id: "art-from-husk-to-form",
-    title: "From Husk to Form: The Science of Natural Coir Vessels",
+    title: "Rekayasa PANDA COCO Green Panel: Biokomposit Akustik Bebas Formalin",
     slug: "from-husk-to-form",
     excerpt:
-      "How coconut husk fiber transforms into high-performance, breathable nursery pots that nourish plant root structures without synthetic plastics.",
-    content: `The fibrous outer husk of the coconut is nature's shock absorber. Packed with lignin, it resists fungal rot, withstands tropical humidity, and provides extraordinary tensile strength.
+      "Bagaimana serat sabut berkadar lignin 45% bertransformasi melalui kompresi hidrolik menjadi panel arsitektural peredam suara ramah lingkungan.",
+    content: `Serat sabut kelapa adalah peredam alami bumi. Kaya akan lignin alami (~45%), serat ini memiliki ketahanan luar biasa terhadap kelembapan tropis, jamur pelapuk, dan pembusukan biologis.
 
-When transformed into NIRA Living vessels, these natural fibers allow plant roots to breathe freely and undergo natural air-pruning. Unlike rigid plastic containers that cause root circling and transplant shock, coir pots integrate directly into the soil when planted.
+Ketika dipadukan dengan formulasi perekat nabati ramah lingkungan dan dipadatkan dengan mesin press hidrolik bersuhu terukur, serat ini menghasilkan PANDA COCO Green Panel.
 
-The result is healthier plants, richer soil biology, and zero plastic residue left behind in our gardens and ecosystems.`,
+Panel interior ini tidak hanya meredam gema akustik secara efektif, tetapi juga menggantikan partisi kayu lapis sintetis tanpa melepaskan gas beracun formalin (Zero VOC) ke dalam ruangan.`,
     thumbnailUrl: "/images/coir-pot.jpg",
-    thumbnailAlt: "Natural coconut coir pots with healthy houseplant",
-    category: "Design & Craftsmanship",
+    thumbnailAlt: "Sampel material PANDA COCO Green Panel terkompresi dengan tekstur serat alami",
+    category: "Inovasi Produk & Desain Sirkular",
     publishedAt: "2026-09-05T14:00:00.000Z",
   },
 ];
@@ -188,31 +188,31 @@ export const FALLBACK_IMPACT_METRICS: ImpactMetric[] = [
   {
     id: "imp-1",
     category: "Environmental",
-    metricName: "Biomass Circularity",
-    value: 100,
-    unit: "%",
+    metricName: "Biomassa Diolah / Thn",
+    value: 24,
+    unit: "Ton",
     description:
-      "Every component of the harvested coconut husk and shell is repurposed into renewable assets.",
+      "24 ton sabut dan 10,8 ton tempurung kelapa dialihkan dari pembakaran terbuka setiap tahun.",
     year: 2026,
   },
   {
     id: "imp-2",
     category: "Social",
-    metricName: "Artisan Households",
-    value: 45,
+    metricName: "Operator OPTIMALKAN IBU",
+    value: 100,
     unit: "+",
     description:
-      "Families in coconut-growing coastal villages actively participating in collection and craft.",
+      "Perempuan berdaya sebagai operator mesin presisi, kurator mutu (QC), dan manajer hub sirkular.",
     year: 2026,
   },
   {
     id: "imp-3",
     category: "Economic",
-    metricName: "Local Income Uplift",
-    value: 38,
-    unit: "%",
+    metricName: "Mitra Petani Kelapa",
+    value: 60,
+    unit: "Petani",
     description:
-      "Average increase in seasonal household revenue through post-harvest valorization.",
+      "Petani kelapa Keboncau dengan 3.000 pohon yang mendapatkan kepastian serapan harga pembelian yang adil.",
     year: 2026,
   },
 ];
@@ -220,22 +220,32 @@ export const FALLBACK_IMPACT_METRICS: ImpactMetric[] = [
 export const FALLBACK_PARTNERS: Partner[] = [
   {
     id: "part-1",
-    name: "Lingkar Tani Lestari",
-    organization: "East Java Agroforestry Cooperative",
-    category: "Community Cooperatives",
+    name: "PLN UID Banten",
+    organization: "Program TJSL & Electrifying Agriculture",
+    category: "Mitra Energi Bersih & TJSL",
     logoUrl: null,
     logoAlt: null,
     description:
-      "Grassroots farmer cooperative providing fair-trade raw coconut husks and community processing.",
+      "Penyedia infrastruktur daya listrik andal dan pendampingan program Electrifying Agriculture untuk operasional mesin pengolah biomassa.",
   },
   {
     id: "part-2",
-    name: "BioCircularity Lab",
-    organization: "Renewable Material Research Institute",
-    category: "Research & Development",
+    name: "Kelompok Tani Keboncau",
+    organization: "Koperasi Tani Kelapa Pandeglang",
+    category: "Rantai Pasok Bahan Baku",
     logoUrl: null,
     logoAlt: null,
     description:
-      "Conducting thermal and biodegradable degradation testing for natural composite development.",
+      "Jejaring 60 petani mitra pemilik 3.000 pohon kelapa produktif yang memasok bahan baku sabut dan tempurung segar terverifikasi.",
+  },
+  {
+    id: "part-3",
+    name: "Bappeda Pandeglang",
+    organization: "Pemerintah Kabupaten Pandeglang",
+    category: "Sinergi Hilirisasi Daerah",
+    logoUrl: null,
+    logoAlt: null,
+    description:
+      "Dukungan kebijakan hilirisasi komoditas perkebunan prioritas kelapa dalam rangka pengentasan pengangguran dan peningkatan nilai tambah lokal.",
   },
 ];

@@ -67,14 +67,14 @@ export function SiteHeader() {
           {/* Brand Logo */}
           <Link
             href="/"
-            className="group flex items-center gap-2.5 sm:gap-3 shrink-0"
+            className="group flex shrink-0 items-center gap-2 sm:gap-2.5"
             aria-label={t('homeLabel')}
             onClick={() => setMenuOpen(false)}
           >
-            <div className="relative flex h-9 w-9 sm:h-10 sm:w-10 items-center justify-center rounded-full overflow-hidden border border-cream/25 shadow-xs shrink-0 transition-transform duration-300 group-hover:scale-105">
+            <div className="relative flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden rounded-full border border-cream/25 shadow-xs transition-transform duration-300 group-hover:scale-105 sm:h-9 sm:w-9">
               <Image
                 src="/images/nira-logo-mark.webp"
-                alt="NIRA logo mark"
+                alt="PANDA COCO logo mark"
                 width={40}
                 height={40}
                 className="h-full w-full object-cover"
@@ -82,11 +82,11 @@ export function SiteHeader() {
               />
             </div>
             <div className="flex flex-col">
-              <span className="font-display text-2xl font-medium tracking-[0.04em] text-white leading-none">
-                NIRA
+              <span className="font-display text-base font-bold leading-none tracking-[0.035em] text-white sm:text-lg">
+                PANDA COCO
               </span>
-              <span className="text-[0.5625rem] sm:text-[0.625rem] tracking-[0.22em] text-cream/70 uppercase mt-1">
-                Nature Into Assets
+              <span className="mt-0.5 text-[0.5rem] font-medium uppercase tracking-[0.14em] text-cream/70 max-[359px]:hidden sm:text-[0.5625rem]">
+                PANdeglang Domestic Agro COCOnut
               </span>
             </div>
           </Link>
@@ -195,7 +195,7 @@ export function SiteHeader() {
               <div className="relative flex h-9 w-9 items-center justify-center rounded-full overflow-hidden border border-forest/20 shadow-xs shrink-0">
                 <Image
                   src="/images/nira-logo-mark.webp"
-                  alt="NIRA logo mark"
+                  alt="PANDA COCO logo mark"
                   width={36}
                   height={36}
                   className="h-full w-full object-cover"
@@ -203,10 +203,10 @@ export function SiteHeader() {
               </div>
               <div className="flex flex-col">
                 <span className="font-display text-xl font-bold tracking-[0.03em] text-forest leading-none">
-                  NIRA
+                  PANDA COCO
                 </span>
-                <span className="text-[0.625rem] font-semibold tracking-[0.2em] text-coconut uppercase mt-0.5">
-                  ROOM TO GROW
+                <span className="text-[0.5625rem] font-semibold tracking-[0.16em] text-coconut uppercase mt-0.5">
+                  PANdeglang Domestic Agro COCOnut
                 </span>
               </div>
             </Link>

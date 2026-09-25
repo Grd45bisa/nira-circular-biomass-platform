@@ -28,15 +28,15 @@ export async function generateMetadata({params}: Props): Promise<Metadata> {
 
   return {
     metadataBase: new URL(siteUrl || 'http://localhost:3000'),
-    title: {default: t('metaTitle'), template: '%s | NIRA'},
+    title: {default: t('metaTitle'), template: '%s | PANDA COCO'},
     description: t('metaDescription'),
     openGraph: {
-      type: 'website', siteName: 'NIRA',
+      type: 'website', siteName: 'PANDA COCO',
       title: t('metaTitle'), description: t('metaDescription'), locale: locale === 'id' ? 'id_ID' : 'en_US'
     },
     keywords: locale === 'id'
-      ? ['NIRA', 'biomassa kelapa', 'bahan baku ramah lingkungan', 'produk berkelanjutan', 'ekonomi sirkular Indonesia', 'cocopeat']
-      : ['NIRA', 'coconut materials', 'circular economy', 'community', 'cocopeat'],
+      ? ['PANDA COCO', 'biomassa kelapa Pandeglang', 'Cocofiber', 'Cocopeat Low-EC', 'Green Panel', 'Bio-Briket', 'ekonomi sirkular Banten', 'Electrifying Agriculture', 'OPTIMALKAN IBU']
+      : ['PANDA COCO', 'circular coconut biomass', 'Cocofiber exporter', 'Low-EC Cocopeat', 'Green Panel biocomposite', 'Electrifying Agriculture', 'Indonesia circular agro-industry'],
     alternates: {
       canonical: locale === 'id' ? '/' : '/en',
       languages: {'id-ID': '/', en: '/en', 'x-default': '/'}

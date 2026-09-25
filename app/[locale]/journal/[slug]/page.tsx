@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { notFound } from "next/navigation";
 import { ArrowLeft, Clock } from "lucide-react";
 
@@ -20,14 +20,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const article = await getArticleBySlug(slug);
   if (!article) return {};
   return {
-    title: `${article.title} · NIRA Journal`,
+    title: `${article.title} · PANDA COCO Journal`,
     alternates: { canonical: `/journal/${slug}` },
     description: article.excerpt,
     keywords: [
-      "NIRA",
+      "PANDA COCO",
       article.category.toLowerCase(),
-      "coconut materials",
-      "circular design",
+      "circular agro-biomass",
+      "biocomposites",
     ],
     openGraph: {
       title: article.title,
@@ -84,7 +84,7 @@ export default async function ArticlePage({ params }: Props) {
               </span>
             </div>
 
-            <h1 className="nira-page-hero-title mt-4 max-w-[18ch] font-display font-medium tracking-tight text-cream">
+            <h1 className="nira-page-hero-title mt-4 max-w-2xl lg:max-w-3xl font-display font-medium tracking-tight text-cream text-balance">
               {article.title}
             </h1>
 
@@ -137,7 +137,7 @@ export default async function ArticlePage({ params }: Props) {
               <span>Return to Journal Index</span>
             </Link>
             <span className="text-xs text-coconut italic">
-              NIRA Editorial Dispatch
+              PANDA COCO Editorial Dispatch
             </span>
           </div>
         </Container>

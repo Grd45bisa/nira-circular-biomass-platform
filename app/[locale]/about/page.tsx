@@ -85,6 +85,10 @@ export default async function AboutPage({
         image="/images/coir-fiber.jpg"
         imageAlt={t("philosophy.imageAlt")}
         imageNote={t("philosophy.imageNote")}
+        link={{
+          href: "/transformation",
+          label: t("philosophy.link"),
+        }}
       />
 
       {/* Vision & Mission */}
@@ -95,22 +99,22 @@ export default async function AboutPage({
               <span className="h-2 w-2 rounded-full bg-forest" />
               <p className="eyebrow text-coconut">{t("vision.eyebrow")}</p>
             </div>
-            <h2 className="type-section-title mt-4 text-forest text-2xl md:text-3xl">
+            <h3 className="font-display mt-3 text-lg sm:text-xl lg:text-2xl font-medium text-forest leading-snug">
               {t("vision.title")}
-            </h2>
-            <p className="type-body text-ink-muted mt-5 leading-relaxed">
+            </h3>
+            <p className="type-body text-ink-muted mt-3 sm:mt-4 text-xs sm:text-sm leading-relaxed">
               {t("vision.description")}
             </p>
           </div>
 
-          <div className="rounded-card border border-coconut/15 bg-cream/90 p-8 md:p-10 shadow-xs">
+          <div className="rounded-card border border-coconut/15 bg-cream/90 p-6 sm:p-8 md:p-10 shadow-xs">
             <div className="flex items-center gap-2">
               <span className="h-2 w-2 rounded-full bg-forest" />
               <p className="eyebrow text-coconut">{t("mission.eyebrow")}</p>
             </div>
-            <h2 className="type-section-title mt-4 text-forest text-2xl md:text-3xl">
+            <h3 className="font-display mt-3 text-lg sm:text-xl lg:text-2xl font-medium text-forest leading-snug">
               {t("mission.title")}
-            </h2>
+            </h3>
             <p className="type-body text-ink-muted mt-5 leading-relaxed">
               {t("mission.description")}
             </p>

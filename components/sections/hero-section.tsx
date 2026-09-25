@@ -16,10 +16,10 @@ type HeroSectionProps = {
 };
 
 export function HeroSection({
-  eyebrow = "NIRA · REGENERATIVE BIOMASS",
+  eyebrow = "PANDA COCO · AGRO-BIOMASSA SIRKULAR",
   tagline,
   title,
-  subtitleCallout = "SETIAP BAGIAN ALAM MEMILIKI NILAI. NIRA MEMBANTU MENGUNGKAPNYA.",
+  subtitleCallout = "MEMBUKA NILAI TERTINGGI DI SETIAP SERAT KELAPA.",
   description,
   actions,
   media,
@@ -75,7 +75,7 @@ export function HeroSection({
             </div>
 
             {/* Display Title */}
-            <h1 className="nira-main-hero-title mt-3 font-display text-4xl sm:text-5xl md:text-6xl font-medium tracking-tight text-white text-balance leading-[1.08]">
+            <h1 className="nira-main-hero-title mt-3 font-display text-3xl sm:text-4xl lg:text-5xl font-medium tracking-tight text-white text-balance leading-[1.12]">
               {title}
             </h1>
 

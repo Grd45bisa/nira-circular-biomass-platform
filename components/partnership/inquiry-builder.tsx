@@ -22,7 +22,7 @@ export function InquiryBuilder() {
       `${t("emailSubjectPrefix")} ${formDataState.interest} - ${formDataState.name || "Collaboration"}`,
     );
     const body = encodeURIComponent(generateText());
-    return `mailto:hello@nira-assets.org?subject=${subject}&body=${body}`;
+    return `mailto:partnership@pandacoco.id?subject=${subject}&body=${body}`;
   };
 
   return (
@@ -86,13 +86,16 @@ export function InquiryBuilder() {
             <option value="Material sourcing & supply">
               {t("track.sourceRaw")}
             </option>
-            <option value="NIRA Living - Wholesale Pots">
+            <option value="PANDA COCOfiber - Bulk Fiber Supply">
               {t("track.living")}
             </option>
-            <option value="NIRA Grow - Commercial Cocopeat">
+            <option value="PANDA COCOpeat - Commercial Cocopeat Low-EC">
               {t("track.grow")}
             </option>
-            <option value="NIRA Energy - Bio-Briquettes">
+            <option value="PANDA COCO Green Panel - Biocomposites">
+              {t("track.codev")}
+            </option>
+            <option value="PANDA COCO Bio-Briket - High-Heat Clean Energy">
               {t("track.energy")}
             </option>
             <option value="Product Co-Design & Craft">

@@ -39,20 +39,17 @@ export function PageHero({
       </div>
 
       {/* Subtle organic ambient glow */}
-      <div
-        className="pointer-events-none absolute -top-40 -right-40 h-96 w-96 rounded-full bg-cream/5 blur-3xl"
-        aria-hidden="true"
-      />
+
 
       <Container className="nira-page-hero-columns relative z-10 grid items-center gap-8 sm:gap-10">
         <div>
           <EyebrowBadge className="mb-4">{eyebrow}</EyebrowBadge>
 
-          <h1 className="nira-page-hero-title mt-3 max-w-[15ch] font-display font-medium tracking-tight text-cream">
+          <h1 className="nira-page-hero-title mt-3 max-w-xl lg:max-w-2xl font-display font-medium tracking-tight text-cream text-balance">
             {title}
           </h1>
 
-          <p className="nira-page-hero-description mt-4 max-w-[54ch] text-cream/90">
+          <p className="nira-page-hero-description mt-4 max-w-xl text-cream/90 leading-relaxed">
             {description}
           </p>
 

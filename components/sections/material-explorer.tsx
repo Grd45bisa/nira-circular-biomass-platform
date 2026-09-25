@@ -28,7 +28,7 @@ const paths: MaterialPath[] = [
     part: "Outer Husk",
     scientificPart: "Exocarp & Mesocarp",
     materialName: "Coir Fiber",
-    destination: "NIRA Living Vessels & Bio-Textiles",
+    destination: "PANDA COCOfiber & Bio-Tekstil",
     image: "/images/coir-pot.jpg",
     imageAlt: "Natural coconut coir plant pots on wooden surface",
     badge: "Fibrous Biomass",
@@ -48,7 +48,7 @@ const paths: MaterialPath[] = [
     part: "Husk Residue",
     scientificPart: "Cellular Mesocarp Pith",
     materialName: "Organic Cocopeat",
-    destination: "NIRA Grow Soil Medium",
+    destination: "PANDA COCOpeat Substrat Semai",
     image: "/images/cocopeat-tray.jpg",
     imageAlt: "Rich organic cocopeat growing medium with seedlings",
     badge: "Cellular Pith",
@@ -68,7 +68,7 @@ const paths: MaterialPath[] = [
     part: "Dense Shell",
     scientificPart: "Hard Endocarp",
     materialName: "Bio-Carbon & Polished Shell",
-    destination: "NIRA Energy & NIRA Craft",
+    destination: "PANDA COCO Bio-Briket & Green Panel",
     image: "/images/energy-concept.webp",
     imageAlt: "Coconut shell charcoal briquettes beside polished shell",
     badge: "Dense Carbon Matrix",
@@ -176,7 +176,7 @@ export function MaterialExplorer() {
               <span className="font-bold">{activeMaterial.destination}</span>
             </div>
 
-            <h3 className="font-display text-2xl md:text-3xl text-forest mt-3 font-medium">
+            <h3 className="font-display text-lg sm:text-xl lg:text-2xl text-forest mt-3 font-medium leading-snug">
               {activeMaterial.part}: {activeMaterial.materialName}
             </h3>
 

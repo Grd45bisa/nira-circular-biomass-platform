@@ -65,7 +65,7 @@ export function JourneySteps({ compact = false, localized = false }: { compact?:
               </span>
             </div>
 
-            <h3 className="mt-2 font-display text-lg font-medium text-cream sm:mt-3 sm:text-xl xl:mt-5 xl:text-2xl">
+            <h3 className="mt-2 font-display text-base font-medium text-cream sm:mt-2.5 sm:text-lg xl:text-xl">
               {title}
             </h3>
 
@@ -104,10 +104,7 @@ export function JourneySection() {
       className="nira-section bg-forest text-cream relative overflow-hidden"
       data-surface="dark"
     >
-      <div
-        className="pointer-events-none absolute -bottom-40 -right-40 h-96 w-96 rounded-full bg-cream/5 blur-3xl"
-        aria-hidden="true"
-      />
+
 
       <Container className="relative z-10">
         <div className="flex flex-wrap items-end justify-between gap-6">
@@ -115,7 +112,7 @@ export function JourneySection() {
             <EyebrowBadge className="mb-3">
               {t('journey.eyebrow')}
             </EyebrowBadge>
-            <h2 className="type-section-title max-w-[16ch] text-cream">
+            <h2 className="type-section-title max-w-xl text-cream text-balance">
               {t('journey.title')}
             </h2>
           </div>

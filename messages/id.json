@@ -1,367 +1,620 @@
 {
-  "common": {"language": "Bahasa", "skip": "Lewati ke konten utama", "part": "Bagian", "outcome": "Hasil", "primaryApplication": "Pemanfaatan utama", "keyAttributes": "Keunggulan bahan", "ecologicalGain": "Manfaat ekologis", "exploreDerived": "Lihat produk dari {part}", "assetPending": "Foto produk segera hadir", "pillar": "Pilar", "year": "Tahun", "evidence": "Sumber"},
+  "common": {
+    "language": "Bahasa",
+    "skip": "Lewati ke konten utama",
+    "part": "Komponen",
+    "outcome": "Hasil Produksi",
+    "primaryApplication": "Aplikasi Industri",
+    "keyAttributes": "Keunggulan Teknis",
+    "ecologicalGain": "Efisiensi Ekologis",
+    "exploreDerived": "Lihat produk dari {part}",
+    "assetPending": "Foto produk segera hadir",
+    "pillar": "Pilar",
+    "year": "Tahun",
+    "evidence": "Sumber Data"
+  },
   "journalPage": {
-    "metaTitle": "Jurnal · Catatan Lapangan & Esai Sirkular",
-    "metaDescription": "Baca publikasi editorial NIRA: eksplorasi mendalam tentang biokomposit kelapa, penghidupan agroforestri, dan filosofi desain sirkular.",
-    "ogTitle": "Jurnal NIRA · Dari Material ke Makna",
-    "ogDescription": "Cerita, catatan lapangan teknis, dan perspektif komunitas dari kawasan penghasil kelapa.",
+    "metaTitle": "Jurnal PANDA COCO · Catatan Riset & Rekayasa Sirkular",
+    "metaDescription": "Publikasi teknis PANDA COCO: eksplorasi mendalam biokomposit sabut kelapa, elektrifikasi agroindustri, dan kedaulatan rantai pasok lokal.",
+    "ogTitle": "Jurnal PANDA COCO · Sains Material & Inovasi Biomassa",
+    "ogDescription": "Dokumentasi riset lapangan, teknologi mesin pengolahan bersih, dan catatan inovasi sirkular Pandeglang.",
     "hero": {
-      "eyebrow": "Dispatches Editorial",
-      "title": "Catatan dari kisah material yang terus berubah.",
-      "description": "Esai, wawasan teknis, dan perspektif komunitas yang menyelidiki bagaimana sumber daya alam yang terabaikan dapat membentuk ulang desain, pertanian, dan kehidupan manusia.",
-      "imageAlt": "Foto dekat tangan pengrajin yang dengan cermat memisahkan serat-serat sabut kelapa keemasan yang panjang"
+      "eyebrow": "Dispatches Riset & Rekayasa",
+      "title": "Membuka batas performa baru dari serat kelapa.",
+      "description": "Kajian teknis, uji laboratorium material, dan perspektif industri mengenai transformasi biomassa perkebunan menjadi aset manufaktur berkinerja tinggi.",
+      "imageAlt": "Operator mesin PANDA COCO sedang memeriksa kualitas serat sabut kelapa panjang berdaya tarik tinggi"
     },
-    "featuredLabel": "Dispatch Utama",
-    "readTime": "5 menit baca · Editorial",
+    "featuredLabel": "Artikel Pilihan",
+    "readTime": "5 menit baca · Kajian Teknis",
     "readMore": "Baca Selengkapnya",
-    "allDispatches": "Semua Dispatch",
-    "allTitle": "Catatan lapangan tentang sirkularitas & kerajinan.",
-    "allDescription": "Mendokumentasikan evolusi rantai pasok regeneratif kami dan wawasan dari bengkel desa.",
+    "allDispatches": "Semua Artikel",
+    "allTitle": "Catatan rekayasa material & agroindustri.",
+    "allDescription": "Mendokumentasikan evolusi rantai pasok terintegrasi dan optimasi lini produksi mesin listrik kami di Kampung Keboncau.",
     "empty": "Artikel jurnal akan segera tersedia."
   },
-  "nav": {"home": "Beranda", "about": "Tentang NIRA", "transformation": "Transformasi", "products": "Produk", "impact": "Dampak", "journal": "Jurnal", "partnership": "Kemitraan"},
-  "header": {"homeLabel": "Beranda NIRA — Nilai di Balik Sisa", "primaryNav": "Navigasi utama", "mobileNav": "Navigasi seluler", "openMenu": "Buka menu", "closeMenu": "Tutup menu", "menu": "Menu", "navigationHeading": "Menu navigasi", "partner": "Kolaborasi", "partnerLong": "Ajak Kolaborasi", "startCollaboration": "Mulai Kolaborasi", "drawerNote": "Setiap bagian alam memiliki nilai. NIRA membantu mengungkapnya."},
-  "footer": {"tagline": "Setiap bagian alam memiliki nilai. NIRA membantu mengungkapnya.", "brandDescription": "Biomassa kelapa regeneratif", "badgeOne": "100% biomassa dimanfaatkan kembali", "badgeTwo": "Tanpa plastik sintetis", "badgeThree": "Berakar pada ekonomi desa", "explore": "Jelajahi NIRA", "families": "Keluarga produk", "collaboration": "Kolaborasi", "collaborationShort": "Bersama merek, pembudidaya, dan inovator bahan, kami membuka nilai baru dari kelapa.", "collaborationLong": "Kami bekerja bersama merek, pembudidaya, pelaku hortikultura, dan peneliti material yang berkomitmen pada prinsip sirkular.", "inquire": "Ajak Kolaborasi", "credits": "Dokumentasi dan kredit foto", "ethos": "Nilai dan filosofi", "copyright": "Dirancang dengan penuh kesadaran.", "coirPots": "Pot serat kelapa", "cocopeat": "Media cocopeat", "biocharcoal": "Briket arang hayati", "homeware": "Perlengkapan rumah"},
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang Kami",
+    "transformation": "Transformasi",
+    "products": "Produk",
+    "impact": "Dampak",
+    "journal": "Jurnal",
+    "partnership": "Kemitraan"
+  },
+  "header": {
+    "homeLabel": "PANDA COCO — Inovasi Agro-Biomassa Sirkular",
+    "primaryNav": "Navigasi utama",
+    "mobileNav": "Navigasi seluler",
+    "openMenu": "Buka menu",
+    "closeMenu": "Tutup menu",
+    "menu": "Menu",
+    "navigationHeading": "Menu navigasi",
+    "partner": "Kemitraan",
+    "partnerLong": "Mulai Kemitraan",
+    "startCollaboration": "Mulai Kemitraan",
+    "drawerNote": "Membuka nilai tertinggi di setiap serat kelapa melalui teknologi bersih."
+  },
+  "footer": {
+    "tagline": "Membuka nilai tertinggi di setiap serat kelapa.",
+    "brandDescription": "Platform Agro-Biomassa Sirkular Pandeglang",
+    "badgeOne": "100% Biomassa Dimanfaatkan Kembali",
+    "badgeTwo": "Bebas Polimer Sintetis Berbahaya",
+    "badgeThree": "Ditenagai Mesin Listrik Bersih",
+    "explore": "Navigasi Platform",
+    "families": "Lini Produk",
+    "collaboration": "Kemitraan Industri",
+    "collaborationShort": "Bersama mitra industri, pembibitan hortikultura, dan desainer, kami memproduksi biomaterial terstandar.",
+    "collaborationLong": "Kami melayani pengadaan bahan baku grosir, suplai media tanam, dan ko-pengembangan biokomposit untuk kebutuhan pasar industri.",
+    "inquire": "Ajukan Kemitraan",
+    "credits": "Dokumentasi & Kredit Teknis",
+    "ethos": "Standar & Kebijakan Mutu",
+    "copyright": "Diproduksi dengan standar presisi industri sirkular.",
+    "coirPots": "PANDA COCOfiber",
+    "cocopeat": "PANDA COCOpeat",
+    "biocharcoal": "PANDA COCO Bio-Briket",
+    "homeware": "PANDA COCO Green Panel"
+  },
   "materials": {
-    "husk": {"part": "Sabut luar", "name": "Serat sabut kelapa", "destination": "Pot NIRA Living dan tekstil hayati", "imageAlt": "Pot tanam dari serat kelapa alami di atas permukaan kayu", "badge": "Biomassa berserat", "description": "Lapisan luar kelapa menghasilkan serat kuat yang kaya lignin. Setelah dipisahkan tanpa bahan kimia keras, serat ini menjadi dasar pot pembibitan yang dapat terurai secara hayati.", "p1": "Kandungan lignin membantu serat tahan lapuk", "p2": "Akar tanaman mendapat sirkulasi udara alami", "p3": "Terurai kembali melalui proses biologis", "gain": "Mengurangi kebutuhan pot pembibitan plastik sekali pakai."},
-    "pith": {"part": "Serbuk sabut", "name": "Cocopeat organik", "destination": "Media tanam NIRA Grow", "imageAlt": "Media tanam cocopeat organik dengan bibit tanaman", "badge": "Serbuk berpori", "description": "Di sela serat panjang terdapat serbuk sabut berpori yang mampu menyimpan air. Setelah dicuci dan disiapkan dengan cermat, bahan ini menjadi media tanam tanpa gambut.", "p1": "Menyerap air hingga delapan kali bobot kering", "p2": "Ruang udara mendukung perkembangan akar", "p3": "pH stabil mendekati netral (5,8–6,5)", "gain": "Membantu mengurangi eksploitasi lahan gambut dan kebutuhan penyiraman."},
-    "shell": {"part": "Batok keras", "name": "Karbon hayati dan batok poles", "destination": "NIRA Energy dan NIRA Craft", "imageAlt": "Briket arang batok kelapa di samping batok yang dipoles", "badge": "Sumber karbon padat", "description": "Batok kelapa menyimpan karbon berkepadatan tinggi. Dengan pengolahan yang tepat, batok menjadi briket tahan lama; dengan keterampilan tangan, ia menjadi perlengkapan rumah yang berkarakter.", "p1": "Nilai kalor tinggi sekitar 7.200 kkal/kg", "p2": "Kadar abu rendah dan pembakaran minim bau", "p3": "Dipoles dengan minyak kelapa murni", "gain": "Mengurangi pembakaran limbah terbuka dan kebutuhan arang berbahan kayu."}
+    "husk": {
+      "part": "Sabut Serat Luar",
+      "name": "PANDA COCOfiber",
+      "destination": "Serat Industri, Jok Otomotif, & Geotekstil",
+      "imageAlt": "Serat sabut kelapa emas berdaya tarik tinggi hasil penguraian mesin listrik",
+      "badge": "Lignin Berdaya Tarik Kuat",
+      "description": "Lapisan luar kelapa menghasilkan serat panjang berkekuatan tarik tinggi dan kaya lignin alami. Diurai dengan decorticator elektrik tanpa bahan kimia keras, menghasilkan serat higienis tahan lapuk.",
+      "p1": "Kandungan lignin alami (~45%) sangat tahan pembusukan biologis",
+      "p2": "Elastisitas dan kekuatan tarik tinggi untuk kebutuhan manufaktur",
+      "p3": "Material terbarukan pengganti serat sintetis berbahan fosil",
+      "gain": "Menggantikan polimer plastik pada industri matras, jok otomotif, dan geotekstil penahan erosi."
+    },
+    "pith": {
+      "part": "Serbuk Sabut Spons",
+      "name": "PANDA COCOpeat",
+      "destination": "Media Tanam Bebas Gambut (Low-EC)",
+      "imageAlt": "Cocopeat organik berpori terverifikasi Low-EC untuk pembibitan komersial",
+      "badge": "Matriks Seluler Berpori",
+      "description": "Di antara serat panjang terdapat serbuk spons seluler berpori tinggi. Melalui pencucian desalinasi air hujan dan penyaringan ayakan rotary, bahan ini menjadi substrat tanam berdaya simpan air superior.",
+      "p1": "Kapasitas retensi air hingga 8x (800%) bobot kering",
+      "p2": "Porositas udara tinggi mendukung percepatan pertumbuhan akar",
+      "p3": "Kadar salinitas rendah (Low-EC) dan pH stabil 5,8–6,5",
+      "gain": "Melindungi ekosistem lahan gambut alami dan mengefisiensikan konsumsi air irigasi pembibitan hingga 50%."
+    },
+    "shell": {
+      "part": "Tempurung Keras (Endokarp)",
+      "name": "Karbon Hayati & Bio-Briket",
+      "destination": "PANDA COCO Bio-Briket & Karbon Industri",
+      "imageAlt": "Briket arang tempurung kelapa berkalori tinggi dan batok kelapa terpilih",
+      "badge": "Densitas Karbon Tinggi",
+      "description": "Tempurung kelapa tua menyimpan karbon padat berkalori tinggi. Diproses melalui tungku pirolisis terkontrol emisi rendah menjadi briket bahan bakar efisien tanpa deforestasi.",
+      "p1": "Nilai kalor tinggi mencapai ~7.200 kkal/kg",
+      "p2": "Kadar abu sangat rendah (<3%) dan pembakaran bersih tanpa bau",
+      "p3": "Waktu pembakaran stabil hingga 3x lebih lama dari arang kayu",
+      "gain": "Menghilangkan pembakaran limbah terbuka dan menghentikan ketergantungan pada arang kayu deforestasi."
+    }
   },
   "home": {
-    "metaTitle": "NIRA | Biomassa Kelapa Menjadi Produk Berkelanjutan", "metaDescription": "NIRA adalah ekosistem sirkular di Indonesia yang mengolah sabut, serat, dan batok kelapa menjadi pot tanam, media tanam organik, energi bersih, dan karya rumah tangga sambil mendukung komunitas petani.",
-    "hero": {"eyebrow": "NIRA · BIOMASSA REGENERATIF", "tagline": "RUANG UNTUK TUMBUH", "titleFirst": "Beri ruang.", "titleSecond": "Lihat apa yang bisa tumbuh.", "callout": "SEBAB SETIAP POTENSI ALAM BUTUH RUANG UNTUK BERMULA.", "description": "NIRA adalah ekosistem sirkular di Indonesia yang mengolah biomassa kelapa terabaikan menjadi pot tanam, media tanam organik, energi bersih, dan karya fungsional bersama komunitas lokal.", "actionShort": "Transformasi", "actionLong": "Temukan Transformasi", "about": "Kenali NIRA", "noteStrong": "Lebih dari sekadar sisa.", "note": "Kami membuka ruang bagi potensi kelapa dan tangan pengrajin melalui karya sirkular yang nyata.", "imageAlt": "Kelapa utuh, batok, serat sabut, dan tunas hijau dalam satu komposisi", "imageBadge": "Anatomi Potensi", "imageParts": "Sabut · Serat · Batok"},
-    "ribbon": {"one": "Alam adalah awalnya", "two": "Transformasi memberinya bentuk", "three": "Manusia membawanya maju", "four": "Nilai di balik sisa"},
-    "story": {"eyebrow": "01 / Kisah di balik NIRA", "title": "Lihat nilai yang sering terlewat.", "p1": "Setelah air dan daging kelapa dinikmati, sabut, serat halus, dan batoknya masih menyimpan potensi besar. Di banyak kawasan pesisir, bagian berharga ini justru dibakar atau dibiarkan terbuang.", "p2": "NIRA mengolah setiap bagian kelapa dengan proses yang cermat dan tangan terampil. Hasilnya adalah bahan baku ramah lingkungan dan produk berkelanjutan yang turut membuka peluang ekonomi bagi komunitas petani.", "imageAlt": "Sabut dan batok kelapa dijemur di atas anyaman bambu", "imageNote": "Sabut kelapa hasil panen dijemur di bawah matahari Jawa Timur.", "link": "Kenali pemikiran di balik NIRA"},
-    "materialsIntro": {"eyebrow": "02 / Satu kelapa, banyak kemungkinan", "title": "Setiap bagiannya punya cerita.", "description": "Kenali bagaimana sabut, serat, dan batok kelapa menemukan kegunaan baru melalui perpaduan rancangan alam dan keterampilan manusia."},
-    "journey": {"eyebrow": "03 / Cara kerja sirkular", "title": "Setiap langkah membawa nilai lebih jauh.", "description": "Gagasan sirkular menjadi nyata melalui pengolahan bahan yang cermat, penghormatan pada alam, dan keterlibatan komunitas secara adil."},
-    "steps": {
-      "collect": {"title": "Kumpulkan", "subtitle": "Sumber yang beretika", "short": "Sumber beretika", "summary": "Mengumpulkan sabut dan batok bersama petani lokal.", "text": "Bermitra langsung dengan petani kecil untuk mengumpulkan sabut dan batok pascapanen yang sebelumnya terbuang atau dibakar.", "focus": "Pemanfaatan biomassa mentah"},
-      "process": {"title": "Olah", "subtitle": "Pemurnian tanpa bahan kimia", "short": "Proses alami", "summary": "Memisahkan serat dan serbuk sabut secara alami.", "text": "Memisahkan serat panjang dan serbuk sabut melalui pencucian dengan air hujan, pengeringan matahari, dan proses mekanis.", "focus": "Pemisahan mekanis"},
-      "create": {"title": "Wujudkan", "subtitle": "Karya tangan terampil", "short": "Karya pengrajin", "summary": "Mengubah serat, cocopeat, dan batok menjadi produk berguna.", "text": "Membentuk pot serat yang berpori, menyiapkan cocopeat untuk media tanam, dan mengolah batok menjadi briket yang bersih.", "focus": "Produk regeneratif"},
-      "empower": {"title": "Berdayakan", "subtitle": "Kesejahteraan sirkular", "short": "Manfaat bersama", "summary": "Mendukung bengkel desa dan riset berikutnya.", "text": "Mengembalikan nilai ekonomi untuk pusat pengolahan desa, ruang kerja pengrajin yang aman, dan riset regeneratif berkelanjutan.", "focus": "Kemandirian komunitas"}
+    "metaTitle": "PANDA COCO | Membuka Nilai Tertinggi di Setiap Serat Kelapa",
+    "metaDescription": "PANDA COCO adalah platform agro-biomassa sirkular terdepan di Pandeglang yang memproses sabut kelapa menjadi Cocofiber, Cocopeat, Green Panel, dan Bio-Briket bertenaga mesin listrik bersih.",
+    "hero": {
+      "eyebrow": "PANDA COCO · AGRO-BIOMASSA SIRKULAR",
+      "tagline": "PRESISI & PERFORMA TINGGI",
+      "titleFirst": "Kekuatan biomassa.",
+      "titleSecond": "Performa industri terbarukan.",
+      "callout": "MEMBUKA KAPITAL EKONOMI DI SETIAP SERAT KELAPA PANDEGLANG.",
+      "description": "PANDA COCO mentransformasi potensi 23.900 ton kelapa Pandeglang menjadi Cocofiber mutu ekspor, Cocopeat organik, Green Panel interior, dan energi bersih melalui lini produksi mesin listrik modern.",
+      "actionShort": "Lihat Produk",
+      "actionLong": "Jelajahi Portofolio Produk",
+      "about": "Tentang PANDA COCO",
+      "noteStrong": "Kapasitas Terukur.",
+      "note": "Mengolah 24 ton biomassa per tahun bersama 100 operator perempuan OPTIMALKAN IBU dan 60 petani mitra.",
+      "imageAlt": "Anatomi biomassa kelapa PANDA COCO: sabut serat emas, cocopeat berpori, dan briket karbon padat",
+      "imageBadge": "Agro-Hub Keboncau",
+      "imageParts": "Cocofiber · Cocopeat · Green Panel"
     },
-    "products": {"eyebrow": "04 / Keluarga produk", "title": "Bahan yang punya makna baru.", "explore": "Jelajahi semua produk", "empty": "Informasi produk segera hadir.", "swipe": "Geser untuk melihat produk", "carousel": "Keluarga produk"},
-    "impact": {"eyebrow": "05 / Tujuan yang terukur", "title": "Dampak dalam tiga dimensi.", "link": "Lihat metode pengukuran dampak", "description": "NIRA mengukur keberhasilan melalui siklus bahan yang lebih panjang, penghidupan keluarga yang lebih stabil, dan pemulihan lingkungan yang dapat diamati.", "source": "Audit desa NIRA"},
-    "community": {"caption": "Pak Wayan Sudarma, koordinator utama pengrajin di Banyuwangi, Jawa Timur.", "eyebrow": "06 / Manusia di pusat perubahan", "title": "Perubahan lahir dari tangan manusia.", "quote": "Di NIRA, sabut dan batok kelapa yang dulu kami bakar atau buang kini menjadi sumber penghasilan baru, sekaligus membantu menjaga tanah dan laut kami tetap bersih.", "role": "Koordinator pengrajin dan pengumpulan bahan", "location": "Jawa Timur, Indonesia", "collective": "Kelompok pengrajin desa", "description": "Dari pengumpulan sabut hingga pembuatan pot dan sentuhan akhir pada karya batok, NIRA menghargai pengetahuan ekologis masyarakat pesisir. Setiap produk yang terjual ikut mendukung penghasilan keluarga.", "link": "Baca kisah komunitas", "imageAlt": "Pak Wayan tersenyum di bengkel kerajinan kelapa yang diterangi matahari"},
-    "cta": {"eyebrow": "Ekosistem terbuka", "title": "Mari tumbuhkan kemungkinan baru.", "description": "Bagi merek hortikultura, studio arsitektur, maupun pegiat keberlanjutan, NIRA membuka kolaborasi untuk mengembangkan bahan dan produk sirkular yang berpihak pada alam serta komunitas.", "tagOne": "Distribusi produk rumah tangga", "tagTwo": "Media tanam untuk pembibitan", "tagThree": "Riset biokomposit", "action": "Mulai Percakapan"}
+    "statsBar": {
+      "biomass": {
+        "value": "24+",
+        "unit": "Ton/Tahun",
+        "label": "Biomassa Divalorisasi",
+        "desc": "Sabut dan batok kelapa Keboncau"
+      },
+      "women": {
+        "value": "100+",
+        "unit": "Perempuan",
+        "label": "Operator Terampil",
+        "desc": "Inisiatif OPTIMALKAN IBU"
+      },
+      "farmers": {
+        "value": "60",
+        "unit": "Petani Mitra",
+        "label": "Rantai Pasok Terlacak",
+        "desc": "3.000 pohon kelapa aktif"
+      },
+      "electric": {
+        "value": "100%",
+        "unit": "Mesin Listrik",
+        "label": "Energi Bersih Bebas Emisi",
+        "desc": "Dukungan PLN Electrifying Agriculture"
+      }
+    },
+    "ribbon": {
+      "one": "Potensi alam yang melimpah",
+      "two": "Teknologi mesin listrik presisi",
+      "three": "Kepemimpinan perempuan berdaya",
+      "four": "Nilai tertinggi di setiap serat"
+    },
+    "story": {
+      "eyebrow": "01 / Potensi Biomassa Pandeglang",
+      "title": "Membuka nilai tersembunyi dari komoditas unggulan daerah.",
+      "p1": "Kabupaten Pandeglang memproduksi lebih dari 23.900 ton kelapa per tahun di 35 kecamatan. Selama puluhan tahun, sabut yang mencapai 35% bobot buah dan tempurung sebesar 12% belum dimanfaatkan optimal dan kerap dibakar terbuka.",
+      "p2": "PANDA COCO hadir di Kampung Keboncau sebagai pelopor hilirisasi terintegrasi. Menggunakan mesin decorticator listrik bertenaga PLN, kami memproses 2 ton sabut per bulan menjadi biomaterial bernilai tinggi, memberikan nilai tambah langsung bagi petani dan masyarakat.",
+      "imageAlt": "Fasilitas penjemuran dan pemrosesan sabut kelapa terpadu di Agro-Hub PANDA COCO Keboncau",
+      "imageNote": "Bahan baku sabut berkualitas tinggi diolah di fasilitas Keboncau, Pandeglang, Banten.",
+      "link": "Pelajari model sirkular PANDA COCO"
+    },
+    "materialsIntro": {
+      "eyebrow": "02 / Rekayasa Hayati Terpadu",
+      "title": "Satu pohon kelapa, aneka solusi industri.",
+      "description": "Pelajari bagaimana setiap lapisan anatomis sabut dan tempurung kelapa diproses secara mekanis tanpa bahan kimia untuk menghasilkan material ramah lingkungan berkinerja tinggi."
+    },
+    "journey": {
+      "eyebrow": "03 / Metodologi Pengolahan Bersih",
+      "title": "Alur produksi terstandarisasi hulu ke hilir.",
+      "description": "Dari panen kebun rakyat hingga menjadi produk terstandarisasi, seluruh proses mengutamakan efisiensi listrik, keselamatan kerja (K3), dan kontrol mutu yang disiplin."
+    },
+    "steps": {
+      "collect": {
+        "title": "Kemitraan",
+        "subtitle": "Pasokan Petani Terlacak",
+        "short": "Pasokan Adil",
+        "summary": "Menyerap sabut dan batok dari 60 petani mitra.",
+        "text": "Bermitra langsung dengan 60 petani pemilik 3.000 pohon kelapa di Keboncau dengan kontrak harga pembelian transparan di atas harga pasar mentah.",
+        "focus": "Agregasi Bahan Baku Terpadu"
+      },
+      "process": {
+        "title": "Penguraian",
+        "subtitle": "Elektrifikasi Mesin Bersih",
+        "short": "Mesin Listrik",
+        "summary": "Pemisahan serat dan serbuk dengan mesin listrik PLN.",
+        "text": "Mengoperasikan decorticator elektrik dan sifter putar bertenaga listrik PLN 3-phase, menggantikan mesin diesel fosil demi proses yang higienis dan bebas emisi.",
+        "focus": "Pemisahan Mekanis Presisi"
+      },
+      "create": {
+        "title": "Formulasi",
+        "subtitle": "Biomaterial & Green Panel",
+        "short": "Fabrikasi Produk",
+        "summary": "Mencetak bal serat, cocopeat blok, dan panel interior.",
+        "text": "Memadatkan serat keemasan menjadi bal industri, memurnikan cocopeat Low-EC, dan mencetak PANDA COCO Green Panel menggunakan press hidrolik.",
+        "focus": "Produk Bernilai Tambah Tinggi"
+      },
+      "empower": {
+        "title": "Kedaulatan",
+        "subtitle": "OPTIMALKAN IBU & Usaha Mandiri",
+        "short": "Kemandirian Usaha",
+        "summary": "Membina 100 operator perempuan dan kemandirian koperasi.",
+        "text": "Menginvestasikan nilai tambah produksi untuk pelatihan vokasi 100 perempuan pelaku industri hijau, legalitas NIB, dan pembentukan koperasi produsen mandiri.",
+        "focus": "Kemandirian Ekonomi Daerah"
+      }
+    },
+    "products": {
+      "eyebrow": "04 / Portofolio Produk",
+      "title": "Material terbarukan berstandar industri.",
+      "explore": "Lihat seluruh spesifikasi produk",
+      "empty": "Informasi katalog produk segera diperbarui.",
+      "swipe": "Geser untuk melihat katalog",
+      "carousel": "Katalog Produk PANDA COCO"
+    },
+    "impact": {
+      "eyebrow": "05 / Dampak Berbasis Data",
+      "title": "Kinerja nyata dalam tiga dimensi.",
+      "link": "Lihat metodologi audit dampak",
+      "description": "PANDA COCO mengukur keberhasilan melalui metrik riil: tonase biomassa yang dialihkan dari pembakaran, kapasitas kerja 100 perempuan, dan peningkatan nilai ekonomi kelapa rakyat.",
+      "source": "Audit Lapangan Agro-Hub PANDA COCO"
+    },
+    "advantages": {
+      "eyebrow": "06 / Keunggulan B2B & Kemitraan",
+      "title": "Standar industri sirkular untuk performa rantai pasok Anda.",
+      "description": "Dirancang untuk memenuhi kebutuhan pembeli industri, pembibitan hortikultura, arsitek sirkular, dan eksportir yang menuntut keandalan pasokan dan rekam jejak keberlanjutan yang terverifikasi.",
+      "items": {
+        "sourcing": {
+          "title": "100% Pasokan Terlacak",
+          "desc": "Bahan baku bersumber langsung dari 60 petani mitra dan 3.000 pohon kelapa Keboncau tanpa perantara spekulatif."
+        },
+        "quality": {
+          "title": "Mutu Teruji Bebas Kimia",
+          "desc": "Pemisahan mekanis bertenaga listrik menghasilkan cocopeat Low-EC stabil, cocofiber berdaya tarik tinggi, dan panel bebas formalin."
+        },
+        "decarbonization": {
+          "title": "Dekarbonisasi Riil",
+          "desc": "Mendukung pemenuhan target ESG korporasi, menggantikan plastik polimer fosil, dan mengeliminasi emisi pembakaran limbah."
+        },
+        "empowerment": {
+          "title": "Martabat Komunitas",
+          "desc": "Kemitraan berkeadilan yang membuka kapasitas kepemimpinan bagi 100 operator perempuan melalui inisiatif OPTIMALKAN IBU."
+        }
+      }
+    },
+    "community": {
+      "caption": "Ibu Siti Rohmah, Koordinator Pengawasan Mutu & Fasilitas Produksi OPTIMALKAN IBU di Keboncau.",
+      "eyebrow": "06 / Kepemimpinan Perempuan Berdaya",
+      "title": "Digerakkan oleh keahlian dan presisi.",
+      "quote": "Di PANDA COCO, kami membuktikan bahwa perempuan desa mampu mengoperasikan mesin industri presisi, menjaga standar mutu ekspor, dan menjadi pilar ketahanan ekonomi keluarga.",
+      "role": "Koordinator Pengawasan Mutu & Produksi (OPTIMALKAN IBU)",
+      "location": "Keboncau, Pandeglang, Banten",
+      "collective": "Kelompok Usaha PANDA COCO",
+      "description": "Inisiatif OPTIMALKAN IBU melibatkan 100 perempuan tangguh sebagai operator lini produksi, kurator mutu bahan, dan manajer operasional hub sirkular dengan jam kerja fleksibel yang menghargai keseimbangan keluarga.",
+      "link": "Pelajari inisiatif OPTIMALKAN IBU",
+      "imageAlt": "Ibu koordinator PANDA COCO memegang sampel serat cocofiber berkualitas di hub pengolahan Keboncau"
+    },
+    "cta": {
+      "eyebrow": "Kemitraan B2B & Suplai Industri",
+      "title": "Siap memperkuat rantai pasok sirkular Anda?",
+      "description": "PANDA COCO siap melayani pengadaan bahan baku cocofiber skala besar, suplai cocopeat pembibitan, panel interior arsitektural, hingga energi bersih untuk mitra industri dan korporasi.",
+      "tagOne": "Suplai Cocofiber & Cocopeat Grosir",
+      "tagTwo": "Penyediaan PANDA COCO Green Panel",
+      "tagThree": "Bio-Briket Energi Bersih",
+      "action": "Hubungi Tim Kemitraan"
+    }
   },
   "about": {
-    "metaTitle": "Tentang NIRA | Filosofi, Visi, dan Nilai Sirkularitas",
-    "metaDescription": "Kenali etos NIRA: membuka nilai tersembunyi dari biomassa kelapa Indonesia bersama komunitas petani, keterampilan tangan, dan prinsip desain regeneratif.",
+    "metaTitle": "Tentang PANDA COCO | Agro-Biomassa Sirkular Pandeglang",
+    "metaDescription": "Kenali PANDA COCO: inisiatif hilirisasi perkebunan kelapa berbasis mesin listrik bersih di Pandeglang, didukung inisiatif OPTIMALKAN IBU dan PLN Electrifying Agriculture.",
     "hero": {
-      "eyebrow": "Etos & Asal Mula",
-      "title": "Setiap bagian menyimpan kemungkinan yang lebih dalam.",
-      "description": "Nature Into Renewable Assets (NIRA) berakar pada pengamatan mendasar: sistem industri modern sering kali membuang sebagian besar biomassa pertanian sebagai limbah tanpa nilai. Kami meyakini bahwa desain regeneratif bermula dari kesadaran untuk merawat dan mengungkap potensi alami yang telah disediakan bumi.",
-      "imageAlt": "Komposisi kelapa utuh, batok kelapa terbelah, serat sabut alami, dan tunas hijau segar"
+      "eyebrow": "Profil Usaha & Asal Mula",
+      "title": "Membuka kapital tersembunyi dari kelapa Pandeglang.",
+      "description": "PANdeglang Domestic Agro COCOnut (PANDA COCO) didirikan atas visi strategis: komoditas kelapa rakyat seluas 23.900 ton di Pandeglang harus dihilirisasi secara modern di kampung sendiri. Dengan energi listrik andal dan sains material, kami mengubah biomassa yang terabaikan menjadi aset bernilai tinggi.",
+      "imageAlt": "Fasilitas pengolahan PANDA COCO dengan tumpukan sabut kelapa yang siap diolah menjadi serat industri"
     },
     "philosophy": {
-      "eyebrow": "01 / Filosofi Kami",
-      "title": "Nilai bermula dari rasa hormat dan perhatian.",
-      "p1": "Sabut kelapa yang kasar bukanlah sampah. Batok keras yang padat bukanlah persoalan pembuangan. Jika dipandang dengan rasa hormat, setiap lapisannya menyimpan keunggulan hayati yang nyata — mulai dari serat kaya lignin yang tahan lapuk, serbuk sabut berpori yang menyerap air, hingga karbon organik berkepadatan tinggi.",
-      "p2": "Perhatian yang sama kami berikan kepada mereka yang merawat pohon-pohon ini. Bahan baku hanya menemukan makna sejatinya melalui pengetahuan antargenerasi, penghargaan yang adil, serta keterampilan tangan komunitas petani yang memeliharanya.",
-      "imageAlt": "Tangan pengrajin sedang memisahkan serat sabut kelapa keemasan di bengkel kerja terbuka",
-      "imageNote": "Pengrajin mengolah serat kelapa alami di Jawa Timur, Indonesia."
+      "eyebrow": "01 / Filosofi Industri Kami",
+      "title": "Nilai lahir dari sains material dan teknologi bersih.",
+      "p1": "Sabut kelapa bukanlah limbah tanpa arti. Di dalamnya tersimpan keunggulan rekayasa hayati yang luar biasa: serat kaya lignin dengan kekuatan tarik tinggi, serbuk berpori yang mampu mengikat air hingga 8 kali bobotnya, dan tempurung keras dengan densitas karbon 7.200 kkal/kg.",
+      "p2": "Potensi ini kami padukan dengan efisiensi mesin listrik modern dan dedikasi 100 perempuan terampil melalui inisiatif OPTIMALKAN IBU. Hasilnya adalah lini produksi yang stabil, higienis, dan kompetitif untuk memenuhi kebutuhan industri manufaktur modern.",
+      "imageAlt": "Pengoperasian mesin pengurai sabut kelapa bertenaga listrik di fasilitas PANDA COCO Keboncau",
+      "imageNote": "Fasilitas pengolahan biomassa bertenaga listrik di Keboncau, Pandeglang, Banten.",
+      "link": "Pelajari Metodologi Mesin Listrik"
     },
     "vision": {
-      "eyebrow": "Visi Kami",
-      "title": "Masa depan yang menghargai keutuhan alam.",
-      "description": "Kami mencita-citakan ekonomi sirkular yang memulihkan, di mana 100% biomassa kelapa hasil panen berputar kembali ke dalam siklus kehidupan, menggantikan penggunaan plastik sintetis sekali pakai, seraya menghadirkan kemandirian ekonomi yang tangguh bagi keluarga petani di kawasan tropis."
+      "eyebrow": "Visi Industri",
+      "title": "Menjadi hub agro-biomassa kelapa sirkular terdepan di Indonesia.",
+      "description": "Membangun ekosistem hilirisasi kelapa terdesentralisasi yang mengolah 100% biomassa kelapa menjadi material industri ramah lingkungan, menggantikan plastik sintetis berbahan fosil, serta menciptakan kedaulatan ekonomi berkelanjutan bagi petani dan perempuan pedesaan."
     },
     "mission": {
       "eyebrow": "Misi Kami",
-      "title": "Mewujudkan alternatif regeneratif yang nyata dan berdaya guna.",
-      "description": "Mengembangkan dan memperluas pemanfaatan biomaterial bernilai tinggi dari sabut, serbuk kelapa, dan batok — menghadirkan keunggulan estetika serta fungsi terbaik melalui kemitraan desa yang beretika dan keterbukaan rantai pasok yang jujur."
+      "title": "Menghadirkan biomaterial presisi melalui inovasi teknologi bersih.",
+      "description": "Memproduksi Cocofiber, Cocopeat, Green Panel, dan Bio-Briket berkualitas tinggi melalui proses mekanis bersih bertenaga listrik PLN, menjaga transparansi rantai pasok hulu-hilir, dan memberdayakan komunitas lokal sebagai pemegang kendali usaha."
     },
     "values": {
-      "eyebrow": "02 / Landasan Kerja",
-      "title": "Empat prinsip, satu arah yang teguh.",
-      "lead": "Nilai-nilai ini memandu penelitian kami, hubungan dengan para pengrajin, serta standar rancangan setiap produk yang kami lahirkan.",
-      "badge": "Prinsip Panduan",
+      "eyebrow": "02 / Standar Kerja",
+      "title": "Empat pilar keunggulan operasional.",
+      "lead": "Nilai-nilai ini menjadi landasan ketat dalam setiap tahapan produksi, uji mutu material, dan hubungan kemitraan yang kami bangun.",
+      "badge": "Pilar Keunggulan",
       "v1": {
-        "name": "Menghormati Alam",
-        "text": "Memperlakukan alam bukan sebagai komoditas untuk dieksploitasi semata, melainkan sebagai ekosistem hayati yang perlu dipahami, dihormati, dan dipulihkan."
+        "name": "Keunggulan Mutu Industri",
+        "text": "Setiap produk diuji secara teratur untuk memastikan parameter kadar air, kadar abu, daya serap, dan salinitas (EC) memenuhi standar spesifikasi teknis pembeli."
       },
       "v2": {
-        "name": "Kecermatan Pengolahan",
-        "text": "Menolak jalan pintas bahan kimia berbahaya. Kami mengutamakan pemisahan mekanis, pembilasan dengan air hujan alami, dan perekat berbasis nabati ramah lingkungan."
+        "name": "Elektrifikasi Produksi Bersih",
+        "text": "Menggantikan mesin berbahan bakar diesel dengan motor listrik andal PLN (Electrifying Agriculture) demi lini pengolahan yang higienis, efisien, dan rendah emisi."
       },
       "v3": {
-        "name": "Manusia di Pusat Perhatian",
-        "text": "Menempatkan komunitas tani sebagai mitra setara yang bermartabat serta penerima manfaat utama dari setiap lini produk yang berkembang."
+        "name": "Kedaulatan & Martabat Komunitas",
+        "text": "Menempatkan 60 petani mitra dan 100 perempuan OPTIMALKAN IBU sebagai pelaku usaha berkeahlian teknis tinggi, bukan objek belas kasihan."
       },
       "v4": {
-        "name": "Bukti Nyata & Keterbukaan",
-        "text": "Menjauhi klaim keberlanjutan yang semu. Kami menyajikan data terverifikasi dan menyatakan secara jujur proses riset yang masih terus berjalan."
+        "name": "Integritas & Anti-Greenwashing",
+        "text": "Menyajikan data kapasitas, pengurangan karbon, dan sertifikasi produk secara transparan dan terverifikasi oleh audit berkala."
       }
     }
   },
   "transformation": {
-    "metaTitle": "Transformasi | Dari Biomassa Kelapa Menjadi Produk Sirkular",
-    "metaDescription": "Kenali metodologi transformasi NIRA: pemisahan serat mekanis, pemurnian cocopeat, dan pirolisis rendah emisi mengubah biomassa kelapa menjadi produk bernilai tinggi.",
-    "ogTitle": "Transformasi di NIRA · Nilai di Balik Sisa",
-    "ogDescription": "Dari kelapa utuh menjadi material alami hingga produk bernilai guna tinggi yang berpihak pada bumi dan manusia.",
+    "metaTitle": "Transformasi | Metodologi Mesin Listrik & Rekayasa Hijau",
+    "metaDescription": "Pelajari metodologi pengolahan bersih PANDA COCO: pemisahan serat decorticator listrik, desalinasi cocopeat, dan kompresi hidrolik Green Panel.",
+    "ogTitle": "Transformasi Bersih PANDA COCO · Dari Biomassa Mentah Menjadi Material Bernilai",
+    "ogDescription": "Lini produksi bertenaga listrik PLN mengubah sabut dan tempurung kelapa menjadi material industri unggulan.",
     "hero": {
-      "eyebrow": "Metodologi Transformasi",
-      "title": "Dari kelapa mentah menjadi kemungkinan tanpa batas.",
-      "description": "Tidak ada satu daur hidup tunggal bagi sebutir kelapa. Setiap lapisan anatomisnya — sabut, serbuk, dan batok — melalui alur terukur tanpa bahan kimia, dari biomassa pascapanen menjadi aset regeneratif.",
-      "imageAlt": "Sabut kelapa hasil panen alami sedang dijemur di atas anyaman bambu"
+      "eyebrow": "Metodologi Rekayasa Bersih",
+      "title": "Presisi teknologi mesin listrik di setiap tahapan.",
+      "description": "PANDA COCO mengadopsi prinsip pengolahan higienis tanpa pembakaran dan tanpa bahan kimia beracun. Sabut dan tempurung kelapa diproses melalui rangkaian mesin terstandarisasi untuk menghasilkan empat lini material industri.",
+      "imageAlt": "Lini mesin pengurai sabut kelapa bertenaga listrik di Agro-Hub PANDA COCO"
     },
     "materialMap": {
-      "eyebrow": "01 / Peta Bahan Sirkular",
-      "title": "Satu asal mula. Beragam masa depan.",
-      "lead": "Alih-alih melumatkan biomassa menjadi bubur yang seragam, NIRA mempertahankan keunggulan mekanis dan seluler khas dari setiap lapisan kelapa.",
+      "eyebrow": "01 / Peta Turunan Material",
+      "title": "Satu sumber daya. Beragam aplikasi industri.",
+      "lead": "Kami mempertahankan keunggulan struktural dan seluler dari setiap lapisan kelapa untuk menghasilkan nilai guna terbaik bagi industri modern.",
       "items": {
         "husk": {
           "part": "Sabut Luar",
-          "material": "Serat Sabut Kelapa Alami",
-          "badge": "Lignin Berdaya Tarik Kuat",
-          "process": "Pemisahan mekanis dan penjemuran alami menghasilkan serat berkekuatan tinggi dan tahan lapuk tanpa perekat sintetis.",
-          "form": "NIRA Living (Pot Berpori & Tekstil Hayati)"
+          "material": "PANDA COCOfiber",
+          "badge": "Lignin Kuat & Fleksibel",
+          "process": "Penguraian mekanis dengan decorticator listrik 30 kg/jam menghasilkan serat emas panjang berkekuatan tarik tinggi.",
+          "form": "Bahan Baku Matras, Jok Otomotif, & Geotekstil"
         },
         "pith": {
-          "part": "Sisa Serbuk Sabut",
-          "material": "Cocopeat Organik",
-          "badge": "Matriks Spons Seluler",
-          "process": "Pencucian air hujan, penyaringan partikel, dan masa istirahat mikrobiologis menghasilkan media tanam berpori yang mengikat kelembapan.",
-          "form": "NIRA Grow (Media Pembibitan Bebas Gambut)"
+          "part": "Serbuk Sabut Berpori",
+          "material": "PANDA COCOpeat",
+          "badge": "Spons Seluler Low-EC",
+          "process": "Pencucian desalinasi, penyaringan silinder rotary sifter, dan aerasi mikrobiologis menghasilkan media semai kaya daya simpan air.",
+          "form": "Substrat Tanam Organik & Hortikultura Bebas Gambut"
         },
         "shell": {
-          "part": "Batok Keras (Endokarp)",
-          "material": "Karbon Hayati & Batok Poles",
-          "badge": "Endokarp Berkalori Tinggi",
-          "process": "Karbonisasi pirolisis terkontrol menghasilkan briket bersih; pengampelasan tangan menghasilkan perlengkapan rumah yang tahan lama.",
-          "form": "NIRA Energy & NIRA Craft"
+          "part": "Tempurung Keras (Endokarp)",
+          "material": "Bio-Karbon & Briket",
+          "badge": "Kalori Tinggi 7.200 kkal",
+          "process": "Pirolisis terkontrol emisi rendah menghasilkan briket arang berkalori tinggi dan batok poles untuk peralatan fungsional.",
+          "form": "PANDA COCO Bio-Briket & Karbon Hayati"
         }
       }
     },
     "craft": {
-      "eyebrow": "02 / Sentuhan Keterampilan Tangan",
-      "title": "Serat bermula dari sentuhan tangan manusia.",
-      "p1": "Sabut luar kelapa adalah peredam alami bumi. Kaya akan lignin alami, sabut menahan kelembapan berlebih, tahan terhadap pembusukan bakteri, dan tetap menjaga sirkulasi udara di tengah perubahan iklim tropis yang ekstrem.",
-      "p2": "Ketika tangan pengrajin memisahkan dan merangkai serat-serat keemasan ini, sisa hasil panen yang kasar menjelma menjadi wadah yang bernapas bersama tanaman. Saat tanaman bertambah besar, pot dapat ditanam langsung ke dalam tanah tanpa sampah plastik atau stres pindah tanam.",
-      "imageAlt": "Tangan pengrajin memilah dan merapikan serat sabut kelapa panjang berwarna cokelat keemasan",
-      "imageNote": "Pengrajin mengolah serat sabut kelapa mentah di bengkel kerja terbuka."
+      "eyebrow": "02 / Inovasi PANDA COCO Green Panel",
+      "title": "Biokomposit terkompresi pengganti material kayu dan plastik.",
+      "p1": "Serat sabut kelapa yang kaya akan lignin alami memiliki daya tahan luar biasa terhadap kelembapan tropis dan serangan jamur pelapuk kayu.",
+      "p2": "Melalui teknologi press hidrolik bertenaga listrik dan perekat nabati ramah lingkungan, kami mencetak PANDA COCO Green Panel: panel interior dan akustik kokoh yang menyerap suara secara alami tanpa melepaskan emisi gas formalin berbahaya.",
+      "imageAlt": "Prototipe PANDA COCO Green Panel terkompresi dengan tekstur serat sabut yang rapi dan elegan",
+      "imageNote": "Pencetakan panel biokomposit presisi di bengkel pengolahan Keboncau."
     },
     "system": {
-      "eyebrow": "03 / Sistem Menyeluruh",
-      "title": "Kumpulkan. Olah. Wujudkan. Berdayakan.",
-      "lead": "Setiap langkah dalam siklus kami berakar pada perdagangan adil, pengolahan tanpa bahan kimia, dan kepemilikan komunitas setempat."
+      "eyebrow": "03 / Sistem Produksi Terintegrasi",
+      "title": "Pasokan Adil. Olah Bersih. Produk Bernilai. Komunitas Berdaulat.",
+      "lead": "Lini produksi PANDA COCO beroperasi dalam siklus tertutup: zero open burning, efisiensi energi listrik terukur, dan kepemilikan usaha lokal."
     },
     "result": {
-      "eyebrow": "04 / Hasil Nyata",
-      "title": "Jelajahi wujud jadinya.",
-      "lead": "Living, Grow, Energy, dan Craft membuktikan bagaimana standar estetika tinggi dan tanggung jawab ekologis menyatu dalam keseharian.",
-      "action": "Jelajahi Seluruh Koleksi Produk"
+      "eyebrow": "04 / Portofolio Lengkap",
+      "title": "Material siap pakai untuk kebutuhan industri Anda.",
+      "lead": "Cocofiber, Cocopeat, Green Panel, dan Bio-Briket membuktikan keunggulan kualitas dan komitmen keberlanjutan yang nyata.",
+      "action": "Jelajahi Portofolio Produk Lengkap"
     }
   },
   "productsPage": {
-    "metaTitle": "Produk | Ragam Pemanfaatan Biomassa Kelapa Sirkular",
-    "metaDescription": "Jelajahi produk NIRA: NIRA Living (pot sabut), NIRA Grow (media cocopeat), NIRA Energy (briket arang), dan NIRA Craft (kerajinan rumah tangga). 100% alami dan bebas plastik.",
-    "ogTitle": "Produk NIRA · Nilai di Balik Sisa",
-    "ogDescription": "Empat alur bahan sirkular, empat arah produk regeneratif.",
+    "metaTitle": "Produk | Katalog Agro-Biomassa & Biokomposit PANDA COCO",
+    "metaDescription": "Jelajahi lini produk PANDA COCO: PANDA COCOfiber (serat industri), PANDA COCOpeat (media tanam Low-EC), PANDA COCO Green Panel (panel interior), dan PANDA COCO Bio-Briket.",
+    "ogTitle": "Katalog Produk PANDA COCO · Biomaterial Kinerja Tinggi",
+    "ogDescription": "Empat lini produk terstandarisasi untuk kebutuhan industri, agrikultur komersial, dan arsitektur interior ramah lingkungan.",
     "hero": {
-      "eyebrow": "Ragam Produk Regeneratif",
-      "title": "Lahir dari apa yang alam titipkan.",
-      "description": "NIRA Living, Grow, Energy, dan Craft hadir sebagai empat wujud nyata dalam mengungkap nilai guna baru di balik setiap bagian kelapa setelah konsumsi pangan.",
-      "imageAlt": "Mangkuk dan sendok batok kelapa buatan pengrajin di atas kain linen alami"
+      "eyebrow": "Katalog Produk Industri",
+      "title": "Biomaterial presisi untuk kebutuhan modern.",
+      "description": "PANDA COCO menghadirkan empat lini produk unggulan yang dirancang memenuhi parameter teknis industri manufaktur, pembibitan komersial, dan arsitektur hijau.",
+      "imageAlt": "Jajaran produk PANDA COCO: bal serat sabut, kemasan cocopeat blok, sampel green panel, dan briket arang geometris"
     },
-    "quickJump": "Lini Produk:",
+    "quickJump": "Pilihan Lini Produk:",
     "standards": {
-      "title": "Standar Regeneratif:",
-      "text": "Setiap lini produk NIRA diolah tanpa polimer berbahan minyak bumi, tanpa perekat sintetis, dan tanpa pewarna kimia. Seluruh bahan baku diperoleh langsung melalui koperasi petani mitra.",
+      "title": "Standar Manufaktur Bersih:",
+      "text": "Diproduksi dengan mesin bertenaga listrik PLN tanpa bahan kimia berbahaya, tanpa pewarna sintetis, dan bersumber dari 60 petani mitra Keboncau terlacak.",
       "badge": "100% Bio-Sirkular"
     },
     "derivedFrom": "0{index} · Diolah dari {source}",
-    "materialSource": "Sumber Bahan",
+    "materialSource": "Bahan Baku",
     "refiningProcess": "Proses Pengolahan",
-    "sustainabilityValue": "Nilai Keberlanjutan",
-    "ctaSample": "Ajukan Spesifikasi & Sampel",
-    "viewLifecycle": "Lihat alur proses pengolahan →",
-    "empty": "Informasi produk akan segera hadir.",
+    "sustainabilityValue": "Kinerja Keberlanjutan",
+    "ctaSample": "Minta Sampel & Lembar Spesifikasi",
+    "viewLifecycle": "Pelajari proses pemurnian mesin →",
+    "empty": "Katalog produk sedang dalam pembaruan berkala.",
     "items": {
       "living": {
-        "name": "NIRA Living",
-        "description": "Wadah tanaman berpori alami dari serat sabut kelapa yang mendukung pertumbuhan akar sehat dan terurai sempurna kembali ke tanah.",
-        "materialSource": "Serat sabut kelapa",
-        "process": "Serat sabut dipisahkan secara mekanis, dijemur alami, dan dicetak menjadi wadah berpori yang kuat dengan perekat nabati ramah lingkungan.",
-        "sustainabilityValue": "Menggantikan pot plastik sekali pakai, memberi sirkulasi udara optimal bagi akar, dan menjaga kelembapan.",
-        "imageAlt": "Pot tanaman dari serat sabut kelapa alami di atas meja kayu",
-        "imageNote": "Dibuat dengan tangan dari 100% serat sabut kelapa alami."
+        "name": "PANDA COCOfiber",
+        "description": "Serat sabut kelapa panjang keemasan dengan elastisitas tinggi dan daya tahan pelapukan luar biasa untuk industri manufaktur dan geotekstil.",
+        "materialSource": "Sabut kelapa tua pilihan",
+        "process": "Penguraian mekanis dengan decorticator listrik, penjemuran berventilasi, dan pembalan hidrolik terkompresi tanpa bahan kimia perekat sintetis.",
+        "sustainabilityValue": "Material terbarukan pengganti busa sintetis dan plastik polypropylene, berkekuatan tarik tinggi dan dapat terurai secara biologis.",
+        "imageAlt": "Bal serat sabut kelapa PANDA COCOfiber berkualitas ekspor",
+        "imageNote": "Serat panjang emas dengan kadar kotoran < 3% dan kadar air < 15%."
       },
       "grow": {
-        "name": "NIRA Grow",
-        "description": "Media tanam cocopeat organik berkualitas tinggi yang mengolah serbuk sabut kelapa menjadi penyubur tanah kaya simpanan air.",
-        "materialSource": "Serbuk sabut kelapa",
-        "process": "Serbuk sabut dicuci air hujan, disesuaikan tingkat keasamannya (pH seimbang), dan disaring untuk menciptakan media semai berpori.",
-        "sustainabilityValue": "Alternatif ramah lingkungan pengganti gambut alam, melindungi ekosistem lahan basah, dan menyerap air hingga 8x bobot keringnya.",
-        "imageAlt": "Media semai cocopeat organik dengan tunas tanaman segar",
-        "imageNote": "Telah dicuci tiga kali, media tanam organik dengan EC rendah."
+        "name": "PANDA COCOpeat",
+        "description": "Media tanam organik berpori terverifikasi Low-EC dengan retensi air hingga 8x bobot kering, pilihan utama nursery komersial dan hidroponik.",
+        "materialSource": "Serbuk seluler sabut kelapa",
+        "process": "Pencucian desalinasi untuk menurunkan kadar garam alami, penyaringan silinder sifter mesh seragam, dan pengeringan higienis pada pH netral (5,8–6,5).",
+        "sustainabilityValue": "Alternatif berkelanjutan pengganti gambut alam (peat moss), menghemat konsumsi air irigasi hingga 50%, dan mendukung aerasi akar yang sehat.",
+        "imageAlt": "Cocopeat organik terkompresi PANDA COCOpeat siap pakai untuk pembibitan",
+        "imageNote": "Telah melalui pencucian desalinasi, Electrical Conductivity (EC) rendah terverifikasi."
       },
       "energy": {
-        "name": "NIRA Energy",
-        "description": "Briket arang batok kelapa berkalori tinggi dan minim asap, menghasilkan panas bersih dan tahan lama dari batok sisa panen.",
-        "materialSource": "Batok kelapa keras",
-        "process": "Batok kelapa tua dipirolisis dalam tungku emisi rendah, digiling halus, dan dipadatkan menjadi briket geometris berkualitas.",
-        "sustainabilityValue": "Bahan bakar tanpa deforestasi yang menyala hingga 3x lebih lama dari arang kayu biasa, dengan abu minim dan pembakaran tanpa bau.",
-        "imageAlt": "Briket arang batok kelapa geometris di samping batok kelapa yang dipoles",
-        "imageNote": "100% karbonisasi batok kelapa alami."
+        "name": "PANDA COCO Bio-Briket",
+        "description": "Briket arang tempurung kelapa berkalori tinggi (~7.200 kkal/kg) dengan pembakaran bersih, minim asap, dan waktu bakar hingga 3x arang kayu biasa.",
+        "materialSource": "Tempurung kelapa tua padat",
+        "process": "Karbonisasi pirolisis suhu terkontrol rendah emisi, penggilingan halus terstandar, dan pencetakan briket heksagonal berkerapatan tinggi.",
+        "sustainabilityValue": "Bahan bakar energi bersih 100% tanpa deforestasi, kadar abu minim (<3%), tidak berbau, dan aman untuk kuliner maupun pemanas industri.",
+        "imageAlt": "Briket arang tempurung kelapa geometris PANDA COCO Bio-Briket",
+        "imageNote": "Nilai kalor tinggi 7.200 kkal/kg dengan pembakaran bersih tanpa bau."
       },
       "craft": {
-        "name": "NIRA Craft",
-        "description": "Perlengkapan rumah tangga buatan tangan dari batok kelapa pilihan, dipoles alami dengan minyak kelapa murni tanpa pernis sintetis.",
-        "materialSource": "Batok kelapa pilihan",
-        "process": "Batok kelapa diamplas secara bertahap hingga halus, dibentuk oleh pengrajin lokal, dan diakhiri dengan polesan minyak kelapa alami.",
-        "sustainabilityValue": "Karya tahan lama yang menggantikan wadah plastik sekali pakai dan memberi nilai tambah ekonomi langsung bagi pengrajin desa.",
-        "imageAlt": "Mangkuk dan sendok batok kelapa buatan pengrajin di atas kain linen alami",
-        "imageNote": "Dipoles dengan tangan menggunakan minyak kelapa murni."
+        "name": "PANDA COCO Green Panel",
+        "description": "Inovasi panel akustik dan partisi interior ramah lingkungan dari serat sabut terkompresi dengan perekat nabati aman tanpa formalin.",
+        "materialSource": "Serat sabut kelapa terkompresi",
+        "process": "Pencampuran serat terkalibrasi dengan formulasi perekat berbasis getah nabati, dilanjutkan pengepresan hidrolik panas bersuhu terukur.",
+        "sustainabilityValue": "Material bangunan sirkular pengganti partisi gipsum dan kayu lapis sintetis, peredam suara alami bersertifikasi emisi nol VOC.",
+        "imageAlt": "Panel akustik interior alami PANDA COCO Green Panel dengan tekstur serat elegan",
+        "imageNote": "Bebas racun formalin, memiliki koefisien serap suara akustik alami tinggi."
       }
     }
   },
   "impactPage": {
-    "metaTitle": "Dampak | Nilai yang Melampaui Produk",
-    "metaDescription": "Telusuri dampak lingkungan, sosial, dan ekonomi yang dibangun NIRA melalui inovasi biomassa sirkular dan kemitraan komunitas yang transparan.",
-    "ogTitle": "Dampak di NIRA · Tiga Pilar Nilai Regeneratif",
-    "ogDescription": "Integritas bahan, kesejahteraan komunitas, dan keterbukaan tanpa kompromi.",
+    "metaTitle": "Dampak | Metrik Kinerja Sirkular PANDA COCO",
+    "metaDescription": "Telusuri data akuntabilitas PANDA COCO: 24 ton biomassa diolah per tahun, 100 perempuan program OPTIMALKAN IBU, dan rantai pasok 60 petani Keboncau.",
+    "ogTitle": "Dampak PANDA COCO · Bukti Nyata Tiga Dimensi",
+    "ogDescription": "Dekarbonisasi rantai pasok, kedaulatan 100 operator perempuan, dan nilai tambah kelapa rakyat di Pandeglang.",
     "hero": {
-      "eyebrow": "Akuntabilitas yang Berpijak",
-      "title": "Makna yang melampaui produk semata.",
-      "description": "Karya fungsional yang indah hanyalah salah satu sisi dari desain regeneratif. Komitmen dasar NIRA menghubungkan pemanfaatan bahan yang bijak langsung dengan pelestarian alam, kesehatan tanah, dan kesejahteraan keluarga petani.",
-      "imageAlt": "Komposisi kelapa dan tunas hijau yang sedang bertumbuh"
+      "eyebrow": "Akuntabilitas Berbasis Data",
+      "title": "Kinerja nyata yang melampaui retorika.",
+      "description": "PANDA COCO menolak klaim hijau semu (*anti-greenwashing*). Keberhasilan kami diukur secara transparan melalui bobot tonase sabut yang dialihkan dari pembakaran, jam kerja produktif perempuan, dan deviden ekonomi bagi petani mitra.",
+      "imageAlt": "Data timbangan dan pencatatan produksi berkala di Agro-Hub PANDA COCO Keboncau"
     },
     "pillars": {
-      "eyebrow": "01 / Tiga Dimensi Pemulihan",
-      "title": "Wujud nyata sirkularitas yang bermakna.",
-      "lead": "Kami menolak klaim keberlanjutan yang sempit, dan memilih kemajuan seimbang antara kelestarian lingkungan, martabat manusia, dan ketahanan ekonomi desa.",
+      "eyebrow": "01 / Tiga Dimensi Kinerja",
+      "title": "Bukti terukur hilirisasi sirkular.",
+      "lead": "Kemajuan kami bertumpu pada keseimbangan nyata antara dekarbonisasi lingkungan, martabat kerja perempuan, dan penguatan ekonomi perkebunan rakyat.",
       "environmental": {
         "label": "Lingkungan",
-        "narrative": "100% pemanfaatan hayati sabut dan batok kelapa dari pembakaran terbuka di tepi jalan, sekaligus melindungi lahan gambut alami dari eksploitasi."
+        "narrative": "Mengolah 24 ton sabut dan 10,8 ton tempurung per tahun, menghentikan praktik pembakaran terbuka di jalanan, serta mengurangi eksploitasi lahan gambut alami."
       },
       "social": {
-        "label": "Sosial",
-        "narrative": "Menjadikan pengumpulan, pemilahan, dan pembuatan karya berakar di desa pesisir, memastikan keterlibatan pengrajin yang aman, adil, dan berkelanjutan."
+        "label": "Sosial & Inklusivitas",
+        "narrative": "Melatih dan melibatkan 100 perempuan melalui inisiatif OPTIMALKAN IBU sebagai operator mesin presisi dan pengawas mutu dengan lingkungan kerja aman."
       },
       "economic": {
-        "label": "Ekonomi",
-        "narrative": "Membuka aliran pendapatan baru dari bahan yang sebelumnya dianggap limbah tak bernilai, meningkatkan ketahanan ekonomi keluarga petani."
+        "label": "Ekonomi Perkebunan",
+        "narrative": "Membuka aliran pendapatan baru bernilai puluhan juta rupiah per tahun dari bagian kelapa yang semula dibuang, memberikan premi harga bagi 60 petani mitra."
       },
       "verifiedField": "Terverifikasi Lapangan",
       "yearPrefix": "Tahun",
-      "source": "Audit Desa NIRA"
+      "source": "Audit Lapangan Agro-Hub PANDA COCO"
     },
     "evidence": {
       "badge": "Standar Pembuktian",
-      "title": "Tunjukkan kerja nyata. Verifikasi data.",
-      "lead": "Kami memegang teguh komitmen anti-greenwashing. NIRA hanya mempublikasikan data terukur yang didukung catatan pengumpulan terverifikasi, kemitraan desa yang transparan, dan analisis siklus hidup bahan.",
+      "title": "Verifikasi data dan transparansi operasional.",
+      "lead": "Seluruh data pencapaian PANDA COCO didukung oleh buku timbangan harian, catatan konsumsi daya listrik PLN, nota transaksi penjualan, dan register keanggotaan.",
       "points": {
         "one": {
-          "title": "Bobot Bahan & Pengalihan Biomassa",
-          "text": "Pencatatan tonase sabut dan batok kelapa yang diselamatkan dari timbunan sampah tepi jalan dan pembakaran lahan, terdata di pos pengumpulan desa."
+          "title": "Tonase Biomassa Teralihkan",
+          "text": "Pencatatan harian sabut dan tempurung yang masuk ke hub pengolahan Keboncau, memastikan verifikasi penghentian pembakaran limbah terbuka."
         },
         "two": {
-          "title": "Kemandirian Petani & Kompensasi yang Adil",
-          "text": "Jumlah keluarga petani mitra yang menerima premi harga yang layak dan stabil di atas fluktuasi pasar komoditas mentah."
+          "title": "Indeks Pemberdayaan OPTIMALKAN IBU",
+          "text": "Pendataan 100 perempuan yang telah menuntaskan pelatihan vokasi K3, pengoperasian mesin listrik, dan sertifikasi uji mutu bahan."
         },
         "three": {
-          "title": "Siklus Karbon & Perlindungan Lahan Gambut",
-          "text": "Pengurangan emisi gas rumah kaca yang terukur melalui penggantian gambut alam dan plastik pembibitan berbahan fosil dengan sabut kelapa terbarukan."
+          "title": "Pengurangan Emisi Karbon Terukur",
+          "text": "Perhitungan emisi yang dihindari melalui pemanfaatan mesin listrik menggantikan genset solar serta substitusi material plastik dengan biokomposit."
         }
       }
     },
     "goals": {
-      "eyebrow": "03 / Sasaran Global · Berakar Lokal",
-      "title": "Keterhubungan model kerja NIRA.",
-      "lead": "NIRA selaras dengan Tujuan Pembangunan Berkelanjutan (SDGs) PBB, mencerminkan kesatuan antara filosofi operasional dan komitmen etis jangka panjang.",
+      "eyebrow": "03 / Keselarasan Sasaran Global",
+      "title": "Berakar di desa, selaras dengan sasaran dunia.",
+      "lead": "Model operasional PANDA COCO terintegrasi langsung dengan Tujuan Pembangunan Berkelanjutan (UN SDGs) dan agenda dekarbonisasi nasional.",
       "sdg8": {
         "tag": "UN SDG 8",
         "title": "Pekerjaan Layak & Pertumbuhan Ekonomi",
-        "text": "Mendorong pertumbuhan ekonomi yang berkelanjutan dan inklusif, serta menyediakan lapangan kerja yang bermartabat bagi keluarga petani kelapa dan pengrajin perempuan di pedesaan.",
-        "link": "Lihat rincian tujuan PBB ↗"
+        "text": "Membuka lapangan kerja industri hijau bernilai tambah tinggi bagi perempuan dan petani pedesaan dengan upah yang adil dan jam kerja fleksibel.",
+        "link": "Lihat target UN SDG 8 ↗"
       },
       "sdg12": {
         "tag": "UN SDG 12",
         "title": "Konsumsi & Produksi yang Bertanggung Jawab",
-        "text": "Mengurangi limbah pertanian secara substansial melalui daur ulang biologis, pemisahan bahan tanpa zat kimia, dan sistem produksi regeneratif tertutup.",
-        "link": "Lihat rincian tujuan PBB ↗"
+        "text": "Memaksimalkan 100% biomassa kelapa tanpa limbah (zero waste), memisahkan serat tanpa zat kimia berbahaya, dan mendorong substitusi plastik ramah lingkungan.",
+        "link": "Lihat target UN SDG 12 ↗"
       }
     }
   },
   "partnershipPage": {
-    "metaTitle": "Kemitraan · Menciptakan Nilai Regeneratif Bersama",
-    "metaDescription": "Jajaki kolaborasi strategis dengan NIRA: bahan baku sirkular skala besar, ko-desain produk, distribusi substrat hortikultura, dan agroforestri komunitas.",
-    "ogTitle": "Bermitra dengan NIRA · Membangun Masa Depan Sirkular",
-    "ogDescription": "Menghubungkan pengetahuan material, keahlian desain, dan kedaulatan komunitas.",
+    "metaTitle": "Kemitraan · Kolaborasi Pasokan & Inovasi Biokomposit",
+    "metaDescription": "Bangun kolaborasi strategis bersama PANDA COCO: pasokan massal Cocofiber & Cocopeat, fabrikasi Green Panel, dan kemitraan agroforestri berkelanjutan.",
+    "ogTitle": "Kemitraan Industri PANDA COCO · Solusi Biomaterial Terpercaya",
+    "ogDescription": "Hubungkan kebutuhan rantai pasok industri Anda dengan pasokan biomaterial terstandarisasi dari Pandeglang.",
     "hero": {
-      "eyebrow": "Kolaborasi Terbuka",
-      "title": "Ciptakan kemungkinan baru bersama.",
-      "description": "Terobosan ekologis paling transformatif terjadi ketika ilmu material sirkular, desain industri, dan koperasi pertanian akar rumput bertemu. Kami mengundang mitra yang visinya selaras untuk membangun bersama.",
-      "cta": "Kirim Pertanyaan"
+      "eyebrow": "Kemitraan B2B & Industri",
+      "title": "Bangun rantai pasok masa depan bersama kami.",
+      "description": "Kami mengundang pelaku industri manufaktur, distributor hortikultura, arsitek interior, dan investor hijau untuk bermitra dalam pemanfaatan biomaterial sirkular terverifikasi dari sentra kelapa Pandeglang.",
+      "cta": "Mulai Diskusi Kemitraan"
     },
     "tracks": {
       "eyebrow": "01 / Jalur Kolaborasi",
-      "title": "Peran yang berbeda. Niat ekologis yang sama.",
-      "lead": "Baik Anda merek besar yang mengganti plastik, pembudidaya hortikultura yang membutuhkan cocopeat konsisten, maupun institusi yang mengembangkan biokomposit.",
+      "title": "Solusi terfokus untuk setiap sektor.",
+      "lead": "Pilih jalur kemitraan yang paling sesuai dengan kebutuhan spesifikasi material, volume pengadaan, atau target keberlanjutan organisasi Anda.",
       "sourcing": {
-        "title": "Pengadaan & Pasokan Material",
-        "badge": "Grosir & Massal",
-        "text": "Dapatkan cocopeat organik triple-washed terverifikasi dan serat kelapa bermutu langsung dari pusat pengolahan desa fairtrade."
+        "title": "Pengadaan Bahan Baku Grosir",
+        "badge": "Massal & Kontrak Pasokan",
+        "text": "Pasokan rutin Cocofiber bal dan Cocopeat Low-EC berkualitas stabil langsung dari Agro-Hub Keboncau untuk kebutuhan pabrik dan nursery."
       },
       "codev": {
-        "title": "Ko-Pengembangan Produk",
-        "badge": "Desain & Manufaktur",
-        "text": "Berkolaborasi membuat pot tanaman alami, peralatan rumah biokomposit, atau formulasi bio-arang yang disesuaikan untuk pasar Anda."
+        "title": "Ko-Pengembangan Green Panel & Biokomposit",
+        "badge": "Desain & Manufaktur Kustom",
+        "text": "Berkolaborasi dalam formulasi densitas panel akustik, partisi interior, atau cetakan khusus sesuai standar arsitektur hijau proyek Anda."
       },
       "community": {
-        "title": "Komunitas & Agroforestri",
-        "badge": "Aliansi Koperasi",
-        "text": "Memperluas infrastruktur pengumpulan pascapanen terdesentralisasi di komunitas pesisir penghasil kelapa, menjunjung upah layak dan pelatihan keterampilan."
+        "title": "Kemitraan Agroforestri & ESG",
+        "badge": "Aliansi Strategis & TJSL",
+        "text": "Bermitra memperluas fasilitas pengolahan terdesentralisasi, mendukung inisiatif OPTIMALKAN IBU, dan memverifikasi jejak dekarbonisasi bersama PLN."
       }
     },
     "process": {
-      "eyebrow": "02 / Arsitektur Keterlibatan",
-      "title": "Cara kami bermitra bersama.",
-      "lead": "Kami beroperasi melalui transparansi yang disiplin, prototyping iteratif yang cepat, dan rasa hormat yang teguh terhadap tata kelola komunitas.",
+      "eyebrow": "02 / Arsitektur Kerja Sama",
+      "title": "Tahapan kolaborasi terstruktur.",
+      "lead": "Kami mengedepankan komunikasi profesional, pengiriman sampel teruji laboratorium, dan kontrak pasokan yang transparan.",
       "steps": {
-        "one": { "title": "Dengarkan & Diagnosa", "text": "Memahami secara mendalam kebutuhan material, batasan mekanis, dan target keberlanjutan Anda." },
-        "two": { "title": "Formulasikan & Prototipe", "text": "Kalibrasi kepadatan serat kelapa, ukuran partikel, atau spesifikasi cetak di hub bengkel regional kami." },
-        "three": { "title": "Pilot & Validasi", "text": "Lakukan pengujian degradasi, retensi air, atau termal di dunia nyata dengan dokumentasi terverifikasi." },
-        "four": { "title": "Skala & Kelola", "text": "Tetapkan kontrak pasokan transparan yang didukung pembayaran langsung ke koperasi petani dan keterlacakan penuh." }
+        "one": {
+          "title": "1. Analisis Kebutuhan",
+          "text": "Mengkaji spesifikasi teknis kadar air, dimensi serat, volume bulanan, dan jadwal pengiriman yang Anda butuhkan."
+        },
+        "two": {
+          "title": "2. Pengujian Sampel",
+          "text": "Mengirimkan sampel Cocofiber, Cocopeat, atau Green Panel untuk diuji pada lini produksi atau laboratorium pengujian Anda."
+        },
+        "three": {
+          "title": "3. Uji Coba Pilot",
+          "text": "Melakukan pengiriman uji coba skala terbatas untuk memvalidasi kompatibilitas logistik dan stabilitas mutu bahan."
+        },
+        "four": {
+          "title": "4. Kontrak Pasokan Jangka Panjang",
+          "text": "Menetapkan perjanjian pasokan berkala dengan jaminan kualitas dan kepastian serapan yang adil bagi petani mitra."
+        }
       }
     },
     "inquiry": {
-      "eyebrow": "Titik Kontak Langsung",
-      "title": "Bawa gagasan ke meja diskusi.",
-      "lead": "Gunakan generator brief interaktif kami untuk menyusun niat proyek, keluarga material target, dan estimasi waktu Anda.",
+      "eyebrow": "Kontak Langsung",
+      "title": "Kirimkan brief proyek Anda.",
+      "lead": "Gunakan generator brief interaktif kami untuk merumuskan estimasi volume, lini material, dan jadwal kebutuhan industri Anda.",
       "bullets": {
-        "email": { "title": "Email Langsung:", "text": "Buka klien email default Anda yang sudah terisi lengkap dengan spesifikasi Anda." },
-        "brief": { "title": "Brief Terstruktur:", "text": "Subjek dan isi email diformat otomatis, siap untuk dikirim." },
-        "privacy": { "title": "Tanpa Telemetri:", "text": "Form dijalankan di sisi klien, tanpa skrip pelacakan pihak ketiga." }
+        "email": {
+          "title": "Email Langsung:",
+          "text": "Membuka draft email resmi yang telah terisi spesifikasi kebutuhan Anda secara rapi."
+        },
+        "brief": {
+          "title": "Format Terstruktur:",
+          "text": "Memastikan data teknis langsung diterima oleh tim kemitraan PANDA COCO."
+        },
+        "privacy": {
+          "title": "Keamanan Data:",
+          "text": "Formulir dijalankan di sisi klien secara aman tanpa pelacakan pihak ketiga."
+        }
       }
     }
   },
   "inquiryBuilder": {
-    "badge": "Generator Pertanyaan",
-    "title": "Susun Brief Kolaborasi Anda",
-    "nameLabel": "Nama Anda *",
-    "orgLabel": "Organisasi",
+    "badge": "Generator Kemitraan B2B",
+    "title": "Susun Brief Kolaborasi PANDA COCO",
+    "nameLabel": "Nama Lengkap *",
+    "orgLabel": "Nama Perusahaan / Organisasi",
     "optional": "(opsional)",
-    "trackLabel": "Jalur Kolaborasi *",
-    "briefLabel": "Brief Proyek *",
-    "briefPlaceholder": "Ceritakan timeline, volume, atau tujuan riset Anda...",
-    "submit": "Buka Draft Email",
-    "emailSubjectPrefix": "Pertanyaan NIRA:",
-    "emailHeader": "Pertanyaan Kemitraan NIRA",
-    "emailFrom": "Dari:",
-    "emailOrg": "Organisasi:",
-    "emailFocus": "Area Fokus:",
-    "emailOverview": "Gambaran Proyek & Tujuan:",
-    "emailFooter": "Dikirim melalui Platform NIRA",
+    "trackLabel": "Jalur Kemitraan *",
+    "briefLabel": "Rincian Kebutuhan & Estimasi Volume *",
+    "briefPlaceholder": "Sebutkan perkiraan volume bulanan, spesifikasi kadar air/EC yang dibutuhkan, atau rencana proyek Green Panel Anda...",
+    "submit": "Buka Draft Email Kemitraan",
+    "emailSubjectPrefix": "Pertanyaan Kemitraan PANDA COCO:",
+    "emailHeader": "Brief Kemitraan Resmi PANDA COCO",
+    "emailFrom": "Nama Pengirim:",
+    "emailOrg": "Perusahaan/Organisasi:",
+    "emailFocus": "Jalur Kolaborasi:",
+    "emailOverview": "Deskripsi Proyek & Kebutuhan Spesifik:",
+    "emailFooter": "Dikirim melalui Portal Resmi PANDA COCO (pandacoco.id)",
     "track": {
-      "sourceRaw": "Pasokan Material Mentah (Sabut / Serbuk / Batok)",
-      "living": "NIRA Living: Pot Kelapa & Distribusi",
-      "grow": "NIRA Grow: Pasokan Cocopeat Massal",
-      "energy": "NIRA Energy: Pasokan Bio-Briket",
-      "codev": "Ko-Pengembangan Kustom & Biokomposit",
-      "agroforestry": "Kemitraan Agroforestri Komunitas"
+      "sourceRaw": "Pengadaan Cocofiber Bal Massal (Bahan Baku Manufaktur)",
+      "living": "Pengadaan Cocopeat Low-EC (Substrat Hortikultura Komersial)",
+      "grow": "PANDA COCO Green Panel (Material Akustik & Interior Hijau)",
+      "energy": "PANDA COCO Bio-Briket (Pasokan Energi Bersih Karbon Tinggi)",
+      "codev": "Ko-Pengembangan Kustom & Formulasi Biokomposit",
+      "agroforestry": "Kemitraan Aliansi Agro-Hub & Inisiatif ESG"
     }
   }
 }

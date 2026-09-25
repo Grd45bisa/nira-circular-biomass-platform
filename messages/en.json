@@ -1,367 +1,620 @@
 {
-  "common": {"language": "Language", "skip": "Skip to content", "part": "Part", "outcome": "Outcome", "primaryApplication": "Primary Application", "keyAttributes": "Key Material Attributes", "ecologicalGain": "Ecological Impact Gain", "exploreDerived": "Explore products derived from {part}", "assetPending": "Asset in production", "pillar": "Pillar", "year": "Year", "evidence": "Evidence"},
-  "journalPage": {
-    "metaTitle": "Journal · Field Notes & Circular Essays",
-    "metaDescription": "Read NIRA's editorial publications: deep explorations on coconut bio-composites, agroforestry livelihoods, and circular design philosophy.",
-    "ogTitle": "NIRA Journal · Stories from Material to Meaning",
-    "ogDescription": "Stories, technical field notes, and community perspectives from the coconut belt.",
-    "hero": {
-      "eyebrow": "Editorial Dispatches",
-      "title": "Notes from a changing material story.",
-      "description": "Essays, technical insights, and community perspectives investigating how overlooked natural resources can reshape design, agriculture, and human livelihoods.",
-      "imageAlt": "Close up of artisan hands carefully handling and separating long golden-brown coconut coir fibers"
-    },
-    "featuredLabel": "Featured Dispatch",
-    "readTime": "5 min read · Editorial",
-    "readMore": "Read Complete Dispatch",
-    "allDispatches": "All Dispatches",
-    "allTitle": "Field notes on circularity & craft.",
-    "allDescription": "Documenting the evolution of our regenerative supply chains and village workshop insights.",
-    "empty": "Journal articles will be available soon."
+  "common": {
+    "language": "Language",
+    "skip": "Skip to main content",
+    "part": "Component",
+    "outcome": "Manufactured Output",
+    "primaryApplication": "Industrial Application",
+    "keyAttributes": "Technical Attributes",
+    "ecologicalGain": "Ecological Performance",
+    "exploreDerived": "Explore products derived from {part}",
+    "assetPending": "Asset in production",
+    "pillar": "Pillar",
+    "year": "Year",
+    "evidence": "Data Source"
   },
-  "nav": {"home": "Home", "about": "About NIRA", "transformation": "Transformation", "products": "Products", "impact": "Impact", "journal": "Journal", "partnership": "Partnership"},
-  "header": {"homeLabel": "NIRA home — Value Beyond Waste", "primaryNav": "Primary navigation", "mobileNav": "Mobile navigation", "openMenu": "Open menu", "closeMenu": "Close menu", "menu": "Menu", "navigationHeading": "Navigation", "partner": "Partner", "partnerLong": "Partner With Us", "startCollaboration": "Start a Collaboration", "drawerNote": "Every part of nature holds value. NIRA helps reveal it."},
-  "footer": {"tagline": "Every part of nature holds value. NIRA helps reveal it.", "brandDescription": "Regenerative coconut biomass", "badgeOne": "100% upcycled biomass", "badgeTwo": "Zero synthetic plastics", "badgeThree": "Village-rooted economy", "explore": "Explore Platform", "families": "Product Families", "collaboration": "Collaboration", "collaborationShort": "We partner with brands, growers, and material innovators.", "collaborationLong": "We partner with brands, growers, horticulturists, and material scientists committed to circular principles.", "inquire": "Inquire Collaboration", "credits": "Image documentation & credits", "ethos": "Ethos & Philosophy", "copyright": "Designed intentionally.", "coirPots": "Coir Pots", "cocopeat": "Cocopeat Medium", "biocharcoal": "Bio-Charcoal", "homeware": "Polished Homeware"},
+  "journalPage": {
+    "metaTitle": "PANDA COCO Journal · Engineering & Circular Research",
+    "metaDescription": "Technical publications from PANDA COCO: in-depth explorations on coconut biocomposites, electrified agro-processing, and sovereign local supply networks.",
+    "ogTitle": "PANDA COCO Journal · Material Science & Biomass Innovation",
+    "ogDescription": "Field research notes, clean processing machinery documentation, and circular agro-industrial dispatches from Pandeglang.",
+    "hero": {
+      "eyebrow": "Research & Engineering Dispatches",
+      "title": "Unlocking high-performance frontiers in coconut fiber.",
+      "description": "Technical investigations, laboratory tests, and industrial perspectives on converting regional plantation biomass into certified manufacturing assets.",
+      "imageAlt": "PANDA COCO machine operator inspecting high-tensile golden coconut coir fibers"
+    },
+    "featuredLabel": "Featured Research",
+    "readTime": "5 min read · Technical Study",
+    "readMore": "Read Full Article",
+    "allDispatches": "All Articles",
+    "allTitle": "Material engineering & agro-industry notes.",
+    "allDescription": "Documenting the operational evolution of our integrated supply chain and electric machine processing hub in Kampung Keboncau.",
+    "empty": "Journal publications will be available soon."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "transformation": "Transformation",
+    "products": "Products",
+    "impact": "Impact",
+    "journal": "Journal",
+    "partnership": "Partnership"
+  },
+  "header": {
+    "homeLabel": "PANDA COCO — Circular Agro-Biomass Platform",
+    "primaryNav": "Primary navigation",
+    "mobileNav": "Mobile navigation",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "menu": "Menu",
+    "navigationHeading": "Navigation",
+    "partner": "Partnership",
+    "partnerLong": "Partner With Us",
+    "startCollaboration": "Start Partnership",
+    "drawerNote": "Unlocking high-performance value from every coconut fiber through clean technology."
+  },
+  "footer": {
+    "tagline": "Unlocking high-performance value from every coconut fiber.",
+    "brandDescription": "Circular Agro-Biomass Platform in Pandeglang",
+    "badgeOne": "100% Upcycled Biomass",
+    "badgeTwo": "Zero Hazardous Synthetic Polymers",
+    "badgeThree": "Powered by Clean Electrical Machinery",
+    "explore": "Explore Platform",
+    "families": "Product Portfolio",
+    "collaboration": "Industrial Partnership",
+    "collaborationShort": "We partner with manufacturing brands, horticultural nurseries, and architects to supply certified biomaterials.",
+    "collaborationLong": "We provide bulk raw material sourcing, commercial growing media supply, and custom biocomposite co-development for industry leaders.",
+    "inquire": "Inquire Partnership",
+    "credits": "Technical Documentation & Credits",
+    "ethos": "Quality & Material Standards",
+    "copyright": "Engineered with precision for the modern circular bio-economy.",
+    "coirPots": "PANDA COCOfiber",
+    "cocopeat": "PANDA COCOpeat",
+    "biocharcoal": "PANDA COCO Bio-Briquette",
+    "homeware": "PANDA COCO Green Panel"
+  },
   "materials": {
-    "husk": {"part": "Outer Husk", "name": "Coir Fiber", "destination": "NIRA Living Vessels & Bio-Textiles", "imageAlt": "Natural coconut coir plant pots on wooden surface", "badge": "Fibrous Biomass", "description": "The fibrous outer layer that shields the coconut fruit contains resilient, naturally lignin-rich fibers. Once extracted without harsh chemicals, it provides the structural backbone for biodegradable vessels and nursery pots.", "p1": "High lignin content resists rot", "p2": "Natural air-pruning for plant roots", "p3": "Complete biological decomposition", "gain": "Direct replacement for single-use polypropylene plastic nursery containers."},
-    "pith": {"part": "Husk Residue", "name": "Organic Cocopeat", "destination": "NIRA Grow Soil Medium", "imageAlt": "Rich organic cocopeat growing medium with seedlings", "badge": "Cellular Pith", "description": "Between the long fibers lies a spongy cellular dust that holds water like a sponge. Washed and prepared with care, it serves as a peat-free growing medium.", "p1": "Absorbs up to 8x dry weight in water", "p2": "Optimal air-filled porosity for roots", "p3": "Stable neutral pH (5.8–6.5)", "gain": "Helps protect peat bog ecosystems and reduce irrigation frequency."},
-    "shell": {"part": "Dense Shell", "name": "Bio-Carbon & Polished Shell", "destination": "NIRA Energy & NIRA Craft", "imageAlt": "Coconut shell charcoal briquettes beside polished shell", "badge": "Dense Carbon Matrix", "description": "The hard shell protecting the coconut meat contains high carbon density. Processed carefully, it produces long-burning briquettes; hand-carved, it becomes lasting tabletop ware.", "p1": "High calorific value (~7,200 kcal/kg)", "p2": "Low ash content and odorless combustion", "p3": "Polished with pure virgin coconut oil", "gain": "Reduces open-air agricultural burning and wood-based charcoal use."}
+    "husk": {
+      "part": "Outer Fibrous Husk",
+      "name": "PANDA COCOfiber",
+      "destination": "Industrial Fiber, Automotive Upholstery, & Geotextiles",
+      "imageAlt": "Golden high-tensile coconut coir fibers decorticated with electric machinery",
+      "badge": "High-Tensile Lignin Matrix",
+      "description": "The tough outer husk yields resilient, golden fibers naturally rich in lignin. Mechanically extracted via electric decorticators without harsh chemicals, yielding rot-resistant industrial grade fibers.",
+      "p1": "High natural lignin content (~45%) resists microbial rot and moisture",
+      "p2": "Exceptional tensile strength and natural elasticity for manufacturing",
+      "p3": "100% renewable substitute for fossil-based synthetic fibers and foams",
+      "gain": "Replaces petroleum-based polymers in orthopedic mattresses, automotive seating, and erosion-control geotextiles."
+    },
+    "pith": {
+      "part": "Spongy Cellular Pith",
+      "name": "PANDA COCOpeat",
+      "destination": "Peat-Free Growing Medium (Low-EC)",
+      "imageAlt": "Organic porous cocopeat certified Low-EC for commercial horticulture nurseries",
+      "badge": "Cellular Porous Matrix",
+      "description": "Held between long fibers is a spongy cellular pith with remarkable moisture-holding capacity. Through rainwater desalination washing and rotary sifting, it becomes a high-performance growing substrate.",
+      "p1": "Water retention capacity up to 8x (800%) dry weight",
+      "p2": "High air-filled porosity encouraging vigorous root development",
+      "p3": "Verified Low-EC salinity and stable neutral pH (5.8–6.5)",
+      "gain": "Protects natural peat bog ecosystems and reduces commercial nursery irrigation frequency by up to 50%."
+    },
+    "shell": {
+      "part": "Dense Hard Shell (Endocarp)",
+      "name": "Bio-Carbon & Briquettes",
+      "destination": "PANDA COCO Bio-Briquettes & Industrial Carbon",
+      "imageAlt": "High-calorie coconut shell charcoal briquettes beside raw polished shell",
+      "badge": "High Carbon Density",
+      "description": "Mature coconut shell contains dense, highly concentrated carbon. Processed through low-emission controlled pyrolysis into efficient briquettes that burn clean without deforestation.",
+      "p1": "High calorific value reaching ~7,200 kcal/kg",
+      "p2": "Minimal ash content (<3%) with odorless, smokeless combustion",
+      "p3": "Burns up to 3x longer and hotter than conventional hardwood charcoal",
+      "gain": "Eliminates open-air agricultural burning and replaces deforestation-driven wood charcoal."
+    }
   },
   "home": {
-    "metaTitle": "NIRA | Value Beyond Waste · Circular Coconut Materials", "metaDescription": "Discover the NIRA circular ecosystem: coconut husks, residue, and shells become living vessels, organic growing media, clean energy, and heirloom homeware while supporting local communities.",
-    "hero": {"eyebrow": "NIRA · REGENERATIVE BIOMASS", "tagline": "ROOM TO GROW", "titleFirst": "Give it room.", "titleSecond": "See what can grow.", "callout": "BECAUSE EVERY NATURAL POSSIBILITY NEEDS ROOM TO BEGIN.", "description": "NIRA is an Indonesian circular ecosystem that transforms overlooked coconut biomass into plant pots, organic growing media, clean energy, and functional craft with local communities.", "actionShort": "Transformation", "actionLong": "Explore Transformation", "about": "Discover NIRA", "noteStrong": "More than waste.", "note": "We make room for the potential of coconut and skilled hands through meaningful circular products.", "imageAlt": "Whole coconut, split shell, coir fibers, and green sprout arranged together", "imageBadge": "Anatomy of Possibility", "imageParts": "Husk · Pith · Shell"},
-    "ribbon": {"one": "Nature is the beginning", "two": "Transformation gives it form", "three": "People carry it forward", "four": "Value beyond waste"},
-    "story": {"eyebrow": "01 / The Story Behind NIRA", "title": "See what others leave behind.", "p1": "After a coconut is consumed for its water and food, its rough outer husk, fine spongy pith, and hard dense shell can still have immense regenerative purpose. Across tropical coastlines, these valuable components are all too often burned as waste or abandoned.", "p2": "NIRA begins with a different conviction: what could each material become when met with care and craft? The answer connects thoughtful mechanical processing with functional everyday products and new economic dignity for farming communities.", "imageAlt": "Naturally harvested coconut husks and shells drying on woven bamboo mats", "imageNote": "Harvested coconut husks drying under tropical sunlight in East Java, Indonesia.", "link": "The thinking behind NIRA"},
-    "materialsIntro": {"eyebrow": "02 / One coconut, endless possibilities", "title": "A whole story in every part.", "description": "Explore how each anatomical component of the coconut takes a distinct regenerative path, engineered by nature and refined by human hands."},
-    "journey": {"eyebrow": "03 / Circular Methodology", "title": "Every step carries value forward.", "description": "A circular idea becomes meaningful through rigorous material science, respect for natural architecture, and fair human participation at every stage."},
-    "steps": {
-      "collect": {"title": "Collect", "subtitle": "Ethical Sourcing", "short": "Ethical Sourcing", "summary": "Collect unused husks and shells with local farmers.", "text": "Partnering directly with smallholder farming communities to collect post-harvest husks and shells that were previously discarded or burned.", "focus": "Raw Biomass Valorization"},
-      "process": {"title": "Process", "subtitle": "Zero-Chemical Refining", "short": "Clean Refining", "summary": "Separate fiber and pith with natural methods.", "text": "Separating long tensile fibers from spongy peat pith using rainwater washing, sun-curing, and mechanical decortication.", "focus": "Mechanical Separation"},
-      "create": {"title": "Create", "subtitle": "Artisan Formulation", "short": "Artisan Making", "summary": "Shape fibers, cocopeat, and shells into useful products.", "text": "Molding breathable coir vessels, screening nutrient-holding cocopeat, and carbonizing dense shells into clean burning briquettes.", "focus": "Regenerative Output"},
-      "empower": {"title": "Empower", "subtitle": "Circular Prosperity", "short": "Shared Prosperity", "summary": "Support village workshops and future research.", "text": "Reinvesting revenue directly into village processing hubs, safe artisanal workshops, and continuous regenerative research.", "focus": "Community Sovereignty"}
+    "metaTitle": "PANDA COCO | Unlocking High-Performance Value from Coconut Fiber",
+    "metaDescription": "PANDA COCO is the leading circular agro-biomass platform in Pandeglang, converting coconut husks into Cocofiber, Cocopeat, Green Panels, and clean Bio-Briquettes powered by clean electric machinery.",
+    "hero": {
+      "eyebrow": "PANDA COCO · CIRCULAR AGRO-BIOMASS",
+      "tagline": "PRECISION & HIGH PERFORMANCE",
+      "titleFirst": "Biomass power.",
+      "titleSecond": "Renewable industrial performance.",
+      "callout": "UNLOCKING ECONOMIC CAPITAL IN EVERY COCONUT FIBER.",
+      "description": "PANDA COCO transforms Pandeglang's 23,900-ton coconut harvest into export-grade Cocofiber, organic Cocopeat, interior Green Panels, and clean bio-energy via an electrified modern processing line.",
+      "actionShort": "Explore Products",
+      "actionLong": "Explore Product Portfolio",
+      "about": "About PANDA COCO",
+      "noteStrong": "Measured Capacity.",
+      "note": "Processing 24 tons of biomass annually with 100 skilled women operators (OPTIMALKAN IBU) and 60 partner farmers.",
+      "imageAlt": "Anatomy of PANDA COCO biomass: golden coir fibers, porous cocopeat, and dense carbon briquettes",
+      "imageBadge": "Keboncau Agro-Hub",
+      "imageParts": "Cocofiber · Cocopeat · Green Panel"
     },
-    "products": {"eyebrow": "04 / Product families", "title": "Materials made meaningful.", "explore": "Explore all products", "empty": "Product information will be available soon.", "swipe": "Swipe to explore products", "carousel": "Product families"},
-    "impact": {"eyebrow": "05 / Grounded Purpose", "title": "Impact across three dimensions.", "link": "Our verified impact methodology", "description": "NIRA measures success through regenerative loops, fair household stability, and measurable ecological renewal.", "source": "NIRA Village Audits"},
-    "community": {"caption": "Pak Wayan Sudarma, Lead Artisan Coordinator in Banyuwangi, East Java.", "eyebrow": "06 / People at the center", "title": "Change is made by hands.", "quote": "At NIRA, the coconut husks and shells we once burned or discarded now provide new income while helping keep our soil and sea clean.", "role": "Artisan Lead & Harvester", "location": "East Java, Indonesia", "collective": "Village Collective", "description": "From gathering raw husks to precision coir decortication and hand-finishing bowls, NIRA centers the ecological knowledge of coastal agricultural communities. Every vessel sold supports family incomes.", "link": "Read the community dispatch", "imageAlt": "Pak Wayan smiling in a sunlit coconut craft workshop"},
-    "cta": {"eyebrow": "Open Ecosystem", "title": "What could we reveal together?", "description": "Whether you are a horticultural brand seeking peat-free circular substrates, an architectural studio exploring bio-composites, or a sustainability advocate, we welcome thoughtful collaborations that keep nature and community at the center.", "tagOne": "Retail & Homeware Distribution", "tagTwo": "Commercial Nursery Substrates", "tagThree": "Bio-Composite R&D", "action": "Start a Conversation"}
+    "statsBar": {
+      "biomass": {
+        "value": "24+",
+        "unit": "Tons/Year",
+        "label": "Valorized Biomass",
+        "desc": "Keboncau coconut husk & shell"
+      },
+      "women": {
+        "value": "100+",
+        "unit": "Women",
+        "label": "Skilled Hub Operators",
+        "desc": "OPTIMALKAN IBU initiative"
+      },
+      "farmers": {
+        "value": "60",
+        "unit": "Partner Farmers",
+        "label": "Traceable Supply Chain",
+        "desc": "3,000 active coconut palms"
+      },
+      "electric": {
+        "value": "100%",
+        "unit": "Electric Power",
+        "label": "Zero-Emission Processing",
+        "desc": "Backed by PLN Electrifying Agriculture"
+      }
+    },
+    "ribbon": {
+      "one": "Abundant natural capital",
+      "two": "Precision electric machinery",
+      "three": "Women-led operational agility",
+      "four": "Highest value in every fiber"
+    },
+    "story": {
+      "eyebrow": "01 / Pandeglang's Biomass Potential",
+      "title": "Revealing hidden value in regional agricultural wealth.",
+      "p1": "Pandeglang Regency produces over 23,900 tons of coconuts annually across 35 districts. For decades, the husks (35% of total fruit weight) and shells (12%) were underutilized and frequently burned in open pits.",
+      "p2": "PANDA COCO established the Keboncau Agro-Hub as a pioneering integrated processing center. Utilizing electric decorticators powered by PLN, we process 2 tons of husks monthly into certified industrial biomaterials, delivering direct value addition to farmers and local operators.",
+      "imageAlt": "Integrated coir drying and processing facility at PANDA COCO Agro-Hub Keboncau",
+      "imageNote": "Premium biomass raw materials refined at the Keboncau facility, Pandeglang, Banten.",
+      "link": "Learn about the PANDA COCO circular model"
+    },
+    "materialsIntro": {
+      "eyebrow": "02 / Integrated Bio-Engineering",
+      "title": "One coconut tree, multiple industrial solutions.",
+      "description": "Discover how each anatomical layer of coconut husk and shell is mechanically processed without harsh chemicals to yield high-performance eco-materials for modern industry."
+    },
+    "journey": {
+      "eyebrow": "03 / Clean Refining Methodology",
+      "title": "Standardized manufacturing from tree to certified product.",
+      "description": "From local smallholder harvests to certified industrial outputs, our closed-loop process prioritizes clean electrical efficiency, workplace safety (OHS), and disciplined quality assurance."
+    },
+    "steps": {
+      "collect": {
+        "title": "Fair Sourcing",
+        "subtitle": "Traceable Harvester Network",
+        "short": "Fair Sourcing",
+        "summary": "Procuring husks and shells from 60 partner farmers.",
+        "text": "Partnering directly with 60 local growers managing 3,000 coconut trees in Keboncau, offering guaranteed transparent purchase pricing well above volatile raw commodity rates.",
+        "focus": "Traceable Raw Material Aggregation"
+      },
+      "process": {
+        "title": "Decortication",
+        "subtitle": "Clean Electric Machinery",
+        "short": "Electric Tech",
+        "summary": "Separating fiber and pith with PLN electrical power.",
+        "text": "Operating electric decorticators and rotary sifters powered by PLN's 3-phase grid, replacing noisy diesel generators to ensure an emission-free, hygienic production environment.",
+        "focus": "Precision Mechanical Separation"
+      },
+      "create": {
+        "title": "Formulation",
+        "subtitle": "Biomaterials & Green Panels",
+        "short": "Product Fabrication",
+        "summary": "Baling industrial fiber, curing Low-EC cocopeat, and pressing panels.",
+        "text": "Compressing golden coir into standardized export bales, desalinating cocopeat blocks, and heat-pressing PANDA COCO Green Panels with botanical bio-adhesives.",
+        "focus": "High-Value Industrial Outputs"
+      },
+      "empower": {
+        "title": "Sovereignty",
+        "subtitle": "OPTIMALKAN IBU & Cooperative Scale",
+        "short": "Autonomous Scale",
+        "summary": "Empowering 100 women operators and building cooperative ownership.",
+        "text": "Reinvesting value-added profits into technical vocational training for 100 women in green manufacturing, formal NIB licensing, and an autonomous circular producers' cooperative.",
+        "focus": "Decentralized Regional Prosperity"
+      }
+    },
+    "products": {
+      "eyebrow": "04 / Product Portfolio",
+      "title": "Industrial-grade circular biomaterials.",
+      "explore": "View all technical specifications",
+      "empty": "Product catalog is being updated.",
+      "swipe": "Swipe to explore catalog",
+      "carousel": "PANDA COCO Product Catalog"
+    },
+    "impact": {
+      "eyebrow": "05 / Data-Backed Performance",
+      "title": "Measurable progress across three dimensions.",
+      "link": "View our impact audit methodology",
+      "description": "PANDA COCO measures success through concrete metrics: tons of biomass diverted from burning, professional hours logged by 100 women operators, and economic premiums returned to growers.",
+      "source": "PANDA COCO Agro-Hub Field Audit"
+    },
+    "advantages": {
+      "eyebrow": "06 / B2B Advantages & Partnership",
+      "title": "Circular industrial standards to elevate your supply chain.",
+      "description": "Engineered to satisfy industrial manufacturers, horticultural nurseries, circular architects, and export aggregators demanding supply reliability and verified sustainability.",
+      "items": {
+        "sourcing": {
+          "title": "100% Traceable Sourcing",
+          "desc": "Biomass sourced directly from 60 partner farmers and 3,000 active coconut palms in Keboncau without speculative intermediaries."
+        },
+        "quality": {
+          "title": "Zero-Chemical Quality Standards",
+          "desc": "Clean electric processing delivers verified Low-EC cocopeat, high tensile cocofiber, and formalin-free biocomposite panels."
+        },
+        "decarbonization": {
+          "title": "Tangible Decarbonization",
+          "desc": "Directly supports corporate ESG and Scope 3 goals by displacing fossil plastics and halting open-air agricultural burning."
+        },
+        "empowerment": {
+          "title": "Community Dignity & Sovereignty",
+          "desc": "Fair-trade direct integration empowering 100 skilled women operators through the OPTIMALKAN IBU initiative."
+        }
+      }
+    },
+    "community": {
+      "caption": "Ibu Siti Rohmah, Head of Quality Control & Production Operations for OPTIMALKAN IBU in Keboncau.",
+      "eyebrow": "06 / Women-Led Precision",
+      "title": "Powered by local skill and operational discipline.",
+      "quote": "At PANDA COCO, we demonstrate that village women are adept at operating precision industrial machinery, maintaining export-grade quality standards, and anchoring household economic resilience.",
+      "role": "Quality Control & Production Lead (OPTIMALKAN IBU)",
+      "location": "Keboncau, Pandeglang, Banten",
+      "collective": "PANDA COCO Enterprise Group",
+      "description": "The OPTIMALKAN IBU initiative empowers 100 women as certified machinery operators, material curators, and circular hub managers with flexible schedules that respect domestic and family well-being.",
+      "link": "Explore the OPTIMALKAN IBU initiative",
+      "imageAlt": "PANDA COCO operational lead evaluating coir fiber quality in the Keboncau processing hub"
+    },
+    "cta": {
+      "eyebrow": "B2B Sourcing & Industrial Supply",
+      "title": "Ready to decarbonize your material supply chain?",
+      "description": "PANDA COCO is prepared to supply bulk certified cocofiber, Low-EC horticultural substrates, architectural interior panels, and clean bio-carbon to manufacturing partners worldwide.",
+      "tagOne": "Bulk Cocofiber & Cocopeat Supply",
+      "tagTwo": "PANDA COCO Green Panel Fabrication",
+      "tagThree": "Deforestation-Free Bio-Briquettes",
+      "action": "Connect with Our B2B Team"
+    }
   },
   "about": {
-    "metaTitle": "About NIRA · Philosophy, Vision & Circular Values",
-    "metaDescription": "Discover the NIRA ethos: unlocking value in overlooked coconut materials with communities, craft, and regenerative design at the core.",
+    "metaTitle": "About PANDA COCO | Circular Agro-Biomass Platform",
+    "metaDescription": "Learn about PANDA COCO: the electrified coconut agro-industrial initiative in Pandeglang, powered by OPTIMALKAN IBU and PLN Electrifying Agriculture.",
     "hero": {
-      "eyebrow": "Our Ethos & Origin",
-      "title": "Every part holds a deeper possibility.",
-      "description": "Nature Into Renewable Assets (NIRA) was founded on an essential observation: modern industrial systems discard the majority of agricultural biomass as valueless waste. We believe regenerative design begins by revealing the inherent brilliance of what nature already provides.",
-      "imageAlt": "Editorial still life of whole coconut, split shell, raw coir fibers, and fresh green sprout"
+      "eyebrow": "Our Origin & Ethos",
+      "title": "Unlocking overlooked capital from Pandeglang coconuts.",
+      "description": "PANdeglang Domestic Agro COCOnut (PANDA COCO) was founded on a strategic industrial mandate: Pandeglang's 23,900-ton coconut harvest must be modernized and processed locally. Combining clean electricity and material science, we transform raw biomass into high-value manufacturing assets.",
+      "imageAlt": "PANDA COCO processing facility with raw coconut husks ready for electric decortication"
     },
     "philosophy": {
-      "eyebrow": "01 / Our Philosophy",
-      "title": "Value begins with reverence and attention.",
-      "p1": "A rough coconut husk is not trash. A hard dense shell is not a disposal problem. When observed with reverence, every constituent layer possesses distinct biological advantages — from natural antimicrobial lignin fibers to water-retentive spongy pith and high-density organic carbon.",
-      "p2": "That same attention must extend to the people who steward these trees. Materials gain true meaning only through the generational knowledge, fair compensation, and craftsmanship of the farming communities who nurture them.",
-      "imageAlt": "Artisan hands carefully separating golden coconut coir fibers in open-air workshop",
-      "imageNote": "Artisan handling raw coconut fibers in East Java, Indonesia."
+      "eyebrow": "01 / Industrial Philosophy",
+      "title": "Value emerges from material science and clean technology.",
+      "p1": "A coconut husk is not worthless waste. Inside lies remarkable biological architecture: high-tensile lignin fibers, spongy cellular pith absorbing up to 8 times its weight in water, and dense endocarp shell holding 7,200 kcal/kg in carbon value.",
+      "p2": "We pair these innate biological attributes with modern electric machinery and the technical dedication of 100 trained women through OPTIMALKAN IBU. The result is a consistent, hygienic, and competitive production line engineered for modern industrial buyers.",
+      "imageAlt": "Electric decorticating machinery running smoothly at PANDA COCO Keboncau facility",
+      "imageNote": "Clean, electrified agro-biomass facility in Keboncau, Pandeglang, Banten.",
+      "link": "Explore Clean Electric Machinery"
     },
     "vision": {
-      "eyebrow": "Our Vision",
-      "title": "A future that honors the whole of nature.",
-      "description": "We envision a restorative circular economy where 100% of harvested coconut biomass circulates through living systems, completely displacing petroleum-based single-use plastics, while generating decentralized, resilient prosperity for tropical farming households."
+      "eyebrow": "Industrial Vision",
+      "title": "To be Indonesia's benchmark circular agro-biomass hub.",
+      "description": "To establish decentralized agro-industrial hubs that convert 100% of regional coconut biomass into certified circular materials, displacing petroleum-based plastics while building sustainable economic sovereignty for smallholders and rural women."
     },
     "mission": {
       "eyebrow": "Our Mission",
-      "title": "Make regenerative alternatives tangible.",
-      "description": "To engineer and scale high-utility bio-material applications from coconut husk, pith, and shell — delivering uncompromised aesthetic and functional excellence through ethical village partnerships and radical supply chain transparency."
+      "title": "Engineering certified biomaterials through clean technology.",
+      "description": "To manufacture export-grade Cocofiber, Cocopeat, Green Panels, and Bio-Briquettes via clean electric machinery, maintaining complete supply chain transparency and establishing local communities as autonomous enterprise owners."
     },
     "values": {
-      "eyebrow": "02 / What Guides Us",
-      "title": "Four principles, one constant direction.",
-      "lead": "These tenets shape our research, our artisan relationships, and our product design standards.",
-      "badge": "Guiding Principle",
+      "eyebrow": "02 / Operational Standards",
+      "title": "Four pillars of manufacturing excellence.",
+      "lead": "These benchmarks govern every stage of material extraction, laboratory validation, and commercial partnership.",
+      "badge": "Operational Standards",
       "v1": {
-        "name": "Respect for Nature",
-        "text": "Treating nature not as raw commodity to extract, but as an evolved biological system to understand, honor, and restore."
+        "name": "Industrial-Grade Quality",
+        "text": "Every batch is tested to ensure strict adherence to buyer specifications: moisture content, ash thresholds, air-filled porosity, and electrical conductivity (EC)."
       },
       "v2": {
-        "name": "Care in Craft",
-        "text": "Rejecting synthetic shortcuts. We employ physical mechanical separation, rainwater curing, and organic plant-based binders."
+        "name": "Clean Electrified Production",
+        "text": "Replacing diesel combustion with reliable grid electricity via PLN's Electrifying Agriculture, ensuring a quiet, clean, and low-carbon processing environment."
       },
       "v3": {
-        "name": "People at the Center",
-        "text": "Centering agricultural communities as dignified co-creators and primary beneficiaries of every commercial product line."
+        "name": "Sovereignty & Human Dignity",
+        "text": "Positioning our 60 partner farmers and 100 OPTIMALKAN IBU operators as skilled technical contributors, not charitable recipients."
       },
       "v4": {
-        "name": "Evidence & Transparency",
-        "text": "No greenwashing. We communicate verified metrics when confirmed and clearly state where ongoing field research continues."
+        "name": "Integrity & Anti-Greenwashing",
+        "text": "Publishing only verified data on biomass throughput, carbon abatement, and product certifications backed by periodic field audits."
       }
     }
   },
   "transformation": {
-    "metaTitle": "Transformation · Biological Architecture to Renewable Assets",
-    "metaDescription": "Follow the NIRA transformation methodology: mechanical decortication, cellular pith purification, and low-emission pyrolysis turn discarded coconut biomass into regenerative products.",
-    "ogTitle": "Transformation at NIRA · Value Beyond Waste",
-    "ogDescription": "From whole coconut to engineered bio-materials to regenerative products.",
+    "metaTitle": "Transformation | Clean Electric Engineering & Refining",
+    "metaDescription": "Explore PANDA COCO's clean refining methodology: electric decortication, cocopeat desalination, and hydraulic Green Panel compression.",
+    "ogTitle": "Clean Transformation · From Raw Biomass to High-Value Materials",
+    "ogDescription": "Electrified processing lines powered by PLN transform coconut husks and shells into certified industrial materials.",
     "hero": {
-      "eyebrow": "Transformation Methodology",
-      "title": "From raw coconut to endless possibility.",
-      "description": "There is no single second life for a coconut. Every anatomical layer — husk, pith, and shell — follows a calibrated, chemical-free route from post-harvest biomass to regenerative assets.",
-      "imageAlt": "Naturally harvested coconut husks drying on woven bamboo mats"
+      "eyebrow": "Clean Refining Methodology",
+      "title": "Precision electric engineering across every stage.",
+      "description": "PANDA COCO operates on zero-burning, zero-toxic-chemical principles. Coconut husks and shells are processed through standardized electric machinery to produce four distinct industrial material lines.",
+      "imageAlt": "Electric coconut husk decorticating line at PANDA COCO Agro-Hub"
     },
     "materialMap": {
-      "eyebrow": "01 / The Circular Material Map",
-      "title": "One origin. Distinct futures.",
-      "lead": "Rather than blending biomass into indistinguishable pulp, NIRA preserves the unique mechanical and cellular qualities inherent to each layer.",
+      "eyebrow": "01 / Material Derivation Map",
+      "title": "One raw resource. Multiple industrial outputs.",
+      "lead": "We preserve the structural and cellular advantages of each anatomical coconut layer to maximize performance in modern applications.",
       "items": {
         "husk": {
-          "part": "Outer Husk",
-          "material": "Natural Coir Fiber",
-          "badge": "Structural Tensile Lignin",
-          "process": "Mechanical decortication and sun-curing isolate high-tensile, rot-resistant fibers without synthetic adhesives.",
-          "form": "NIRA Living (Breathable Pots & Bio-Textiles)"
+          "part": "Outer Fibrous Husk",
+          "material": "PANDA COCOfiber",
+          "badge": "Tensile Lignin Fibers",
+          "process": "Electric decortication (30 kg/hr) mechanically separates golden fibers without chemical degradation.",
+          "form": "Raw Material for Mattresses, Automotive Seats, & Geotextiles"
         },
         "pith": {
-          "part": "Inner Pith Residue",
-          "material": "Organic Cocopeat",
-          "badge": "Cellular Sponge Matrix",
-          "process": "Rainwater desalinating, particle grading, and microbiological resting yield an aerated moisture-retentive substrate.",
-          "form": "NIRA Grow (Peat-Free Seedling Medium)"
+          "part": "Spongy Cellular Dust",
+          "material": "PANDA COCOpeat",
+          "badge": "Low-EC Cellular Sponge",
+          "process": "Rainwater desalination, rotary cylinder sifting, and microbiological aeration produce a moisture-retentive growing substrate.",
+          "form": "Peat-Free Commercial Growing Medium & Hydroponic Substrate"
         },
         "shell": {
           "part": "Hard Endocarp Shell",
-          "material": "Bio-Carbon & Polished Shell",
-          "badge": "High-Calorific Endocarp",
-          "process": "Controlled pyrolysis carbonization generates clean briquettes; precision hand-sanding crafts timeless tabletop homeware.",
-          "form": "NIRA Energy & NIRA Craft"
+          "material": "Bio-Carbon & Briquettes",
+          "badge": "High Energy 7,200 kcal",
+          "process": "Low-emission controlled pyrolysis yields high-calorific charcoal briquettes and hand-polished functional tableware.",
+          "form": "PANDA COCO Bio-Briquettes & Technical Carbon"
         }
       }
     },
     "craft": {
-      "eyebrow": "02 / Tactile Craftsmanship",
-      "title": "Fiber begins with human touch.",
-      "p1": "The outer husk of the coconut is nature's shock absorber. Filled with natural lignin, it repels excess moisture, resists bacterial decay, and maintains breathability under extreme tropical climate shifts.",
-      "p2": "When artisan hands separate and weave these golden strands, they transform rough agricultural remnants into vessels that breathe with living plants. When the plant outgrows the pot, both can be transplanted directly into the ground without plastic waste or transplant trauma.",
-      "imageAlt": "Close-up of artisan hands carefully handling and separating long golden-brown coconut coir fibers",
-      "imageNote": "Artisan handling raw coconut coir fibers in an open-air workshop."
+      "eyebrow": "02 / PANDA COCO Green Panel Innovation",
+      "title": "Compressed biocomposites replacing timber and synthetic boards.",
+      "p1": "Coconut husk fibers naturally contain up to 45% lignin, making them inherently resistant to tropical humidity, wood-boring insects, and bacterial decay.",
+      "p2": "Using electric hydraulic hot-press technology and non-toxic botanical binders, we manufacture PANDA COCO Green Panels: robust interior acoustic panels that absorb sound naturally with zero formaldehyde off-gassing.",
+      "imageAlt": "PANDA COCO Green Panel prototype showing compressed coconut fiber texture",
+      "imageNote": "Precision compression molding of biocomposites at the Keboncau facility."
     },
     "system": {
-      "eyebrow": "03 / End-to-End System",
-      "title": "Collect. Process. Create. Empower.",
-      "lead": "Every step in our cycle is transparently rooted in fair trade, zero-chemical refining, and localized community ownership."
+      "eyebrow": "03 / Integrated Production Loop",
+      "title": "Fair Sourcing. Clean Refining. High Value. Community Sovereignty.",
+      "lead": "Our operational architecture ensures zero agricultural burn-off, measured electrical energy efficiency, and full local economic retention."
     },
     "result": {
-      "eyebrow": "04 / The Result",
-      "title": "Experience the finished forms.",
-      "lead": "Living, Grow, Energy, and Craft show how high aesthetic standards and deep ecological responsibility elevate everyday living.",
-      "action": "Explore All Product Families"
+      "eyebrow": "04 / Complete Portfolio",
+      "title": "Certified materials ready for commercial deployment.",
+      "lead": "Cocofiber, Cocopeat, Green Panels, and Bio-Briquettes demonstrate that industrial quality and ecological responsibility reinforce one another.",
+      "action": "Explore Complete Product Portfolio"
     }
   },
   "productsPage": {
-    "metaTitle": "Products · Regenerative Biomass Families",
-    "metaDescription": "Explore NIRA Living (coir pots), NIRA Grow (cocopeat medium), NIRA Energy (bio-briquettes), and NIRA Craft (heirloom homeware). 100% natural, plastic-free coconut materials.",
-    "ogTitle": "NIRA Products · Value Beyond Waste",
-    "ogDescription": "Four circular material paths, four regenerative product directions.",
+    "metaTitle": "Products | PANDA COCO Agro-Biomass & Biocomposites Catalog",
+    "metaDescription": "Browse PANDA COCO's certified products: PANDA COCOfiber (industrial fiber), PANDA COCOpeat (Low-EC medium), PANDA COCO Green Panel, and PANDA COCO Bio-Briquettes.",
+    "ogTitle": "PANDA COCO Product Catalog · High-Performance Biomaterials",
+    "ogDescription": "Four standardized product lines engineered for manufacturing, commercial horticulture, and sustainable architectural interiors.",
     "hero": {
-      "eyebrow": "Regenerative Product Families",
-      "title": "Made from what nature leaves us.",
-      "description": "NIRA Living, Grow, Energy, and Craft represent four deliberate ways to reveal deep functional value beyond the first culinary use of a coconut.",
-      "imageAlt": "Artisan handcrafted coconut shell bowls and spoon on natural linen"
+      "eyebrow": "Industrial Product Catalog",
+      "title": "Precision biomaterials for modern industry.",
+      "description": "PANDA COCO delivers four certified product families engineered to satisfy rigorous technical parameters across manufacturing, commercial nursery farming, and green building design.",
+      "imageAlt": "PANDA COCO product range: coir fiber bales, cocopeat blocks, green panel sample, and geometric charcoal briquettes"
     },
     "quickJump": "Product Lines:",
     "standards": {
-      "title": "Regenerative Standards:",
-      "text": "Every NIRA product family is engineered without petroleum-based polymers, synthetic adhesives, or synthetic colorants. Sourced directly through verified agricultural cooperatives.",
+      "title": "Clean Manufacturing Benchmark:",
+      "text": "Processed with clean grid-powered electric machinery, free of harmful synthetic chemicals and dyes, and 100% traceable to 60 partner farmers in Keboncau.",
       "badge": "100% Bio-Circular"
     },
     "derivedFrom": "0{index} · Derived from {source}",
-    "materialSource": "Material Source",
+    "materialSource": "Raw Material",
     "refiningProcess": "Refining Process",
-    "sustainabilityValue": "Sustainability Value",
-    "ctaSample": "Request Specifications / Samples",
-    "viewLifecycle": "View process lifecycle →",
-    "empty": "Product information will be available soon.",
+    "sustainabilityValue": "Sustainability Performance",
+    "ctaSample": "Request Sample & Technical Datasheet",
+    "viewLifecycle": "Learn about the mechanical refining process →",
+    "empty": "Product catalog is undergoing regular updates.",
     "items": {
       "living": {
-        "name": "NIRA Living",
-        "description": "A natural, breathable plant vessel crafted from pressed coconut coir fiber that nurtures plant roots and returns gracefully to the earth.",
-        "materialSource": "Coconut husk fiber",
-        "process": "Raw husk fibers are carefully extracted, sun-cured, and formed into durable, 100% biodegradable vessels with organic plant-based binders.",
-        "sustainabilityValue": "Eliminates single-use plastic nursery pots while providing superior root aeration and water retention.",
-        "imageAlt": "Handcrafted natural coconut coir plant pots on artisan wooden table",
-        "imageNote": "Handcrafted from 100% natural coconut husk coir."
+        "name": "PANDA COCOfiber",
+        "description": "High-tensile golden coconut coir fiber with exceptional elasticity and natural rot resistance for manufacturing and soil geotextiles.",
+        "materialSource": "Selected mature coconut husks",
+        "process": "Electric decortication, sheltered aerated sun-drying, and hydraulic baling without synthetic chemical adhesives.",
+        "sustainabilityValue": "Renewable alternative to polyurethane foams and synthetic polypropylene fibers; biodegradable and high tensile strength.",
+        "imageAlt": "Export-grade PANDA COCOfiber baled coir fibers",
+        "imageNote": "Golden fibers with < 3% impurity rate and < 15% moisture content."
       },
       "grow": {
-        "name": "NIRA Grow",
-        "description": "High-grade organic cocopeat growing medium that transforms fine coconut residue into nutrient-holding soil conditioner.",
-        "materialSource": "Coconut residue",
-        "process": "Fine fibrous husk residue is washed, pH-balanced, and aerated to create the ideal moisture-retentive growing medium for seedlings and gardens.",
-        "sustainabilityValue": "A renewable alternative to peat moss that protects fragile peat bogs and retains up to 8x its weight in water.",
-        "imageAlt": "Organic cocopeat seedling medium with fresh botanical sprouts",
-        "imageNote": "Triple-washed, low-EC organic growing medium."
+        "name": "PANDA COCOpeat",
+        "description": "Certified Low-EC organic cellular growing medium retaining up to 8x dry weight in moisture; the preferred substrate for nurseries and hydroponics.",
+        "materialSource": "Cellular coconut husk pith",
+        "process": "Rainwater desalination to purge salts, rotary sifting for uniform particle distribution, and hygienic curing at neutral pH (5.8–6.5).",
+        "sustainabilityValue": "Renewable substitute for wild peat moss; cuts nursery irrigation water needs by up to 50% while promoting root aeration.",
+        "imageAlt": "Compressed organic PANDA COCOpeat block for commercial nursery applications",
+        "imageNote": "Triple-washed desalination; verified Low Electrical Conductivity (Low-EC)."
       },
       "energy": {
-        "name": "NIRA Energy",
-        "description": "Smokeless, high-calorific coconut shell charcoal briquettes providing clean, long-lasting heat from discarded shells.",
-        "materialSource": "Coconut shell",
-        "process": "Aged coconut shells are pyrolyzed in low-emission kilns, finely milled, and compressed into dense geometric briquettes.",
-        "sustainabilityValue": "Zero deforestation fuel that burns 3x longer than wood charcoal with minimal ash and clean, odorless combustion.",
-        "imageAlt": "Geometric coconut shell charcoal briquettes beside raw polished shell",
-        "imageNote": "100% natural coconut shell carbonization."
+        "name": "PANDA COCO Bio-Briquette",
+        "description": "High-calorie coconut shell charcoal briquettes (~7,200 kcal/kg) burning clean, smokeless, and up to 3x longer than hardwood charcoal.",
+        "materialSource": "Dense mature coconut shell",
+        "process": "Temperature-controlled low-emission pyrolysis, standardized micro-milling, and high-density hexagonal compression.",
+        "sustainabilityValue": "100% deforestation-free clean fuel; minimal ash (<3%), odorless, and safe for culinary and industrial heat applications.",
+        "imageAlt": "Geometric coconut shell charcoal briquettes by PANDA COCO Bio-Briquette",
+        "imageNote": "High calorific rating of 7,200 kcal/kg with clean, odorless combustion."
       },
       "craft": {
-        "name": "NIRA Craft",
-        "description": "Heirloom functional homeware shaped from selected dense shells and polished with organic virgin coconut oil.",
-        "materialSource": "Dense coconut shell",
-        "process": "Hard endocarp shells are hand-shaped, progressively sanded to satin smoothness, and seasoned exclusively with cold-pressed virgin coconut oil.",
-        "sustainabilityValue": "Durable, non-toxic alternatives to synthetic kitchenware supporting traditional artisan communities.",
-        "imageAlt": "Artisan handcrafted coconut shell bowls and spoon on natural linen",
-        "imageNote": "Hand-polished with pure virgin coconut oil."
+        "name": "PANDA COCO Green Panel",
+        "description": "Acoustic and interior partition panels hot-pressed from coconut coir fibers using formaldehyde-free botanical bio-adhesives.",
+        "materialSource": "Compressed coconut coir fiber",
+        "process": "Calibrated fiber sorting blended with bio-resins, followed by temperature-controlled electric hydraulic compression molding.",
+        "sustainabilityValue": "Circular architectural alternative to gypsum and synthetic plywood; natural sound dampener with zero VOC emissions.",
+        "imageAlt": "PANDA COCO Green Panel acoustic interior board showing natural fiber grain",
+        "imageNote": "Formaldehyde-free; delivers superior acoustic noise reduction coefficient."
       }
     }
   },
   "impactPage": {
-    "metaTitle": "Impact · Meaning Beyond the Material",
-    "metaDescription": "Explore the environmental, social, and economic outcomes NIRA cultivates through circular coconut material innovation and transparent community governance.",
-    "ogTitle": "NIRA Impact · Three Pillars of Regenerative Value",
-    "ogDescription": "Material integrity, community prosperity, and radical transparency.",
+    "metaTitle": "Impact | Verified Circular Performance Data",
+    "metaDescription": "Review PANDA COCO's verified impact metrics: 24 tons of biomass upcycled annually, 100 women in OPTIMALKAN IBU, and 60 Keboncau partner farmers.",
+    "ogTitle": "PANDA COCO Impact · Three Dimensions of Grounded Performance",
+    "ogDescription": "Supply chain decarbonization, agency for 100 women operators, and economic premiums for coconut growers in Pandeglang.",
     "hero": {
-      "eyebrow": "Grounded Accountability",
-      "title": "Meaning far beyond the material.",
-      "description": "A beautiful functional vessel is only one facet of regenerative design. NIRA's foundational ambition ties responsible material utilization directly to biodiversity preservation, soil health, and dignified household prosperity.",
-      "imageAlt": "Editorial still life showing coconut material and emerging green sprout"
+      "eyebrow": "Data-Backed Accountability",
+      "title": "Measurable performance beyond rhetoric.",
+      "description": "PANDA COCO rejects superficial sustainability claims (*anti-greenwashing*). Our performance is transparently validated via biomass diversion tonnage, productive hours logged by women operators, and economic yields returned to farming families.",
+      "imageAlt": "Daily weight scale log and production records at PANDA COCO Agro-Hub Keboncau"
     },
     "pillars": {
-      "eyebrow": "01 / Three Dimensions of Renewal",
-      "title": "What true circularity looks like.",
-      "lead": "We reject single-metric sustainability claims in favor of balanced ecological, human, and local economic progress.",
+      "eyebrow": "01 / Three Dimensions of Performance",
+      "title": "Verified evidence of circular agro-industrialization.",
+      "lead": "Our progress maintains a disciplined balance between environmental decarbonization, women's technical leadership, and smallholder economic resilience.",
       "environmental": {
-        "label": "Environmental",
-        "narrative": "100% biological diversion of coconut husk and shell biomass away from open-air burning, while safeguarding critical peat bogs from destructive mining."
+        "label": "Environment",
+        "narrative": "Upcycling 24 tons of husks and 10.8 tons of shells annually, eradicating roadside open-air burning and halting wild peat bog depletion."
       },
       "social": {
-        "label": "Social",
-        "narrative": "Centering collection, grading, and crafting within coastal agricultural villages, ensuring dignified, safe, and generational artisan participation."
+        "label": "Social & Inclusivity",
+        "narrative": "Training and integrating 100 women via OPTIMALKAN IBU as precision machinery operators and quality curators in a safe, dignified workplace."
       },
       "economic": {
-        "label": "Economic",
-        "narrative": "Unlocking new local economic streams from what was previously considered zero-value agricultural waste, lifting seasonal household revenues."
+        "label": "Smallholder Economics",
+        "narrative": "Unlocking millions of rupiah in annual revenue from previously discarded parts, providing guaranteed purchase premiums to 60 partner growers."
       },
       "verifiedField": "Field Verified",
       "yearPrefix": "Year",
-      "source": "NIRA Village Audits"
+      "source": "PANDA COCO Agro-Hub Field Audit"
     },
     "evidence": {
       "badge": "Evidence Standard",
-      "title": "Show the work. Verify the numbers.",
-      "lead": "We hold ourselves to a strict anti-greenwashing standard. NIRA publishes numerical metrics only when backed by auditable collection records, consensual community partnerships, and standardized third-party material lifecycle analyses.",
+      "title": "Data verification and operational transparency.",
+      "lead": "All PANDA COCO milestone figures are corroborated by daily intake scale registers, PLN electricity power consumption logs, and formal cooperative records.",
       "points": {
         "one": {
-          "title": "Material Weight & Biomass Diversion",
-          "text": "Documented tonnage of raw husks and shells diverted from roadside dump sites and agricultural burning pits, verified at village collection stations."
+          "title": "Biomass Diversion Tonnage",
+          "text": "Daily weight documentation of raw husks and shells entering the Keboncau hub, verifying total elimination of roadside burn-off."
         },
         "two": {
-          "title": "Household Sovereignty & Fair Compensation",
-          "text": "Number of participating farming households receiving living-wage premiums above standard raw copra market volatility."
+          "title": "OPTIMALKAN IBU Empowerment Index",
+          "text": "Tracking 100 women completing certified technical modules in occupational health and safety (OHS), machine operation, and material testing."
         },
         "three": {
-          "title": "Lifecycle Carbon & Peatland Preservation",
-          "text": "Comparative greenhouse gas mitigation calculated by replacing mined sphagnum peat and fossil-derived nursery plastics with renewable coir."
+          "title": "Calculated Carbon Abatement",
+          "text": "Measurable greenhouse gas reductions achieved by electric machinery over diesel gensets and displacing synthetic plastics with biocomposites."
         }
       }
     },
     "goals": {
-      "eyebrow": "03 / Global Goals · Local Grounding",
-      "title": "Where the NIRA model connects.",
-      "lead": "NIRA directly aligns with the United Nations Sustainable Development Goals. This represents an alignment of operational philosophy and ethical intent.",
+      "eyebrow": "03 / Global Alignment · Local Roots",
+      "title": "Rooted in the village, aligned with global goals.",
+      "lead": "PANDA COCO's operating model aligns directly with the United Nations Sustainable Development Goals (SDGs) and national decarbonization frameworks.",
       "sdg8": {
         "tag": "UN SDG 8",
         "title": "Decent Work & Economic Growth",
-        "text": "Promoting sustained, inclusive economic growth and productive, dignified employment for rural coconut farming families and women artisans.",
-        "link": "View UN Goal Specification ↗"
+        "text": "Promoting inclusive green industrial employment for rural women and coconut growers with dignified living wages and flexible working schedules.",
+        "link": "Explore UN SDG 8 targets ↗"
       },
       "sdg12": {
         "tag": "UN SDG 12",
         "title": "Responsible Consumption & Production",
-        "text": "Substantially reducing agricultural waste generation through biological recycling, zero-chemical material separation, and closed-loop regenerative production.",
-        "link": "View UN Goal Specification ↗"
+        "text": "Eliminating agricultural waste through closed-loop processing, chemical-free mechanical separation, and biodegradable plastic alternatives.",
+        "link": "Explore UN SDG 12 targets ↗"
       }
     }
   },
   "partnershipPage": {
-    "metaTitle": "Partnership · Co-Creating Regenerative Value",
-    "metaDescription": "Explore strategic collaborations with NIRA: bulk circular raw materials, product co-design, horticultural substrate distribution, and community agroforestry.",
-    "ogTitle": "Partner with NIRA · Co-Creating Circular Futures",
-    "ogDescription": "Connect material knowledge, design craft, and community sovereignty.",
+    "metaTitle": "Partnership · Bulk Sourcing & Biocomposite Innovation",
+    "metaDescription": "Build a strategic partnership with PANDA COCO: bulk Cocofiber and Cocopeat procurement, Green Panel co-design, and sustainable agroforestry alliances.",
+    "ogTitle": "PANDA COCO Industrial Partnership · Reliable Biomaterials",
+    "ogDescription": "Connect your manufacturing supply chain with certified circular biomaterials sourced directly from Pandeglang.",
     "hero": {
-      "eyebrow": "Open Collaboration",
-      "title": "Create new possibilities together.",
-      "description": "The most transformative ecological breakthroughs happen when circular material science, industrial design, and grassroots agricultural cooperatives converge. We invite mission-aligned partners to build alongside us.",
-      "cta": "Draft an Inquiry"
+      "eyebrow": "B2B & Industrial Alliances",
+      "title": "Build tomorrow's regenerative supply chain with us.",
+      "description": "We invite manufacturers, commercial horticulture growers, architects, and ESG leaders to partner with us in deploying verified circular biomaterials from Pandeglang's coconut groves.",
+      "cta": "Start Partnership Conversation"
     },
     "tracks": {
-      "eyebrow": "01 / Collaboration Pathways",
-      "title": "Distinct roles. Shared ecological intent.",
-      "lead": "Whether you are an established brand replacing virgin plastics, a horticultural grower seeking consistent cocopeat, or an institution advancing bio-composites.",
+      "eyebrow": "01 / Collaboration Tracks",
+      "title": "Targeted solutions for distinct commercial sectors.",
+      "lead": "Select the partnership pathway tailored to your material specifications, procurement volume, or corporate sustainability benchmarks.",
       "sourcing": {
-        "title": "Material Sourcing & Supply",
-        "badge": "Wholesale & Bulk",
-        "text": "Secure verified, triple-washed organic cocopeat growing media and graded coir fiber direct from fair-trade village processing centers."
+        "title": "Bulk Raw Material Procurement",
+        "badge": "Wholesale & Contract Supply",
+        "text": "Consistent bulk shipments of baled Cocofiber and certified Low-EC Cocopeat directly from our Keboncau Agro-Hub to your manufacturing line."
       },
       "codev": {
-        "title": "Product Co-Development",
-        "badge": "Design & Manufacturing",
-        "text": "Collaborate on bespoke natural plant vessels, bio-composite homeware, or tailored bio-charcoal formulations engineered for your market."
+        "title": "Green Panel & Biocomposite Co-Development",
+        "badge": "Custom Design & Engineering",
+        "text": "Collaborate on acoustic panel density formulations, partition dimensions, or custom bio-resin molding to meet green building certifications."
       },
       "community": {
-        "title": "Community & Agroforestry",
-        "badge": "Cooperative Alliances",
-        "text": "Expand decentralized post-harvest collection infrastructure across coastal coconut belt communities, championing living wages and skills training."
+        "title": "Agroforestry & ESG Alliances",
+        "badge": "Strategic Alliances & CSR",
+        "text": "Partner with us to scale decentralized micro-hubs, sponsor the OPTIMALKAN IBU initiative, and verify joint carbon abatement with PLN."
       }
     },
     "process": {
       "eyebrow": "02 / Engagement Architecture",
-      "title": "How we partner together.",
-      "lead": "We operate through disciplined transparency, rapid iterative prototyping, and steadfast respect for community governance.",
+      "title": "Structured collaboration workflow.",
+      "lead": "We operate with professional discipline, rapid lab sample dispatch, and transparent multi-year supply agreements.",
       "steps": {
-        "one": { "title": "Listen & Diagnose", "text": "Deeply understand your material requirements, mechanical constraints, and target sustainability outcomes." },
-        "two": { "title": "Formulate & Prototype", "text": "Calibrate coconut fiber density, particle sizing, or molding specifications in our regional workshop hubs." },
-        "three": { "title": "Pilot & Validate", "text": "Conduct rigorous real-world degradation, water retention, or thermal tests with verified documentation." },
-        "four": { "title": "Scale & Steward", "text": "Establish transparent supply contracts backed by direct farmer cooperative payments and traceability." }
+        "one": {
+          "title": "1. Technical Diagnosis",
+          "text": "Reviewing your moisture limits, fiber dimensions, monthly tonnages, and specific testing requirements."
+        },
+        "two": {
+          "title": "2. Sample Dispatch & Testing",
+          "text": "Sending certified Cocofiber, Cocopeat, or Green Panel samples for validation in your testing laboratory or pilot facility."
+        },
+        "three": {
+          "title": "3. Pilot Batch Run",
+          "text": "Executing a controlled production run to test logistics handling, consistency, and manufacturing integration."
+        },
+        "four": {
+          "title": "4. Long-Term Supply Contract",
+          "text": "Establishing a multi-year supply agreement guaranteeing stable pricing, delivery schedules, and farmer fair-trade premiums."
+        }
       }
     },
     "inquiry": {
-      "eyebrow": "Direct Touchpoint",
-      "title": "Bring an idea to the table.",
-      "lead": "Use our interactive brief generator to structure your project intent, target material family, and estimated timeline.",
+      "eyebrow": "Direct Communication",
+      "title": "Submit your collaboration brief.",
+      "lead": "Use our interactive brief builder to define your project targets, target material family, and required volume schedule.",
       "bullets": {
-        "email": { "title": "Direct Email:", "text": "Open your default email client pre-populated with your complete specifications." },
-        "brief": { "title": "Structured Brief:", "text": "Subject and body are auto-formatted for a clean, ready-to-send email." },
-        "privacy": { "title": "Zero Telemetry:", "text": "Input fields execute client-side; no third-party tracking scripts." }
+        "email": {
+          "title": "Direct Email:",
+          "text": "Launches a pre-filled official email draft with your technical specifications."
+        },
+        "brief": {
+          "title": "Structured Format:",
+          "text": "Ensures our technical team receives all required procurement parameters immediately."
+        },
+        "privacy": {
+          "title": "Client-Side Security:",
+          "text": "Processed strictly on client-side with zero third-party telemetry."
+        }
       }
     }
   },
   "inquiryBuilder": {
-    "badge": "Inquiry Generator",
-    "title": "Draft Your Collaboration Brief",
-    "nameLabel": "Your Name *",
-    "orgLabel": "Organization",
+    "badge": "B2B Partnership Generator",
+    "title": "Configure Your PANDA COCO Brief",
+    "nameLabel": "Full Name *",
+    "orgLabel": "Company / Organization Name",
     "optional": "(optional)",
-    "trackLabel": "Collaboration Track *",
-    "briefLabel": "Project Brief *",
-    "briefPlaceholder": "Share your timeline, volume, or research goals...",
-    "submit": "Open Email Draft",
-    "emailSubjectPrefix": "NIRA Inquiry:",
-    "emailHeader": "NIRA Partnership Inquiry",
-    "emailFrom": "From:",
-    "emailOrg": "Organization:",
-    "emailFocus": "Focus Area:",
-    "emailOverview": "Project Overview & Goals:",
-    "emailFooter": "Submitted via NIRA Platform",
+    "trackLabel": "Partnership Track *",
+    "briefLabel": "Project Scope & Volume Requirements *",
+    "briefPlaceholder": "Outline your estimated monthly tonnage, required EC/moisture specs, or architectural Green Panel dimensions...",
+    "submit": "Open Partnership Email Draft",
+    "emailSubjectPrefix": "PANDA COCO Partnership Inquiry:",
+    "emailHeader": "Official PANDA COCO Partnership Brief",
+    "emailFrom": "Sender Name:",
+    "emailOrg": "Company/Organization:",
+    "emailFocus": "Collaboration Track:",
+    "emailOverview": "Project Scope & Technical Needs:",
+    "emailFooter": "Sent via PANDA COCO Official Portal (pandacoco.id)",
     "track": {
-      "sourceRaw": "Raw Material Supply (Husk / Pith / Shell)",
-      "living": "NIRA Living: Coir Pots & Distribution",
-      "grow": "NIRA Grow: Cocopeat Bulk Supply",
-      "energy": "NIRA Energy: Bio-Briquettes Supply",
-      "codev": "Custom Co-Development & Bio-Composites",
-      "agroforestry": "Community Agroforestry Partnership"
+      "sourceRaw": "Bulk Cocofiber Bales (Manufacturing Raw Material)",
+      "living": "Low-EC Cocopeat Supply (Commercial Horticulture)",
+      "grow": "PANDA COCO Green Panel (Acoustic & Interior Design)",
+      "energy": "PANDA COCO Bio-Briquette (High-Heat Clean Energy)",
+      "codev": "Custom Biocomposite Formulation & R&D",
+      "agroforestry": "Agro-Hub Expansion & Corporate ESG Alliance"
     }
   }
 }

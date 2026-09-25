@@ -100,7 +100,7 @@ export default async function TransformationPage({
                     </span>
                   </div>
 
-                  <h3 className="font-display mt-4 sm:mt-5 text-xl lg:text-2xl text-forest font-medium">
+                  <h3 className="font-display mt-4 sm:mt-5 text-lg sm:text-xl text-forest font-medium">
                     {t(`materialMap.items.${key}.material` as any)}
                   </h3>
 
@@ -135,6 +135,10 @@ export default async function TransformationPage({
         image="/images/coir-fiber.jpg"
         imageAlt={t("craft.imageAlt")}
         imageNote={t("craft.imageNote")}
+        link={{
+          href: "/products",
+          label: t("result.action"),
+        }}
         reverse
       />
 

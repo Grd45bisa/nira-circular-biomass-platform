@@ -238,7 +238,7 @@ export default async function ImpactPage({
                     className="text-cream/50 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:text-cream"
                   />
                 </div>
-                <h3 className="font-display mt-4 text-2xl md:text-3xl text-cream font-medium">
+                <h3 className="font-display mt-3 sm:mt-4 text-lg sm:text-xl lg:text-2xl text-cream font-medium leading-snug">
                   {t("goals.sdg8.title")}
                 </h3>
                 <p className="mt-3 text-sm text-cream/75 leading-relaxed">
@@ -266,7 +266,7 @@ export default async function ImpactPage({
                     className="text-cream/50 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:text-cream"
                   />
                 </div>
-                <h3 className="font-display mt-4 text-2xl md:text-3xl text-cream font-medium">
+                <h3 className="font-display mt-3 sm:mt-4 text-lg sm:text-xl lg:text-2xl text-cream font-medium leading-snug">
                   {t("goals.sdg12.title")}
                 </h3>
                 <p className="mt-3 text-sm text-cream/75 leading-relaxed">

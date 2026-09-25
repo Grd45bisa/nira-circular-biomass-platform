@@ -5,7 +5,7 @@ export default function NotFound() {
     <PageIntro
       eyebrow="Page not found"
       title="The path is not here"
-      description="Return to NIRA to continue exploring the story."
+      description="Return to PANDA COCO to continue exploring the story."
       showPreparationNote={false}
     />
   );

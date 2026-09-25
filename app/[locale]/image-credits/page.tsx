@@ -6,7 +6,7 @@ import { PageHero } from "@/components/sections/page-hero";
 export const metadata: Metadata = {
   title: "Image Credits & Documentation",
   description:
-    "Sources, attributions, and documentation for visual assets used across the NIRA platform.",
+    "Sources, attributions, and documentation for visual assets used across the PANDA COCO platform.",
   robots: { index: false, follow: true },
 };
 
@@ -15,50 +15,50 @@ const credits = [
     image: "Coconut husks drying in village workshop",
     medium: "Documentary Photography",
     details:
-      "Sun-cured harvested coconut husks on woven bamboo mats, East Java, Indonesia.",
+      "Sun-cured harvested coconut husks on woven bamboo mats in Keboncau Agro-Hub.",
     license: "CC BY-SA 4.0 / Editorial Rights",
   },
   {
     image: "Raw coir fiber artisan craftsmanship",
     medium: "Documentary Photography",
     details:
-      "Close-up artisan separation of golden coconut coir fibers in open-air workshop.",
+      "Close-up artisan separation of golden coconut coir fibers in Keboncau processing hub.",
     license: "CC BY-SA 4.0 / Editorial Rights",
   },
   {
-    image: "Pak Wayan Sudarma, Lead Artisan",
+    image: "Ibu Siti Rohmah, Lead Quality Coordinator",
     medium: "Environmental Portrait",
     details:
-      "Documentary portrait of lead artisan coordinator in Banyuwangi community cooperative.",
-    license: "NIRA Community Archive",
+      "Documentary portrait of lead coordinator for OPTIMALKAN IBU in Keboncau, Pandeglang.",
+    license: "PANDA COCO Community Archive",
   },
   {
-    image: "NIRA Living - Coir Pots",
+    image: "PANDA COCOfiber - Industrial Coir Fiber",
     medium: "Studio Product Photography",
     details:
-      "Natural woven coconut coir nursery pots with houseplant on artisan wooden bench.",
-    license: "NIRA Design Studio",
+      "Natural golden coconut coir fibers and vessels engineered from 100% natural husks.",
+    license: "PANDA COCO Design Studio",
   },
   {
-    image: "NIRA Grow - Organic Cocopeat",
+    image: "PANDA COCOpeat - Organic Growing Medium",
     medium: "Macro Botanical Photography",
     details:
       "Fine aerated coconut pith substrate with tender sprouting seedlings.",
-    license: "NIRA Bio-Agricultural Archive",
+    license: "PANDA COCO Agricultural Archive",
   },
   {
-    image: "NIRA Energy - Bio-Carbon Briquettes",
+    image: "PANDA COCO Bio-Briket - Carbon Briquettes",
     medium: "Studio Still Life",
     details:
       "Geometric hexagonal coconut shell charcoal briquettes beside polished raw shell.",
-    license: "NIRA Concept Visualization",
+    license: "PANDA COCO Technical Visualization",
   },
   {
-    image: "NIRA Craft - Polished Shell Homeware",
+    image: "PANDA COCO Green Panel - Biocomposite Interior Board",
     medium: "Studio Still Life",
     details:
-      "Hand-finished coconut shell bowls with natural grain and virgin coconut oil polish.",
-    license: "NIRA Design Studio",
+      "Compressed natural coir acoustic boards with non-toxic botanical binders.",
+    license: "PANDA COCO Design Studio",
   },
 ] as const;
 
@@ -79,7 +79,7 @@ export default function ImageCreditsPage() {
             <p className="type-body text-ink-muted mt-3">
               Images reflect verified material documentation, community
               portraiture, and high-fidelity product representations designed
-              according to NIRA&apos;s natural premium aesthetic guidelines.
+              according to PANDA COCO&apos;s circular agro-industrial aesthetic guidelines.
             </p>
           </div>
 

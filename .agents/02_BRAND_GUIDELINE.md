@@ -1,133 +1,39 @@
-# NIRA Brand Guideline
+# PANDA COCO — Brand Guideline
 
 # 1. Brand Overview
 
-## Brand Name
-
-NIRA
-
-## Meaning
-
-NIRA stands for:
-
-Nature Into Renewable Assets
-
-NIRA represents the transformation of overlooked natural resources into
-meaningful assets through circular economy.
-
-The brand believes:
-
-"Nothing from nature should be considered worthless when there is still
-value waiting to be revealed."
+* **Brand Name**: PANDA COCO
+* **Full Name**: PANdeglang Domestic Agro COCOnut
+* **Tagline**: "Membuka Nilai Tertinggi di Setiap Serat Kelapa" / "Unlocking High-Performance Value from Every Coconut Fiber"
+* **Esensi Brand**: Menghubungkan kekayaan agroforestri kelapa rakyat dengan sains material modern dan teknologi listrik bersih untuk menciptakan produk sirkular berkinerja tinggi.
 
 ------------------------------------------------------------------------
 
-# 2. Brand Essence
+# 2. Brand Positioning
 
-## Core Idea
-
-Transforming overlooked coconut resources into sustainable products
-while creating opportunities for communities.
-
-## Brand Promise
-
-NIRA transforms what was once considered waste into something meaningful
-for nature, people, and the future.
+* **PANDA COCO IS**: Platform Agro-Biomassa Sirkular Modern, Produsen Biokomposit & Media Tanam Alami, Katalisator *Electrifying Agriculture*.
+* **PANDA COCO IS NOT**: 
+  - Bukan yayasan pengumpul donasi / bansos.
+  - Bukan bengkel rongsokan atau pabrik pengolahan limbah kotor.
+  - Bukan proyek sosial yang "menjual cerita kemiskinan" untuk memicu rasa iba pembeli.
 
 ------------------------------------------------------------------------
 
-# 3. Brand Positioning
+# 3. Brand Personality
 
-NIRA is:
-
-"A circular economy movement that connects nature, innovation, and
-community empowerment."
-
-NIRA is NOT: - Waste management company - Recycling factory - Handmade
-craft business
-
-NIRA focuses on: - Value transformation - Sustainability - Human
-impact - Renewable resources
+1. **Powerful & Confident**: Percaya diri dengan keunggulan material dan kapasitas produksi.
+2. **Industrial & Clean**: Berbasis mesin listrik efisien, terstandarisasi, dan higienis.
+3. **Respectful & Dignified**: Menempatkan petani dan pekerja perempuan sebagai mitra ahli dan pemilik kedaulatan usaha.
+4. **Transparent & Data-Driven**: Mengedepankan angka nyata, hasil uji laboratorium, dan sertifikasi mutu (Low-EC, pH stabil, nilai kalor).
 
 ------------------------------------------------------------------------
 
-# 4. Brand Personality
+# 4. Brand Voice & Writing Principles
 
-## Natural
-
-Connected with nature.
-
-## Premium
-
-High-quality and thoughtful.
-
-## Human
-
-Centered around community.
-
-## Innovative
-
-Shows transformation and possibility.
-
-------------------------------------------------------------------------
-
-# 5. Brand Voice
-
-Formal marketing storytelling.
-
-Characteristics: - Warm - Clear - Inspiring - Professional - Meaningful
-
-------------------------------------------------------------------------
-
-# 6. Writing Principles
-
-Use short meaningful sentences.
-
-Example:
-
-"Every coconut has a story beyond its shell."
-
-Avoid generic corporate phrases.
-
-Prefer: "We transform overlooked resources into meaningful solutions."
-
-------------------------------------------------------------------------
-
-# 7. Visual Identity
-
-Design Direction:
-
-Natural Premium Circular
-
-The website should feel: - Calm - Trustworthy - Sophisticated - Organic
-
-------------------------------------------------------------------------
-
-# 8. Color Philosophy
-
-Primary: Deep Forest Green #063522
-
-Secondary: Warm Coconut Brown #7a5645
-
-Tertiary: Dark Wood Brown #482510
-
-Background: Warm Coconut Cream #fcf9f0
-
-Text: Warm Black #1c1c17
-
-------------------------------------------------------------------------
-
-# 9. Photography Direction
-
-Use: - Real community photography - Natural lighting - Human
-interaction - Coconut texture - Handmade process
-
-Avoid: - Generic stock photos - Artificial sustainability imagery
-
-------------------------------------------------------------------------
-
-# 10. Brand Experience Goal
-
-After visiting NIRA website, users should think:
-
-"Something simple from nature can create a meaningful impact."
+* **Writing Style**: Formal marketing storytelling yang dipadukan dengan ketegasan proposisi industri B2B.
+* **Tone**: Hangat, Visioner, Lugas, Kredibel, dan Menginspirasi.
+* **Prinsip Utama**:
+  - Tampilkan potensi sebelum masalah.
+  - Tampilkan solusi teknologi sebelum dampak sosial.
+  - Tampilkan kualitas dan spesifikasi sebelum harga.
+  - **Haramkan frasa kemiskinan melarat, penderitaan nasib, atau nada mengemis simpati**.

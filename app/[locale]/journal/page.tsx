@@ -129,7 +129,7 @@ export default async function JournalPage({
           <div className="flex flex-wrap items-end justify-between gap-6 border-t border-coconut/15 pt-12">
             <div>
               <p className="eyebrow text-coconut">{t("allDispatches")}</p>
-              <h2 className="type-section-title mt-2 text-forest text-2xl md:text-3xl">
+              <h2 className="type-section-title mt-2 text-forest text-balance">
                 {t("allTitle")}
               </h2>
             </div>

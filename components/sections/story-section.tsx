@@ -1,5 +1,6 @@
 import Image from "next/image";
-import Link from "next/link";
+import type { ComponentProps } from "react";
+import { Link } from "@/i18n/navigation";
 import { ArrowUpRight } from "lucide-react";
 
 import { Container } from "@/components/layout/container";
@@ -12,7 +13,7 @@ type StorySectionProps = {
   image: string;
   imageAlt: string;
   imageNote?: string;
-  link?: { href: string; label: string };
+  link?: { href: ComponentProps<typeof Link>["href"]; label: string };
   reverse?: boolean;
 };
 
@@ -52,7 +53,7 @@ export function StorySection({
             {eyebrow}
           </EyebrowBadge>
 
-          <h2 className="type-section-title mt-2 max-w-[15ch] text-forest">
+          <h2 className="type-section-title mt-2 max-w-xl text-forest text-balance">
             {title}
           </h2>
 

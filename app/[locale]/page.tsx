@@ -7,6 +7,7 @@ import { ImpactCard } from "@/components/impact/impact-card";
 import { Container } from "@/components/layout/container";
 import { ProductCard } from "@/components/products/product-card";
 import { HeroSection } from "@/components/sections/hero-section";
+import { StatsCounterBar } from "@/components/sections/stats-counter-bar";
 import { JourneySection } from "@/components/sections/journey-steps";
 import { MaterialExplorer } from "@/components/sections/material-explorer";
 import { PartnershipCTA } from "@/components/sections/partnership-cta";
@@ -34,7 +35,6 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
 export default async function HomePage() {
   const t = await getTranslations('home');
   const common = await getTranslations('common');
-  const philosophyLines = [t('ribbon.one'), t('ribbon.two'), t('ribbon.three'), t('ribbon.four')];
   const [products, communityStories, impactMetrics] = await Promise.all([
     getProducts(),
     getCommunityStories(),
@@ -112,30 +112,8 @@ export default async function HomePage() {
         }
       />
 
-      {/* Philosophy Ribbon */}
-      <div className="nira-ribbon border-y border-coconut/15 bg-sand/60 py-4">
-        <div className="nira-ribbon-track text-xs font-semibold tracking-[0.16em] text-forest/90 uppercase">
-          {[0, 1].map((copy) => (
-            <div
-              key={copy}
-              className="nira-ribbon-group"
-              aria-hidden={copy === 1}
-            >
-              {philosophyLines.map((line) => (
-                <span
-                  key={line}
-                  className="flex shrink-0 items-center gap-6 whitespace-nowrap"
-                >
-                  <span>{line}</span>
-                  <span aria-hidden="true" className="text-coconut/40">
-                    ✦
-                  </span>
-                </span>
-              ))}
-            </div>
-          ))}
-        </div>
-      </div>
+      {/* Capacity & Key Impact Counter Bar */}
+      <StatsCounterBar />
 
       {/* Section 01: Story */}
       <StorySection
@@ -156,7 +134,7 @@ export default async function HomePage() {
               <p className="eyebrow text-coconut">
                 {t('materialsIntro.eyebrow')}
               </p>
-              <h2 className="type-section-title mt-4 max-w-[16ch] text-forest">
+              <h2 className="type-section-title mt-4 max-w-xl text-forest text-balance">
                 {t('materialsIntro.title')}
               </h2>
             </div>
@@ -178,7 +156,7 @@ export default async function HomePage() {
           <div className="flex flex-wrap items-end justify-between gap-6">
             <div>
               <p className="eyebrow text-coconut">{t('products.eyebrow')}</p>
-              <h2 className="type-section-title mt-4 max-w-[17ch] text-forest">
+              <h2 className="type-section-title mt-4 max-w-xl text-forest text-balance">
                 {t('products.title')}
               </h2>
             </div>
@@ -238,7 +216,7 @@ export default async function HomePage() {
           <div className="flex flex-wrap items-end justify-between gap-6">
             <div>
               <p className="eyebrow text-coconut">{t('impact.eyebrow')}</p>
-              <h2 className="type-section-title mt-4 max-w-[18ch] text-forest">
+              <h2 className="type-section-title mt-4 max-w-xl text-forest text-balance">
                 {t('impact.title')}
               </h2>
             </div>
@@ -302,7 +280,7 @@ export default async function HomePage() {
 
             <div className="nira-community-copy">
               <p className="eyebrow text-coconut">{t('community.eyebrow')}</p>
-              <h2 className="nira-community-title type-section-title mt-2 text-forest sm:mt-3">
+              <h2 className="type-section-title mt-2 text-forest sm:mt-3 text-balance">
                 {t('community.title')}
               </h2>
 
@@ -315,7 +293,7 @@ export default async function HomePage() {
                 <div className="mt-4 flex items-center justify-between gap-3 border-t border-coconut/15 pt-3">
                   <div>
                     <p className="text-sm font-semibold text-forest sm:text-base">
-                      {communityStories[0]?.name || "Pak Wayan Sudarma"}
+                      {communityStories[0]?.name || "Ibu Siti Rohmah"}
                     </p>
                     <p className="text-xs text-coconut">
                       {t('community.role')}{" "}

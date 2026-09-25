@@ -26,11 +26,11 @@ export function PageIntro({
         </p>
         {showPreparationNote ? (
           <p className="type-small mt-8 max-w-[65ch] text-coconut">
-            This chapter is being prepared with verified NIRA content.
+            This chapter is being prepared with verified PANDA COCO content.
           </p>
         ) : null}
         <ButtonLink href="/" variant="text" className="mt-8">
-          Return to NIRA
+          Return to PANDA COCO
         </ButtonLink>
       </Container>
     </section>

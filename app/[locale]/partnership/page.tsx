@@ -148,7 +148,7 @@ export default async function PartnershipPage({
                       </span>
                     </div>
 
-                    <h3 className="font-display mt-6 text-2xl text-forest font-medium">
+                    <h3 className="font-display mt-5 text-lg sm:text-xl text-forest font-medium leading-snug">
                       {item.title}
                     </h3>
 
@@ -196,7 +196,7 @@ export default async function PartnershipPage({
                 <span className="font-display text-3xl font-light text-amber-accent">
                   {step.number}
                 </span>
-                <h3 className="font-display mt-4 text-xl text-cream font-medium">
+                <h3 className="font-display mt-3 text-base sm:text-lg text-cream font-medium leading-snug">
                   {step.title}
                 </h3>
                 <p className="mt-3 text-xs md:text-sm text-cream/75 leading-relaxed">

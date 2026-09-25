@@ -11,14 +11,7 @@ export function PartnershipCTA({localized = false}: {localized?: boolean}) {
       className="nira-section relative overflow-hidden border-t border-amber-accent/30 bg-forest text-cream"
       data-surface="dark"
     >
-      <div
-        className="pointer-events-none absolute -top-40 -left-40 h-80 w-80 rounded-full bg-cream/8 blur-3xl"
-        aria-hidden="true"
-      />
-      <div
-        className="pointer-events-none absolute -bottom-32 -right-32 h-96 w-96 rounded-full bg-amber-accent/15 blur-3xl"
-        aria-hidden="true"
-      />
+
 
       <Container className="nira-cta-columns relative z-10 grid items-end gap-6 md:gap-8 xl:gap-10">
         <div>
@@ -26,7 +19,7 @@ export function PartnershipCTA({localized = false}: {localized?: boolean}) {
             {localized ? t('cta.eyebrow') : 'Open Ecosystem'}
           </EyebrowBadge>
 
-          <h2 className="type-section-title max-w-[18ch] text-cream">
+          <h2 className="type-section-title max-w-2xl text-cream text-balance">
             {localized ? t('cta.title') : 'What could we reveal together?'}
           </h2>
 
