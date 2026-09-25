@@ -154,17 +154,15 @@ body {
 }
 
 .nira-page-hero {
-  min-height: 100dvh;
   display: flex;
   align-items: center;
-  padding-block: 3.5rem;
+  padding-block: clamp(2.5rem, 5vw, 3.5rem);
 }
 
 .nira-article-hero {
-  min-height: 100dvh;
   display: flex;
   align-items: center;
-  padding-block: 3rem;
+  padding-block: clamp(2rem, 4vw, 3rem);
 }
 
 .nira-article-body {
@@ -349,17 +347,95 @@ body {
   }
 }
 
+.nira-main-hero {
+  background-color: var(--color-cream);
+  color: var(--color-ink);
+  justify-content: center;
+  padding-block: clamp(2rem, 5vw, 3.5rem);
+}
+
+.nira-main-hero-bg {
+  display: none;
+}
+
+.nira-main-hero-media {
+  display: block;
+}
+
+.nira-main-hero-eyebrow,
+.nira-main-hero-title,
+.nira-main-hero-note-strong {
+  color: var(--color-forest);
+}
+
+.nira-main-hero-divider {
+  display: inline-block;
+  background-color: rgb(110 73 53 / 0.4);
+}
+
+.nira-main-hero-tagline,
+.nira-main-hero-callout {
+  color: var(--color-coconut);
+}
+
+.nira-main-hero-callout {
+  border-color: var(--color-coconut);
+}
+
+.nira-main-hero-description,
+.nira-main-hero-note {
+  color: var(--color-ink-muted);
+}
+
+.nira-main-hero-highlights {
+  border-color: rgb(110 73 53 / 0.15);
+}
+
+.nira-main-hero-emphasis {
+  color: var(--color-coconut);
+}
+
+.nira-main-hero-action {
+  background-color: var(--color-forest);
+  color: var(--color-cream);
+}
+
+.nira-main-hero-action:hover {
+  background-color: var(--color-forest-light);
+}
+
+.nira-main-hero-action-short {
+  display: inline;
+}
+
+.nira-main-hero-action-long {
+  display: none;
+}
+
+.nira-main-hero-secondary {
+  color: var(--color-forest);
+  text-decoration-color: rgb(110 73 53 / 0.6);
+}
+
+.nira-main-hero-secondary:hover {
+  color: var(--color-forest-light);
+  text-decoration-color: var(--color-forest);
+}
+
+.nira-main-hero-note {
+  filter: none;
+}
+
+.nira-main-hero-note-icon {
+  background-color: rgb(11 51 34 / 0.1);
+  border-color: rgb(11 51 34 / 0.2);
+  color: var(--color-forest);
+}
+
 @media (min-width: 64rem) and (orientation: landscape), (min-width: 85.375rem) {
   .nira-main-hero {
-    background-color: var(--color-cream);
-    color: var(--color-ink);
-    justify-content: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
-  }
-
-  .nira-main-hero-bg {
-    display: none;
   }
 
   .nira-main-hero-grid {
@@ -376,74 +452,12 @@ body {
     grid-column: span 5 / span 5;
   }
 
-  .nira-main-hero-eyebrow,
-  .nira-main-hero-title,
-  .nira-main-hero-note-icon,
-  .nira-main-hero-note-strong {
-    color: var(--color-forest);
-  }
-
-  .nira-main-hero-divider {
-    display: inline-block;
-    background-color: rgb(110 73 53 / 0.4);
-  }
-
-  .nira-main-hero-tagline,
-  .nira-main-hero-callout {
-    color: var(--color-coconut-light);
-  }
-
-  .nira-main-hero-callout {
-    border-color: var(--color-coconut);
-  }
-
-  .nira-main-hero-description,
-  .nira-main-hero-note {
-    color: var(--color-ink-muted);
-  }
-
-  .nira-main-hero-highlights {
-    border-color: var(--color-sand);
-  }
-
-  .nira-main-hero-emphasis {
-    color: var(--color-coconut);
-  }
-
-  .nira-main-hero-action {
-    background-color: var(--color-forest);
-    color: var(--color-cream);
-  }
-
-  .nira-main-hero-action:hover {
-    background-color: var(--color-forest-light);
-  }
-
   .nira-main-hero-action-short {
     display: none;
   }
 
   .nira-main-hero-action-long {
     display: inline;
-  }
-
-  .nira-main-hero-secondary {
-    color: var(--color-forest);
-    text-decoration-color: rgb(110 73 53 / 0.6);
-  }
-
-  .nira-main-hero-secondary:hover {
-    color: var(--color-forest-light);
-    text-decoration-color: var(--color-forest);
-  }
-
-  .nira-main-hero-note {
-    filter: none;
-  }
-
-  .nira-main-hero-note-icon {
-    background-color: rgb(11 51 34 / 0.1);
-    border-color: rgb(11 51 34 / 0.2);
   }
 
   .nira-community-grid {

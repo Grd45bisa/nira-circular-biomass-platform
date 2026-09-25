@@ -60,9 +60,18 @@ export function ImpactCard(props: ImpactCardProps) {
             <span className="font-display text-3xl sm:text-4xl md:text-5xl font-semibold text-forest leading-none">
               {props.value}
             </span>
-            <span className="ml-1 text-xl sm:text-2xl font-medium text-amber-accent">
-              {props.unit}
-            </span>
+            {props.unit ? (
+              <span
+                className={cn(
+                  "font-display font-medium text-coconut",
+                  props.unit === "+"
+                    ? "ml-0.5 text-2xl sm:text-3xl md:text-4xl text-amber-accent"
+                    : "ml-1.5 text-sm sm:text-base md:text-lg"
+                )}
+              >
+                {props.unit}
+              </span>
+            ) : null}
           </div>
         ) : null}
 

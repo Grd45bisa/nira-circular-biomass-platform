@@ -125,6 +125,16 @@
       "actionShort": "Explore Products",
       "actionLong": "Explore Product Portfolio",
       "about": "About PANDA COCO",
+      "aboutShort": "About Us",
+      "eyebrowMobile": "CIRCULAR AGRO-BIOMASS",
+      "descriptionMobile": "Transforming Pandeglang coconuts into high-value biomaterials and clean energy.",
+      "stat1Value": "23,900 tons",
+      "stat1Label": "PANDEGLANG COCONUT POTENTIAL",
+      "stat2Value": "24 tons",
+      "stat2Label": "BIOMASS / YEAR",
+      "stat3Value": "60",
+      "stat3Label": "PARTNER FARMERS",
+      "bottomPillars": "COCOFIBER · COCOPEAT · GREEN PANEL",
       "noteStrong": "Measured Capacity.",
       "note": "Processing 24 tons of biomass annually with 100 skilled women operators (OPTIMALKAN IBU) and 60 partner farmers.",
       "imageAlt": "Anatomy of PANDA COCO biomass: golden coir fibers, porous cocopeat, and dense carbon briquettes",
@@ -325,6 +335,57 @@
         "name": "Integrity & Anti-Greenwashing",
         "text": "Publishing only verified data on biomass throughput, carbon abatement, and product certifications backed by periodic field audits."
       }
+    },
+    "roadmap": {
+      "eyebrow": "03 / Strategic Growth Roadmap 2026–2030",
+      "title": "Long-term vision toward a fully circular village economy.",
+      "lead": "Each phase is designed to strengthen group independence, expand machine capacity, and replicate this agro-industrial model across Pandeglang.",
+      "phases": {
+        "one": {
+          "year": "2026",
+          "label": "Phase I · Foundation & Model Validation",
+          "items": [
+            "Establish the PANDA COCO Enterprise Group & OPTIMALKAN IBU vocational curriculum.",
+            "Install electric processing machinery, achieve 2 ton husk/month capacity.",
+            "Launch PANDA COCO Green Panel prototype & pilot cocopeat/cocofiber market testing."
+          ]
+        },
+        "two": {
+          "year": "2027",
+          "label": "Phase II · Standardization & Legal Formalization",
+          "items": [
+            "Obtain Business Registration Number (NIB), complete laboratory quality certifications, and register trademarks.",
+            "Establish the Keboncau Circular Producer Cooperative.",
+            "Build a permanent buyer network in Banten & Jabodetabek horticultural sectors."
+          ]
+        },
+        "three": {
+          "year": "2028",
+          "label": "Phase III · Capacity Expansion & Regional Aggregation",
+          "items": [
+            "Scale processing capacity to 5–10 tons/month with additional electric machine units.",
+            "Expand raw material supplier network to surrounding villages in Pandeglang.",
+            "Launch commercial production of PANDA COCO Green Panel for interior market."
+          ]
+        },
+        "four": {
+          "year": "2029",
+          "label": "Phase IV · National Penetration & Export Consortium",
+          "items": [
+            "National distribution for COCOfiber, COCOpeat, and Green Panel product lines.",
+            "Collaborate with export aggregators for Asia & European markets.",
+            "Strengthen PANDA COCO Bio-Briquette export capacity for Asian culinary grilling markets."
+          ]
+        },
+        "five": {
+          "year": "2030",
+          "label": "Phase V · Replication of the Circular Agro-Hub Model",
+          "items": [
+            "Transfer the electric-powered coconut processing model to other coconut-producing districts in South Banten.",
+            "Become the national reference for community-led coconut agro-biomass industrialization."
+          ]
+        }
+      }
     }
   },
   "transformation": {
@@ -379,8 +440,54 @@
       "title": "Fair Sourcing. Clean Refining. High Value. Community Sovereignty.",
       "lead": "Our operational architecture ensures zero agricultural burn-off, measured electrical energy efficiency, and full local economic retention."
     },
+    "pdca": {
+      "eyebrow": "04 / Quality Governance & Risk Mitigation",
+      "title": "PDCA cycle: controlled production from source to output.",
+      "lead": "We apply a rigorous PDCA cycle to every production batch and have verified prevention protocols for each operational risk category.",
+      "cycles": {
+        "plan": {
+          "label": "Plan",
+          "title": "Monthly Production Planning",
+          "text": "Each month the group sets targets for husk tonnage processed, product volume, revenue, and active member count."
+        },
+        "do": {
+          "label": "Do",
+          "title": "Daily Production Logging",
+          "text": "Every day, incoming husks, output products, and sales transactions are entered in standardized production and weighing ledgers."
+        },
+        "check": {
+          "label": "Check",
+          "title": "Monthly & Quarterly Reviews",
+          "text": "Monthly group meetings and quarterly evaluations with PLN & Kelurahan verify achievement vs. targets and flag any quality deviations."
+        },
+        "act": {
+          "label": "Act",
+          "title": "SOP Improvement & Product Innovation",
+          "text": "Findings drive updates to tannin-washing SOPs, labor allocation, machine maintenance schedules, or product line diversification."
+        }
+      },
+      "risks": {
+        "title": "Operational Risk Mitigation Protocols",
+        "supply": {
+          "label": "Raw Material Supply Risk",
+          "text": "Written agreements with transparent purchase pricing for 60 partner farmers, plus backup suppliers from surrounding villages."
+        },
+        "quality": {
+          "label": "Product Quality Degradation Risk",
+          "text": "Desalination washing SOP, ventilated covered drying tunnels (including wet season), and moisture testing on every production batch."
+        },
+        "wastewater": {
+          "label": "Tannin Wastewater Risk",
+          "text": "Tannin-bearing husk washing water is pre-settled in a sediment basin before discharge; unsold pith is composted."
+        },
+        "safety": {
+          "label": "Occupational Safety (K3) Risk",
+          "text": "Mandatory K3 training, PPE standards, and periodic PLN-standard electrical inspections to prevent machinery and husk dust accidents."
+        }
+      }
+    },
     "result": {
-      "eyebrow": "04 / Complete Portfolio",
+      "eyebrow": "05 / Complete Portfolio",
       "title": "Certified materials ready for commercial deployment.",
       "lead": "Cocofiber, Cocopeat, Green Panels, and Bio-Briquettes demonstrate that industrial quality and ecological responsibility reinforce one another.",
       "action": "Explore Complete Product Portfolio"
@@ -571,8 +678,35 @@
         }
       }
     },
+    "faq": {
+      "eyebrow": "03 / B2B Technical Questions",
+      "title": "Answering your specification requirements.",
+      "lead": "We address the most frequent questions from industrial partners, commercial nurseries, and architects demanding reliable, verified biomaterial supply.",
+      "items": [
+        {
+          "q": "What differentiates PANDA COCOpeat from bulk market cocopeat?",
+          "a": "PANDA COCOpeat undergoes controlled washing to reduce tannins and natural sodium chloride (Low-EC), sifted to a uniform mesh size, and maintained at an ideal pH (5.8–6.5), making it safe for direct use as a seeding medium without root-burn risk."
+        },
+        {
+          "q": "Is PANDA COCO Green Panel resistant to termites and tropical humidity?",
+          "a": "Yes. Coconut coir is naturally rich in lignin (~45%), a hard biopolymer unattractive to wood-boring insects and highly resistant to decay fungi. Panels are bonded with moisture-resistant botanical binders for long-term interior durability."
+        },
+        {
+          "q": "How is uninterrupted raw material supply guaranteed?",
+          "a": "We hold written supply contracts with 60 partner farmers managing 3,000 active coconut trees on a regular monthly harvest cycle (~7,000 nuts/month). Backup supply is available from surrounding coconut-producing villages in Pandeglang."
+        },
+        {
+          "q": "Does PANDA COCO handle custom specifications for industrial orders?",
+          "a": "Yes. We accommodate custom cocofiber fiber length, moisture targets, panel density, and white-label retail packaging for commercial plant stores and horticultural nursery networks."
+        },
+        {
+          "q": "How can I schedule a field visit to the PANDA COCO Hub in Keboncau?",
+          "a": "We warmly welcome site visits from business partners, researchers, and institutional buyers. Contact us at least 3 days in advance via our partnership form or official email to arrange a technical facility tour."
+        }
+      ]
+    },
     "inquiry": {
-      "eyebrow": "Direct Communication",
+      "eyebrow": "04 / Direct Communication",
       "title": "Submit your collaboration brief.",
       "lead": "Use our interactive brief builder to define your project targets, target material family, and required volume schedule.",
       "bullets": {

@@ -125,6 +125,16 @@
       "actionShort": "Lihat Produk",
       "actionLong": "Jelajahi Portofolio Produk",
       "about": "Tentang PANDA COCO",
+      "aboutShort": "Tentang Kami",
+      "eyebrowMobile": "AGRO-BIOMASSA SIRKULAR",
+      "descriptionMobile": "Mengolah kelapa Pandeglang menjadi material dan energi bernilai tinggi.",
+      "stat1Value": "23.900 ton",
+      "stat1Label": "POTENSI KELAPA PANDEGLANG",
+      "stat2Value": "24 ton",
+      "stat2Label": "BIOMASSA / TAHUN",
+      "stat3Value": "60",
+      "stat3Label": "PETANI MITRA",
+      "bottomPillars": "COCOFIBER · COCOPEAT · GREEN PANEL",
       "noteStrong": "Kapasitas Terukur.",
       "note": "Mengolah 24 ton biomassa per tahun bersama 100 operator perempuan OPTIMALKAN IBU dan 60 petani mitra.",
       "imageAlt": "Anatomi biomassa kelapa PANDA COCO: sabut serat emas, cocopeat berpori, dan briket karbon padat",
@@ -325,6 +335,57 @@
         "name": "Integritas & Anti-Greenwashing",
         "text": "Menyajikan data kapasitas, pengurangan karbon, dan sertifikasi produk secara transparan dan terverifikasi oleh audit berkala."
       }
+    },
+    "roadmap": {
+      "eyebrow": "03 / Peta Jalan Pertumbuhan 2026–2030",
+      "title": "Visi terukur jangka panjang menuju kampung sirkular.",
+      "lead": "Setiap fase dirancang agar kelompok usaha semakin mandiri, kapasitas mesin bertambah, dan model ini dapat ditiru kampung lain di seluruh Pandeglang.",
+      "phases": {
+        "one": {
+          "year": "2026",
+          "label": "Fase I · Pondasi & Validasi Model",
+          "items": [
+            "Pembentukan Kelompok Usaha PANDA COCO & kurikulum pelatihan OPTIMALKAN IBU.",
+            "Instalasi mesin pengurai listrik, optimalisasi kapasitas 2 ton sabut/bulan.",
+            "Peluncuran prototipe PANDA COCO Green Panel & uji pasar cocopeat/cocofiber regional."
+          ]
+        },
+        "two": {
+          "year": "2027",
+          "label": "Fase II · Standardisasi & Legalitas Formal",
+          "items": [
+            "Pengurusan Nomor Induk Berusaha (NIB), sertifikasi uji laboratorium mutu material, dan pendaftaran hak merek.",
+            "Pembentukan Koperasi Produsen Sirkular Keboncau yang mandiri.",
+            "Ekspansi jaringan pembeli tetap di sektor pembibitan hortikultura Banten & Jabodetabek."
+          ]
+        },
+        "three": {
+          "year": "2028",
+          "label": "Fase III · Ekspansi Kapasitas & Agregasi Regional",
+          "items": [
+            "Peningkatan kapasitas olah menjadi 5–10 ton sabut/bulan dengan penambahan unit mesin listrik.",
+            "Perluasan jejaring pemasok bahan baku ke kampung-kampung sekitar Pandeglang.",
+            "Produksi massal PANDA COCO Green Panel untuk pasar interior komersial."
+          ]
+        },
+        "four": {
+          "year": "2029",
+          "label": "Fase IV · Penetrasi Nasional & Konsorsium Ekspor",
+          "items": [
+            "Distribusi skala nasional lini COCOfiber, COCOpeat, dan Green Panel.",
+            "Kolaborasi dengan agregator ekspor untuk pasar Asia & Eropa.",
+            "Penguatan kapasitas ekspor PANDA COCO Bio-Briket ke pasar pemanggang kuliner Asia."
+          ]
+        },
+        "five": {
+          "year": "2030",
+          "label": "Fase V · Replikasi Model Circular Agro-Hub",
+          "items": [
+            "Menularkan model sentra pengolahan kelapa berbasis listrik ke kecamatan penghasil kelapa lain di Banten Selatan.",
+            "Menjadi referensi nasional hilirisasi agro-biomassa kelapa rakyat berbasis komunitas mandiri."
+          ]
+        }
+      }
     }
   },
   "transformation": {
@@ -379,8 +440,54 @@
       "title": "Pasokan Adil. Olah Bersih. Produk Bernilai. Komunitas Berdaulat.",
       "lead": "Lini produksi PANDA COCO beroperasi dalam siklus tertutup: zero open burning, efisiensi energi listrik terukur, dan kepemilikan usaha lokal."
     },
+    "pdca": {
+      "eyebrow": "04 / Tata Kelola Mutu & Mitigasi Risiko",
+      "title": "Sistem PDCA: produksi terkendali dari hulu ke hilir.",
+      "lead": "Kami menjalankan siklus PDCA ketat pada setiap batch produksi dan bersiap menghadapi risiko operasional dengan protokol pencegahan terverifikasi.",
+      "cycles": {
+        "plan": {
+          "label": "Plan",
+          "title": "Perencanaan Target Bulanan",
+          "text": "Setiap bulan kelompok menetapkan target tonase sabut terolah, volume produk, nilai penjualan, dan jumlah anggota aktif produksi."
+        },
+        "do": {
+          "label": "Do",
+          "title": "Pencatatan Produksi Harian",
+          "text": "Setiap hari, sabut masuk, output produk, dan transaksi penjualan dicatat dalam buku setoran dan lembar produksi standar."
+        },
+        "check": {
+          "label": "Check",
+          "title": "Evaluasi Bulanan & Triwulan",
+          "text": "Rapat bulanan kelompok dan evaluasi triwulan bersama PLN & Kelurahan memverifikasi capaian versus target dan mengidentifikasi deviasi mutu."
+        },
+        "act": {
+          "label": "Act",
+          "title": "Perbaikan SOP & Inovasi Produk",
+          "text": "Dari evaluasi, kami memperbaiki SOP pencucian tanin, pembagian kerja, jadwal piket mesin, atau diversifikasi lini produk."
+        }
+      },
+      "risks": {
+        "title": "Protokol Mitigasi Risiko Operasional",
+        "supply": {
+          "label": "Risiko Pasokan Bahan Baku",
+          "text": "Kesepakatan tertulis & harga beli transparan dengan 60 petani mitra, ditambah cadangan pemasok dari kampung sekitar Pandeglang."
+        },
+        "quality": {
+          "label": "Risiko Penurunan Mutu Produk",
+          "text": "SOP pencucian desalinasi, pengeringan kubah berventilasi beratap (termasuk musim hujan), dan pemeriksaan kadar air setiap batch."
+        },
+        "wastewater": {
+          "label": "Risiko Limbah Cair Tanin",
+          "text": "Air cucian sabut berkadar tanin diendapkan terlebih dahulu di bak sedimentasi sebelum dialirkan; serbuk tak terjual dijadikan kompos."
+        },
+        "safety": {
+          "label": "Risiko Keselamatan Kerja (K3)",
+          "text": "Pelatihan K3 wajib, APD standar, dan instalasi listrik diperiksa berkala sesuai standar PLN untuk mencegah kecelakaan mesin dan bahaya debu sabut."
+        }
+      }
+    },
     "result": {
-      "eyebrow": "04 / Portofolio Lengkap",
+      "eyebrow": "05 / Portofolio Lengkap",
       "title": "Material siap pakai untuk kebutuhan industri Anda.",
       "lead": "Cocofiber, Cocopeat, Green Panel, dan Bio-Briket membuktikan keunggulan kualitas dan komitmen keberlanjutan yang nyata.",
       "action": "Jelajahi Portofolio Produk Lengkap"
@@ -571,8 +678,35 @@
         }
       }
     },
+    "faq": {
+      "eyebrow": "03 / Pertanyaan Teknis B2B",
+      "title": "Jawaban atas kebutuhan spesifikasi Anda.",
+      "lead": "Kami menjawab pertanyaan paling sering dari mitra industri, nursery komersial, dan arsitek yang menuntut keandalan pasokan biomaterial terverifikasi.",
+      "items": [
+        {
+          "q": "Apa yang membedakan COCOpeat PANDA COCO dengan cocopeat curah pasar?",
+          "a": "COCOpeat PANDA COCO diproses melalui pencucian terkontrol untuk menurunkan tanin dan natrium klorida alami (Low-EC), diayak dengan mesh seragam, dan memiliki pH ideal (5,8–6,5), sehingga aman langsung sebagai media semai bibit sensitif tanpa risiko terbakar akar."
+        },
+        {
+          "q": "Apakah PANDA COCO Green Panel tahan rayap dan kelembapan tropis?",
+          "a": "Ya. Serat sabut secara alami kaya lignin (~45%), polimer keras yang tidak disukai serangga perusak dan sangat tahan jamur pelapuk. Panel dicetak dengan perekat nabati tahan lembap dan ramah lingkungan, menjadikannya awet untuk interior jangka panjang."
+        },
+        {
+          "q": "Bagaimana kepastian pasokan bahan baku PANDA COCO dijamin tidak terputus?",
+          "a": "Kami memegang kontrak pasokan tertulis dengan 60 petani mitra yang mengelola 3.000 pohon kelapa aktif dengan ritme panen bulanan rutin (~7.000 butir/bulan). Cadangan pasokan tersedia dari sentra kelapa desa sekitar Pandeglang."
+        },
+        {
+          "q": "Apakah PANDA COCO melayani pesanan custom specification untuk industri?",
+          "a": "Ya. Kami melayani penyesuaian panjang serat cocofiber, tingkat kelembapan, densitas press panel interior, hingga kemasan ritel berlabel khusus (white-label) untuk jaringan toko tanaman dan nursery komersial."
+        },
+        {
+          "q": "Bagaimana cara menjadwalkan kunjungan lapangan ke Hub PANDA COCO di Keboncau?",
+          "a": "Kami menyambut terbuka kunjungan mitra bisnis, akademisi, dan calon pembeli institusi. Hubungi kami minimal 3 hari sebelum rencana kunjungan melalui formulir kemitraan atau email resmi kami untuk pengaturan tur teknis fasilitas."
+        }
+      ]
+    },
     "inquiry": {
-      "eyebrow": "Kontak Langsung",
+      "eyebrow": "04 / Kontak Langsung",
       "title": "Kirimkan brief proyek Anda.",
       "lead": "Gunakan generator brief interaktif kami untuk merumuskan estimasi volume, lini material, dan jadwal kebutuhan industri Anda.",
       "bullets": {

@@ -208,6 +208,43 @@ export default async function PartnershipPage({
         </Container>
       </section>
 
+      {/* FAQ B2B */}
+      <section className="nira-section bg-sand/40">
+        <Container>
+          <div className="max-w-2xl">
+            <p className="eyebrow text-coconut">{t("faq.eyebrow")}</p>
+            <h2 className="type-section-title mt-3 text-forest">{t("faq.title")}</h2>
+            <p className="type-lead mt-3 text-ink-muted">{t("faq.lead")}</p>
+          </div>
+
+          <div className="mt-8 sm:mt-10 space-y-3 sm:space-y-4">
+            {(t.raw("faq.items") as Array<{ q: string; a: string }>).map((item, index) => (
+              <details
+                key={index}
+                className="group rounded-card border border-coconut/15 bg-cream/80 shadow-xs open:shadow-sm transition-all duration-200"
+              >
+                <summary className="flex cursor-pointer list-none items-center justify-between gap-4 p-5 sm:p-6 select-none">
+                  <div className="flex items-start gap-3">
+                    <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-forest/10 text-[0.6875rem] font-bold text-forest">
+                      {index + 1}
+                    </span>
+                    <span className="font-display text-sm sm:text-base font-medium text-forest leading-snug">
+                      {item.q}
+                    </span>
+                  </div>
+                  <span className="ml-auto shrink-0 text-coconut transition-transform duration-200 group-open:rotate-45 text-xl font-light">
+                    +
+                  </span>
+                </summary>
+                <div className="border-t border-coconut/10 px-5 pb-5 pt-4 sm:px-6 sm:pb-6">
+                  <p className="text-sm text-ink-muted leading-relaxed pl-9">{item.a}</p>
+                </div>
+              </details>
+            ))}
+          </div>
+        </Container>
+      </section>
+
       {/* Inquiry Builder Section */}
       <section id="inquiry" className="nira-section scroll-mt-20 bg-sand/40">
         <Container className="grid gap-12 lg:grid-cols-12 lg:items-start">

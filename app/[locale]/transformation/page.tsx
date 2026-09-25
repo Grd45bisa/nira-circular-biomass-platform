@@ -164,6 +164,62 @@ export default async function TransformationPage({
         </Container>
       </section>
 
+      {/* PDCA Governance & Risk Mitigation */}
+      <section className="nira-section bg-cream">
+        <Container>
+          <div className="max-w-2xl">
+            <p className="eyebrow text-coconut">{t("pdca.eyebrow")}</p>
+            <h2 className="type-section-title mt-3 text-forest">{t("pdca.title")}</h2>
+            <p className="type-lead mt-3 text-ink-muted leading-relaxed">{t("pdca.lead")}</p>
+          </div>
+
+          {/* PDCA Cycle Cards */}
+          <div className="mt-8 sm:mt-10 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4">
+            {(["plan", "do", "check", "act"] as const).map((cycle, index) => (
+              <div
+                key={cycle}
+                className="group flex flex-col rounded-card border border-coconut/15 bg-sand/40 p-4 sm:p-5 lg:p-6 shadow-xs transition-all duration-300 hover:border-coconut/35 hover:bg-sand/70 hover:-translate-y-0.5 hover:shadow-elevated"
+              >
+                <div className="flex items-center justify-between mb-3">
+                  <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-forest text-[0.625rem] font-bold text-cream uppercase tracking-wide">
+                    {t(`pdca.cycles.${cycle}.label`)}
+                  </span>
+                  <span className="font-display text-xl font-light text-coconut/40">0{index + 1}</span>
+                </div>
+                <h3 className="font-display text-sm sm:text-base font-medium text-forest leading-snug">
+                  {t(`pdca.cycles.${cycle}.title`)}
+                </h3>
+                <p className="mt-2 text-xs leading-relaxed text-ink-muted">
+                  {t(`pdca.cycles.${cycle}.text`)}
+                </p>
+              </div>
+            ))}
+          </div>
+
+          {/* Risk Mitigation */}
+          <div className="mt-10 sm:mt-12">
+            <h3 className="font-display text-base sm:text-lg font-semibold text-forest mb-5">
+              {t("pdca.risks.title")}
+            </h3>
+            <div className="grid gap-3 sm:gap-4 sm:grid-cols-2 lg:grid-cols-4">
+              {(["supply", "quality", "wastewater", "safety"] as const).map((risk) => (
+                <div
+                  key={risk}
+                  className="rounded-card border border-coconut/15 bg-sand/20 p-4 sm:p-5 shadow-xs"
+                >
+                  <p className="text-[0.625rem] font-bold tracking-widest text-coconut uppercase mb-1.5">
+                    {t(`pdca.risks.${risk}.label`)}
+                  </p>
+                  <p className="text-xs sm:text-sm text-ink-muted leading-relaxed">
+                    {t(`pdca.risks.${risk}.text`)}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </Container>
+      </section>
+
       {/* Link to Products */}
       <section className="nira-section bg-sand/50">
         <Container className="nira-cta-columns grid gap-8 lg:items-end">

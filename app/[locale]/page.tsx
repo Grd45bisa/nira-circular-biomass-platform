@@ -49,7 +49,7 @@ export default async function HomePage() {
         title={
           <>
             {t('hero.titleFirst')} <br className="hidden sm:inline" />
-            <span className="nira-main-hero-emphasis font-serif italic font-normal text-[#F4EDE2]">
+            <span className="nira-main-hero-emphasis font-serif italic font-normal text-coconut">
               {t('hero.titleSecond')}
             </span>
           </>
@@ -60,7 +60,7 @@ export default async function HomePage() {
           <>
             <ButtonLink
               href="/transformation"
-              className="nira-main-hero-action min-h-10 shrink-0 inline-flex items-center gap-1.5 rounded-pill bg-cream px-4 py-2 text-xs font-semibold text-forest shadow-md hover:bg-sand sm:min-h-11 sm:gap-2 sm:px-5 sm:py-2.5 sm:text-sm lg:min-h-12 lg:px-6 lg:py-3 lg:text-base"
+              className="nira-main-hero-action min-h-10 shrink-0 inline-flex items-center gap-1.5 rounded-pill bg-forest px-4 py-2 text-xs font-semibold text-cream shadow-md hover:bg-forest-light sm:min-h-11 sm:gap-2 sm:px-5 sm:py-2.5 sm:text-sm lg:min-h-12 lg:px-6 lg:py-3 lg:text-base"
             >
               <span className="nira-main-hero-action-short">{t('hero.actionShort')}</span>
               <span className="nira-main-hero-action-long">
@@ -70,19 +70,19 @@ export default async function HomePage() {
             </ButtonLink>
             <Link
               href="/about"
-              className="nira-main-hero-secondary shrink-0 whitespace-nowrap text-xs font-semibold tracking-wide text-cream underline decoration-cream/60 underline-offset-8 transition-colors hover:text-white hover:decoration-white sm:text-sm"
+              className="nira-main-hero-secondary shrink-0 whitespace-nowrap text-xs font-semibold tracking-wide text-forest underline decoration-coconut/50 underline-offset-8 transition-colors hover:text-forest-light hover:decoration-forest sm:text-sm"
             >
               {t('hero.about')}
             </Link>
           </>
         }
         highlights={
-          <div className="nira-main-hero-note flex max-w-xl items-start gap-2.5 text-xs leading-relaxed text-cream/95 drop-shadow-[0_1px_3px_rgba(0,0,0,0.8)]">
-            <span className="nira-main-hero-note-icon flex h-5 w-5 shrink-0 items-center justify-center rounded-full border border-emerald-400/40 bg-emerald-500/25 text-[0.6875rem] font-bold text-emerald-200">
+          <div className="nira-main-hero-note flex max-w-xl items-start gap-2.5 text-xs leading-relaxed text-ink-muted">
+            <span className="nira-main-hero-note-icon flex h-5 w-5 shrink-0 items-center justify-center rounded-full border border-forest/20 bg-forest/10 text-[0.6875rem] font-bold text-forest">
               ✓
             </span>
             <p>
-              <strong className="nira-main-hero-note-strong font-semibold text-white">
+              <strong className="nira-main-hero-note-strong font-semibold text-forest">
                 {t('hero.noteStrong')}
               </strong>{" "}
               {t('hero.note')}
@@ -90,26 +90,36 @@ export default async function HomePage() {
           </div>
         }
         media={
-          <div className="group relative aspect-[4/3] lg:aspect-[5/4] overflow-hidden rounded-card border border-coconut/20 bg-sand/40 shadow-elevated">
+          <div className="group relative aspect-[4/3] sm:aspect-[16/10] lg:aspect-[5/4] overflow-hidden rounded-card border border-coconut/20 bg-sand/40 shadow-elevated">
             <Image
               src="/images/nira-still-life.webp"
               alt={t('hero.imageAlt')}
               fill
               priority
-              sizes="40vw"
+              sizes="(max-width: 1024px) 100vw, 40vw"
               className="object-cover transition-transform duration-700 ease-out group-hover:scale-102"
             />
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
-            <div className="absolute right-4 bottom-4 left-4 flex items-center justify-between">
-              <span className="rounded-full bg-cream/95 px-3 py-1 text-xs font-semibold tracking-wide text-forest uppercase backdrop-blur-xs shadow-xs">
+            <div className="absolute right-3.5 bottom-3.5 left-3.5 sm:right-4 sm:bottom-4 sm:left-4 flex items-center justify-between">
+              <span className="rounded-full bg-cream/95 px-2.5 py-0.5 sm:px-3 sm:py-1 text-[0.6875rem] sm:text-xs font-semibold tracking-wide text-forest uppercase backdrop-blur-xs shadow-xs">
                 {t('hero.imageBadge')}
               </span>
-              <span className="text-[0.6875rem] font-medium text-cream/90 tracking-wider">
+              <span className="text-[0.625rem] sm:text-[0.6875rem] font-medium text-cream/90 tracking-wider">
                 {t('hero.imageParts')}
               </span>
             </div>
           </div>
         }
+        mobileEyebrow={t('hero.eyebrowMobile')}
+        mobileDescription={t('hero.descriptionMobile')}
+        mobileActionLabel={t('hero.actionShort')}
+        mobileAboutLabel={t('hero.aboutShort')}
+        mobileStats={[
+          { value: t('hero.stat1Value'), label: t('hero.stat1Label') },
+          { value: t('hero.stat2Value'), label: t('hero.stat2Label') },
+          { value: t('hero.stat3Value'), label: t('hero.stat3Label') },
+        ]}
+        mobilePillars={t('hero.bottomPillars')}
       />
 
       {/* Capacity & Key Impact Counter Bar */}

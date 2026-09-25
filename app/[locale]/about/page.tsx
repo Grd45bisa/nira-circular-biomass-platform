@@ -183,6 +183,57 @@ export default async function AboutPage({
         </Container>
       </section>
 
+      {/* Roadmap 2026–2030 */}
+      <section className="nira-section bg-forest text-cream relative overflow-hidden" data-surface="dark">
+        <Container className="relative z-10">
+          <div className="max-w-2xl">
+            <p className="eyebrow text-amber-accent">{t("roadmap.eyebrow")}</p>
+            <h2 className="type-section-title mt-3 text-cream">{t("roadmap.title")}</h2>
+            <p className="type-lead mt-3 text-cream/75 leading-relaxed">{t("roadmap.lead")}</p>
+          </div>
+
+          <div className="mt-10 sm:mt-12 space-y-4">
+            {(["one", "two", "three", "four", "five"] as const).map((key, index) => {
+              const phase = t.raw(`roadmap.phases.${key}`) as { year: string; label: string; items: string[] };
+              return (
+                <div
+                  key={key}
+                  className="group grid grid-cols-[4rem_1fr] sm:grid-cols-[5rem_1fr] gap-4 sm:gap-6 rounded-card border border-cream/10 bg-forest-light/40 p-5 sm:p-6 backdrop-blur-xs transition-all duration-300 hover:border-cream/25 hover:bg-forest-light"
+                >
+                  {/* Year badge */}
+                  <div className="flex flex-col items-center gap-1 pt-0.5">
+                    <span className="font-display text-2xl sm:text-3xl font-semibold text-amber-accent leading-none">
+                      {phase.year}
+                    </span>
+                    <span className="text-[0.5625rem] font-bold tracking-widest text-amber-accent/60 uppercase">
+                      F.{index + 1}
+                    </span>
+                    {index < 4 && (
+                      <div className="mt-2 w-px flex-1 border-l border-dashed border-cream/15" />
+                    )}
+                  </div>
+
+                  {/* Phase content */}
+                  <div>
+                    <h3 className="font-display text-base sm:text-lg font-medium text-cream leading-snug">
+                      {phase.label}
+                    </h3>
+                    <ul className="mt-3 space-y-1.5">
+                      {phase.items.map((item: string) => (
+                        <li key={item} className="flex items-start gap-2 text-xs sm:text-sm text-cream/70 leading-relaxed">
+                          <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-amber-accent/70" />
+                          <span>{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </Container>
+      </section>
+
       <PartnershipCTA localized />
     </>
   );
