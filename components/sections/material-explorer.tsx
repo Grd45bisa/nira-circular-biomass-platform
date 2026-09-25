@@ -29,8 +29,8 @@ const paths: MaterialPath[] = [
     scientificPart: "Exocarp & Mesocarp",
     materialName: "Coir Fiber",
     destination: "PANDA COCOfiber & Bio-Tekstil",
-    image: "/images/coir-pot.jpg",
-    imageAlt: "Natural coconut coir plant pots on wooden surface",
+    image: "/images/coir-fiber.jpg",
+    imageAlt: "Industrial-grade PANDA COCOfiber bales — golden long-strand lignin fiber compressed for export",
     badge: "Fibrous Biomass",
     description:
       "The fibrous outer layer that shields the coconut fruit contains resilient, naturally lignin-rich fibers. Once extracted without harsh chemicals, it provides the structural backbone for 100% biodegradable vessels and nursery pots.",
@@ -50,7 +50,7 @@ const paths: MaterialPath[] = [
     materialName: "Organic Cocopeat",
     destination: "PANDA COCOpeat Substrat Semai",
     image: "/images/cocopeat-tray.jpg",
-    imageAlt: "Rich organic cocopeat growing medium with seedlings",
+    imageAlt: "PANDA COCOpeat compressed blocks with verified Low-EC specification and vigorous seedling growth",
     badge: "Cellular Pith",
     description:
       "Between the long fibers lies a spongy cellular dust that holds water like a sponge. Triple-washed with natural rainwater and pH-neutralized, it serves as the ultimate peat-free growing medium.",

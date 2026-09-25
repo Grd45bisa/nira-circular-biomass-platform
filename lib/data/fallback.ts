@@ -17,10 +17,10 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "Sabut kelapa diurai secara mekanis dengan decorticator listrik, dijemur alami di kubah berventilasi, dan dipadatkan dengan press hidrolik tanpa bahan kimia sintetis.",
     sustainabilityValue:
       "Material terbarukan pengganti busa sintetis dan polimer plastik, tahan pelapukan biologis, dan dapat terurai secara hayati.",
-    imageUrl: "/images/coir-pot.jpg",
+    imageUrl: "/images/coir-fiber.jpg",
     imageAlt:
-      "Serat sabut kelapa berkualitas tinggi PANDA COCOfiber dalam bal padat",
-    imageNote: "Serat panjang keemasan dengan kadar kotoran < 3% dan kadar air < 15%.",
+      "Bal serat PANDA COCOfiber terkompresi di fasilitas pengolahan listrik berstandar ekspor",
+    imageNote: "Serat panjang keemasan — kadar kotoran <3%, kadar air <15%, kuat tarik lignin tinggi.",
   },
   {
     id: "prod-grow",
@@ -35,8 +35,8 @@ export const FALLBACK_PRODUCTS: Product[] = [
     sustainabilityValue:
       "Alternatif terbarukan pengganti gambut alam (peat moss), menghemat penggunaan air irigasi hingga 50%, dan mendukung aerasi akar yang sehat.",
     imageUrl: "/images/cocopeat-tray.jpg",
-    imageAlt: "Media tanam organik cocopeat PANDA COCOpeat dengan tunas tanaman segar",
-    imageNote: "Telah melalui pencucian desalinasi, Electrical Conductivity (EC) rendah terverifikasi.",
+    imageAlt: "Blok PANDA COCOpeat terkompresi bersertifikasi Low-EC dengan semaian tanaman berenergi tinggi",
+    imageNote: "pH stabil 5,8–6,5 | EC terverifikasi rendah | Retensi air 8x berat kering.",
   },
   {
     id: "prod-energy",
@@ -87,7 +87,7 @@ export const FALLBACK_MATERIALS: Material[] = [
     outputProduct: "PANDA COCOfiber & Geotekstil",
     imageUrl: "/images/coconut-husks.jpg",
     imageAlt:
-      "Sabut kelapa berkualitas tinggi dijemur rapi di Agro-Hub Keboncau",
+      "Fasilitas pengolahan biomassa kelapa skala industri dengan lini produksi mesin listrik terintegrasi",
   },
   {
     id: "mat-fiber",
@@ -100,7 +100,7 @@ export const FALLBACK_MATERIALS: Material[] = [
       "Didesalinasi dengan air hujan alami, diayak menggunakan rotary sifter, dan diaerasi untuk kestabilan pH netral.",
     outputProduct: "PANDA COCOpeat Substrat Semai",
     imageUrl: "/images/cocopeat-tray.jpg",
-    imageAlt: "Cocopeat organik berpori terverifikasi Low-EC untuk pembibitan",
+    imageAlt: "PANDA COCOpeat — blok substrat organik bersertifikasi Low-EC, retensi air 8x untuk pembibitan skala komersial",
   },
   {
     id: "mat-shell",
@@ -162,7 +162,7 @@ Melalui program OPTIMALKAN IBU (Optimalisasi Perempuan Berdaya melalui Industri 
 
 Bukan sekadar pekerjaan sampingan, inisiatif ini memberikan penghasilan mandiri, sertifikasi keahlian teknis, dan jam kerja fleksibel yang menghargai keharmonisan rumah tangga.`,
     thumbnailUrl: "/images/coir-fiber.jpg",
-    thumbnailAlt: "Operator perempuan memeriksa serat sabut emas di fasilitas pengolahan Keboncau",
+    thumbnailAlt: "Bal serat PANDA COCOfiber berstandar ekspor di lini produksi mesin listrik Agro-Hub Keboncau",
     category: "Pemberdayaan Inklusif & Komunitas",
     publishedAt: "2026-09-12T10:00:00.000Z",
   },
@@ -178,7 +178,7 @@ Ketika dipadukan dengan formulasi perekat nabati ramah lingkungan dan dipadatkan
 
 Panel interior ini tidak hanya meredam gema akustik secara efektif, tetapi juga menggantikan partisi kayu lapis sintetis tanpa melepaskan gas beracun formalin (Zero VOC) ke dalam ruangan.`,
     thumbnailUrl: "/images/coir-pot.jpg",
-    thumbnailAlt: "Sampel material PANDA COCO Green Panel terkompresi dengan tekstur serat alami",
+    thumbnailAlt: "PANDA COCO Green Panel — panel biokomposit akustik serat sabut terkompresi di studio arsitektur modern",
     category: "Inovasi Produk & Desain Sirkular",
     publishedAt: "2026-09-05T14:00:00.000Z",
   },

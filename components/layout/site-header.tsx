@@ -71,9 +71,9 @@ export function SiteHeader() {
             aria-label={t('homeLabel')}
             onClick={() => setMenuOpen(false)}
           >
-            <div className="relative flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden rounded-full border border-cream/25 shadow-xs transition-transform duration-300 group-hover:scale-105 sm:h-9 sm:w-9">
+            <div className="relative flex h-8.5 w-8.5 shrink-0 items-center justify-center overflow-hidden rounded-full shadow-xs transition-transform duration-300 group-hover:scale-105 sm:h-9.5 sm:w-9.5">
               <Image
-                src="/images/nira-logo-mark.webp"
+                src="/images/panda-logo-badge.webp"
                 alt="PANDA COCO logo mark"
                 width={40}
                 height={40}
@@ -192,9 +192,9 @@ export function SiteHeader() {
               className="flex items-center gap-2.5"
               onClick={() => setMenuOpen(false)}
             >
-              <div className="relative flex h-9 w-9 items-center justify-center rounded-full overflow-hidden border border-forest/20 shadow-xs shrink-0">
+              <div className="relative flex h-9 w-9 items-center justify-center rounded-full overflow-hidden shadow-xs shrink-0">
                 <Image
-                  src="/images/nira-logo-mark.webp"
+                  src="/images/panda-logo-badge.webp"
                   alt="PANDA COCO logo mark"
                   width={36}
                   height={36}

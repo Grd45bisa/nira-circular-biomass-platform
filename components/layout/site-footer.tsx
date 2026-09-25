@@ -20,12 +20,12 @@ export async function SiteFooter() {
           {/* Brand */}
           <div className="flex flex-col items-center text-center max-w-sm lg:items-start lg:text-left">
             <div className="flex items-center justify-center gap-2">
-              <div className="relative flex h-6 w-6 items-center justify-center rounded-full overflow-hidden border border-cream/25 shadow-xs shrink-0">
+              <div className="relative flex h-7 w-7 items-center justify-center rounded-full overflow-hidden shadow-xs shrink-0">
                 <Image
-                  src="/images/nira-logo-mark.webp"
+                  src="/images/panda-logo-badge.webp"
                   alt="PANDA COCO logo mark"
-                  width={24}
-                  height={24}
+                  width={28}
+                  height={28}
                   className="h-full w-full object-cover"
                 />
               </div>
