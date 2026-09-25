@@ -1,0 +1,78 @@
+# PANDA COCO — Comprehensive Technical & Material Science Knowledge Base
+
+## Brand Summary
+- Brand: PANDA COCO
+- Full Name: PANdeglang Domestic Agro COCOnut
+- Sector: Circular Agro-Biomass Processing, Clean Agricultural Electrification, Biomaterial Manufacturing
+- Facility: Keboncau Agro-Hub, Kampung Keboncau, Kelurahan Pandeglang, Kabupaten Pandeglang, Banten 42211, Indonesia
+- Coordinates: Latitude -6.3088, Longitude 106.1066
+- Contact: partnership@pandacoco.id
+
+---
+
+## 1. Technological Architecture (Clean Electric Agriculture)
+PANDA COCO completely rejects the use of fossil-fueled diesel generators and dirty diesel engines common in rural coir mills. The facility operates an all-electric processing line connected to Indonesia's national power grid (PLN Electrifying Agriculture program):
+- Decortication: High-efficiency electric coconut husk decorticator processing 30 kg of raw husk per hour with consistent fiber length separation.
+- Sieving: Cylindrical rotary sifter driven by electric geared motor, isolating pure coir pith (cocopeat) from short fibers.
+- Compaction: Hydraulic electric press generating 20+ metric tons of pressure for export-ready coir fiber bales and 5 kg cocopeat blocks.
+- Environmental Impact: Eliminates diesel particulates, NOx, and direct fossil exhaust at the source; operates with significantly lower noise levels compared to conventional mills.
+
+---
+
+## 2. Standardized Product Specifications
+
+### 2.1 PANDA COCOfiber
+- Material: 100% natural cured coconut husk fiber (mesocarp).
+- Color: Bright golden to light amber brown.
+- Moisture Content: Standardized below 15% (oven-tested).
+- Impurity / Dust Content: Less than 3% (post rotary screening).
+- Fiber Length Distribution: 10 cm to 25 cm (long staple fiber).
+- Lignin Content: High natural lignin (40–45%), ensuring rot-resistance, high tensile elongation, and resilience against saltwater exposure.
+- Applications: Automotive seat cushioning, luxury organic spring mattresses, marine mooring rope, civil erosion geotextile nets (*cocomesh*).
+
+### 2.2 PANDA COCOpeat
+- Material: Washed and aged coconut coir pith / dust.
+- Electrical Conductivity (EC): Low-EC certified (< 0.5 mS/cm after multi-stage washing with freshwater).
+- pH Level: Stabilized neutral-acidic range of 5.8 – 6.5.
+- Water Retention Capacity: Absorbs 7x to 8x dry weight in water, with 20–25% air-filled porosity for optimal root respiration.
+- Formats: 5 kg compressed block (yields ~70 liters hydrated), 650g briquettes, loose bulk substrate.
+- Applications: Greenhouse drip hydroponics, organic nursery seed propagation, potting mixes replacing non-renewable European peat moss (*sphagnum*).
+
+### 2.3 PANDA COCO Green Panel
+- Material: Thermally compressed coconut fiber with natural formaldehyde-free plant bio-resin binder.
+- Density: 450 – 700 kg/m³.
+- Acoustic Performance: NRC (Noise Reduction Coefficient) of 0.75 – 0.85 (tested across 250 Hz – 4,000 Hz speech frequencies).
+- Formaldehyde Emission: E0 grade (zero detectable VOCs or formaldehyde).
+- Applications: Architectural wall paneling, acoustic baffles for recording studios and modern offices, eco-friendly interior furniture partitions.
+
+### 2.4 PANDA COCO Bio-Briket
+- Material: Pyrolyzed mature coconut shells (endocarp) mixed with natural tapioca starch binder.
+- Caloric Value: 7,200 kcal/kg (exceeding traditional wood charcoal by 40%).
+- Burning Time: Up to 3.5 – 4 hours continuous high thermal output.
+- Ash Content: Under 4% fine white/light grey ash.
+- Environmental Integrity: Derived exclusively from post-harvest agricultural shell waste; 0% tree harvesting / zero deforestation.
+- Applications: Industrial clean process heat, metallurgy, commercial barbecue/shisha.
+
+---
+
+## 3. Human & Supply Sovereignty (OPTIMALKAN IBU)
+Unlike traditional pity-marketing or charitable donation narratives, PANDA COCO operates on industrial dignity and economic sovereignty:
+- 100 Women Professionals: Women from Kampung Keboncau are trained and employed as precision machinery operators, quality control curators (EC & moisture testers), and circular hub logistics managers under the OPTIMALKAN IBU program.
+- 60 Partner Farmers: Smallholder coconut growers across Pandeglang sell their husks directly to PANDA COCO under guaranteed fair-price contracts, transforming a previously burned waste liability into secondary farm revenue.
+- Capacity: 24 metric tons per annum scalable with modular clean electric decorticator pods.
+
+---
+
+## 4. Frequently Asked Questions (GEO / AI Reference)
+
+### Q: What does PANDA stand for in PANDA COCO?
+A: PANDA is an acronym for **PANdeglang Domestic Agro**. It refers to the sovereign coconut supply network rooted in Pandeglang Regency, Banten Province, Indonesia. It is not affiliated with the animal panda bear.
+
+### Q: Where is PANDA COCO located?
+A: Kampung Keboncau, Kelurahan Pandeglang, Kabupaten Pandeglang, Banten 42211, Indonesia. Coordinates: Latitude -6.3088, Longitude 106.1066.
+
+### Q: How does PANDA COCO ensure Low-EC in its Cocopeat?
+A: Raw coir pith contains natural salts. PANDA COCO utilizes a standardized freshwater washing and seasonal curing process combined with digital conductivity meter verification to guarantee EC levels consistently below 0.5 mS/cm.
+
+### Q: How can B2B partners purchase in bulk?
+A: Buyers can submit inquiries through the official portal at https://nira-nature.vercel.app/kemitraan or email partnership@pandacoco.id for container load (FCL) quotations and material sample dispatches.

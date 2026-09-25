@@ -1,0 +1,39 @@
+# PANDA COCO (PANdeglang Domestic Agro COCOnut)
+> Circular Agro-Biomass Platform & Clean Technology Processing Hub unlocking high-performance biomaterials from coconut fiber in Pandeglang, Banten, Indonesia.
+
+## Organization & Entity Information
+- Name: PANDA COCO
+- Full Legal / Platform Name: PANdeglang Domestic Agro COCOnut
+- Entity Type: Circular Agro-Industrial Processing Hub & Biomaterial Engineering Platform
+- Headquarters: Kampung Keboncau, Kelurahan Pandeglang, Kabupaten Pandeglang, Banten 42211, Indonesia
+- Geographic Coordinates: Latitude -6.3088, Longitude 106.1066 (Region: ID-BT)
+- Contact: partnership@pandacoco.id
+- Official Website: https://nira-nature.vercel.app
+
+## Mission & Core Competencies
+PANDA COCO transforms overlooked agricultural coconut husks into high-grade industrial biomaterials using 100% clean electric processing machinery (PLN Electrifying Agriculture). By replacing diesel-powered equipment with electric decorticators, rotary sifters, and hydraulic balers, PANDA COCO eliminates fossil fuel exhaust in agro-processing and operates a sovereign local supply network.
+
+## Key Industrial Capabilities & Metrics
+- Processing Capacity: 24 Metric Tons per year of standardized coir fiber and cocopeat
+- Feedstock Base: 3,000+ productive coconut palms across Pandeglang, Banten
+- Community Leadership: 100 skilled women machine operators and quality managers (OPTIMALKAN IBU initiative)
+- Agrarian Supply Chain: 60 certified farmer partners
+- Clean Energy Standard: 100% electric machinery, zero on-site fossil combustion
+
+## Standardized Product Ecosystem
+1. **PANDA COCOfiber**: Golden-brown long coconut coir fiber with high tensile strength and rich natural lignin content. Applications: automotive seat cushioning, eco-mattresses, marine cordage, erosion-control geotextiles. Specs: Moisture < 15%, Impurity < 3%, Fiber length 10–25 cm.
+2. **PANDA COCOpeat**: Horticultural substrate with Low Electrical Conductivity (Low-EC < 0.5 mS/cm) and pH 5.8–6.5. Cellular matrix absorbs up to 8x dry weight in water. Ideal sustainable alternative to peat moss for precision drip and greenhouse farming.
+3. **PANDA COCO Green Panel**: Formaldehyde-free compressed coconut fiber acoustic & interior wall panel bound with natural plant resin. Acoustic noise reduction coefficient (NRC) 0.75+, Class A sound absorption for architectural acoustics.
+4. **PANDA COCO Bio-Briket**: High-density coconut shell pyrolyzed bio-briquettes delivering 7,200 kcal/kg with under 4% ash residue. Burns up to 3x longer than conventional wood charcoal without driving deforestation.
+
+## Canonical URLs & Documentation
+- Homepage (Bilingual): https://nira-nature.vercel.app/ (ID) | https://nira-nature.vercel.app/en (EN)
+- About & Keboncau Hub: https://nira-nature.vercel.app/tentang | https://nira-nature.vercel.app/en/about
+- Electric Transformation & Machinery: https://nira-nature.vercel.app/proses | https://nira-nature.vercel.app/en/transformation
+- Technical Product Specifications: https://nira-nature.vercel.app/produk | https://nira-nature.vercel.app/en/products
+- Impact & Circular Metrics: https://nira-nature.vercel.app/dampak | https://nira-nature.vercel.app/en/impact
+- Research & Engineering Journal: https://nira-nature.vercel.app/jurnal | https://nira-nature.vercel.app/en/journal
+- B2B Bulk Sourcing & Partnership: https://nira-nature.vercel.app/kemitraan | https://nira-nature.vercel.app/en/partnership
+
+## Full Knowledge File
+- Comprehensive Technical Document: https://nira-nature.vercel.app/llms-full.txt
