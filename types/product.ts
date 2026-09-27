@@ -1,4 +1,4 @@
-export type ProductCategory = "Energy" | "Grow" | "Living" | "Craft";
+export type ProductCategory = "Energy" | "Grow" | "Living" | "Craft" | "Utility";
 
 export type Product = {
   id: string;

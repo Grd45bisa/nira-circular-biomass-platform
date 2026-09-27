@@ -72,6 +72,23 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "Panel akustik interior alami PANDA COCO Green Panel dengan tekstur serat elegan",
     imageNote: "Bebas racun formalin, memiliki koefisien serap suara akustik alami tinggi.",
   },
+    {
+      id: "prod-meal",
+      name: "PANDA COCO Sabut Kelapa Meal Box",
+      slug: "meal",
+      category: "Utility",
+      description:
+        "Wadah makan modern berbahan serat sabut kelapa alami, kuat, tahan lama, dan ramah lingkungan, ideal untuk menyajikan nasi atau makanan lainnya.",
+      materialSource: "Serat sabut kelapa terkompresi",
+      process:
+        "Serat sabut dipadatkan dengan press hidrolik dan dibentuk menjadi kotak makan dengan lapisan pelindung alami tanpa bahan plastik.",
+      sustainabilityValue:
+        "Produk tanpa plastik, mengurangi limbah, memanfaatkan limbah biomassa, serta menawarkan estetika alami premium.",
+      imageUrl: "/images/sabutkelapa_meal_box.jpg",
+      imageAlt:
+        "Kotak makan modern dari serat sabut kelapa PANDA COCO, menampilkan desain industri bersih pada latar putih",
+      imageNote: "Desain kokoh, tekstur alami, cocok untuk penyajian makanan di lingkungan profesional maupun rumah.",
+    },
 ];
 
 export const FALLBACK_MATERIALS: Material[] = [
