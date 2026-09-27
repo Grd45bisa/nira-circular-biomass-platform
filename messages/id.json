@@ -60,6 +60,17 @@
     "badgeOne": "100% Biomassa Dimanfaatkan Kembali",
     "badgeTwo": "Bebas Polimer Sintetis Berbahaya",
     "badgeThree": "Ditenagai Mesin Listrik Bersih",
+    "hubTitle": "Agro-Hub & Fasilitas Pengolahan",
+    "hubAddress": "Kampung Keboncau, Kelurahan Pandeglang, Kecamatan Pandeglang, Kabupaten Pandeglang, Banten 42211",
+    "hubSupport": "Didukung oleh Program TJSL PLN (Electrifying Agriculture) & Kelurahan Pandeglang",
+    "hubOperatedBy": "Kelompok Usaha PANDA COCO · Inisiatif OPTIMALKAN IBU & 60 Petani Mitra",
+    "contactTitle": "Kontak & Layanan Hub",
+    "contactWaLabel": "WhatsApp Resmi",
+    "contactWaNumber": "+62 812-2123-1117",
+    "contactEmailLabel": "Email Kemitraan",
+    "contactEmail": "partnership@pandacoco.id",
+    "contactHours": "Senin – Sabtu, 08.00 – 17.00 WIB",
+    "fastChat": "Hubungi via WhatsApp",
     "explore": "Navigasi Platform",
     "families": "Lini Produk",
     "collaboration": "Kemitraan Industri",
@@ -749,6 +760,129 @@
       "energy": "PANDA COCO Bio-Briket (Pasokan Energi Bersih Karbon Tinggi)",
       "codev": "Ko-Pengembangan Kustom & Formulasi Biokomposit",
       "agroforestry": "Kemitraan Aliansi Agro-Hub & Inisiatif ESG"
+    }
+  },
+  "machineryFleet": {
+    "eyebrow": "Teknologi Bersih & Mesin Listrik",
+    "title": "Lini mesin produksi presisi di Agro-Hub Keboncau.",
+    "lead": "Menggantikan mesin diesel fosil dengan elektrifikasi terstandar (Electrifying Agriculture) bertenaga listrik PLN. Setiap mesin dioperasikan langsung oleh perempuan operator terlatih OPTIMALKAN IBU untuk menjamin efisiensi penguraian, kebersihan serat, dan keseragaman mutu cocopeat.",
+    "notice": "Lini mesin ini merupakan sarana produksi operasional PANDA COCO di Kampung Keboncau — digunakan untuk memproses biomassa sabut kelapa berstandar ekspor.",
+    "badgeElectric": "100% Mesin Listrik Bersih",
+    "badgeCapacity": "Kapasitas 30 kg/jam",
+    "badgeWomen": "Operator OPTIMALKAN IBU",
+    "badgeZeroEmission": "Nol Emisi Fosil di Lokasi",
+    "machines": {
+      "integrated": {
+        "title": "Paket Mesin Otomatis dan Ayakan",
+        "category": "Lini Pemrosesan Primer",
+        "desc": "Serangkaian unit industri terpadu untuk pengolahan limbah sabut kelapa yang dirancang untuk memisahkan, menghancurkan, dan memilah serat kelapa menjadi tiga produk turunan bernilai ekonomi tinggi (cocopeat, cocofiber, dan cocobristle). Dilengkapi mekanisme ayakan terpasang yang memisahkan cocopeat dan cocofiber secara kontinyu setelah keluar dari unit pengurai otomatis.",
+        "specs": "Motor Listrik PLN · Pemisahan 3 Fraksi Otomatis · Terhubung Silinder Ayakan",
+        "role": "Pemisahan kontinyu hulu sabut utuh menjadi serat dan serbuk basah"
+      },
+      "finishing": {
+        "title": "Mesin Finishing (Fiber Cleaner)",
+        "category": "Pembersihan & Penghalusan Serat",
+        "desc": "Alat presisi yang digunakan dalam industri pengolahan sabut kelapa untuk menghaluskan dan membersihkan serat sabut (coco fiber) setelah melalui tahap pencacahan atau penguraian awal. Memisahkan residu serbuk spons yang menempel pada serat emas panjang.",
+        "specs": "Pembersih Debu Sisa · Peningkat Kilau Serat · Standar Bebas Kotoran (<3%)",
+        "role": "Membersihkan serat emas panjang hingga mencapai standar mutu ekspor"
+      },
+      "decorticator": {
+        "title": "Mesin New CB G19 Automatic",
+        "category": "Pengurai Sabut Berkecepatan Terkendali",
+        "desc": "Mesin pengurai sabut kelapa otomatis berpresisi tinggi untuk memecah sabut kelapa mentah menjadi serat murni tanpa merusak kekuatan tarik serat lignin alami. Memilah serat dan butiran cocopeat dengan presisi putaran silinder terkontrol listrik.",
+        "specs": "Pisau Baja Karbon Presisi · Pengurai Mekanis Elektrik · Minim Getaran & Emisi Nol",
+        "role": "Mengurai struktur lignin sabut mentah menjadi serat murni berdaya tarik tinggi"
+      },
+      "sifter": {
+        "title": "Mesin Ayakan (Rotary Cylinder Sifter)",
+        "category": "Penyaringan & Sortasi Cocopeat",
+        "desc": "Mekanisme silinder berputar kontinyu yang berfungsi memisahkan serbuk (cocopeat) dari serat (cocofiber) hasil penguraian sabut kelapa. Mesin ini meningkatkan efisiensi dan kualitas produksi, menghasilkan serat bersih yang siap dipress ke mesin hidrolik.",
+        "specs": "Silinder Putar Kontinyu · Pemisahan Serbuk Seragam · Efisiensi Alur Kerja",
+        "role": "Penyaringan mekanis agar serbuk cocopeat berpori seragam dan bebas serat kasar"
+      },
+      "cocochip": {
+        "title": "Mesin Cocochip (Precision Chopper)",
+        "category": "Pencacah Potongan Sabut Organik",
+        "desc": "Alat mekanis bertenaga listrik yang dirancang khusus untuk memotong, mencacah, atau memproses sabut kelapa menjadi potongan-potongan kecil berukuran sekitar 1,5−2 cm. Mesin ini berfungsi mengubah sabut kelapa menjadi coco chip organik berporositas aerasi tinggi untuk media tanam hortikultura.",
+        "specs": "Potongan Presisi 1,5–2 cm · Pisau Baja Tahan Karat · Kapasitas Hortikultura",
+        "role": "Mencacah sabut kelapa menjadi media tanam anggrek dan florikultura"
+      }
+    }
+  },
+  "processedOutputs": {
+    "eyebrow": "Galeri Hasil Olahan Presisi & Produk Jadi",
+    "title": "Kualitas material teruji dari setiap kilogram sabut.",
+    "lead": "Dari sekitar 2 ton sabut kelapa yang dikumpulkan bersama 60 petani mitra setiap bulan, PANDA COCO memproduksi biomaterial terstandardisasi dengan spesifikasi teknis tinggi untuk kebutuhan industri manufaktur, agrikultur modern, dan pasar ekspor.",
+    "ratioTitle": "Efisiensi Konversi Biomassa Keboncau:",
+    "ratioDesc": "1 Butir Kelapa (~0,4 kg Sabut) diurai menjadi ~30% Serat Panjang Keemasan, Serat Kaku Cocobristle, dan ~55–60% Serbuk Spons Seluler",
+    "exploreProducts": "Lihat Portofolio Produk Lengkap",
+    "inquireSupply": "Ajukan Pasokan Bahan Baku",
+    "galleryFilterAll": "Semua Hasil Olahan",
+    "galleryFilterCocopeat": "Cocopeat Block",
+    "galleryFilterFiber": "Cocofiber",
+    "galleryFilterBristle": "Cocobristle & Ekspor",
+    "galleryFilterChip": "Cocochip",
+    "galleryFilterProcess": "Kegiatan Produksi",
+    "viewDetail": "Perbesar Foto & Detail Mutu",
+    "specLabel": "Spesifikasi Mutu Teknis:",
+    "appLabel": "Aplikasi & Kegunaan:",
+    "items": {
+      "cocopeatBlockDisplay": {
+        "title": "Hasil Produk Cocopeat Block",
+        "category": "cocopeat",
+        "badge": "Substrat Semai Low-EC",
+        "desc": "Hasil pemadatan serbuk sabut kelapa yang telah dicuci desalinasi air hujan dan diayak seragam dengan silinder rotary. Mampu mengembang hingga 70–75 liter saat direhidrasi dengan retensi air 8x bobot kering.",
+        "specs": "Retensi Air 800% · Low-EC (<0,5 mS/cm) · pH Stabil 5,8–6,5 · Blok 5 kg Padat",
+        "application": "Media semai pembibitan hortikultura modern, greenhouse hidroponik, dan alternatif terbarukan pengganti gambut alam."
+      },
+      "cocopeatBlockPackaged": {
+        "title": "Cocopeat Block Kemasan Pallet Siap Distribusi",
+        "category": "cocopeat",
+        "badge": "Standar Distribusi Komersial",
+        "desc": "Blok cocopeat terkompresi yang telah dikemas rapi dan tersusun di atas pallet pengiriman. Menjamin stabilitas kadar air rendah (<15%) selama proses logistik menuju distributor dan mitra pertanian.",
+        "specs": "Kemasan Palletized Rapi · Kadar Air Terjaga <15% · Proteksi Kelembapan Ekstra",
+        "application": "Pengiriman skala tonase untuk distributor nursery, toko pertanian modern, dan perkebunan komersial."
+      },
+      "cocochip": {
+        "title": "Cocochip (Cacahan Sabut Organik)",
+        "category": "cocochip",
+        "badge": "Aerasi Tinggi 1,5–2 cm",
+        "desc": "Potongan sabut kelapa tercacah seragam hasil mesin chopper presisi. Menyediakan ruang aerasi dan drainase maksimal bagi sistem perakaran tanaman bernilai tinggi.",
+        "specs": "Ukuran Potongan 1,5–2,0 cm · Porositas Udara >45% · Awet 3–5 Tahun Tanpa Lapuk",
+        "application": "Media tanam anggrek, anthurium, tanaman hias ekspor, dan mulsa organik penahan kelembapan tanah."
+      },
+      "cocofiber": {
+        "title": "Cocofiber (Serat Sabut Panjang Emas)",
+        "category": "cocofiber",
+        "badge": "Lignin Kuat ~45%",
+        "desc": "Serat sabut kelapa panjang berdaya tarik tinggi hasil penguraian decorticator elektrik dan pembersihan mesin finishing. Bersih, bebas sisa serbuk debu, dan tahan pelapukan biologis.",
+        "specs": "Panjang Serat 10–25 cm · Kadar Lignin ~45% · Kadar Kotoran <3% · Kadar Air <15%",
+        "application": "Bahan baku matras ortopedik ekspor, jok otomotif ramah lingkungan, tali tambang laut, dan geotekstil penahan longsor."
+      },
+      "cocobristleProduct": {
+        "title": "Produk Cocobristle (Serat Kaku Pilihan)",
+        "category": "cocobristle",
+        "badge": "Serat Kaku Kerapatan Tinggi",
+        "desc": "Fraksi serat sabut kelapa pilihan dengan diameter lebih tebal dan karakter elastis kaku (bristle). Dipilah cermat untuk kebutuhan aplikasi industri yang membutuhkan ketahanan mekanis ekstra.",
+        "specs": "Diameter Serat Lebih Tebal · Karakter Kaku & Lentur · Daya Tahan Gesekan Tinggi",
+        "application": "Bahan baku sikat industri, kuas teknis, matras sabut heavy-duty, tali pengikat kapal, dan komponen bio-komposit."
+      },
+      "cocobristleExport": {
+        "title": "Cocobristle Siap Ekspor",
+        "category": "cocobristle",
+        "badge": "Mutu Ekspor Internasional",
+        "desc": "Serat cocobristle yang telah disisir rapi, dibersihkan dari residu serbuk, dan diikat dalam bundel standar pengapalan ekspor dengan keseragaman panjang dan kualitas terverifikasi.",
+        "specs": "Bundel Terikat Rapi · Panjang Seragam Terkalibrasi · Standar Kualitas Ekspor",
+        "application": "Pengadaan komersial untuk industri manufaktur alat kebersihan internasional dan industri furnitur global."
+      },
+      "prosesPengikatan": {
+        "title": "Proses Pengikatan & Penyortiran Cocobristle",
+        "category": "process",
+        "badge": "Presisi Operator OPTIMALKAN IBU",
+        "desc": "Dokumentasi tahapan penyortiran mutu dan pengikatan serat cocobristle di Agro-Hub Keboncau. Dilakukan secara presisi oleh operator terlatih untuk memastikan bundel serat rapi, padat, dan seragam.",
+        "specs": "Penyortiran Manual Bertahap · Kontrol Mutu Panjang Serat · Pengikatan Padat Kuat",
+        "application": "Tahapan krusial pengendalian mutu (Quality Control) sebelum pengemasan dan distribusi ke pembeli industri."
+      }
     }
   }
 }

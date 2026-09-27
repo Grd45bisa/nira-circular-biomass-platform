@@ -6,6 +6,7 @@ import { getTranslations } from "next-intl/server";
 import { Container } from "@/components/layout/container";
 import { PageHero } from "@/components/sections/page-hero";
 import { PartnershipCTA } from "@/components/sections/partnership-cta";
+import { ProcessedOutputsGallery } from "@/components/sections/processed-outputs-gallery";
 import { EmptyState } from "@/components/ui/empty-state";
 import { EyebrowBadge } from "@/components/ui/eyebrow-badge";
 import { Link } from "@/i18n/navigation";
@@ -236,6 +237,9 @@ export default async function ProductsPage({
           );
         })
       )}
+
+      {/* Processed Biomass Outputs Gallery */}
+      <ProcessedOutputsGallery />
 
       <PartnershipCTA localized />
     </>

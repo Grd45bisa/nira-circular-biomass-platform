@@ -34,9 +34,9 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "Serbuk sabut dicuci desalinasi air hujan, disaring dengan ayakan rotary berpori seragam, dan dikeringkan higienis dengan pH netral stabil (5,8–6,5).",
     sustainabilityValue:
       "Alternatif terbarukan pengganti gambut alam (peat moss), menghemat penggunaan air irigasi hingga 50%, dan mendukung aerasi akar yang sehat.",
-    imageUrl: "/images/cocopeat-tray.jpg",
-    imageAlt: "Blok PANDA COCOpeat terkompresi bersertifikasi Low-EC dengan semaian tanaman berenergi tinggi",
-    imageNote: "pH stabil 5,8–6,5 | EC terverifikasi rendah | Retensi air 8x berat kering.",
+    imageUrl: "/images/products/hasil-cocopeat-block.jpg",
+    imageAlt: "Hasil produk Cocopeat Block PANDA COCO terkompresi bersertifikasi Low-EC dengan retensi air tinggi",
+    imageNote: "pH stabil 5,8–6,5 | EC terverifikasi rendah (<0,5 mS/cm) | Retensi air 8x berat kering.",
   },
   {
     id: "prod-energy",

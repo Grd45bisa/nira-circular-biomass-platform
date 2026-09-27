@@ -9,8 +9,10 @@ import { ProductCard } from "@/components/products/product-card";
 import { HeroSection } from "@/components/sections/hero-section";
 import { StatsCounterBar } from "@/components/sections/stats-counter-bar";
 import { JourneySection } from "@/components/sections/journey-steps";
+import { MachineryFleetSection } from "@/components/sections/machinery-fleet";
 import { MaterialExplorer } from "@/components/sections/material-explorer";
 import { PartnershipCTA } from "@/components/sections/partnership-cta";
+import { ProcessedOutputsGallery } from "@/components/sections/processed-outputs-gallery";
 import { StorySection } from "@/components/sections/story-section";
 import { ButtonLink } from "@/components/ui/button";
 import { EmptyState } from "@/components/ui/empty-state";
@@ -160,8 +162,14 @@ export default async function HomePage() {
       {/* Section 03: Four-Step Journey */}
       <JourneySection />
 
-      {/* Section 04: Product Showcase */}
-      <section className="nira-section bg-cream" id="products">
+      {/* Section 04: Processed Biomass Outputs Gallery */}
+      <ProcessedOutputsGallery />
+
+      {/* Section 05: Clean Electric Machinery Fleet */}
+      <MachineryFleetSection />
+
+      {/* Section 06: Product Showcase */}
+      <section className="nira-section bg-sand/30" id="products">
         <Container>
           <div className="flex flex-wrap items-end justify-between gap-6">
             <div>

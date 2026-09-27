@@ -30,13 +30,13 @@ export const siteConfig = {
   ogImage: '/images/coir-fiber.jpg',
   geo: {
     region: 'ID-BT',
-    placename: 'Pandeglang, Banten, Indonesia',
+    placename: 'Kampung Keboncau, Kelurahan Pandeglang, Banten, Indonesia',
     latitude: -6.3088,
     longitude: 106.1066,
     icbm: '-6.3088, 106.1066',
     address: {
       streetAddress: 'Kampung Keboncau',
-      addressLocality: 'Kelurahan Pandeglang, Kabupaten Pandeglang',
+      addressLocality: 'Kelurahan Pandeglang, Kecamatan Pandeglang, Kabupaten Pandeglang',
       addressRegion: 'Banten',
       postalCode: '42211',
       addressCountry: 'ID'
@@ -44,11 +44,15 @@ export const siteConfig = {
   },
   contact: {
     email: 'partnership@pandacoco.id',
-    phone: '+62-812-8888-0000',
+    phone: '+62 812-2123-1117',
+    whatsapp: 'https://wa.me/6281221231117',
+    facility: 'Agro-Hub PANDA COCO Keboncau',
+    hours: 'Senin - Sabtu: 08:00 - 17:00 WIB',
     areaServed: ['Indonesia', 'ASEAN', 'Global Export Markets']
   },
   social: {
     instagram: 'https://instagram.com/pandacoco.id',
-    linkedin: 'https://linkedin.com/company/panda-coco'
+    linkedin: 'https://linkedin.com/company/panda-coco',
+    whatsapp: 'https://wa.me/6281221231117'
   }
 };

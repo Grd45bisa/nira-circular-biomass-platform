@@ -9,15 +9,22 @@ const supabaseHostname = supabaseUrl
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   images: {
-    remotePatterns: supabaseHostname
-      ? [
-          {
-            protocol: "https",
-            hostname: supabaseHostname,
-            pathname: "/storage/v1/object/public/**",
-          },
-        ]
-      : [],
+    remotePatterns: [
+      ...(supabaseHostname
+        ? [
+            {
+              protocol: "https" as const,
+              hostname: supabaseHostname,
+              pathname: "/storage/v1/object/public/**",
+            },
+          ]
+        : []),
+      {
+        protocol: "https",
+        hostname: "bincorannusantara.id",
+        pathname: "/**",
+      },
+    ],
   },
 };
 

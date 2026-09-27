@@ -4,6 +4,7 @@ import { getTranslations } from "next-intl/server";
 
 import { Container } from "@/components/layout/container";
 import { JourneySteps } from "@/components/sections/journey-steps";
+import { MachineryFleetSection } from "@/components/sections/machinery-fleet";
 import { PageHero } from "@/components/sections/page-hero";
 import { PartnershipCTA } from "@/components/sections/partnership-cta";
 import { StorySection } from "@/components/sections/story-section";
@@ -163,6 +164,9 @@ export default async function TransformationPage({
           </div>
         </Container>
       </section>
+
+      {/* Machinery Fleet: Clean Electric Processing Units */}
+      <MachineryFleetSection />
 
       {/* PDCA Governance & Risk Mitigation */}
       <section className="nira-section bg-cream">

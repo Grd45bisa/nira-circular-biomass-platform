@@ -60,6 +60,17 @@
     "badgeOne": "100% Upcycled Biomass",
     "badgeTwo": "Zero Hazardous Synthetic Polymers",
     "badgeThree": "Powered by Clean Electrical Machinery",
+    "hubTitle": "Agro-Hub & Processing Facility",
+    "hubAddress": "Kampung Keboncau, Kelurahan Pandeglang, Kecamatan Pandeglang, Pandeglang Regency, Banten 42211, Indonesia",
+    "hubSupport": "Supported by PLN TJSL (Electrifying Agriculture) & Pandeglang Sub-district",
+    "hubOperatedBy": "PANDA COCO Enterprise · OPTIMALKAN IBU Initiative & 60 Partner Farmers",
+    "contactTitle": "Contact & Hub Inquiries",
+    "contactWaLabel": "Official WhatsApp",
+    "contactWaNumber": "+62 812-2123-1117",
+    "contactEmailLabel": "Partnership Email",
+    "contactEmail": "partnership@pandacoco.id",
+    "contactHours": "Mon – Sat, 08:00 – 17:00 WIB (UTC+7)",
+    "fastChat": "Chat via WhatsApp",
     "explore": "Explore Platform",
     "families": "Product Portfolio",
     "collaboration": "Industrial Partnership",
@@ -749,6 +760,129 @@
       "energy": "PANDA COCO Bio-Briquette (High-Heat Clean Energy)",
       "codev": "Custom Biocomposite Formulation & R&D",
       "agroforestry": "Agro-Hub Expansion & Corporate ESG Alliance"
+    }
+  },
+  "machineryFleet": {
+    "eyebrow": "Clean Technology & Electric Machinery Fleet",
+    "title": "Precision processing machinery at Keboncau Agro-Hub.",
+    "lead": "Replacing fossil diesel machinery with standardized electric agriculture (Electrifying Agriculture) powered by PLN. Each unit is operated directly by certified women technicians under the OPTIMALKAN IBU initiative to guarantee continuous decortication, clean fibers, and consistent cocopeat grades.",
+    "notice": "This equipment fleet represents PANDA COCO's operational processing setup in Kampung Keboncau — deployed to manufacture export-grade coconut biomaterials.",
+    "badgeElectric": "100% Clean Electric Machinery",
+    "badgeCapacity": "30 kg/hr Capacity",
+    "badgeWomen": "OPTIMALKAN IBU Operators",
+    "badgeZeroEmission": "Zero On-Site Fossil Emissions",
+    "machines": {
+      "integrated": {
+        "title": "Automatic Machine and Sifter Package",
+        "category": "Primary Continuous Processing Line",
+        "desc": "An integrated industrial system for processing coconut husk waste, engineered to separate, crush, and sort coconut fibers into three high-value derivative products (cocopeat, cocofiber, and cocobristle). Equipped with an integrated screening unit to separate cocopeat from cocofiber exiting the automated processing unit.",
+        "specs": "PLN Clean Electric Drive · 3-Fraction Automated Separation · Continuous Rotary Sifter",
+        "role": "Continuous primary husk breakdown into separated coir fiber and fresh cocopeat"
+      },
+      "finishing": {
+        "title": "Finishing Machine (Fiber Cleaner)",
+        "category": "Fiber Carding & Dust Separation",
+        "desc": "Industrial equipment used to soften, detangle, and clean coco fiber after the initial chopping or decomposition stage. Removes residual sponge pith particles, ensuring clean, lustrous golden fibers ready for baling.",
+        "specs": "Pith Residue Extractor · Fiber Lustre Polisher · Impurity Content Under 3%",
+        "role": "Polishes long golden coir fiber to meet strict export and manufacturing standards"
+      },
+      "decorticator": {
+        "title": "New CB G19 Automatic Machine",
+        "category": "Precision Electric Decorticator",
+        "desc": "High-efficiency automated decorticator designed to crush and strip whole coconut husks into pure fibers without compromising natural lignin tensile strength. Delivers controlled separation through calibrated electrical rotation.",
+        "specs": "High-Carbon Steel Blades · Controlled Electric Drive · Low Vibration & Zero Emissions",
+        "role": "Breaks down tough fibrous husk matrix into resilient high-tensile coir strands"
+      },
+      "sifter": {
+        "title": "Rotary Cylinder Sifter Machine",
+        "category": "Cocopeat & Fiber Separation",
+        "desc": "A continuous rotating cylinder mechanism that separates fine cocopeat powder from coir fiber. Increases production throughput and material homogeneity, delivering clean fiber ready for hydraulic baling and uniform pith ready for washing.",
+        "specs": "Precision Mesh Cylinder · Continuous Anti-Clog Separation · High Throughput",
+        "role": "Continuous sieving ensuring particle uniformity and clump-free aerated cocopeat"
+      },
+      "cocochip": {
+        "title": "Cocochip Machine (Precision Chopper)",
+        "category": "Organic Husk Cubing & Sizing",
+        "desc": "Mechanical cutting equipment specifically designed to chop coconut husk into calibrated chunks measuring approximately 1.5–2 cm. Converts fibrous husks into premium coco chips utilized as high-aeration horticultural growing media.",
+        "specs": "Calibrated 1.5–2 cm Cut · Hardened Stainless Blades · High Aeration Geometry",
+        "role": "Produces calibrated coconut husk cubes for commercial orchid and nursery floriculture"
+      }
+    }
+  },
+  "processedOutputs": {
+    "eyebrow": "Precision Processed Output & Product Gallery",
+    "title": "Tested material quality from every kilogram of husk.",
+    "lead": "From the ~2 metric tons of raw coconut husks gathered monthly in partnership with 60 local smallholders, PANDA COCO engineers certified biomaterials with rigorous technical specifications for manufacturing, commercial horticulture, and global export markets.",
+    "ratioTitle": "Keboncau Biomass Conversion Efficiency:",
+    "ratioDesc": "1 Coconut (~0.4 kg Husk) is processed into ~30% Long Golden Fiber, High-Grade Cocobristle, and ~55–60% Cellular Sponge Pith",
+    "exploreProducts": "Explore Complete Product Portfolio",
+    "inquireSupply": "Request Material Supply Quote",
+    "galleryFilterAll": "All Processed Outputs",
+    "galleryFilterCocopeat": "Cocopeat Blocks",
+    "galleryFilterFiber": "Cocofiber",
+    "galleryFilterBristle": "Cocobristle & Export",
+    "galleryFilterChip": "Cocochip",
+    "galleryFilterProcess": "Production Process",
+    "viewDetail": "Enlarge Photo & Quality Specs",
+    "specLabel": "Technical Quality Specs:",
+    "appLabel": "Industrial Applications:",
+    "items": {
+      "cocopeatBlockDisplay": {
+        "title": "Cocopeat Block (Single Display Unit)",
+        "category": "cocopeat",
+        "badge": "Low-EC Certified Substrate",
+        "desc": "Compressed coir pith block washed via rainwater desalination and filtered through rotary sifters. Expands up to 70–75 liters upon rehydration with an 8x dry weight water retention capacity.",
+        "specs": "Water Retention 800% · Low-EC (<0.5 mS/cm) · Stabilized pH 5.8–6.5 · 5 kg Solid Block",
+        "application": "Modern horticultural seedling propagation, greenhouse hydroponics, and sustainable peat moss alternative."
+      },
+      "cocopeatBlockPackaged": {
+        "title": "Palletized Cocopeat Blocks Ready for Dispatch",
+        "category": "cocopeat",
+        "badge": "Commercial Distribution Standard",
+        "desc": "High-density compressed cocopeat blocks neatly palletized and secured for commercial freight. Preserves low moisture levels (<15%) throughout domestic and maritime shipping channels.",
+        "specs": "Palletized Export Packaging · Monitored Moisture <15% · Weatherproof Wrapping",
+        "application": "Bulk tonnage distribution for commercial nurseries, agricultural distributors, and export containers."
+      },
+      "cocochip": {
+        "title": "Organic Cocochips (Calibrated Aeration Cubes)",
+        "category": "cocochip",
+        "badge": "High Aeration 1.5–2 cm",
+        "desc": "Calibrated coconut husk chunks uniformly chopped via precision electric cutters. Delivers optimal aeration, drainage, and structural longevity for high-value botanical root systems.",
+        "specs": "Calibrated 1.5–2.0 cm Size · Air Porosity >45% · 3–5 Year Decay Resistance",
+        "application": "Potting media for commercial orchids, anthuriums, high-value ornamentals, and moisture-retaining mulch."
+      },
+      "cocofiber": {
+        "title": "Cocofiber (Golden High-Tensile Coir)",
+        "category": "cocofiber",
+        "badge": "Natural Lignin Matrix ~45%",
+        "desc": "Long, golden coir fibers decorticated using electric machinery and refined via finishing cleaners. Resilient, dust-free, and highly resistant to biological decay.",
+        "specs": "Fiber Length 10–25 cm · Lignin Content ~45% · Impurity <3% · Moisture <15%",
+        "application": "Orthopedic spring mattress padding, automotive seating insulation, maritime cordage, and erosion-control geotextiles."
+      },
+      "cocobristleProduct": {
+        "title": "Cocobristle (Selected High-Density Coir)",
+        "category": "cocobristle",
+        "badge": "Industrial Brush & Co-Dev Grade",
+        "desc": "Selected coir fiber fraction exhibiting thicker diameters and resilient spring-back stiffness (bristle). Meticulously sorted for applications demanding extreme mechanical endurance.",
+        "specs": "Thick Bristle Caliber · High Elastic Tensile Strength · Abrasion Resistant",
+        "application": "Industrial brushes, sweeping brooms, heavy-duty coir mats, marine rope mooring, and reinforced bio-composites."
+      },
+      "cocobristleExport": {
+        "title": "Export-Ready Bundled Cocobristle",
+        "category": "cocobristle",
+        "badge": "International Export Grade",
+        "desc": "Cocobristle fibers combed, calibrated to length, and bound in tight standard shipping bundles in strict compliance with international buyer specifications.",
+        "specs": "Neatly Combed & Tied · Calibrated Length Bundles · Verified Export Quality",
+        "application": "Commercial procurement for international brushware manufacturing and global natural fiber upholstery brands."
+      },
+      "prosesPengikatan": {
+        "title": "Cocobristle Sorting & Binding Operations",
+        "category": "process",
+        "badge": "OPTIMALKAN IBU Precision QC",
+        "desc": "Operational documentation from Keboncau Agro-Hub: manual sorting, fiber carding, and tight mechanical binding carried out by trained women technicians to guarantee bundle density and uniformity.",
+        "specs": "Graduated Manual Sorting · Staple Length Quality Control · High-Tension Binding",
+        "application": "Crucial Quality Control (QC) staging prior to batch packaging and commercial delivery."
+      }
     }
   }
 }
