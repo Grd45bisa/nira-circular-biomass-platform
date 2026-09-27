@@ -45,14 +45,12 @@ export const siteConfig = {
   contact: {
     email: 'partnership@pandacoco.id',
     phone: '+62 812-2123-1117',
-    whatsapp: 'https://wa.me/6281221231117',
     facility: 'Agro-Hub PANDA COCO Keboncau',
     hours: 'Senin - Sabtu: 08:00 - 17:00 WIB',
     areaServed: ['Indonesia', 'ASEAN', 'Global Export Markets']
   },
   social: {
     instagram: 'https://instagram.com/pandacoco.id',
-    linkedin: 'https://linkedin.com/company/panda-coco',
-    whatsapp: 'https://wa.me/6281221231117'
+    linkedin: 'https://linkedin.com/company/panda-coco'
   }
 };

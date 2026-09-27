@@ -1,6 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import Image from "next/image";
-import { ArrowUpRight, MapPin, Phone, Mail, Clock, ShieldCheck, Zap } from "lucide-react";
+import { ArrowUpRight, MapPin, Mail, Clock, ShieldCheck, Zap } from "lucide-react";
 
 import { Container } from "@/components/layout/container";
 import { LanguageSwitcher } from "@/components/layout/language-switcher";
@@ -98,29 +98,14 @@ export async function SiteFooter() {
             </a>
           </div>
 
-          {/* Col 3: Direct Contact & Coordination (2 cols on lg) */}
+          {/* Col 3: Direct Contact & Coordination (3 cols on lg) */}
           <div className="flex flex-col gap-3 lg:col-span-3">
             <h2 className="text-[0.6875rem] font-bold tracking-[0.18em] text-amber-accent uppercase flex items-center gap-1.5">
-              <Phone size={13} className="text-amber-accent" />
+              <Mail size={13} className="text-amber-accent" />
               <span>{t("contactTitle")}</span>
             </h2>
 
             <div className="flex flex-col gap-3 text-xs text-cream/80">
-              <div>
-                <span className="block text-[0.6875rem] text-cream/50 uppercase tracking-wider">
-                  {t("contactWaLabel")}
-                </span>
-                <a
-                  href="https://wa.me/6281221231117"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-semibold text-cream hover:text-amber-accent transition-colors flex items-center gap-1.5 mt-0.5"
-                >
-                  <span>{t("contactWaNumber")}</span>
-                  <ArrowUpRight size={12} className="text-amber-accent" />
-                </a>
-              </div>
-
               <div>
                 <span className="block text-[0.6875rem] text-cream/50 uppercase tracking-wider">
                   {t("contactEmailLabel")}
@@ -135,15 +120,13 @@ export async function SiteFooter() {
               </div>
 
               <div className="pt-2">
-                <a
-                  href="https://wa.me/6281221231117"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <Link
+                  href="/partnership"
                   className="inline-flex items-center justify-center gap-2 rounded-full bg-forest-600 hover:bg-forest-500 text-cream px-4 py-2 text-xs font-semibold shadow-xs transition-colors w-full sm:w-auto"
                 >
-                  <span>{t("fastChat")}</span>
+                  <span>{t("inquire")}</span>
                   <ArrowUpRight size={13} className="text-amber-accent" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

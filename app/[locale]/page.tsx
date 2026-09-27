@@ -37,6 +37,10 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
 export default async function HomePage() {
   const t = await getTranslations('home');
   const common = await getTranslations('common');
+  const c = await getTranslations('home.heroCarousel');
+  const s1 = await getTranslations('home.heroCarousel.s1');
+  const s2 = await getTranslations('home.heroCarousel.s2');
+  const s3 = await getTranslations('home.heroCarousel.s3');
   const [products, communityStories, impactMetrics] = await Promise.all([
     getProducts(),
     getCommunityStories(),
@@ -46,18 +50,80 @@ export default async function HomePage() {
   return (
     <>
       <HeroSection
-        eyebrow={t('hero.eyebrow')}
-        tagline={t('hero.tagline')}
-        title={
-          <>
-            {t('hero.titleFirst')} <br className="hidden sm:inline" />
-            <span className="nira-main-hero-emphasis font-serif italic font-normal text-coconut">
-              {t('hero.titleSecond')}
-            </span>
-          </>
-        }
-        subtitleCallout={t('hero.callout')}
-        description={t('hero.description')}
+        carouselLabel={c('label')}
+        prevLabel={c('prev')}
+        nextLabel={c('next')}
+        slides={[
+          {
+            id: "biomassa",
+            label: s1('label'),
+            eyebrow: s1('eyebrow'),
+            tagline: s1('tagline'),
+            titleFirst: s1('titleFirst'),
+            titleSecond: s1('titleSecond'),
+            callout: s1('callout'),
+            description: s1('description'),
+            note: { strong: s1('noteStrong'), text: s1('note') },
+            image: {
+              src: s1('imageSrc'),
+              alt: s1('imageAlt'),
+              badge: s1('imageBadge'),
+              parts: s1('imageParts'),
+            },
+            backdrop: {
+              src: s1('backdropSrc'),
+              alt: s1('backdropAlt'),
+              scrim: "tablet",
+            },
+            mobilePillars: s1('mobilePillars'),
+          },
+          {
+            id: "mesin",
+            label: s2('label'),
+            eyebrow: s2('eyebrow'),
+            tagline: s2('tagline'),
+            titleFirst: s2('titleFirst'),
+            titleSecond: s2('titleSecond'),
+            callout: s2('callout'),
+            description: s2('description'),
+            note: { strong: s2('noteStrong'), text: s2('note') },
+            image: {
+              src: s2('imageSrc'),
+              alt: s2('imageAlt'),
+              badge: s2('imageBadge'),
+              parts: s2('imageParts'),
+            },
+            backdrop: {
+              src: s2('backdropSrc'),
+              alt: s2('backdropAlt'),
+              scrim: "all",
+            },
+            mobilePillars: s2('mobilePillars'),
+          },
+          {
+            id: "optimalkan-ibu",
+            label: s3('label'),
+            eyebrow: s3('eyebrow'),
+            tagline: s3('tagline'),
+            titleFirst: s3('titleFirst'),
+            titleSecond: s3('titleSecond'),
+            callout: s3('callout'),
+            description: s3('description'),
+            note: { strong: s3('noteStrong'), text: s3('note') },
+            image: {
+              src: s3('imageSrc'),
+              alt: s3('imageAlt'),
+              badge: s3('imageBadge'),
+              parts: s3('imageParts'),
+            },
+            backdrop: {
+              src: s3('backdropSrc'),
+              alt: s3('backdropAlt'),
+              scrim: "all",
+            },
+            mobilePillars: s3('mobilePillars'),
+          },
+        ]}
         actions={
           <>
             <ButtonLink
@@ -78,50 +144,6 @@ export default async function HomePage() {
             </Link>
           </>
         }
-        highlights={
-          <div className="nira-main-hero-note flex max-w-xl items-start gap-2.5 text-xs leading-relaxed text-ink-muted">
-            <span className="nira-main-hero-note-icon flex h-5 w-5 shrink-0 items-center justify-center rounded-full border border-forest/20 bg-forest/10 text-[0.6875rem] font-bold text-forest">
-              ✓
-            </span>
-            <p>
-              <strong className="nira-main-hero-note-strong font-semibold text-forest">
-                {t('hero.noteStrong')}
-              </strong>{" "}
-              {t('hero.note')}
-            </p>
-          </div>
-        }
-        media={
-          <div className="group relative aspect-[4/3] sm:aspect-[16/10] lg:aspect-[5/4] overflow-hidden rounded-card border border-coconut/20 bg-sand/40 shadow-elevated">
-            <Image
-              src="/images/nira-still-life.webp"
-              alt={t('hero.imageAlt')}
-              fill
-              priority
-              sizes="(max-width: 1024px) 100vw, 40vw"
-              className="object-cover transition-transform duration-700 ease-out group-hover:scale-102"
-            />
-            <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
-            <div className="absolute right-3.5 bottom-3.5 left-3.5 sm:right-4 sm:bottom-4 sm:left-4 flex items-center justify-between">
-              <span className="rounded-full bg-cream/95 px-2.5 py-0.5 sm:px-3 sm:py-1 text-[0.6875rem] sm:text-xs font-semibold tracking-wide text-forest uppercase backdrop-blur-xs shadow-xs">
-                {t('hero.imageBadge')}
-              </span>
-              <span className="text-[0.625rem] sm:text-[0.6875rem] font-medium text-cream/90 tracking-wider">
-                {t('hero.imageParts')}
-              </span>
-            </div>
-          </div>
-        }
-        mobileEyebrow={t('hero.eyebrowMobile')}
-        mobileDescription={t('hero.descriptionMobile')}
-        mobileActionLabel={t('hero.actionShort')}
-        mobileAboutLabel={t('hero.aboutShort')}
-        mobileStats={[
-          { value: t('hero.stat1Value'), label: t('hero.stat1Label') },
-          { value: t('hero.stat2Value'), label: t('hero.stat2Label') },
-          { value: t('hero.stat3Value'), label: t('hero.stat3Label') },
-        ]}
-        mobilePillars={t('hero.bottomPillars')}
       />
 
       {/* Capacity & Key Impact Counter Bar */}
